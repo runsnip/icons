@@ -1,0 +1,71 @@
+{
+  "name": "@runsnip/icons",
+  "version": "0.1.0",
+  "description": "RunSnip's icons, each its own module holding only its drawing: as an SVG string, a DOM element or a React component (Server Components included), or loaded by name.",
+  "license": "PolyForm-Shield-1.0.0",
+  "author": {
+    "name": "Canh Nguyen Van",
+    "url": "https://canhnguyen.vn"
+  },
+  "homepage": "https://runsnip.com",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "@runsnip/source": "./index.ts",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./react": {
+      "@runsnip/source": "./react/index.ts",
+      "types": "./dist/react/index.d.ts",
+      "default": "./dist/react/index.js"
+    },
+    "./react/dynamic": {
+      "@runsnip/source": "./react/dynamic.tsx",
+      "types": "./dist/react/dynamic.d.ts",
+      "default": "./dist/react/dynamic.js"
+    },
+    "./icons/*": {
+      "@runsnip/source": "./icons/*.ts",
+      "types": "./dist/icons/*.d.ts",
+      "default": "./dist/icons/*.js"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "generate": "node scripts/generate.mjs",
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "node --experimental-strip-types --no-warnings --import ./scripts/register.mjs --test \"tests/*.test.ts\"",
+    "check-tarball": "node scripts/check-tarball.mjs",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "esbuild": "0.28.2",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "typescript": "5.9.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
