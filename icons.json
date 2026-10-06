@@ -1454,7 +1454,7 @@
   "file": "translate",
   "set": "collab",
   "aliases": [],
-  "description": "two languages: A and 文 with an arrow"
+  "description": "two languages: A and \u6587 with an arrow"
  },
  {
   "name": "SendIcon",
@@ -1496,7 +1496,7 @@
   "file": "layout-grid",
   "set": "collab",
   "aliases": [],
-  "description": "a 2×2 grid of squares"
+  "description": "a 2\u00d72 grid of squares"
  },
  {
   "name": "SortIcon",
@@ -1517,7 +1517,7 @@
   "file": "table",
   "set": "insert",
   "aliases": [],
-  "description": "a 3×3 grid table"
+  "description": "a 3\u00d73 grid table"
  },
  {
   "name": "ShapesIcon",
@@ -1538,14 +1538,14 @@
   "file": "equation",
   "set": "insert",
   "aliases": [],
-  "description": "a fraction / function sign (Σ is the sum icon elsewhere): x² + y"
+  "description": "a fraction / function sign (\u03a3 is the sum icon elsewhere): x\u00b2 + y"
  },
  {
   "name": "SymbolIcon",
   "file": "symbol",
   "set": "insert",
   "aliases": [],
-  "description": "Ω"
+  "description": "\u03a9"
  },
  {
   "name": "EmojiIcon",
@@ -1790,7 +1790,7 @@
   "file": "signature",
   "set": "insert",
   "aliases": [],
-  "description": "a signature scrawl on a line"
+  "description": "a signature scrawl on the line it is signed on"
  },
  {
   "name": "RotatePageIcon",
@@ -2084,14 +2084,14 @@
   "file": "decimal-increase",
   "set": "sheets",
   "aliases": [],
-  "description": ".0 → .00"
+  "description": ".0 \u2192 .00"
  },
  {
   "name": "DecimalDecreaseIcon",
   "file": "decimal-decrease",
   "set": "sheets",
   "aliases": [],
-  "description": ".00 → .0"
+  "description": ".00 \u2192 .0"
  },
  {
   "name": "NumberFormatIcon",
@@ -2168,14 +2168,14 @@
   "file": "sort-ascending",
   "set": "sheets",
   "aliases": [],
-  "description": "A→Z with a down arrow"
+  "description": "A\u2192Z with a down arrow"
  },
  {
   "name": "SortDescendingIcon",
   "file": "sort-descending",
   "set": "sheets",
   "aliases": [],
-  "description": "Z→A with a down arrow"
+  "description": "Z\u2192A with a down arrow"
  },
  {
   "name": "FilterIcon",
@@ -2238,7 +2238,7 @@
   "file": "sum",
   "set": "sheets",
   "aliases": [],
-  "description": "Σ"
+  "description": "\u03a3"
  },
  {
   "name": "ConditionalFormatIcon",
@@ -2721,7 +2721,7 @@
   "file": "pilcrow",
   "set": "text",
   "aliases": [],
-  "description": "the paragraph mark ¶ (show formatting marks)"
+  "description": "the paragraph mark \u00b6 (show formatting marks)"
  },
  {
   "name": "ListChecksIcon",
