@@ -50,6 +50,13 @@ test("the set's stance, and colour on a filled mark", () => {
 test("the drawings are the ones recorded: a change to any icon changes this", async () => {
   const all = [];
   for (const i of manifest) { const icon = (await import(`../icons/${i.file}.ts`)).default as Icon; all.push([icon.name, icon.node, icon.svg ?? null]); }
-  assert.equal(createHash("sha256").update(JSON.stringify(all)).digest("hex"), "ff47dd2f25fe0751196944f64338adc2790b8cda3e4f6f2c48281b1f57f9c071",
+  assert.equal(createHash("sha256").update(JSON.stringify(all)).digest("hex"), "7f48639da0d63eacb7b16ecd641659bef0a251058cc41f3b51e71910c73cdab2",
     "an icon's drawing changed: if meant, record the new hash here");
+});
+
+test("every icon keeps the set's rules: inside the field, one motif (scripts/audit.mjs)", async () => {
+  const { execFileSync } = await import("node:child_process");
+  const cwd = new URL("../", import.meta.url).pathname;
+  const out = execFileSync(process.execPath, ["--experimental-strip-types", "--no-warnings", "--import", "./scripts/register.mjs", "scripts/audit.mjs"], { cwd, encoding: "utf8" });
+  assert.match(out, / 0 failed/);
 });

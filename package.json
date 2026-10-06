@@ -43,7 +43,9 @@
     "typecheck": "tsc -p tsconfig.json",
     "test": "node --experimental-strip-types --no-warnings --import ./scripts/register.mjs --test \"tests/*.test.ts\"",
     "check-tarball": "node scripts/check-tarball.mjs",
-    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+    "prepublishOnly": "npm run typecheck && npm test && npm run build",
+    "audit": "node --experimental-strip-types --no-warnings --import ./scripts/register.mjs scripts/audit.mjs",
+    "sheet": "node --experimental-strip-types --no-warnings --import ./scripts/register.mjs scripts/sheet.mjs"
   },
   "peerDependencies": {
     "react": ">=18"

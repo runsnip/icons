@@ -1214,7 +1214,9 @@
   "name": "TextIcon",
   "file": "text",
   "set": "builder",
-  "aliases": []
+  "aliases": [
+   "TypeIcon"
+  ]
  },
  {
   "name": "FormIcon",
@@ -1257,5 +1259,1517 @@
   "file": "icon-github",
   "set": "brand",
   "aliases": []
+ },
+ {
+  "name": "CommentAddIcon",
+  "file": "comment-add",
+  "set": "collab",
+  "aliases": [],
+  "description": "a speech bubble with a plus"
+ },
+ {
+  "name": "CommentsIcon",
+  "file": "comments",
+  "set": "collab",
+  "aliases": [],
+  "description": "two speech bubbles"
+ },
+ {
+  "name": "ReplyIcon",
+  "file": "reply",
+  "set": "collab",
+  "aliases": [],
+  "description": "a curved arrow back (reply)"
+ },
+ {
+  "name": "ReplyAllIcon",
+  "file": "reply-all",
+  "set": "collab",
+  "aliases": [],
+  "description": "two curved arrows back"
+ },
+ {
+  "name": "ReopenIcon",
+  "file": "reopen",
+  "set": "collab",
+  "aliases": [],
+  "description": "a circle arrow (thread reopened)"
+ },
+ {
+  "name": "AtSignIcon",
+  "file": "at-sign",
+  "set": "collab",
+  "aliases": [],
+  "description": "@"
+ },
+ {
+  "name": "BellIcon",
+  "file": "bell",
+  "set": "collab",
+  "aliases": [],
+  "description": "a bell"
+ },
+ {
+  "name": "BellOffIcon",
+  "file": "bell-off",
+  "set": "collab",
+  "aliases": [],
+  "description": "a bell crossed"
+ },
+ {
+  "name": "CursorIcon",
+  "file": "cursor",
+  "set": "collab",
+  "aliases": [],
+  "description": "a pointer cursor"
+ },
+ {
+  "name": "HandIcon",
+  "file": "hand",
+  "set": "collab",
+  "aliases": [],
+  "description": "an open hand (pan / grab)"
+ },
+ {
+  "name": "FollowIcon",
+  "file": "follow",
+  "set": "collab",
+  "aliases": [],
+  "description": "an eye on another's cursor"
+ },
+ {
+  "name": "PresenceIcon",
+  "file": "presence",
+  "set": "collab",
+  "aliases": [],
+  "description": "a user with a live dot"
+ },
+ {
+  "name": "MoreVerticalIcon",
+  "file": "more-vertical",
+  "set": "collab",
+  "aliases": [],
+  "description": "three dots vertical"
+ },
+ {
+  "name": "ChevronsUpDownIcon",
+  "file": "chevrons-up-down",
+  "set": "collab",
+  "aliases": [],
+  "description": "up and down chevrons"
+ },
+ {
+  "name": "ChevronsLeftIcon",
+  "file": "chevrons-left",
+  "set": "collab",
+  "aliases": [],
+  "description": "double chevron left"
+ },
+ {
+  "name": "ChevronsRightIcon",
+  "file": "chevrons-right",
+  "set": "collab",
+  "aliases": [],
+  "description": "double chevron right"
+ },
+ {
+  "name": "ExpandIcon",
+  "file": "expand",
+  "set": "collab",
+  "aliases": [],
+  "description": "arrows outward"
+ },
+ {
+  "name": "CollapseIcon",
+  "file": "collapse",
+  "set": "collab",
+  "aliases": [],
+  "description": "arrows inward"
+ },
+ {
+  "name": "SunIcon",
+  "file": "sun",
+  "set": "collab",
+  "aliases": [],
+  "description": "a sun"
+ },
+ {
+  "name": "MoonIcon",
+  "file": "moon",
+  "set": "collab",
+  "aliases": [],
+  "description": "a moon"
+ },
+ {
+  "name": "HelpCircleIcon",
+  "file": "help-circle",
+  "set": "collab",
+  "aliases": [],
+  "description": "? in a circle"
+ },
+ {
+  "name": "ThumbsUpIcon",
+  "file": "thumbs-up",
+  "set": "collab",
+  "aliases": [],
+  "description": "a thumb up"
+ },
+ {
+  "name": "PaletteIcon",
+  "file": "palette",
+  "set": "collab",
+  "aliases": [],
+  "description": "a painter's palette"
+ },
+ {
+  "name": "DropletIcon",
+  "file": "droplet",
+  "set": "collab",
+  "aliases": [],
+  "description": "a drop"
+ },
+ {
+  "name": "MicIcon",
+  "file": "mic",
+  "set": "collab",
+  "aliases": [],
+  "description": "a microphone"
+ },
+ {
+  "name": "MicOffIcon",
+  "file": "mic-off",
+  "set": "collab",
+  "aliases": [],
+  "description": "a microphone crossed"
+ },
+ {
+  "name": "KeyboardIcon",
+  "file": "keyboard",
+  "set": "collab",
+  "aliases": [],
+  "description": "a keyboard"
+ },
+ {
+  "name": "TranslateIcon",
+  "file": "translate",
+  "set": "collab",
+  "aliases": [],
+  "description": "two languages: A and 文 with an arrow"
+ },
+ {
+  "name": "SendIcon",
+  "file": "send",
+  "set": "collab",
+  "aliases": [],
+  "description": "a paper plane"
+ },
+ {
+  "name": "InboxIcon",
+  "file": "inbox",
+  "set": "collab",
+  "aliases": [],
+  "description": "an inbox tray"
+ },
+ {
+  "name": "ActivityIcon",
+  "file": "activity",
+  "set": "collab",
+  "aliases": [],
+  "description": "a pulse line"
+ },
+ {
+  "name": "PanelRightOpenIcon",
+  "file": "panel-right-open",
+  "set": "collab",
+  "aliases": [],
+  "description": "a panel on the right with an arrow out"
+ },
+ {
+  "name": "PanelRightCloseIcon",
+  "file": "panel-right-close",
+  "set": "collab",
+  "aliases": [],
+  "description": "a panel on the right with an arrow in"
+ },
+ {
+  "name": "LayoutGridIcon",
+  "file": "layout-grid",
+  "set": "collab",
+  "aliases": [],
+  "description": "a 2×2 grid of squares"
+ },
+ {
+  "name": "SortIcon",
+  "file": "sort",
+  "set": "collab",
+  "aliases": [],
+  "description": "up and down arrows (sort)"
+ },
+ {
+  "name": "LassoIcon",
+  "file": "lasso",
+  "set": "collab",
+  "aliases": [],
+  "description": "a lasso selection loop"
+ },
+ {
+  "name": "TableIcon",
+  "file": "table",
+  "set": "insert",
+  "aliases": [],
+  "description": "a 3×3 grid table"
+ },
+ {
+  "name": "ShapesIcon",
+  "file": "shapes",
+  "set": "insert",
+  "aliases": [],
+  "description": "a square overlapping a circle"
+ },
+ {
+  "name": "TextBoxIcon",
+  "file": "text-box",
+  "set": "insert",
+  "aliases": [],
+  "description": "a frame with a T inside"
+ },
+ {
+  "name": "EquationIcon",
+  "file": "equation",
+  "set": "insert",
+  "aliases": [],
+  "description": "a fraction / function sign (Σ is the sum icon elsewhere): x² + y"
+ },
+ {
+  "name": "SymbolIcon",
+  "file": "symbol",
+  "set": "insert",
+  "aliases": [],
+  "description": "Ω"
+ },
+ {
+  "name": "EmojiIcon",
+  "file": "emoji",
+  "set": "insert",
+  "aliases": [],
+  "description": "a smiling face"
+ },
+ {
+  "name": "CalendarIcon",
+  "file": "calendar",
+  "set": "insert",
+  "aliases": [],
+  "description": "a calendar page"
+ },
+ {
+  "name": "DateTimeIcon",
+  "file": "date-time",
+  "set": "insert",
+  "aliases": [],
+  "description": "a calendar with a small clock"
+ },
+ {
+  "name": "HeaderIcon",
+  "file": "header",
+  "set": "insert",
+  "aliases": [],
+  "description": "a page with its top band emphasised"
+ },
+ {
+  "name": "FooterIcon",
+  "file": "footer",
+  "set": "insert",
+  "aliases": [],
+  "description": "a page with its bottom band emphasised"
+ },
+ {
+  "name": "PageNumberIcon",
+  "file": "page-number",
+  "set": "insert",
+  "aliases": [],
+  "description": "a page with # at its foot"
+ },
+ {
+  "name": "FootnoteIcon",
+  "file": "footnote",
+  "set": "insert",
+  "aliases": [],
+  "description": "text lines with a small raised 1 and a line at the foot"
+ },
+ {
+  "name": "BookmarkIcon",
+  "file": "bookmark",
+  "set": "insert",
+  "aliases": [],
+  "description": "a bookmark ribbon"
+ },
+ {
+  "name": "TableOfContentsIcon",
+  "file": "table-of-contents",
+  "set": "insert",
+  "aliases": [],
+  "description": "a list with dotted leaders to numbers"
+ },
+ {
+  "name": "UnlinkIcon",
+  "file": "unlink",
+  "set": "insert",
+  "aliases": [],
+  "description": "a broken chain link"
+ },
+ {
+  "name": "ImagePlusIcon",
+  "file": "image-plus",
+  "set": "insert",
+  "aliases": [],
+  "description": "an image with a plus"
+ },
+ {
+  "name": "WatermarkIcon",
+  "file": "watermark",
+  "set": "insert",
+  "aliases": [],
+  "description": "a page with a faint diagonal mark"
+ },
+ {
+  "name": "SectionBreakIcon",
+  "file": "section-break",
+  "set": "insert",
+  "aliases": [],
+  "description": "two page halves separated by a dashed line"
+ },
+ {
+  "name": "PortraitPageIcon",
+  "file": "portrait-page",
+  "set": "insert",
+  "aliases": [],
+  "description": "a tall page"
+ },
+ {
+  "name": "LandscapePageIcon",
+  "file": "landscape-page",
+  "set": "insert",
+  "aliases": [],
+  "description": "a wide page"
+ },
+ {
+  "name": "MarginsIcon",
+  "file": "margins",
+  "set": "insert",
+  "aliases": [],
+  "description": "a page with its margins marked inside"
+ },
+ {
+  "name": "PageSizeIcon",
+  "file": "page-size",
+  "set": "insert",
+  "aliases": [],
+  "description": "a page with a size arrow on its corner"
+ },
+ {
+  "name": "RulerIcon",
+  "file": "ruler",
+  "set": "insert",
+  "aliases": [],
+  "description": "a ruler"
+ },
+ {
+  "name": "ZoomInIcon",
+  "file": "zoom-in",
+  "set": "insert",
+  "aliases": [],
+  "description": "a magnifier with plus"
+ },
+ {
+  "name": "ZoomOutIcon",
+  "file": "zoom-out",
+  "set": "insert",
+  "aliases": [],
+  "description": "a magnifier with minus"
+ },
+ {
+  "name": "FitWidthIcon",
+  "file": "fit-width",
+  "set": "insert",
+  "aliases": [],
+  "description": "a page between two horizontal arrows"
+ },
+ {
+  "name": "FitPageIcon",
+  "file": "fit-page",
+  "set": "insert",
+  "aliases": [],
+  "description": "a page inside corner brackets"
+ },
+ {
+  "name": "PrintIcon",
+  "file": "print",
+  "set": "insert",
+  "aliases": [],
+  "description": "a printer"
+ },
+ {
+  "name": "ExportIcon",
+  "file": "export",
+  "set": "insert",
+  "aliases": [],
+  "description": "a box with an arrow leaving it"
+ },
+ {
+  "name": "ImportIcon",
+  "file": "import",
+  "set": "insert",
+  "aliases": [],
+  "description": "a box with an arrow entering it"
+ },
+ {
+  "name": "FolderOpenIcon",
+  "file": "folder-open",
+  "set": "insert",
+  "aliases": [],
+  "description": "an open folder"
+ },
+ {
+  "name": "SaveAsIcon",
+  "file": "save-as",
+  "set": "insert",
+  "aliases": [],
+  "description": "a save disk with a small pen"
+ },
+ {
+  "name": "ReplaceIcon",
+  "file": "replace",
+  "set": "insert",
+  "aliases": [],
+  "description": "two arrows swapping (find and replace)"
+ },
+ {
+  "name": "SpellCheckIcon",
+  "file": "spell-check",
+  "set": "insert",
+  "aliases": [],
+  "description": "ABC with a tick beneath"
+ },
+ {
+  "name": "WordCountIcon",
+  "file": "word-count",
+  "set": "insert",
+  "aliases": [],
+  "description": "a page with a small counter / tally"
+ },
+ {
+  "name": "TrackChangesIcon",
+  "file": "track-changes",
+  "set": "insert",
+  "aliases": [],
+  "description": "a page with a pen and a change mark"
+ },
+ {
+  "name": "AcceptChangeIcon",
+  "file": "accept-change",
+  "set": "insert",
+  "aliases": [],
+  "description": "a page/change with a tick"
+ },
+ {
+  "name": "RejectChangeIcon",
+  "file": "reject-change",
+  "set": "insert",
+  "aliases": [],
+  "description": "a page/change with a cross"
+ },
+ {
+  "name": "HistoryIcon",
+  "file": "history",
+  "set": "insert",
+  "aliases": [],
+  "description": "a clock with an arrow running back"
+ },
+ {
+  "name": "SignatureIcon",
+  "file": "signature",
+  "set": "insert",
+  "aliases": [],
+  "description": "a signature scrawl on a line"
+ },
+ {
+  "name": "RotatePageIcon",
+  "file": "rotate-page",
+  "set": "pdf",
+  "aliases": [],
+  "description": "a page with a curved arrow"
+ },
+ {
+  "name": "InsertPageIcon",
+  "file": "insert-page",
+  "set": "pdf",
+  "aliases": [],
+  "description": "a page with a plus between pages"
+ },
+ {
+  "name": "DeletePageIcon",
+  "file": "delete-page",
+  "set": "pdf",
+  "aliases": [],
+  "description": "a page with a cross"
+ },
+ {
+  "name": "ExtractPagesIcon",
+  "file": "extract-pages",
+  "set": "pdf",
+  "aliases": [],
+  "description": "a page pulled out of a stack"
+ },
+ {
+  "name": "MergeFilesIcon",
+  "file": "merge-files",
+  "set": "pdf",
+  "aliases": [],
+  "description": "two documents joining into one"
+ },
+ {
+  "name": "SplitFileIcon",
+  "file": "split-file",
+  "set": "pdf",
+  "aliases": [],
+  "description": "one document dividing into two"
+ },
+ {
+  "name": "PageThumbnailsIcon",
+  "file": "page-thumbnails",
+  "set": "pdf",
+  "aliases": [],
+  "description": "small pages in a column"
+ },
+ {
+  "name": "AnnotateUnderlineIcon",
+  "file": "annotate-underline",
+  "set": "pdf",
+  "aliases": [],
+  "description": "text with an emphasised underline mark"
+ },
+ {
+  "name": "AnnotateStrikeoutIcon",
+  "file": "annotate-strikeout",
+  "set": "pdf",
+  "aliases": [],
+  "description": "text struck through"
+ },
+ {
+  "name": "StickyNoteIcon",
+  "file": "sticky-note",
+  "set": "pdf",
+  "aliases": [],
+  "description": "a note square with a folded corner"
+ },
+ {
+  "name": "DrawIcon",
+  "file": "draw",
+  "set": "pdf",
+  "aliases": [],
+  "description": "a pen drawing a free curve"
+ },
+ {
+  "name": "AnnotateTextIcon",
+  "file": "annotate-text",
+  "set": "pdf",
+  "aliases": [],
+  "description": "a T inside a dashed box"
+ },
+ {
+  "name": "StampIcon",
+  "file": "stamp",
+  "set": "pdf",
+  "aliases": [],
+  "description": "a rubber stamp"
+ },
+ {
+  "name": "RedactIcon",
+  "file": "redact",
+  "set": "pdf",
+  "aliases": [],
+  "description": "text blacked out by a solid bar"
+ },
+ {
+  "name": "FormTextFieldIcon",
+  "file": "form-text-field",
+  "set": "pdf",
+  "aliases": [],
+  "description": "a text input box with a caret"
+ },
+ {
+  "name": "FormCheckboxIcon",
+  "file": "form-checkbox",
+  "set": "pdf",
+  "aliases": [],
+  "description": "a ticked box"
+ },
+ {
+  "name": "FormRadioIcon",
+  "file": "form-radio",
+  "set": "pdf",
+  "aliases": [],
+  "description": "a radio circle filled"
+ },
+ {
+  "name": "FormDropdownIcon",
+  "file": "form-dropdown",
+  "set": "pdf",
+  "aliases": [],
+  "description": "a box with a down chevron"
+ },
+ {
+  "name": "ScanTextIcon",
+  "file": "scan-text",
+  "set": "pdf",
+  "aliases": [],
+  "description": "text inside scan corners (OCR)"
+ },
+ {
+  "name": "CompareIcon",
+  "file": "compare",
+  "set": "pdf",
+  "aliases": [],
+  "description": "two documents side by side with arrows"
+ },
+ {
+  "name": "DocumentOutlineIcon",
+  "file": "document-outline",
+  "set": "pdf",
+  "aliases": [],
+  "description": "a document with an outline tree"
+ },
+ {
+  "name": "PageFirstIcon",
+  "file": "page-first",
+  "set": "pdf",
+  "aliases": [],
+  "description": "a bar and a left chevron (first page)"
+ },
+ {
+  "name": "PageLastIcon",
+  "file": "page-last",
+  "set": "pdf",
+  "aliases": [],
+  "description": "a right chevron and a bar (last page)"
+ },
+ {
+  "name": "MeasureIcon",
+  "file": "measure",
+  "set": "pdf",
+  "aliases": [],
+  "description": "a ruler with a measured span"
+ },
+ {
+  "name": "BorderAllIcon",
+  "file": "border-all",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a square grid with every border drawn"
+ },
+ {
+  "name": "BorderOuterIcon",
+  "file": "border-outer",
+  "set": "sheets",
+  "aliases": [],
+  "description": "only the outside border drawn"
+ },
+ {
+  "name": "BorderInnerIcon",
+  "file": "border-inner",
+  "set": "sheets",
+  "aliases": [],
+  "description": "only the inside lines drawn"
+ },
+ {
+  "name": "BorderTopIcon",
+  "file": "border-top",
+  "set": "sheets",
+  "aliases": [],
+  "description": "the top border emphasised, others dotted"
+ },
+ {
+  "name": "BorderBottomIcon",
+  "file": "border-bottom",
+  "set": "sheets",
+  "aliases": [],
+  "description": "the bottom border emphasised"
+ },
+ {
+  "name": "BorderLeftIcon",
+  "file": "border-left",
+  "set": "sheets",
+  "aliases": [],
+  "description": "the left border emphasised"
+ },
+ {
+  "name": "BorderRightIcon",
+  "file": "border-right",
+  "set": "sheets",
+  "aliases": [],
+  "description": "the right border emphasised"
+ },
+ {
+  "name": "BorderNoneIcon",
+  "file": "border-none",
+  "set": "sheets",
+  "aliases": [],
+  "description": "every border dotted (none)"
+ },
+ {
+  "name": "MergeCellsIcon",
+  "file": "merge-cells",
+  "set": "sheets",
+  "aliases": [],
+  "description": "two cells joined, arrows meeting"
+ },
+ {
+  "name": "SplitCellsIcon",
+  "file": "split-cells",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a cell split, arrows apart"
+ },
+ {
+  "name": "VerticalAlignTopIcon",
+  "file": "vertical-align-top",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a bar at the top with an arrow up to it"
+ },
+ {
+  "name": "VerticalAlignMiddleIcon",
+  "file": "vertical-align-middle",
+  "set": "sheets",
+  "aliases": [],
+  "description": "arrows meeting at a middle bar"
+ },
+ {
+  "name": "VerticalAlignBottomIcon",
+  "file": "vertical-align-bottom",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a bar at the bottom with an arrow down to it"
+ },
+ {
+  "name": "TextRotateIcon",
+  "file": "text-rotate",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a slanted ab with a curved arrow"
+ },
+ {
+  "name": "FillColorIcon",
+  "file": "fill-color",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a paint bucket over a colour bar"
+ },
+ {
+  "name": "CurrencyIcon",
+  "file": "currency",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a dollar/currency sign"
+ },
+ {
+  "name": "PercentIcon",
+  "file": "percent",
+  "set": "sheets",
+  "aliases": [],
+  "description": "%"
+ },
+ {
+  "name": "DecimalIncreaseIcon",
+  "file": "decimal-increase",
+  "set": "sheets",
+  "aliases": [],
+  "description": ".0 → .00"
+ },
+ {
+  "name": "DecimalDecreaseIcon",
+  "file": "decimal-decrease",
+  "set": "sheets",
+  "aliases": [],
+  "description": ".00 → .0"
+ },
+ {
+  "name": "NumberFormatIcon",
+  "file": "number-format",
+  "set": "sheets",
+  "aliases": [],
+  "description": "123"
+ },
+ {
+  "name": "InsertRowAboveIcon",
+  "file": "insert-row-above",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a row added above a table"
+ },
+ {
+  "name": "InsertRowBelowIcon",
+  "file": "insert-row-below",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a row added below"
+ },
+ {
+  "name": "InsertColumnLeftIcon",
+  "file": "insert-column-left",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a column added left"
+ },
+ {
+  "name": "InsertColumnRightIcon",
+  "file": "insert-column-right",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a column added right"
+ },
+ {
+  "name": "DeleteRowIcon",
+  "file": "delete-row",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a row with a cross"
+ },
+ {
+  "name": "DeleteColumnIcon",
+  "file": "delete-column",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a column with a cross"
+ },
+ {
+  "name": "FreezePanesIcon",
+  "file": "freeze-panes",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a grid with its first row and column emphasised"
+ },
+ {
+  "name": "RowHeightIcon",
+  "file": "row-height",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a row with a vertical double arrow"
+ },
+ {
+  "name": "ColumnWidthIcon",
+  "file": "column-width",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a column with a horizontal double arrow"
+ },
+ {
+  "name": "SortAscendingIcon",
+  "file": "sort-ascending",
+  "set": "sheets",
+  "aliases": [],
+  "description": "A→Z with a down arrow"
+ },
+ {
+  "name": "SortDescendingIcon",
+  "file": "sort-descending",
+  "set": "sheets",
+  "aliases": [],
+  "description": "Z→A with a down arrow"
+ },
+ {
+  "name": "FilterIcon",
+  "file": "filter",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a funnel"
+ },
+ {
+  "name": "FilterOffIcon",
+  "file": "filter-off",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a funnel crossed"
+ },
+ {
+  "name": "GroupRowsIcon",
+  "file": "group-rows",
+  "set": "sheets",
+  "aliases": [],
+  "description": "rows bracketed with a minus (outline group)"
+ },
+ {
+  "name": "DataValidationIcon",
+  "file": "data-validation",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a cell with a tick inside"
+ },
+ {
+  "name": "RemoveDuplicatesIcon",
+  "file": "remove-duplicates",
+  "set": "sheets",
+  "aliases": [],
+  "description": "two stacked rows, one crossed"
+ },
+ {
+  "name": "TextToColumnsIcon",
+  "file": "text-to-columns",
+  "set": "sheets",
+  "aliases": [],
+  "description": "text split by vertical lines into columns"
+ },
+ {
+  "name": "PivotTableIcon",
+  "file": "pivot-table",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a table with a pivot arrow in its corner"
+ },
+ {
+  "name": "FunctionIcon",
+  "file": "function",
+  "set": "sheets",
+  "aliases": [],
+  "description": "fx"
+ },
+ {
+  "name": "SumIcon",
+  "file": "sum",
+  "set": "sheets",
+  "aliases": [],
+  "description": "Σ"
+ },
+ {
+  "name": "ConditionalFormatIcon",
+  "file": "conditional-format",
+  "set": "sheets",
+  "aliases": [],
+  "description": "cells shaded in steps"
+ },
+ {
+  "name": "NamedRangeIcon",
+  "file": "named-range",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a cell range with a tag"
+ },
+ {
+  "name": "InsertSheetIcon",
+  "file": "insert-sheet",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a sheet tab with a plus"
+ },
+ {
+  "name": "GridlinesIcon",
+  "file": "gridlines",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a dotted grid"
+ },
+ {
+  "name": "ChartBarIcon",
+  "file": "chart-bar",
+  "set": "sheets",
+  "aliases": [],
+  "description": "horizontal bars"
+ },
+ {
+  "name": "ChartColumnIcon",
+  "file": "chart-column",
+  "set": "sheets",
+  "aliases": [],
+  "description": "vertical columns"
+ },
+ {
+  "name": "ChartLineIcon",
+  "file": "chart-line",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a line chart"
+ },
+ {
+  "name": "ChartAreaIcon",
+  "file": "chart-area",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a filled area chart"
+ },
+ {
+  "name": "ChartPieIcon",
+  "file": "chart-pie",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a pie with a slice out"
+ },
+ {
+  "name": "ChartDoughnutIcon",
+  "file": "chart-doughnut",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a ring chart"
+ },
+ {
+  "name": "ChartScatterIcon",
+  "file": "chart-scatter",
+  "set": "sheets",
+  "aliases": [],
+  "description": "dots scattered on axes"
+ },
+ {
+  "name": "ChartRadarIcon",
+  "file": "chart-radar",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a radar / spider web"
+ },
+ {
+  "name": "ChartComboIcon",
+  "file": "chart-combo",
+  "set": "sheets",
+  "aliases": [],
+  "description": "columns with a line over them"
+ },
+ {
+  "name": "SparklineIcon",
+  "file": "sparkline",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a small line in a cell"
+ },
+ {
+  "name": "NewSlideIcon",
+  "file": "new-slide",
+  "set": "slides",
+  "aliases": [],
+  "description": "a slide with a plus"
+ },
+ {
+  "name": "SlideLayoutIcon",
+  "file": "slide-layout",
+  "set": "slides",
+  "aliases": [],
+  "description": "a slide divided into placeholders"
+ },
+ {
+  "name": "ThemeIcon",
+  "file": "theme",
+  "set": "slides",
+  "aliases": [],
+  "description": "a palette / swatches"
+ },
+ {
+  "name": "SlideBackgroundIcon",
+  "file": "slide-background",
+  "set": "slides",
+  "aliases": [],
+  "description": "a slide with its ground filled"
+ },
+ {
+  "name": "TransitionIcon",
+  "file": "transition",
+  "set": "slides",
+  "aliases": [],
+  "description": "two slides with an arrow passing between"
+ },
+ {
+  "name": "AnimationIcon",
+  "file": "animation",
+  "set": "slides",
+  "aliases": [],
+  "description": "a shape with motion lines (a star moving)"
+ },
+ {
+  "name": "PresentIcon",
+  "file": "present",
+  "set": "slides",
+  "aliases": [],
+  "description": "a screen with a play triangle"
+ },
+ {
+  "name": "PresentFromStartIcon",
+  "file": "present-from-start",
+  "set": "slides",
+  "aliases": [],
+  "description": "a play triangle with a bar before it"
+ },
+ {
+  "name": "PresenterViewIcon",
+  "file": "presenter-view",
+  "set": "slides",
+  "aliases": [],
+  "description": "a screen with notes beneath"
+ },
+ {
+  "name": "SlideSorterIcon",
+  "file": "slide-sorter",
+  "set": "slides",
+  "aliases": [],
+  "description": "a grid of small slides"
+ },
+ {
+  "name": "SpeakerNotesIcon",
+  "file": "speaker-notes",
+  "set": "slides",
+  "aliases": [],
+  "description": "a slide with lines of notes beneath"
+ },
+ {
+  "name": "HideSlideIcon",
+  "file": "hide-slide",
+  "set": "slides",
+  "aliases": [],
+  "description": "a slide with a slash"
+ },
+ {
+  "name": "ShapeRectangleIcon",
+  "file": "shape-rectangle",
+  "set": "slides",
+  "aliases": [],
+  "description": "a rectangle"
+ },
+ {
+  "name": "ShapeEllipseIcon",
+  "file": "shape-ellipse",
+  "set": "slides",
+  "aliases": [],
+  "description": "an ellipse"
+ },
+ {
+  "name": "ShapeTriangleIcon",
+  "file": "shape-triangle",
+  "set": "slides",
+  "aliases": [],
+  "description": "a triangle"
+ },
+ {
+  "name": "ShapeArrowIcon",
+  "file": "shape-arrow",
+  "set": "slides",
+  "aliases": [],
+  "description": "a block arrow"
+ },
+ {
+  "name": "ShapeStarIcon",
+  "file": "shape-star",
+  "set": "slides",
+  "aliases": [],
+  "description": "a five-point star outline"
+ },
+ {
+  "name": "ShapeLineIcon",
+  "file": "shape-line",
+  "set": "slides",
+  "aliases": [],
+  "description": "a diagonal line with end dots"
+ },
+ {
+  "name": "ConnectorIcon",
+  "file": "connector",
+  "set": "slides",
+  "aliases": [],
+  "description": "two boxes joined by an elbow line"
+ },
+ {
+  "name": "BringForwardIcon",
+  "file": "bring-forward",
+  "set": "slides",
+  "aliases": [],
+  "description": "two squares, the front one emphasised one step"
+ },
+ {
+  "name": "SendBackwardIcon",
+  "file": "send-backward",
+  "set": "slides",
+  "aliases": [],
+  "description": "two squares, the back one emphasised"
+ },
+ {
+  "name": "BringToFrontIcon",
+  "file": "bring-to-front",
+  "set": "slides",
+  "aliases": [],
+  "description": "a stack with the top emphasised"
+ },
+ {
+  "name": "SendToBackIcon",
+  "file": "send-to-back",
+  "set": "slides",
+  "aliases": [],
+  "description": "a stack with the bottom emphasised"
+ },
+ {
+  "name": "GroupIcon",
+  "file": "group",
+  "set": "slides",
+  "aliases": [],
+  "description": "objects inside a dashed group frame"
+ },
+ {
+  "name": "UngroupIcon",
+  "file": "ungroup",
+  "set": "slides",
+  "aliases": [],
+  "description": "objects with the group frame broken"
+ },
+ {
+  "name": "AlignObjectsLeftIcon",
+  "file": "align-objects-left",
+  "set": "slides",
+  "aliases": [],
+  "description": "boxes aligned to a left line"
+ },
+ {
+  "name": "AlignObjectsCenterIcon",
+  "file": "align-objects-center",
+  "set": "slides",
+  "aliases": [],
+  "description": "boxes centred on a vertical line"
+ },
+ {
+  "name": "AlignObjectsRightIcon",
+  "file": "align-objects-right",
+  "set": "slides",
+  "aliases": [],
+  "description": "boxes aligned to a right line"
+ },
+ {
+  "name": "AlignObjectsTopIcon",
+  "file": "align-objects-top",
+  "set": "slides",
+  "aliases": [],
+  "description": "boxes hanging from a top line"
+ },
+ {
+  "name": "AlignObjectsMiddleIcon",
+  "file": "align-objects-middle",
+  "set": "slides",
+  "aliases": [],
+  "description": "boxes centred on a horizontal line"
+ },
+ {
+  "name": "AlignObjectsBottomIcon",
+  "file": "align-objects-bottom",
+  "set": "slides",
+  "aliases": [],
+  "description": "boxes standing on a bottom line"
+ },
+ {
+  "name": "DistributeHorizontalIcon",
+  "file": "distribute-horizontal",
+  "set": "slides",
+  "aliases": [],
+  "description": "three boxes evenly spaced across"
+ },
+ {
+  "name": "DistributeVerticalIcon",
+  "file": "distribute-vertical",
+  "set": "slides",
+  "aliases": [],
+  "description": "three boxes evenly spaced down"
+ },
+ {
+  "name": "FlipHorizontalIcon",
+  "file": "flip-horizontal",
+  "set": "slides",
+  "aliases": [],
+  "description": "a shape mirrored across a vertical line"
+ },
+ {
+  "name": "FlipVerticalIcon",
+  "file": "flip-vertical",
+  "set": "slides",
+  "aliases": [],
+  "description": "a shape mirrored across a horizontal line"
+ },
+ {
+  "name": "CropIcon",
+  "file": "crop",
+  "set": "slides",
+  "aliases": [],
+  "description": "crop marks"
+ },
+ {
+  "name": "RotateObjectIcon",
+  "file": "rotate-object",
+  "set": "slides",
+  "aliases": [],
+  "description": "a shape with a rotate handle"
+ },
+ {
+  "name": "LaserPointerIcon",
+  "file": "laser-pointer",
+  "set": "slides",
+  "aliases": [],
+  "description": "a pointer dot with a beam"
+ },
+ {
+  "name": "ShapeOutlineIcon",
+  "file": "shape-outline",
+  "set": "slides",
+  "aliases": [],
+  "description": "a shape with its outline emphasised"
+ },
+ {
+  "name": "ShapeFillIcon",
+  "file": "shape-fill",
+  "set": "slides",
+  "aliases": [],
+  "description": "a shape filled"
+ },
+ {
+  "name": "SuperscriptIcon",
+  "file": "superscript",
+  "set": "text",
+  "aliases": [],
+  "description": "x with a small raised 2"
+ },
+ {
+  "name": "SubscriptIcon",
+  "file": "subscript",
+  "set": "text",
+  "aliases": [],
+  "description": "x with a small lowered 2"
+ },
+ {
+  "name": "FontColorIcon",
+  "file": "font-color",
+  "set": "text",
+  "aliases": [],
+  "description": "the letter A over a bar of the text colour"
+ },
+ {
+  "name": "HighlighterIcon",
+  "file": "highlighter",
+  "set": "text",
+  "aliases": [],
+  "description": "a marker pen's tip over a highlighted bar"
+ },
+ {
+  "name": "ClearFormattingIcon",
+  "file": "clear-formatting",
+  "set": "text",
+  "aliases": [],
+  "description": "the letter T crossed by a small slash, formatting removed"
+ },
+ {
+  "name": "FontSizeIncreaseIcon",
+  "file": "font-size-increase",
+  "set": "text",
+  "aliases": [],
+  "description": "A with a small up arrow"
+ },
+ {
+  "name": "FontSizeDecreaseIcon",
+  "file": "font-size-decrease",
+  "set": "text",
+  "aliases": [],
+  "description": "A with a small down arrow"
+ },
+ {
+  "name": "ChangeCaseIcon",
+  "file": "change-case",
+  "set": "text",
+  "aliases": [],
+  "description": "Aa"
+ },
+ {
+  "name": "LetterSpacingIcon",
+  "file": "letter-spacing",
+  "set": "text",
+  "aliases": [],
+  "description": "letters with a spaced double arrow beneath"
+ },
+ {
+  "name": "AlignJustifyIcon",
+  "file": "align-justify",
+  "set": "text",
+  "aliases": [],
+  "description": "lines all of equal length"
+ },
+ {
+  "name": "IndentIncreaseIcon",
+  "file": "indent-increase",
+  "set": "text",
+  "aliases": [],
+  "description": "lines with an arrow pointing right into them"
+ },
+ {
+  "name": "IndentDecreaseIcon",
+  "file": "indent-decrease",
+  "set": "text",
+  "aliases": [],
+  "description": "lines with an arrow pointing left out of them"
+ },
+ {
+  "name": "LineSpacingIcon",
+  "file": "line-spacing",
+  "set": "text",
+  "aliases": [],
+  "description": "lines beside a vertical double arrow"
+ },
+ {
+  "name": "ParagraphSpacingIcon",
+  "file": "paragraph-spacing",
+  "set": "text",
+  "aliases": [],
+  "description": "two blocks of lines with a gap marked between"
+ },
+ {
+  "name": "PilcrowIcon",
+  "file": "pilcrow",
+  "set": "text",
+  "aliases": [],
+  "description": "the paragraph mark ¶ (show formatting marks)"
+ },
+ {
+  "name": "ListChecksIcon",
+  "file": "list-checks",
+  "set": "text",
+  "aliases": [],
+  "description": "a list whose bullets are ticks (checklist)"
+ },
+ {
+  "name": "ListNestedIcon",
+  "file": "list-nested",
+  "set": "text",
+  "aliases": [],
+  "description": "a multilevel list: indented sub items"
+ },
+ {
+  "name": "Heading1Icon",
+  "file": "heading1",
+  "set": "text",
+  "aliases": [],
+  "description": "H1"
+ },
+ {
+  "name": "Heading3Icon",
+  "file": "heading3",
+  "set": "text",
+  "aliases": [],
+  "description": "H3"
+ },
+ {
+  "name": "CodeBlockIcon",
+  "file": "code-block",
+  "set": "text",
+  "aliases": [],
+  "description": "a block with code brackets inside"
+ },
+ {
+  "name": "HorizontalRuleIcon",
+  "file": "horizontal-rule",
+  "set": "text",
+  "aliases": [],
+  "description": "a horizontal line with text lines above and below"
+ },
+ {
+  "name": "FormatPainterIcon",
+  "file": "format-painter",
+  "set": "text",
+  "aliases": [],
+  "description": "a paint roller / brush (copy formatting)"
  }
 ]
