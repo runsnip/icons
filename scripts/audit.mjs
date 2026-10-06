@@ -22,7 +22,16 @@ const list = asked.length ? manifest.filter((i) => asked.includes(i.file) || ask
 let bad = 0;
 for (const entry of list) {
   const icon = (await import(new URL(`icons/${entry.file}.ts`, root).href)).default;
-  if (icon.svg?.viewBox) continue; /* a drawing on its own canvas (the wordmark, Google's, GitHub's): not a mark on this grid */
+  if (icon.svg?.viewBox) continue; /* a drawing on its own canvas (the wordmark): not a mark on this grid */
+  if (entry.colorOf) {
+    /* A coloured mark (brand.ts): checked as being its plain mark's drawing, shape for shape — the colours are
+       what differ, and they are not a motif. */
+    const plainEntry = manifest.find((i) => i.name === entry.colorOf) ?? JSON.parse(readFileSync(new URL("icons.json", root), "utf8")).find((i) => i.name === entry.colorOf);
+    const plain = (await import(new URL(`icons/${plainEntry.file}.ts`, root).href)).default;
+    const shape = (node) => JSON.stringify(node.map(([tag, a]) => [tag, Object.fromEntries(Object.entries(a).filter(([k]) => !["fill", "stroke"].includes(k)))]));
+    if (shape(icon.node) !== shape(plain.node)) { bad++; console.log(`FAIL  ${entry.name.padEnd(26)} is not ${entry.colorOf}'s drawing`); }
+    continue;
+  }
   const problems = [];
   const outside = [];
   for (const [tag, a] of icon.node) {

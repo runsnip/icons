@@ -1442,7 +1442,7 @@
   "file": "translate",
   "set": "collab",
   "aliases": [],
-  "description": "two languages: A and \u6587 with an arrow"
+  "description": "two languages: A and 文 with an arrow"
  },
  {
   "name": "SendIcon",
@@ -1484,7 +1484,7 @@
   "file": "layout-grid",
   "set": "collab",
   "aliases": [],
-  "description": "a 2\u00d72 grid of squares"
+  "description": "a 2×2 grid of squares"
  },
  {
   "name": "SortIcon",
@@ -1505,7 +1505,7 @@
   "file": "table",
   "set": "insert",
   "aliases": [],
-  "description": "a 3\u00d73 grid table"
+  "description": "a 3×3 grid table"
  },
  {
   "name": "ShapesIcon",
@@ -1526,14 +1526,14 @@
   "file": "equation",
   "set": "insert",
   "aliases": [],
-  "description": "a fraction / function sign (\u03a3 is the sum icon elsewhere): x\u00b2 + y"
+  "description": "a fraction / function sign (Σ is the sum icon elsewhere): x² + y"
  },
  {
   "name": "SymbolIcon",
   "file": "symbol",
   "set": "insert",
   "aliases": [],
-  "description": "\u03a9"
+  "description": "Ω"
  },
  {
   "name": "EmojiIcon",
@@ -2072,14 +2072,14 @@
   "file": "decimal-increase",
   "set": "sheets",
   "aliases": [],
-  "description": ".0 \u2192 .00"
+  "description": ".0 → .00"
  },
  {
   "name": "DecimalDecreaseIcon",
   "file": "decimal-decrease",
   "set": "sheets",
   "aliases": [],
-  "description": ".00 \u2192 .0"
+  "description": ".00 → .0"
  },
  {
   "name": "NumberFormatIcon",
@@ -2156,14 +2156,14 @@
   "file": "sort-ascending",
   "set": "sheets",
   "aliases": [],
-  "description": "A\u2192Z with a down arrow"
+  "description": "A→Z with a down arrow"
  },
  {
   "name": "SortDescendingIcon",
   "file": "sort-descending",
   "set": "sheets",
   "aliases": [],
-  "description": "Z\u2192A with a down arrow"
+  "description": "Z→A with a down arrow"
  },
  {
   "name": "FilterIcon",
@@ -2226,7 +2226,7 @@
   "file": "sum",
   "set": "sheets",
   "aliases": [],
-  "description": "\u03a3"
+  "description": "Σ"
  },
  {
   "name": "ConditionalFormatIcon",
@@ -2709,7 +2709,7 @@
   "file": "pilcrow",
   "set": "text",
   "aliases": [],
-  "description": "the paragraph mark \u00b6 (show formatting marks)"
+  "description": "the paragraph mark ¶ (show formatting marks)"
  },
  {
   "name": "ListChecksIcon",
@@ -2759,5 +2759,390 @@
   "set": "text",
   "aliases": [],
   "description": "a paint roller / brush (copy formatting)"
+ },
+ {
+  "name": "Heading4Icon",
+  "file": "heading4",
+  "set": "text",
+  "aliases": [],
+  "description": "H4: a fourth-level heading"
+ },
+ {
+  "name": "Heading5Icon",
+  "file": "heading5",
+  "set": "text",
+  "aliases": [],
+  "description": "H5: a fifth-level heading"
+ },
+ {
+  "name": "Heading6Icon",
+  "file": "heading6",
+  "set": "text",
+  "aliases": [],
+  "description": "H6: a sixth-level heading"
+ },
+ {
+  "name": "LightbulbOutlineIcon",
+  "file": "lightbulb-outline",
+  "set": "ui",
+  "aliases": [],
+  "description": "a light bulb in outline: an idea, lighter than the filled bulb"
+ },
+ {
+  "name": "SquareOutlineIcon",
+  "file": "square-outline",
+  "set": "ui",
+  "aliases": [],
+  "description": "a square in outline: SquareIcon's shape, unfilled"
+ },
+ {
+  "name": "StarOutlineIcon",
+  "file": "star-outline",
+  "set": "ui",
+  "aliases": [],
+  "description": "a star in outline: not yet starred (StarIcon is starred)"
+ },
+ {
+  "name": "LockOutlineIcon",
+  "file": "lock-outline",
+  "set": "ui",
+  "aliases": [],
+  "description": "a padlock in outline, its keyhole the mark"
+ },
+ {
+  "name": "UnlockOutlineIcon",
+  "file": "unlock-outline",
+  "set": "ui",
+  "aliases": [],
+  "description": "an open padlock in outline, its keyhole the mark"
+ },
+ {
+  "name": "FolderOutlineIcon",
+  "file": "folder-outline",
+  "set": "ui",
+  "aliases": [],
+  "description": "a folder in outline"
+ },
+ {
+  "name": "CloudOutlineIcon",
+  "file": "cloud-outline",
+  "set": "ui",
+  "aliases": [],
+  "description": "a cloud in outline"
+ },
+ {
+  "name": "PinOutlineIcon",
+  "file": "pin-outline",
+  "set": "ui",
+  "aliases": [],
+  "description": "a pin in outline: not pinned (PinIcon is pinned)"
+ },
+ {
+  "name": "FoldersOutlineIcon",
+  "file": "folders-outline",
+  "set": "ui",
+  "aliases": [],
+  "description": "folders in outline"
+ },
+ {
+  "name": "TrashOutlineIcon",
+  "file": "trash-outline",
+  "set": "ui",
+  "aliases": [],
+  "description": "a bin in outline"
+ },
+ {
+  "name": "PencilOutlineIcon",
+  "file": "pencil-outline",
+  "set": "ui",
+  "aliases": [],
+  "description": "a pencil in outline"
+ },
+ {
+  "name": "MicOutlineIcon",
+  "file": "mic-outline",
+  "set": "collab",
+  "aliases": [],
+  "description": "a microphone in outline"
+ },
+ {
+  "name": "ShieldOutlineIcon",
+  "file": "shield-outline",
+  "set": "ui",
+  "aliases": [],
+  "description": "a shield in outline"
+ },
+ {
+  "name": "ThumbsUpOutlineIcon",
+  "file": "thumbs-up-outline",
+  "set": "collab",
+  "aliases": [],
+  "description": "a thumb up in outline"
+ },
+ {
+  "name": "BugOutlineIcon",
+  "file": "bug-outline",
+  "set": "ui",
+  "aliases": [],
+  "description": "a bug in outline"
+ },
+ {
+  "name": "WrenchOutlineIcon",
+  "file": "wrench-outline",
+  "set": "ui",
+  "aliases": [],
+  "description": "a wrench in outline"
+ },
+ {
+  "name": "PlugOutlineIcon",
+  "file": "plug-outline",
+  "set": "ui",
+  "aliases": [],
+  "description": "a plug in outline"
+ },
+ {
+  "name": "BookOpenOutlineIcon",
+  "file": "book-open-outline",
+  "set": "ui",
+  "aliases": [],
+  "description": "an open book in outline"
+ },
+ {
+  "name": "LayersOutlineIcon",
+  "file": "layers-outline",
+  "set": "builder",
+  "aliases": [],
+  "description": "layers in outline"
+ },
+ {
+  "name": "SparklesOutlineIcon",
+  "file": "sparkles-outline",
+  "set": "ui",
+  "aliases": [],
+  "description": "sparkles in outline"
+ },
+ {
+  "name": "PlayOutlineIcon",
+  "file": "play-outline",
+  "set": "media",
+  "aliases": [],
+  "description": "a play triangle in outline"
+ },
+ {
+  "name": "PauseOutlineIcon",
+  "file": "pause-outline",
+  "set": "media",
+  "aliases": [],
+  "description": "pause bars in outline"
+ },
+ {
+  "name": "CodeBrandIcon",
+  "file": "code-brand",
+  "set": "brand",
+  "aliases": [],
+  "description": "RunSnip Code: code's brackets, the slash between them the mark, in the brand frame"
+ },
+ {
+  "name": "FinderBrandIcon",
+  "file": "finder-brand",
+  "set": "brand",
+  "aliases": [],
+  "description": "RunSnip Finder: a folder, its front edge the mark, in the brand frame"
+ },
+ {
+  "name": "MediaBrandIcon",
+  "file": "media-brand",
+  "set": "brand",
+  "aliases": [],
+  "description": "RunSnip Media: a clip on its timeline, the play the mark, in the brand frame"
+ },
+ {
+  "name": "StoryBrandIcon",
+  "file": "story-brand",
+  "set": "brand",
+  "aliases": [],
+  "description": "RunSnip Story: a message that plays, the play the mark, in the brand frame"
+ },
+ {
+  "name": "DocxBrandIcon",
+  "file": "docx-brand",
+  "set": "brand",
+  "aliases": [],
+  "description": "RunSnip Docx: lines of text with the caret writing on, in the brand frame"
+ },
+ {
+  "name": "XlsxBrandIcon",
+  "file": "xlsx-brand",
+  "set": "brand",
+  "aliases": [],
+  "description": "RunSnip Xlsx: a grid of cells, its header cell filled, in the brand frame"
+ },
+ {
+  "name": "PptxBrandIcon",
+  "file": "pptx-brand",
+  "set": "brand",
+  "aliases": [],
+  "description": "RunSnip Pptx: a slide with a shape on it, in the brand frame"
+ },
+ {
+  "name": "PdfBrandIcon",
+  "file": "pdf-brand",
+  "set": "brand",
+  "aliases": [],
+  "description": "RunSnip PDF: a fixed page, its corner folded, in the brand frame"
+ },
+ {
+  "name": "FormsBrandIcon",
+  "file": "forms-brand",
+  "set": "brand",
+  "aliases": [],
+  "description": "RunSnip Forms: a question's choices, one of them chosen, in the brand frame"
+ },
+ {
+  "name": "ComposerBrandIcon",
+  "file": "composer-brand",
+  "set": "brand",
+  "aliases": [],
+  "description": "RunSnip Composer: two notes beamed, their heads the mark, in the brand frame"
+ },
+ {
+  "name": "VAudioBrandIcon",
+  "file": "vaudio-brand",
+  "set": "brand",
+  "aliases": [],
+  "description": "RunSnip VAudio: a song's wave over its lyric line, the line the mark, in the brand frame"
+ },
+ {
+  "name": "PageBrandIcon",
+  "file": "page-brand",
+  "set": "brand",
+  "aliases": [],
+  "description": "RunSnip Page: a page with its hero block, the hero the mark, in the brand frame"
+ },
+ {
+  "name": "PortfolioBrandIcon",
+  "file": "portfolio-brand",
+  "set": "brand",
+  "aliases": [],
+  "description": "RunSnip Portfolio: work in tiles, the first one the mark, in the brand frame"
+ },
+ {
+  "name": "ResumeBrandIcon",
+  "file": "resume-brand",
+  "set": "brand",
+  "aliases": [],
+  "description": "RunSnip Resume: a résumé, its photo the mark, in the brand frame"
+ },
+ {
+  "name": "CodeBrandColorIcon",
+  "file": "code-brand-color",
+  "set": "brand",
+  "aliases": [],
+  "colorOf": "CodeBrandIcon",
+  "description": "RunSnip Code's mark in its own colour"
+ },
+ {
+  "name": "FinderBrandColorIcon",
+  "file": "finder-brand-color",
+  "set": "brand",
+  "aliases": [],
+  "colorOf": "FinderBrandIcon",
+  "description": "RunSnip Finder's mark in its own colour"
+ },
+ {
+  "name": "MediaBrandColorIcon",
+  "file": "media-brand-color",
+  "set": "brand",
+  "aliases": [],
+  "colorOf": "MediaBrandIcon",
+  "description": "RunSnip Media's mark in its own colour"
+ },
+ {
+  "name": "StoryBrandColorIcon",
+  "file": "story-brand-color",
+  "set": "brand",
+  "aliases": [],
+  "colorOf": "StoryBrandIcon",
+  "description": "RunSnip Story's mark in its own colour"
+ },
+ {
+  "name": "DocxBrandColorIcon",
+  "file": "docx-brand-color",
+  "set": "brand",
+  "aliases": [],
+  "colorOf": "DocxBrandIcon",
+  "description": "RunSnip Docx's mark in its own colour"
+ },
+ {
+  "name": "XlsxBrandColorIcon",
+  "file": "xlsx-brand-color",
+  "set": "brand",
+  "aliases": [],
+  "colorOf": "XlsxBrandIcon",
+  "description": "RunSnip Xlsx's mark in its own colour"
+ },
+ {
+  "name": "PptxBrandColorIcon",
+  "file": "pptx-brand-color",
+  "set": "brand",
+  "aliases": [],
+  "colorOf": "PptxBrandIcon",
+  "description": "RunSnip Pptx's mark in its own colour"
+ },
+ {
+  "name": "PdfBrandColorIcon",
+  "file": "pdf-brand-color",
+  "set": "brand",
+  "aliases": [],
+  "colorOf": "PdfBrandIcon",
+  "description": "RunSnip PDF's mark in its own colour"
+ },
+ {
+  "name": "FormsBrandColorIcon",
+  "file": "forms-brand-color",
+  "set": "brand",
+  "aliases": [],
+  "colorOf": "FormsBrandIcon",
+  "description": "RunSnip Forms's mark in its own colour"
+ },
+ {
+  "name": "ComposerBrandColorIcon",
+  "file": "composer-brand-color",
+  "set": "brand",
+  "aliases": [],
+  "colorOf": "ComposerBrandIcon",
+  "description": "RunSnip Composer's mark in its own colour"
+ },
+ {
+  "name": "VAudioBrandColorIcon",
+  "file": "vaudio-brand-color",
+  "set": "brand",
+  "aliases": [],
+  "colorOf": "VAudioBrandIcon",
+  "description": "RunSnip VAudio's mark in its own colour"
+ },
+ {
+  "name": "PageBrandColorIcon",
+  "file": "page-brand-color",
+  "set": "brand",
+  "aliases": [],
+  "colorOf": "PageBrandIcon",
+  "description": "RunSnip Page's mark in its own colour"
+ },
+ {
+  "name": "PortfolioBrandColorIcon",
+  "file": "portfolio-brand-color",
+  "set": "brand",
+  "aliases": [],
+  "colorOf": "PortfolioBrandIcon",
+  "description": "RunSnip Portfolio's mark in its own colour"
+ },
+ {
+  "name": "ResumeBrandColorIcon",
+  "file": "resume-brand-color",
+  "set": "brand",
+  "aliases": [],
+  "colorOf": "ResumeBrandIcon",
+  "description": "RunSnip Resume's mark in its own colour"
  }
 ]

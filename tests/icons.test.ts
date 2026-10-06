@@ -53,7 +53,7 @@ test("the set's stance, and colour on a filled mark", () => {
 test("the drawings are the ones recorded: a change to any icon changes this", async () => {
   const all = [];
   for (const i of manifest) { const icon = (await import(`../icons/${i.file}.ts`)).default as Icon; all.push([icon.name, icon.node, icon.svg ?? null]); }
-  assert.equal(createHash("sha256").update(JSON.stringify(all)).digest("hex"), "2366affed453e8abfee44ae47d2e6bf6f18b0bb81f8f9a1f1539869c52d8ebf2",
+  assert.equal(createHash("sha256").update(JSON.stringify(all)).digest("hex"), "007bfd8d9ee116347e3241ecbde250763299be17ce056654a89560c94f43d1a9",
     "an icon's drawing changed: if meant, record the new hash here");
 });
 
@@ -62,4 +62,15 @@ test("every icon keeps the set's rules: inside the field, one motif (scripts/aud
   const cwd = new URL("../", import.meta.url).pathname;
   const out = execFileSync(process.execPath, ["--experimental-strip-types", "--no-warnings", "--import", "./scripts/register.mjs", "scripts/audit.mjs"], { cwd, encoding: "utf8" });
   assert.match(out, / 0 failed/);
+});
+
+test("each coloured brand mark is what brand.ts makes of its plain mark now", async () => {
+  /* A path held in a variable: the script is plain JavaScript, imported at run time, with no declarations to check. */
+  const script = "../scripts/brand-colors.mjs";
+  const { colourModule } = (await import(script)) as { colourModule: (app: string) => Promise<{ name: string; file: string; source: string }> };
+  const { RUNSNIP_APPS } = await import("../brand");
+  for (const app of Object.keys(RUNSNIP_APPS)) {
+    const made = await colourModule(app);
+    assert.equal(readFileSync(new URL(`icons/${made.file}.ts`, root), "utf8"), made.source, `${made.name}: run npm run generate`);
+  }
 });

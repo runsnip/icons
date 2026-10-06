@@ -38,6 +38,44 @@ the wordmark's; exactly one emphatic motif per mark — filled, or thickened (`s
 is a line — and that motif is the small part: it emphasises the shape that carries the meaning, never becomes or covers
 it.
 
+## Filled and outline
+
+A mark whose meaning is a state — starred, pinned, locked — comes in both: `StarIcon` (starred) and
+`StarOutlineIcon` (not yet), and likewise Square, Lock, Unlock, Folder, Cloud, Pin and Lightbulb. The outline twin is
+the same shape, drawn a unit smaller so the two weigh the same; where the shape has a small part (a padlock's
+keyhole, a pin's needle) that part is its mark, and a bare shape (a square, a star, a cloud) is exempt from the
+one-motif rule, as `GLYPHS` says.
+
+## RunSnip's apps
+
+Each RunSnip app has a mark in two forms, in one frame so they read as one family: `CodeBrandIcon`, `DocxBrandIcon`
+and the rest draw in the text's colour like every icon; `CodeBrandColorIcon` and the rest are the same drawings on the
+app's own colour, in white — a tile that reads on a light page and a dark one. The colours are in `RUNSNIP_APPS`, for
+an app to use wherever it stands for itself:
+
+| App | Mark | Colour | White on it |
+| --- | --- | --- | --- |
+| Code | `CodeBrandIcon` | `#008774` | 4.45:1 |
+| Finder | `FinderBrandIcon` | `#52657D` | 5.97:1 |
+| Media | `MediaBrandIcon` | `#B52CA1` | 5.47:1 |
+| Story | `StoryBrandIcon` | `#C94E0C` | 4.59:1 |
+| Docx | `DocxBrandIcon` | `#2F6BE8` | 4.78:1 |
+| Xlsx | `XlsxBrandIcon` | `#13915A` | 4.02:1 |
+| Pptx | `PptxBrandIcon` | `#C26F00` | 3.77:1 |
+| PDF | `PdfBrandIcon` | `#D63A3F` | 4.63:1 |
+| Forms | `FormsBrandIcon` | `#7550E0` | 5.28:1 |
+| Composer | `ComposerBrandIcon` | `#5F7F00` | 4.64:1 |
+| VAudio | `VAudioBrandIcon` | `#CD2E73` | 4.96:1 |
+| Page | `PageBrandIcon` | `#0080A3` | 4.55:1 |
+| Portfolio | `PortfolioBrandIcon` | `#8C39BC` | 6.13:1 |
+| Resume | `ResumeBrandIcon` | `#8F6B09` | 4.91:1 |
+
+The hues are spread round the wheel so no two apps share one; Finder, the files every app keeps, is the one quiet
+slate. `CodeAppIcon`, `FinderAppIcon` and the others of the app set are a launcher's glyphs, without the frame.
+
+The coloured marks are made from the plain ones (`scripts/brand-colors.mjs`), never drawn apart, so the two cannot
+drift; the audit holds each to its plain mark's drawing.
+
 ## No other company's logo
 
 The set holds RunSnip's own marks (the wordmark, the mark) and no other company's — not Google's, GitHub's or any

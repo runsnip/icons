@@ -38,7 +38,7 @@
     "README.md"
   ],
   "scripts": {
-    "generate": "node scripts/generate.mjs",
+    "generate": "node --experimental-strip-types --no-warnings --import ./scripts/register.mjs scripts/brand-colors.mjs && node scripts/generate.mjs",
     "build": "node scripts/build.mjs",
     "typecheck": "tsc -p tsconfig.json",
     "test": "node --experimental-strip-types --no-warnings --import ./scripts/register.mjs --test \"tests/*.test.ts\"",

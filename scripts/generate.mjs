@@ -16,6 +16,7 @@ const index = [head,
   'export { DEFAULTS, createElement, svgAttributes, toSvg } from "./render";',
   'export { iconNames, loadIcon } from "./dynamic";',
   'export { FIELD, GLYPHS, SOLID, SOLID_STROKE } from "./system";',
+  'export { RUNSNIP_APPS, ON_BRAND, type RunSnipApp } from "./brand";',
   "",
   ...manifest.map((i) => `export { ${[i.name, ...i.aliases.map((a) => `${i.name} as ${a}`)].join(", ")} } from "./icons/${i.file}";`),
   ""].join("\n");

@@ -64,7 +64,7 @@ export const SOLID_STROKE = { "stroke-width": 2.6 } as const;
 /**
  * The marks the one-motif rule does not apply to, and why each is exempt.
  *
- * Two kinds, and both are exempt for the same underlying reason: they are not
+ * Three kinds, all exempt for the same underlying reason: they are not
  * diagrams of an action, so there is no "part that says which icon this is".
  *
  *   - a LETTER made of two marks. An `i` is a stem and a tittle; a `!` is a
@@ -73,7 +73,11 @@ export const SOLID_STROKE = { "stroke-width": 2.6 } as const;
  *     glyph as two shapes;
  *   - a KEY's own symbol. ⌘ and ⇧ are characters a keyboard has printed on it,
  *     reproduced so a shortcut is drawn rather than typed. They carry no
- *     emphasis by design: a thickened ⌘ is a ⌘ drawn wrong.
+ *     emphasis by design: a thickened ⌘ is a ⌘ drawn wrong;
+ *   - a BARE SHAPE in outline. An outlined square, star, cloud, shield, play or pause is the
+ *     outline of its filled twin and nothing else: there is no small part to
+ *     emphasise, and thickening the whole outline would make it the one
+ *     outline in the set heavier than every other.
  *
  * An allowlist rather than a flag on the icon, so adding a name to it is a
  * decision somebody makes here, next to the rule it sets aside — and one that
@@ -84,6 +88,12 @@ export const GLYPHS: Record<string, string> = {
   ShieldAlertIcon: "the mark !: a stem and its point",
   CommandKeyIcon: "the ⌘ character, as a keyboard prints it",
   ShiftKeyIcon: "the ⇧ character, as a keyboard prints it",
+  SquareOutlineIcon: "a bare shape in outline: SquareIcon's outline",
+  StarOutlineIcon: "a bare shape in outline: StarIcon's outline",
+  CloudOutlineIcon: "a bare shape in outline: CloudIcon's outline",
+  ShieldOutlineIcon: "a bare shape in outline: ShieldIcon's outline",
+  PlayOutlineIcon: "a bare shape in outline: PlayIcon's outline",
+  PauseOutlineIcon: "a bare shape in outline: PauseIcon's outline",
 };
 
 /** The bounds every shape stays inside. Read by the checks, not by the icons. */
