@@ -202,8 +202,6 @@ export { SpreadsheetIcon } from "./icons/spreadsheet";
 export { PresentationIcon } from "./icons/presentation";
 export { RunSnipMark } from "./icons/run-snip-mark";
 export { RunSnipWordmark } from "./icons/run-snip-wordmark";
-export { IconGoogle } from "./icons/icon-google";
-export { IconGithub } from "./icons/icon-github";
 export { CommentAddIcon } from "./icons/comment-add";
 export { CommentsIcon } from "./icons/comments";
 export { ReplyIcon } from "./icons/reply";

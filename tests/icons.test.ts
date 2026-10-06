@@ -40,9 +40,12 @@ test("a component and toSvg draw the same <svg>, for every icon and option", () 
 });
 
 test("the set's stance, and colour on a filled mark", () => {
+  /* No other company's logo: a brand is its owner's to draw (see README). */
+  assert.equal((data as Record<string, unknown>).IconGoogle, undefined);
+  assert.equal((data as Record<string, unknown>).IconGithub, undefined);
   assert.deepEqual(DEFAULTS, { xmlns: "http://www.w3.org/2000/svg", width: 24, height: 24, viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", "stroke-width": 2, "stroke-linecap": "round", "stroke-linejoin": "round" });
   assert.equal(toSvg(data.BoldIcon), '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4.5h6a3.75 3.75 0 0 1 0 7.5H7ZM7 12h7a4 4 0 0 1 0 8H7Z" stroke-width="2.6"></path></svg>');
-  assert.match(toSvg(data.IconGithub, { color: "#123" }), /fill="#123"/);
+  assert.match(toSvg(data.RunSnipWordmark, { color: "#123" }), /fill="#123"/);
   assert.match(toSvg(data.BoldIcon, { color: "#123", attributes: { class: 'a"b', "aria-label": "Bold" } }), /stroke="#123".*class="a&quot;b" aria-label="Bold"/);
   assert.doesNotMatch(toSvg(data.RunSnipWordmark), /width=/);
 });
@@ -50,7 +53,7 @@ test("the set's stance, and colour on a filled mark", () => {
 test("the drawings are the ones recorded: a change to any icon changes this", async () => {
   const all = [];
   for (const i of manifest) { const icon = (await import(`../icons/${i.file}.ts`)).default as Icon; all.push([icon.name, icon.node, icon.svg ?? null]); }
-  assert.equal(createHash("sha256").update(JSON.stringify(all)).digest("hex"), "3f6277e5fb49eb41f3c8a7d813e04b8cc0d1e6a24a7493835ebddd33ae2ee04d",
+  assert.equal(createHash("sha256").update(JSON.stringify(all)).digest("hex"), "2366affed453e8abfee44ae47d2e6bf6f18b0bb81f8f9a1f1539869c52d8ebf2",
     "an icon's drawing changed: if meant, record the new hash here");
 });
 

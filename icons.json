@@ -1249,18 +1249,6 @@
   "aliases": []
  },
  {
-  "name": "IconGoogle",
-  "file": "icon-google",
-  "set": "brand",
-  "aliases": []
- },
- {
-  "name": "IconGithub",
-  "file": "icon-github",
-  "set": "brand",
-  "aliases": []
- },
- {
   "name": "CommentAddIcon",
   "file": "comment-add",
   "set": "collab",

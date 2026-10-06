@@ -198,8 +198,6 @@ import SpreadsheetIconData from "../icons/spreadsheet";
 import PresentationIconData from "../icons/presentation";
 import RunSnipMarkData from "../icons/run-snip-mark";
 import RunSnipWordmarkData from "../icons/run-snip-wordmark";
-import IconGoogleData from "../icons/icon-google";
-import IconGithubData from "../icons/icon-github";
 import CommentAddIconData from "../icons/comment-add";
 import CommentsIconData from "../icons/comments";
 import ReplyIconData from "../icons/reply";
@@ -649,8 +647,6 @@ export const SpreadsheetIcon: IconComponent = /* @__PURE__ */ createIcon(Spreads
 export const PresentationIcon: IconComponent = /* @__PURE__ */ createIcon(PresentationIconData);
 export const RunSnipMark: IconComponent = /* @__PURE__ */ createIcon(RunSnipMarkData);
 export const RunSnipWordmark: IconComponent = /* @__PURE__ */ createIcon(RunSnipWordmarkData);
-export const IconGoogle: IconComponent = /* @__PURE__ */ createIcon(IconGoogleData);
-export const IconGithub: IconComponent = /* @__PURE__ */ createIcon(IconGithubData);
 export const CommentAddIcon: IconComponent = /* @__PURE__ */ createIcon(CommentAddIconData);
 export const CommentsIcon: IconComponent = /* @__PURE__ */ createIcon(CommentsIconData);
 export const ReplyIcon: IconComponent = /* @__PURE__ */ createIcon(ReplyIconData);

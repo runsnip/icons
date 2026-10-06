@@ -38,6 +38,14 @@ the wordmark's; exactly one emphatic motif per mark — filled, or thickened (`s
 is a line — and that motif is the small part: it emphasises the shape that carries the meaning, never becomes or covers
 it.
 
+## No other company's logo
+
+The set holds RunSnip's own marks (the wordmark, the mark) and no other company's — not Google's, GitHub's or any
+sign-in provider's. A logo is a trademark with its owner's rules (colours, clear space, minimum size, never redrawn),
+which a set that recolours and resizes every icon would invite people to break; a licence on this package would read
+as one on the logo, which RunSnip cannot give; and a logo changes when its owner says so. An app that shows one — a
+"Sign in with Google" button — uses the owner's own asset, as the owner's guidelines ask.
+
 ## Adding an icon
 
 Write `icons/<name>.ts` (its drawing, with SVG's attribute names), list it in `icons.json`, run `npm run generate`

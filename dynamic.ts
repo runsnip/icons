@@ -201,8 +201,6 @@ export const iconImports: Record<string, () => Promise<Icon>> = {
   "presentation": () => import("./icons/presentation").then((m) => m.default),
   "run-snip-mark": () => import("./icons/run-snip-mark").then((m) => m.default),
   "run-snip-wordmark": () => import("./icons/run-snip-wordmark").then((m) => m.default),
-  "icon-google": () => import("./icons/icon-google").then((m) => m.default),
-  "icon-github": () => import("./icons/icon-github").then((m) => m.default),
   "comment-add": () => import("./icons/comment-add").then((m) => m.default),
   "comments": () => import("./icons/comments").then((m) => m.default),
   "reply": () => import("./icons/reply").then((m) => m.default),

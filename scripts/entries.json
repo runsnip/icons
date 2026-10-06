@@ -201,8 +201,6 @@
   "icons/presentation": "icons/presentation.ts",
   "icons/run-snip-mark": "icons/run-snip-mark.ts",
   "icons/run-snip-wordmark": "icons/run-snip-wordmark.ts",
-  "icons/icon-google": "icons/icon-google.ts",
-  "icons/icon-github": "icons/icon-github.ts",
   "icons/comment-add": "icons/comment-add.ts",
   "icons/comments": "icons/comments.ts",
   "icons/reply": "icons/reply.ts",
