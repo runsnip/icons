@@ -1,10 +1,11 @@
 import { createElement, type ReactElement, type SVGProps } from "react";
-import { svgAttributes } from "../render";
+import { svgAttributes, widthFor } from "../render";
 import type { Icon } from "../types";
 
 /** What a RunSnip icon component takes: an `<svg>`'s props, and the set's own. */
 export interface IconProps extends Omit<SVGProps<SVGSVGElement>, "viewBox" | "children"> {
-  /** Width and height in px when neither is given. 24 by default. */
+  /** Width and height in px when neither is given, 24 by default. For a mark wider than it is tall (the wordmark),
+   *  the height: the width follows its viewBox. */
   size?: number;
   /** The stroke's colour; wins over `stroke`. currentColor by default. */
   color?: string;
@@ -36,7 +37,7 @@ export function createIcon(icon: Icon): IconComponent {
       /* The colour is the stroke's — or, for a mark filled and not stroked, the fill's (as toSvg). */
       ...(filled ? { fill: color ?? rest.fill ?? svg.fill } : {}),
       stroke: filled ? stroke ?? svg.stroke : color ?? stroke ?? svg.stroke,
-      width: width ?? size ?? svg.width,
+      width: width ?? (size !== undefined ? widthFor(icon, size) : svg.width),
       height: height ?? size ?? svg.height,
     }, children);
   }

@@ -7,7 +7,7 @@ only the icons it imports.
 ```ts
 import { BoldIcon, toSvg, createElement } from "@runsnip/icons";
 
-toSvg(BoldIcon, { size: 16 });          // '<svg … width="16" height="16" …><path d="…"/></svg>' — a server, an email
+toSvg(BoldIcon, { size: 16 });          // '<svg …>…</svg>' — a string: a route handler, an email, a file
 createElement(BoldIcon, { size: 16 });  // an <svg> element — a plain page, Angular, Vue, the office artifacts
 ```
 
@@ -29,6 +29,36 @@ import { Icon } from "@runsnip/icons/react";
   `color` (the stroke's, or the fill's for a filled mark), `strokeWidth` and any attribute can be given.
 - **React** is an optional peer. A component takes an `<svg>`'s props and `size`, `color`, `viewBox`.
 
+## In Next.js
+
+Whatever is rendered — a layout, a page, a Server Component or a client one — takes the component. It has no hooks,
+so a Server Component renders it to HTML and nothing of it reaches the browser's bundle. `toSvg` is not for JSX: it
+returns a string, which JSX would only take through `dangerouslySetInnerHTML`.
+
+```tsx
+// app/layout.tsx — a Server Component
+import { RunSnipMark, RunSnipWordmark } from "@runsnip/icons/react";
+
+<a href="/" aria-label="RunSnip">
+  <RunSnipMark size={24} />
+  <RunSnipWordmark size={18} />   {/* wider than tall: size is its height, the width follows (90.49) */}
+</a>
+```
+
+The string is for what Next serves as a file rather than renders — the app's icon, from an app's coloured mark:
+
+```ts
+// app/icon.tsx
+import { DocxBrandColorIcon, toSvg } from "@runsnip/icons";
+
+export const contentType = "image/svg+xml";
+
+export default function Icon() {
+  return new Response(toSvg(DocxBrandColorIcon, { size: 32 }), { headers: { "Content-Type": contentType } });
+}
+```
+
+
 ## The rules every icon is drawn to
 
 Every icon sits inside the field — x and y between 3.5 and 20.5 — so none looks larger than another at the same size;
@@ -40,11 +70,12 @@ it.
 
 ## Filled and outline
 
-A mark whose meaning is a state — starred, pinned, locked — comes in both: `StarIcon` (starred) and
-`StarOutlineIcon` (not yet), and likewise Square, Lock, Unlock, Folder, Cloud, Pin and Lightbulb. The outline twin is
-the same shape, drawn a unit smaller so the two weigh the same; where the shape has a small part (a padlock's
-keyhole, a pin's needle) that part is its mark, and a bare shape (a square, a star, a cloud) is exempt from the
-one-motif rule, as `GLYPHS` says.
+A mark whose meaning is a state — starred, pinned, locked — comes in both: `StarIcon` (starred) and `StarOutlineIcon`
+(not yet), and likewise Square, Lock, Unlock, Folder, Folders, Cloud, Pin, Lightbulb, Trash, Pencil, Mic, Shield,
+ThumbsUp, Bug, Wrench, Plug, BookOpen, Layers, Sparkles, Play and Pause. The outline twin is the same shape, drawn a
+unit smaller so the two weigh the same; where the shape has a small part (a padlock's keyhole, a pin's needle) that
+part is its mark, and a bare shape (a square, a star, a cloud, a shield, play, pause) is exempt from the one-motif
+rule, as `GLYPHS` says.
 
 ## RunSnip's apps
 

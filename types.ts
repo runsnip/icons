@@ -20,7 +20,8 @@ export interface Icon {
 }
 
 export interface IconOptions {
-  /** Width and height in px. 24 by default. */
+  /** Width and height in px, 24 by default. For a mark wider than it is tall (the wordmark), the height: the width
+   *  follows its viewBox. */
   size?: number;
   /** The stroke's colour; currentColor by default. */
   color?: string;

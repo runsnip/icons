@@ -18,10 +18,19 @@ export const DEFAULTS: Readonly<Record<string, string | number>> = {
   "stroke-linejoin": "round",
 };
 
+/** Width over height of an icon's viewBox: 1 for the set's square, about 5 for the wordmark. */
+export function aspectOf(icon: Icon): number {
+  const box = String(icon.svg?.viewBox ?? DEFAULTS.viewBox).trim().split(/[\s,]+/).map(Number);
+  return box[2] > 0 && box[3] > 0 ? box[2] / box[3] : 1;
+}
+
+/** The width that goes with a height, for this icon's shape. */
+export const widthFor = (icon: Icon, height: number): number => Math.round(height * aspectOf(icon) * 100) / 100;
+
 /** The `<svg>` element's attributes for an icon drawn with these options, in a fixed order. */
 export function svgAttributes(icon: Icon, options: IconOptions = {}): Record<string, string | number> {
   const out: Record<string, string | number | null> = { ...DEFAULTS, ...icon.svg };
-  if (options.size !== undefined) { out.width = options.size; out.height = options.size; }
+  if (options.size !== undefined) { out.width = widthFor(icon, options.size); out.height = options.size; }
   /* The colour is the stroke's — or, for a mark that is filled and not stroked (the wordmark, GitHub's), the fill's. */
   if (options.color !== undefined) {
     if (out.stroke === "none" && out.fill === "currentColor") out.fill = options.color;

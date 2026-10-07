@@ -48,6 +48,11 @@ test("the set's stance, and colour on a filled mark", () => {
   assert.match(toSvg(data.RunSnipWordmark, { color: "#123" }), /fill="#123"/);
   assert.match(toSvg(data.BoldIcon, { color: "#123", attributes: { class: 'a"b', "aria-label": "Bold" } }), /stroke="#123".*class="a&quot;b" aria-label="Bold"/);
   assert.doesNotMatch(toSvg(data.RunSnipWordmark), /width=/);
+  /* A logo wider than tall: size is its height, and the width keeps its shape — in React (a Next.js Server Component)
+     as in a string. */
+  assert.match(toSvg(data.RunSnipWordmark, { size: 32 }), / width="160.86" height="32"/);
+  assert.match(renderToStaticMarkup(h(components.RunSnipWordmark, { size: 32 })), / width="160.86" height="32"/);
+  assert.match(renderToStaticMarkup(h(components.RunSnipMark, { size: 32 })), / width="32" height="32"/);
 });
 
 test("the drawings are the ones recorded: a change to any icon changes this", async () => {
