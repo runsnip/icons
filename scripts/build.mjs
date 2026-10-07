@@ -25,8 +25,10 @@ await build({
   logLevel: "warning",
 });
 /* The UMD build, apart from the ES modules so no bundler takes it: every icon, and the drawing of data-rs-icon
-   elements. AMD gets it from define, CommonJS from module.exports, a page as window.RunSnipIcons and
-   window.RunSnipLoad. Readable and minified; the CDN fields (unpkg, jsdelivr) name the minified one. */
+   elements. AMD gets it from define, a page as window.RunSnipIcons and window.RunSnipLoad. Readable and minified;
+   the CDN fields (unpkg, jsdelivr) name the minified one. Node takes the ES modules: the package being
+   "type": "module", require() of this .js would read it as one, and a .cjs is served by jsDelivr as
+   application/node with nosniff, which a page's <script> refuses. */
 const banner = `/*! ${pkg.name} ${pkg.version} | MIT | the brand set's marks are RunSnip's trademarks */`;
 const wrap = {
   banner: `${banner}
@@ -41,7 +43,7 @@ for (const minify of [false, true]) {
   await build({
     absWorkingDir: root,
     entryPoints: ["browser/index.ts"],
-    outfile: `dist/umd/icons.umd${minify ? ".min" : ""}.js`,
+    outfile: `dist/icons.umd${minify ? ".min" : ""}.js`,
     bundle: true,
     format: "iife",
     globalName: "RunSnipIcons",
@@ -54,8 +56,6 @@ for (const minify of [false, true]) {
     logLevel: "warning",
   });
 }
-/* The package is "type": "module"; this folder says its .js is a script, so Node's require reads the UMD as CommonJS. */
-writeFileSync(join(root, "dist/umd/package.json"), '{ "type": "commonjs" }\n');
 execFileSync("npx", ["tsc", "-p", "tsconfig.build.json"], { stdio: "inherit", cwd: root });
 
 /* Declarations name their neighbours as the source does, without an extension: fine for a bundler,

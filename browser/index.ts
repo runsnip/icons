@@ -4,12 +4,12 @@ import { icons } from "./names";
 import { ATTRIBUTE, renderIcon, renderIcons, type Renderer } from "./load";
 
 /**
- * The UMD build (dist/umd/icons.umd.js): every icon in one file, for a page with no build step —
+ * The UMD build (dist/icons.umd.js): every icon in one file, for a page with no build step —
  *
  *   <script src="https://cdn.jsdelivr.net/npm/@runsnip/icons@0.1"></script>
  *   <i data-rs-icon="bold"></i>
  *
- * In a page it is window.RunSnipIcons (and window.RunSnipLoad); under AMD or CommonJS the module's value. Where there
+ * In a page it is window.RunSnipIcons (and window.RunSnipLoad); under AMD the module's value. Where there
  * is a document, each element carrying data-rs-icon becomes its icon's <svg> once the page has loaded (./load.ts has
  * the attributes); HTML put in later is drawn by RunSnipLoad(container), or as it arrives when the script tag says
  * data-rs-observe. data-rs-manual on the tag leaves the first pass to the page. A module bundler never takes this file:

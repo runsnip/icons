@@ -32,8 +32,8 @@
       "default": "./dist/icons/*.js"
     }
   },
-  "unpkg": "./dist/umd/icons.umd.min.js",
-  "jsdelivr": "./dist/umd/icons.umd.min.js",
+  "unpkg": "./dist/icons.umd.min.js",
+  "jsdelivr": "./dist/icons.umd.min.js",
   "files": [
     "dist",
     "LICENSE",

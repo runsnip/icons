@@ -61,7 +61,7 @@ export default function Icon() {
 
 ## From a CDN, in any page
 
-A UMD build holds every icon, for a page with no build step: `dist/umd/icons.umd.min.js` (98 KB, 26 KB gzipped), what
+A UMD build holds every icon, for a page with no build step: `dist/icons.umd.min.js` (98 KB, 26 KB gzipped), what
 the bare package URL serves, and `icons.umd.js` to read. It stays apart from the ES modules, so a bundler never takes
 it. Any element carrying `data-rs-icon` becomes the icon's `<svg>` once the page has loaded:
 
@@ -93,8 +93,8 @@ RunSnipLoad(container);        // or RunSnipLoad("#panel"); RunSnipLoad() draws 
 
 Or the script tag says what it should do by itself: `data-rs-observe` draws elements as they are added, with no
 call; `data-rs-manual` leaves even the first pass to the page. `window.RunSnipIcons` holds the rest: `icons` and
-`names`, `render(element)`, `toSvg`, `createElement`, and `apps` (`RUNSNIP_APPS`). Under AMD (`define`) or CommonJS
-(`require`) the same object is the module's value, and no global is set.
+`names`, `render(element)`, `toSvg`, `createElement`, and `apps` (`RUNSNIP_APPS`). Under AMD (`define`) the same object is
+the module's value, and no global is set. Node and bundlers take the ES modules.
 
 ## The rules every icon is drawn to
 
