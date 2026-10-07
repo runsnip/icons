@@ -11,6 +11,11 @@ const files = new Set(report.files.map((f) => f.path));
 const problems = [];
 
 for (const want of ["package.json", "LICENSE", "README.md"]) if (!files.has(want)) problems.push(`missing ${want}`);
+/* The script a CDN serves for the bare package URL (unpkg, jsdelivr): a page's <script src> must find it. */
+for (const field of ["unpkg", "jsdelivr"]) {
+  const path = pkg[field]?.replace(/^\.\//, "");
+  if (path && !files.has(path)) problems.push(`"${field}": ${path} is not in the tarball`);
+}
 /* A pattern export (./icons/*) is checked for every icon icons.json lists. */
 const icons = JSON.parse(readFileSync(new URL("../icons.json", import.meta.url), "utf8")).map((i) => i.file);
 for (const [subpath, target] of Object.entries(pkg.exports)) {

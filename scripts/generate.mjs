@@ -3,6 +3,7 @@
  *   index.ts           every icon's data by name (and its aliases), and the renderers
  *   dynamic.ts         every icon by its file name, loaded when asked for
  *   react/icons.ts     a component per icon (and per alias)
+ *   browser/names.ts   every icon by the name a page writes in data-rs-icon: its file name, and its aliases'
  * Adding an icon: write icons/<name>.ts, add it to icons.json, run `npm run generate`.
  */
 import { readFileSync, writeFileSync } from "node:fs";
@@ -49,6 +50,22 @@ const react = [head,
   ]),
   ""].join("\n");
 
+/* A page names an icon as a file is named — bold, chevron-right — and an alias likewise: ChevronIcon is chevron. */
+const kebab = (name) => name.replace(/Icon$/, "").replace(/([a-z0-9])([A-Z])/g, "$1-$2").replace(/([A-Z])([A-Z][a-z])/g, "$1-$2").toLowerCase();
+const files = new Set(manifest.map((i) => i.file));
+const browserNames = [head,
+  'import type { Icon } from "../types";',
+  ...manifest.map((i, n) => `import i${n} from "../icons/${i.file}";`),
+  "",
+  "/** Every icon by the name a page gives in data-rs-icon: its file name (bold, chevron-right), or an alias's. */",
+  "export const icons: Record<string, Icon> = {",
+  ...manifest.flatMap((i, n) => [
+    `  ${JSON.stringify(i.file)}: i${n},`,
+    ...[...new Set(i.aliases.map(kebab))].filter((a) => !files.has(a)).map((a) => `  ${JSON.stringify(a)}: i${n},`),
+  ]),
+  "};",
+  ""].join("\n");
+
 /* Every icon an entry of its own, so `@runsnip/icons/icons/<name>` is one small file and a dynamic import one chunk. */
 const entries = { index: "index.ts", dynamic: "dynamic.ts", render: "render.ts", "react/index": "react/index.ts", "react/dynamic": "react/dynamic.tsx" };
 for (const i of manifest) entries[`icons/${i.file}`] = `icons/${i.file}.ts`;
@@ -57,4 +74,5 @@ writeFileSync(`${root}index.ts`, index);
 writeFileSync(`${root}scripts/entries.json`, JSON.stringify(entries, null, 2) + "\n");
 writeFileSync(`${root}dynamic.ts`, dynamic);
 writeFileSync(`${root}react/icons.ts`, react);
+writeFileSync(`${root}browser/names.ts`, browserNames);
 console.log(`${manifest.length} icons, ${manifest.reduce((n, i) => n + i.aliases.length, 0)} aliases`);

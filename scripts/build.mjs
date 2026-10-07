@@ -24,6 +24,21 @@ await build({
   jsx: "automatic",
   logLevel: "warning",
 });
+/* One file for a page that loads a script rather than a module (a CDN, a plain page): every icon, the drawing of
+   data-rs-icon elements, and window.RunSnipLoad / window.RunSnipIcons. */
+await build({
+  absWorkingDir: root,
+  entryPoints: ["browser/index.ts"],
+  outfile: "dist/browser/icons.min.js",
+  bundle: true,
+  format: "iife",
+  platform: "browser",
+  target: "es2018",
+  minify: true,
+  legalComments: "none",
+  banner: { js: `/*! ${pkg.name} ${pkg.version} | MIT | the brand set's marks are RunSnip's trademarks */` },
+  logLevel: "warning",
+});
 execFileSync("npx", ["tsc", "-p", "tsconfig.build.json"], { stdio: "inherit", cwd: root });
 
 /* Declarations name their neighbours as the source does, without an extension: fine for a bundler,

@@ -32,6 +32,8 @@
       "default": "./dist/icons/*.js"
     }
   },
+  "unpkg": "./dist/browser/icons.min.js",
+  "jsdelivr": "./dist/browser/icons.min.js",
   "files": [
     "dist",
     "LICENSE",

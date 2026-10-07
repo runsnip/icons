@@ -94,7 +94,7 @@ jobs:
           PASS=$(grep -m1 '^# pass ' test-output.tap | awk '{print $3}')
           FAIL=$(grep -m1 '^# fail ' test-output.tap | awk '{print $3}')
           echo "pass=$PASS fail=$FAIL"
-          FLOOR=6
+          FLOOR=8
           if [ -z "$PASS" ] || [ "$PASS" -lt "$FLOOR" ]; then
             echo "$PASS (or unreadable) passing tests, below the floor of $FLOOR measured on a clean build: fewer test files ran than should, or a test was removed. Understand it before publishing." >&2
             exit 1

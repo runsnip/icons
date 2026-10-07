@@ -59,6 +59,41 @@ export default function Icon() {
 ```
 
 
+## From a CDN, in any page
+
+One script holds every icon (about 97 KB, 26 KB gzipped), for a page with no build step. Any element carrying
+`data-rs-icon` becomes the icon's `<svg>` once the page has loaded:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/@runsnip/icons@0.1"></script>
+
+<i data-rs-icon="bold"></i>
+<span data-rs-icon="chevron-right" data-rs-size="16" class="muted" aria-label="Next"></span>
+<i data-rs-icon="run-snip-wordmark" data-rs-size="20"></i>
+```
+
+| Attribute | |
+| --- | --- |
+| `data-rs-icon` | the icon, by its file name (`bold`, `chevron-right`) or an alias's (`loader2`) |
+| `data-rs-size` | px; for a logo wider than tall, its height |
+| `data-rs-color` | the stroke's colour (the fill's for a filled mark); the text's colour otherwise |
+| `data-rs-stroke-width` | the stroke's width |
+
+Every other attribute — `class`, `id`, `style`, `aria-*`, `data-*` — moves onto the `<svg>`. With `aria-label`,
+`aria-labelledby` or `title` the icon is an image with that name; without, it is decoration, hidden from assistive
+technology. An unknown name leaves the element as it is and says so once in the console.
+
+HTML put in after the page loaded — fetched, templated — is drawn by `RunSnipLoad`:
+
+```js
+container.innerHTML = await (await fetch("/fragment")).text();
+RunSnipLoad(container);        // or RunSnipLoad("#panel"); RunSnipLoad() draws the whole page; returns how many
+```
+
+Or the script tag says what it should do by itself: `data-rs-observe` draws elements as they are added, with no
+call; `data-rs-manual` leaves even the first pass to the page. `window.RunSnipIcons` holds the rest: `icons` and
+`names`, `render(element)`, `toSvg`, `createElement`, and `apps` (`RUNSNIP_APPS`).
+
 ## The rules every icon is drawn to
 
 Every icon sits inside the field — x and y between 3.5 and 20.5 — so none looks larger than another at the same size;
