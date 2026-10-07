@@ -24,21 +24,38 @@ await build({
   jsx: "automatic",
   logLevel: "warning",
 });
-/* One file for a page that loads a script rather than a module (a CDN, a plain page): every icon, the drawing of
-   data-rs-icon elements, and window.RunSnipLoad / window.RunSnipIcons. */
-await build({
-  absWorkingDir: root,
-  entryPoints: ["browser/index.ts"],
-  outfile: "dist/browser/icons.min.js",
-  bundle: true,
-  format: "iife",
-  platform: "browser",
-  target: "es2018",
-  minify: true,
-  legalComments: "none",
-  banner: { js: `/*! ${pkg.name} ${pkg.version} | MIT | the brand set's marks are RunSnip's trademarks */` },
-  logLevel: "warning",
-});
+/* The UMD build, apart from the ES modules so no bundler takes it: every icon, and the drawing of data-rs-icon
+   elements. AMD gets it from define, CommonJS from module.exports, a page as window.RunSnipIcons and
+   window.RunSnipLoad. Readable and minified; the CDN fields (unpkg, jsdelivr) name the minified one. */
+const banner = `/*! ${pkg.name} ${pkg.version} | MIT | the brand set's marks are RunSnip's trademarks */`;
+const wrap = {
+  banner: `${banner}
+(function (root, factory) {
+  if (typeof define === "function" && define.amd) define([], factory);
+  else if (typeof module === "object" && module.exports) module.exports = factory();
+  else { var api = factory(); root.RunSnipIcons = api; root.RunSnipLoad = api.load; }
+})(typeof globalThis !== "undefined" ? globalThis : typeof self !== "undefined" ? self : this, function () {`,
+  footer: "return RunSnipIcons;\n});",
+};
+for (const minify of [false, true]) {
+  await build({
+    absWorkingDir: root,
+    entryPoints: ["browser/index.ts"],
+    outfile: `dist/umd/icons.umd${minify ? ".min" : ""}.js`,
+    bundle: true,
+    format: "iife",
+    globalName: "RunSnipIcons",
+    platform: "browser",
+    target: "es2018",
+    minify,
+    legalComments: "none",
+    banner: { js: wrap.banner },
+    footer: { js: wrap.footer },
+    logLevel: "warning",
+  });
+}
+/* The package is "type": "module"; this folder says its .js is a script, so Node's require reads the UMD as CommonJS. */
+writeFileSync(join(root, "dist/umd/package.json"), '{ "type": "commonjs" }\n');
 execFileSync("npx", ["tsc", "-p", "tsconfig.build.json"], { stdio: "inherit", cwd: root });
 
 /* Declarations name their neighbours as the source does, without an extension: fine for a bundler,
