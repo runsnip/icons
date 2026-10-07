@@ -5,9 +5,17 @@
   "license": "MIT",
   "author": {
     "name": "Canh Nguyen Van",
-    "url": "https://canhnguyen.vn"
+    "url": "https://canhnguyen.vn",
+    "email": "hello@canhnguyen.vn"
   },
   "homepage": "https://runsnip.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runsnip/icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/runsnip/icons/issues"
+  },
   "type": "module",
   "sideEffects": false,
   "exports": {

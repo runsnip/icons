@@ -4,8 +4,9 @@ name: Publish
 # "Workflow filename" must read exactly "publish.yml". Renaming it means changing it there too.
 #
 # Shaped after material-atomic/ecosy-next's publish.yml, with what differs for this repo:
-# - The repository is private. npm signs provenance only for public repositories, so there is no
-#   --provenance here and no read-back of dist.attestations.
+# - The repository is public (the icons are MIT), so npm signs provenance: --provenance ties the
+#   published tarball to this repository and this workflow run, and package.json's "repository"
+#   must name this repository for npm to accept it.
 # - npm, not yarn; the package's dependencies on other @runsnip packages come from the registry, so
 #   the tests run against their published builds, as a user of this package would.
 # - The first release of a package cannot come through here: npm's Trusted publishing settings exist
@@ -134,8 +135,8 @@ jobs:
         run: |
           VERSION=$(node -p "require('./package.json').version")
           case "$VERSION" in
-            *-*) npm publish --ignore-scripts --access public --tag next ;;
-            *) npm publish --ignore-scripts --access public ;;
+            *-*) npm publish --ignore-scripts --access public --provenance --tag next ;;
+            *) npm publish --ignore-scripts --access public --provenance ;;
           esac
 
       # The exit code says the CLI is satisfied; the registry is read back to say the version is
