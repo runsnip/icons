@@ -99,7 +99,17 @@
   "name": "EllipsisIcon",
   "file": "ellipsis",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#8A96A8",
+  "folderNames": [
+   "other",
+   "others",
+   "misc",
+   "miscellaneous",
+   "extra",
+   "extras",
+   "etc"
+  ]
  },
  {
   "name": "SpinnerIcon",
@@ -120,7 +130,11 @@
   "name": "SearchIcon",
   "file": "search",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#3B8FD6",
+  "extensions": [
+   "code-search"
+  ]
  },
  {
   "name": "ExternalIcon",
@@ -140,19 +154,47 @@
   "set": "ui",
   "aliases": [
    "Trash2Icon"
+  ],
+  "color": "#EC6158",
+  "folderNames": [
+   "trash",
+   ".trash",
+   "trashes",
+   ".trashes",
+   "deleted",
+   "recycle",
+   ".recycle"
   ]
  },
  {
   "name": "DownloadIcon",
   "file": "download",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#2E86DE",
+  "folderNames": [
+   "download",
+   "downloads"
+  ],
+  "fileNames": [
+   "install",
+   "install.md",
+   "install.txt",
+   "installation",
+   "installation.md",
+   "installation.txt"
+  ]
  },
  {
   "name": "UploadIcon",
   "file": "upload",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#1E88E5",
+  "folderNames": [
+   "upload",
+   "uploads"
+  ]
  },
  {
   "name": "ExternalLinkIcon",
@@ -184,7 +226,14 @@
   "name": "RefreshCwIcon",
   "file": "refresh-cw",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#43A047",
+  "folderNames": [
+   "update",
+   "updates",
+   "upgrade",
+   "upgrades"
+  ]
  },
  {
   "name": "RotateCcwIcon",
@@ -218,7 +267,23 @@
   "name": "ScissorsIcon",
   "file": "scissors",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#F0A030",
+  "fileNames": [
+   "knip.json",
+   "knip.jsonc",
+   ".knip.json",
+   ".knip.jsonc",
+   "knip.ts",
+   "knip.js",
+   "knip.config.ts",
+   "knip.config.js"
+  ],
+  "folderNames": [
+   "snippets",
+   "snippet",
+   ".snippets"
+  ]
  },
  {
   "name": "ClipboardIcon",
@@ -256,13 +321,29 @@
   "set": "ui",
   "aliases": [
    "Link2Icon"
+  ],
+  "color": "#2196F3",
+  "folderNames": [
+   "link",
+   "links"
+  ],
+  "extensions": [
+   "url",
+   "webloc",
+   "website"
   ]
  },
  {
   "name": "PaperclipIcon",
   "file": "paperclip",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#7C8EA3",
+  "folderNames": [
+   "attachment",
+   "attachments",
+   "attached"
+  ]
  },
  {
   "name": "LogOutIcon",
@@ -316,25 +397,56 @@
   "name": "InfoIcon",
   "file": "info",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#3B8EEA",
+  "fileNames": [
+   "readme",
+   "readme.*"
+  ]
  },
  {
   "name": "CircleCheckIcon",
   "file": "circle-check",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#43A047",
+  "extensions": [
+   "todo",
+   "todos"
+  ],
+  "fileNames": [
+   "todo",
+   "todo.md",
+   "todo.txt",
+   "todos.md",
+   "todo.org",
+   ".verified"
+  ]
  },
  {
   "name": "OctagonXIcon",
   "file": "octagon-x",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#E53935",
+  "folderNames": [
+   "error",
+   "errors",
+   "err",
+   "exception",
+   "exceptions"
+  ]
  },
  {
   "name": "BanIcon",
   "file": "ban",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#A1887F",
+  "folderNames": [
+   "deprecated",
+   "obsolete"
+  ]
  },
  {
   "name": "LockIcon",
@@ -342,25 +454,62 @@
   "set": "ui",
   "aliases": [
    "LockedIcon"
+  ],
+  "color": "#FFB300",
+  "extensions": [
+   "lock"
   ]
  },
  {
   "name": "KeyRoundIcon",
   "file": "key-round",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#C9A227",
+  "extensions": [
+   "key",
+   "pub",
+   "pem",
+   "asc",
+   "gpg",
+   "ppk",
+   "passwd"
+  ],
+  "fileNames": [
+   ".htpasswd"
+  ],
+  "folderNames": [
+   "key",
+   "keys",
+   ".ssh",
+   "ssh",
+   "keystore"
+  ]
  },
  {
   "name": "ShieldIcon",
   "file": "shield",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#EB6A2E",
+  "folderNames": [
+   "guard",
+   "guards",
+   "secure",
+   "security",
+   ".security",
+   "protected"
+  ]
  },
  {
   "name": "ShieldAlertIcon",
   "file": "shield-alert",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#7B78C8",
+  "fileNames": [
+   ".snyk"
+  ]
  },
  {
   "name": "ShieldPlusIcon",
@@ -374,6 +523,13 @@
   "set": "ui",
   "aliases": [
    "Sparkles"
+  ],
+  "color": "#AB47BC",
+  "folderNames": [
+   "generator",
+   "generators",
+   "generate",
+   "generated-sources"
   ]
  },
  {
@@ -388,13 +544,25 @@
   "set": "ui",
   "aliases": [
    "Lightbulb"
+  ],
+  "color": "#7B4FD6",
+  "fileNames": [
+   ".hintrc",
+   ".hintrc.json"
   ]
  },
  {
   "name": "EyeIcon",
   "file": "eye",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#FFA000",
+  "folderNames": [
+   "views",
+   "view",
+   "screens",
+   "screen"
+  ]
  },
  {
   "name": "ClockIcon",
@@ -402,19 +570,76 @@
   "set": "ui",
   "aliases": [
    "RecentsIcon"
+  ],
+  "color": "#5B8CC8",
+  "folderNames": [
+   "temp",
+   "tmp",
+   ".temp",
+   ".tmp",
+   "temporary",
+   ".wakatime"
+  ],
+  "fileNames": [
+   ".wakatime-project",
+   ".wakatime.cfg"
   ]
  },
  {
   "name": "GaugeIcon",
   "file": "gauge",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#F4511E",
+  "extensions": [
+   "bench.js",
+   "bench.jsx",
+   "bench.ts",
+   "bench.tsx",
+   "bench.mjs",
+   "bench.cjs",
+   "bench.mts",
+   "bench.cts",
+   "benchmark.js",
+   "benchmark.ts",
+   "vtl",
+   "vm"
+  ],
+  "folderNames": [
+   "benchmark",
+   "benchmarks",
+   "bench",
+   "benches"
+  ]
  },
  {
   "name": "GemIcon",
   "file": "gem",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#CC342D",
+  "fileNames": [
+   "gems.rb",
+   "gems.locked",
+   "gemfile",
+   "gemfile.lock",
+   "rakefile",
+   ".ruby-version",
+   ".ruby-gemset",
+   ".irbrc",
+   ".pryrc",
+   "guardfile",
+   "capfile"
+  ],
+  "extensions": [
+   "rb",
+   "rbw",
+   "rake",
+   "gemspec",
+   "ru",
+   "rbi",
+   "rbs"
+  ]
  },
  {
   "name": "HomeIcon",
@@ -422,6 +647,11 @@
   "set": "ui",
   "aliases": [
    "Home"
+  ],
+  "color": "#EF7B45",
+  "folderNames": [
+   "home",
+   "~"
   ]
  },
  {
@@ -434,43 +664,125 @@
   "name": "UsersIcon",
   "file": "users",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#EF6C4A",
+  "fileNames": [
+   "authors",
+   "authors.md",
+   "authors.txt",
+   "contributors",
+   "contributors.md",
+   "contributors.txt",
+   "maintainers",
+   "maintainers.md",
+   ".mailmap",
+   "codeowners",
+   "owners"
+  ],
+  "folderNames": [
+   "shared",
+   "share"
+  ]
  },
  {
   "name": "MailIcon",
   "file": "mail",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#42A5F5",
+  "extensions": [
+   "eml",
+   "emlx",
+   "mbox",
+   "msg",
+   "oft"
+  ],
+  "folderNames": [
+   "mail",
+   "mails",
+   "email",
+   "emails",
+   "smtp",
+   "mailer",
+   "mailers"
+  ]
  },
  {
   "name": "MessageSquareIcon",
   "file": "message-square",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#FFA726",
+  "folderNames": [
+   "messages",
+   "message",
+   "msg",
+   "msgs"
+  ]
  },
  {
   "name": "BotIcon",
   "file": "bot",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#8B5CF6",
+  "fileNames": [
+   ".clinerules",
+   ".clineignore",
+   "robots.txt"
+  ],
+  "folderNames": [
+   ".cline",
+   ".clinerules",
+   "robot",
+   "robots"
+  ],
+  "extensions": [
+   "robot"
+  ]
  },
  {
   "name": "BugIcon",
   "file": "bug",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#E5484D",
+  "folderNames": [
+   "debug",
+   "debugging",
+   "debugger"
+  ]
  },
  {
   "name": "BookOpenIcon",
   "file": "book-open",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#4A90D9",
+  "folderNames": [
+   "docs",
+   "doc",
+   "documentation",
+   "documentations",
+   "documents"
+  ]
  },
  {
   "name": "LibraryIcon",
   "file": "library",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#C0CA33",
+  "extensions": [
+   "lib",
+   "a"
+  ],
+  "folderNames": [
+   "lib",
+   "libs",
+   "library",
+   "libraries"
+  ]
  },
  {
   "name": "CreditCardIcon",
@@ -482,25 +794,72 @@
   "name": "TagIcon",
   "file": "tag",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#FBC02D",
+  "extensions": [
+   "label"
+  ],
+  "folderNames": [
+   "meta",
+   ".meta",
+   "metadata",
+   "meta-inf"
+  ]
  },
  {
   "name": "PackageIcon",
   "file": "package",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#B5743A",
+  "fileNames": [
+   "wally.toml",
+   "wally.lock"
+  ]
  },
  {
   "name": "ArchiveIcon",
   "file": "archive",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#A1887F",
+  "folderNames": [
+   "archive",
+   "archives",
+   "archived",
+   "old"
+  ],
+  "extensions": [
+   "zip",
+   "rar",
+   "7z",
+   "tar",
+   "gz",
+   "tgz",
+   "bz2",
+   "tbz2",
+   "xz",
+   "txz",
+   "zst",
+   "lz",
+   "lzma",
+   "lz4",
+   "z",
+   "cab",
+   "br"
+  ]
  },
  {
   "name": "MapIcon",
   "file": "map",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#E5C100",
+  "extensions": [
+   "js.map",
+   "mjs.map",
+   "cjs.map"
+  ]
  },
  {
   "name": "LifeBuoyIcon",
@@ -512,13 +871,38 @@
   "name": "WrenchIcon",
   "file": "wrench",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#78909C",
+  "folderNames": [
+   "helper",
+   "helpers",
+   "tools",
+   "tool",
+   "tooling",
+   ".tools",
+   "utils",
+   "util",
+   "utility",
+   "utilities"
+  ]
  },
  {
   "name": "PlugIcon",
   "file": "plug",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#26C6DA",
+  "folderNames": [
+   "connection",
+   "connections",
+   "conn",
+   "conns",
+   "plugin",
+   "plugins",
+   "_plugin",
+   "_plugins",
+   "plug-ins"
+  ]
  },
  {
   "name": "PlugZapIcon",
@@ -530,19 +914,43 @@
   "name": "ServerIcon",
   "file": "server",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#4E87C6",
+  "fileNames": [
+   "hosts",
+   "verdaccio.yml",
+   "verdaccio.yaml",
+   "verdaccio.json"
+  ],
+  "folderNames": [
+   "server",
+   "servers",
+   "srv",
+   ".verdaccio",
+   "verdaccio"
+  ]
  },
  {
   "name": "CloudIcon",
   "file": "cloud",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#3E8EED",
+  "fileNames": [
+   "ifanrconfig.js",
+   ".ifanrrc"
+  ]
  },
  {
   "name": "GlobeIcon",
   "file": "globe",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#1E88E5",
+  "folderNames": [
+   "global",
+   "globals"
+  ]
  },
  {
   "name": "MonitorIcon",
@@ -550,6 +958,16 @@
   "set": "ui",
   "aliases": [
    "DesktopIcon"
+  ],
+  "color": "#29B6F6",
+  "folderNames": [
+   "client",
+   "clients",
+   "frontend",
+   "frontends",
+   "front-end",
+   "web-client",
+   "desktop"
   ]
  },
  {
@@ -564,6 +982,14 @@
   "set": "ui",
   "aliases": [
    "PhoneIcon"
+  ],
+  "color": "#42A5F5",
+  "folderNames": [
+   "ios",
+   "mobile",
+   "mobiles",
+   "phone",
+   "phones"
   ]
  },
  {
@@ -572,13 +998,32 @@
   "set": "ui",
   "aliases": [
    "Terminal"
+  ],
+  "color": "#4CAF50",
+  "folderNames": [
+   "batch",
+   "batches",
+   "console",
+   "consoles",
+   "scripts",
+   "script",
+   ".scripts"
   ]
  },
  {
   "name": "CodeIcon",
   "file": "code",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#4CAF50",
+  "folderNames": [
+   "src",
+   "source",
+   "sources",
+   "srcs",
+   "_src",
+   "_source"
+  ]
  },
  {
   "name": "SettingsIcon",
@@ -586,13 +1031,45 @@
   "set": "ui",
   "aliases": [
    "SlidersHorizontalIcon"
+  ],
+  "color": "#78909C",
+  "folderNames": [
+   "config",
+   "configs",
+   ".config",
+   "conf",
+   "confs",
+   "configuration",
+   "configurations",
+   "settings",
+   "setting",
+   "cfg"
+  ],
+  "extensions": [
+   "ini",
+   "cfg",
+   "conf",
+   "properties",
+   "prefs",
+   "settings"
   ]
  },
  {
   "name": "FileTextIcon",
   "file": "file-text",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#6B9BD1",
+  "folderNames": [
+   "content",
+   "contents",
+   "_content"
+  ],
+  "extensions": [
+   "txt",
+   "text",
+   "rtf"
+  ]
  },
  {
   "name": "FilePlusIcon",
@@ -660,13 +1137,54 @@
   "name": "FolderTreeIcon",
   "file": "folder-tree",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#8D6E63",
+  "extensions": [
+   "tree"
+  ]
  },
  {
   "name": "ImageIcon",
   "file": "image",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#26A69A",
+  "extensions": [
+   "png",
+   "jpg",
+   "jpeg",
+   "jfif",
+   "gif",
+   "webp",
+   "avif",
+   "bmp",
+   "ico",
+   "icns",
+   "tif",
+   "tiff",
+   "heic",
+   "heif",
+   "jxl",
+   "jp2",
+   "tga",
+   "dds",
+   "pnm",
+   "ppm",
+   "pgm",
+   "pbm"
+  ],
+  "folderNames": [
+   "images",
+   "image",
+   "img",
+   "imgs",
+   "pictures",
+   "picture",
+   "pics",
+   "photos",
+   "screenshots",
+   "icons-png"
+  ]
  },
  {
   "name": "ImagePlayIcon",
@@ -678,13 +1196,71 @@
   "name": "MusicIcon",
   "file": "music",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#E040FB",
+  "extensions": [
+   "mp3",
+   "wav",
+   "flac",
+   "aac",
+   "m4a",
+   "ogg",
+   "oga",
+   "opus",
+   "wma",
+   "aiff",
+   "aif",
+   "aifc",
+   "alac",
+   "mid",
+   "midi",
+   "amr",
+   "ape",
+   "wv",
+   "mka",
+   "au",
+   "snd",
+   "caf",
+   "ra",
+   "weba",
+   "dsf",
+   "dff",
+   "pcm"
+  ],
+  "folderNames": [
+   "audio",
+   "audios",
+   "sound",
+   "sounds",
+   "music",
+   "musics",
+   "sfx",
+   "songs"
+  ]
  },
  {
   "name": "CaptionsIcon",
   "file": "captions",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#FFCA28",
+  "extensions": [
+   "srt",
+   "vtt",
+   "ass",
+   "ssa",
+   "sub",
+   "sbv",
+   "ttml",
+   "dfxp",
+   "smi",
+   "sami"
+  ],
+  "folderNames": [
+   "subtitles",
+   "subs",
+   "captions"
+  ]
  },
  {
   "name": "BoldIcon",
@@ -720,7 +1296,16 @@
   "name": "QuoteIcon",
   "file": "quote",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#AB47BC",
+  "extensions": [
+   "cff"
+  ],
+  "fileNames": [
+   "citation",
+   "citation.md",
+   "citation.txt"
+  ]
  },
  {
   "name": "ListIcon",
@@ -732,7 +1317,15 @@
   "name": "ListOrderedIcon",
   "file": "list-ordered",
   "set": "ui",
-  "aliases": []
+  "aliases": [],
+  "color": "#8D6E63",
+  "fileNames": [
+   "instructions.md",
+   "*.instructions.md"
+  ],
+  "folderNames": [
+   "instructions"
+  ]
  },
  {
   "name": "CodeAppIcon",
@@ -828,7 +1421,14 @@
   "name": "AppsIcon",
   "file": "apps",
   "set": "app",
-  "aliases": []
+  "aliases": [],
+  "color": "#5C6BC0",
+  "folderNames": [
+   "app",
+   "apps",
+   "application",
+   "applications"
+  ]
  },
  {
   "name": "VideoGroupIcon",
@@ -878,7 +1478,17 @@
   "name": "QueueIcon",
   "file": "queue",
   "set": "media",
-  "aliases": []
+  "aliases": [],
+  "color": "#AB47BC",
+  "folderNames": [
+   "job",
+   "jobs",
+   "queue",
+   "queues",
+   "mq",
+   "message-queue",
+   "message-queues"
+  ]
  },
  {
   "name": "ProIcon",
@@ -1010,7 +1620,37 @@
   "name": "PlayIcon",
   "file": "play",
   "set": "media",
-  "aliases": []
+  "aliases": [],
+  "color": "#EF5350",
+  "extensions": [
+   "mp4",
+   "m4v",
+   "mov",
+   "webm",
+   "mkv",
+   "avi",
+   "wmv",
+   "flv",
+   "f4v",
+   "mpg",
+   "mpeg",
+   "3gp",
+   "3g2",
+   "ogv",
+   "vob",
+   "rm",
+   "rmvb",
+   "asf"
+  ],
+  "folderNames": [
+   "video",
+   "videos",
+   "movie",
+   "movies",
+   "clips",
+   "film",
+   "films"
+  ]
  },
  {
   "name": "PauseIcon",
@@ -1028,7 +1668,14 @@
   "name": "ProjectsIcon",
   "file": "projects",
   "set": "code",
-  "aliases": []
+  "aliases": [],
+  "color": "#7986CB",
+  "folderNames": [
+   "project",
+   "projects",
+   "proj",
+   "projs"
+  ]
  },
  {
   "name": "FilesIcon",
@@ -1046,7 +1693,15 @@
   "name": "PackagesIcon",
   "file": "packages",
   "set": "code",
-  "aliases": []
+  "aliases": [],
+  "color": "#C68A3E",
+  "folderNames": [
+   "packages",
+   "pkg",
+   "pkgs",
+   "package",
+   "modules-packages"
+  ]
  },
  {
   "name": "ShareIcon",
@@ -1064,7 +1719,16 @@
   "name": "PublicIcon",
   "file": "public",
   "set": "finder",
-  "aliases": []
+  "aliases": [],
+  "color": "#039BE5",
+  "folderNames": [
+   "public",
+   "www",
+   "wwwroot",
+   "web-root",
+   "htdocs",
+   "public_html"
+  ]
  },
  {
   "name": "IconsViewIcon",
@@ -1106,7 +1770,16 @@
   "name": "CommandKeyIcon",
   "file": "command-key",
   "set": "keys",
-  "aliases": []
+  "aliases": [],
+  "color": "#78909C",
+  "extensions": [
+   "command"
+  ],
+  "folderNames": [
+   "command",
+   "commands",
+   "cmd"
+  ]
  },
  {
   "name": "ShiftKeyIcon",
@@ -1118,13 +1791,34 @@
   "name": "LayersIcon",
   "file": "layers",
   "set": "builder",
-  "aliases": []
+  "aliases": [],
+  "color": "#9C6ADE",
+  "fileNames": [
+   "contentlayer.config.*"
+  ],
+  "folderNames": [
+   ".contentlayer",
+   "resource",
+   "resources",
+   "res",
+   "stack",
+   "stacks"
+  ]
  },
  {
   "name": "BlocksIcon",
   "file": "blocks",
   "set": "builder",
-  "aliases": []
+  "aliases": [],
+  "color": "#7E57C2",
+  "folderNames": [
+   "components",
+   "component",
+   "_components",
+   "comps",
+   "features",
+   "feature"
+  ]
  },
  {
   "name": "GripIcon",
@@ -1196,7 +1890,22 @@
   "name": "TemplateIcon",
   "file": "template",
   "set": "builder",
-  "aliases": []
+  "aliases": [],
+  "color": "#C0CA33",
+  "extensions": [
+   "templ",
+   "tmpl",
+   "tpl",
+   "template"
+  ],
+  "folderNames": [
+   "template",
+   "templates",
+   ".templates",
+   "_templates",
+   "tmpl",
+   "tpl"
+  ]
  },
  {
   "name": "VersionsIcon",
@@ -1222,7 +1931,12 @@
   "name": "FormIcon",
   "file": "form",
   "set": "builder",
-  "aliases": []
+  "aliases": [],
+  "color": "#26A69A",
+  "folderNames": [
+   "form",
+   "forms"
+  ]
  },
  {
   "name": "SpreadsheetIcon",
@@ -1288,7 +2002,12 @@
   "file": "at-sign",
   "set": "collab",
   "aliases": [],
-  "description": "@"
+  "description": "@",
+  "color": "#8B5CF6",
+  "folderNames": [
+   "decorator",
+   "decorators"
+  ]
  },
  {
   "name": "BellIcon",
@@ -1386,7 +2105,16 @@
   "file": "moon",
   "set": "collab",
   "aliases": [],
-  "description": "a moon"
+  "description": "a moon",
+  "color": "#6F53F3",
+  "fileNames": [
+   ".moon.yml",
+   "moon.yml"
+  ],
+  "folderNames": [
+   ".moon",
+   "moon"
+  ]
  },
  {
   "name": "HelpCircleIcon",
@@ -1407,7 +2135,17 @@
   "file": "palette",
   "set": "collab",
   "aliases": [],
-  "description": "a painter's palette"
+  "description": "a painter's palette",
+  "color": "#FF7043",
+  "extensions": [
+   "pal",
+   "gpl",
+   "ase",
+   "aco",
+   "act",
+   "hex.pal",
+   "colors"
+  ]
  },
  {
   "name": "DropletIcon",
@@ -1442,7 +2180,26 @@
   "file": "translate",
   "set": "collab",
   "aliases": [],
-  "description": "two languages: A and 文 with an arrow"
+  "description": "two languages: A and \u6587 with an arrow",
+  "color": "#5C6BC0",
+  "fileNames": [
+   "i18n.config.*",
+   "i18next.config.*",
+   "i18next-parser.config.*"
+  ],
+  "folderNames": [
+   "i18n",
+   "l10n",
+   "locale",
+   "locales",
+   "lang",
+   "langs",
+   "language",
+   "languages",
+   "translation",
+   "translations",
+   "intl"
+  ]
  },
  {
   "name": "SendIcon",
@@ -1484,7 +2241,16 @@
   "file": "layout-grid",
   "set": "collab",
   "aliases": [],
-  "description": "a 2×2 grid of squares"
+  "description": "a 2\u00d72 grid of squares",
+  "color": "#42A5F5",
+  "folderNames": [
+   "layout",
+   "layouts",
+   "_layouts",
+   "ui",
+   "gui",
+   "user-interface"
+  ]
  },
  {
   "name": "SortIcon",
@@ -1505,7 +2271,13 @@
   "file": "table",
   "set": "insert",
   "aliases": [],
-  "description": "a 3×3 grid table"
+  "description": "a 3\u00d73 grid table",
+  "color": "#43A047",
+  "extensions": [
+   "csv",
+   "tsv",
+   "psv"
+  ]
  },
  {
   "name": "ShapesIcon",
@@ -1526,14 +2298,14 @@
   "file": "equation",
   "set": "insert",
   "aliases": [],
-  "description": "a fraction / function sign (Σ is the sum icon elsewhere): x² + y"
+  "description": "a fraction / function sign (\u03a3 is the sum icon elsewhere): x\u00b2 + y"
  },
  {
   "name": "SymbolIcon",
   "file": "symbol",
   "set": "insert",
   "aliases": [],
-  "description": "Ω"
+  "description": "\u03a9"
  },
  {
   "name": "EmojiIcon",
@@ -1596,7 +2368,14 @@
   "file": "table-of-contents",
   "set": "insert",
   "aliases": [],
-  "description": "a list with dotted leaders to numbers"
+  "description": "a list with dotted leaders to numbers",
+  "color": "#5C6BC0",
+  "extensions": [
+   "toc"
+  ],
+  "folderNames": [
+   "toc"
+  ]
  },
  {
   "name": "UnlinkIcon",
@@ -1701,14 +2480,28 @@
   "file": "export",
   "set": "insert",
   "aliases": [],
-  "description": "a box with an arrow leaving it"
+  "description": "a box with an arrow leaving it",
+  "color": "#42A5F5",
+  "folderNames": [
+   "export",
+   "exports",
+   "exported",
+   "exporter",
+   "exporters"
+  ]
  },
  {
   "name": "ImportIcon",
   "file": "import",
   "set": "insert",
   "aliases": [],
-  "description": "a box with an arrow entering it"
+  "description": "a box with an arrow entering it",
+  "color": "#7CB342",
+  "folderNames": [
+   "import",
+   "imports",
+   "imported"
+  ]
  },
  {
   "name": "FolderOpenIcon",
@@ -1771,7 +2564,36 @@
   "file": "history",
   "set": "insert",
   "aliases": [],
-  "description": "a clock with an arrow running back"
+  "description": "a clock with an arrow running back",
+  "color": "#7CB342",
+  "extensions": [
+   "bak",
+   "backup",
+   "old",
+   "orig"
+  ],
+  "folderNames": [
+   "backup",
+   "backups",
+   "bak",
+   "bkp",
+   ".changeset",
+   ".changesets",
+   "changeset",
+   "changesets",
+   "changelog",
+   "changelogs"
+  ],
+  "fileNames": [
+   "changelog",
+   "changelog.md",
+   "changelog.txt",
+   "changelog.rst",
+   "changes",
+   "changes.md",
+   "changes.txt",
+   "history.md"
+  ]
  },
  {
   "name": "SignatureIcon",
@@ -1883,7 +2705,12 @@
   "file": "form-text-field",
   "set": "pdf",
   "aliases": [],
-  "description": "a text input box with a caret"
+  "description": "a text input box with a caret",
+  "color": "#29B6F6",
+  "folderNames": [
+   "input",
+   "inputs"
+  ]
  },
  {
   "name": "FormCheckboxIcon",
@@ -2072,14 +2899,14 @@
   "file": "decimal-increase",
   "set": "sheets",
   "aliases": [],
-  "description": ".0 → .00"
+  "description": ".0 \u2192 .00"
  },
  {
   "name": "DecimalDecreaseIcon",
   "file": "decimal-decrease",
   "set": "sheets",
   "aliases": [],
-  "description": ".00 → .0"
+  "description": ".00 \u2192 .0"
  },
  {
   "name": "NumberFormatIcon",
@@ -2156,21 +2983,26 @@
   "file": "sort-ascending",
   "set": "sheets",
   "aliases": [],
-  "description": "A→Z with a down arrow"
+  "description": "A\u2192Z with a down arrow"
  },
  {
   "name": "SortDescendingIcon",
   "file": "sort-descending",
   "set": "sheets",
   "aliases": [],
-  "description": "Z→A with a down arrow"
+  "description": "Z\u2192A with a down arrow"
  },
  {
   "name": "FilterIcon",
   "file": "filter",
   "set": "sheets",
   "aliases": [],
-  "description": "a funnel"
+  "description": "a funnel",
+  "color": "#F9A825",
+  "folderNames": [
+   "filter",
+   "filters"
+  ]
  },
  {
   "name": "FilterOffIcon",
@@ -2219,14 +3051,26 @@
   "file": "function",
   "set": "sheets",
   "aliases": [],
-  "description": "fx"
+  "description": "fx",
+  "color": "#5C6BC0",
+  "folderNames": [
+   "functions",
+   "function",
+   "func",
+   "funcs",
+   "fn",
+   "fns",
+   "lambda",
+   "lambdas",
+   "cloud-functions"
+  ]
  },
  {
   "name": "SumIcon",
   "file": "sum",
   "set": "sheets",
   "aliases": [],
-  "description": "Σ"
+  "description": "\u03a3"
  },
  {
   "name": "ConditionalFormatIcon",
@@ -2345,7 +3189,16 @@
   "file": "theme",
   "set": "slides",
   "aliases": [],
-  "description": "a palette / swatches"
+  "description": "a palette / swatches",
+  "color": "#E91E63",
+  "folderNames": [
+   "theme",
+   "themes",
+   ".theme",
+   ".themes",
+   "_theme",
+   "_themes"
+  ]
  },
  {
   "name": "SlideBackgroundIcon",
@@ -2366,7 +3219,15 @@
   "file": "animation",
   "set": "slides",
   "aliases": [],
-  "description": "a shape with motion lines (a star moving)"
+  "description": "a shape with motion lines (a star moving)",
+  "color": "#EC407A",
+  "folderNames": [
+   "animation",
+   "animations",
+   "animated",
+   "motion",
+   "transitions"
+  ]
  },
  {
   "name": "PresentIcon",
@@ -2709,14 +3570,29 @@
   "file": "pilcrow",
   "set": "text",
   "aliases": [],
-  "description": "the paragraph mark ¶ (show formatting marks)"
+  "description": "the paragraph mark \u00b6 (show formatting marks)"
  },
  {
   "name": "ListChecksIcon",
   "file": "list-checks",
   "set": "text",
   "aliases": [],
-  "description": "a list whose bullets are ticks (checklist)"
+  "description": "a list whose bullets are ticks (checklist)",
+  "color": "#29BEB0",
+  "folderNames": [
+   "rules",
+   "rule",
+   "tasks",
+   "task",
+   "taskfile",
+   "taskfiles"
+  ],
+  "fileNames": [
+   "taskfile.yml",
+   "taskfile.yaml",
+   "taskfile.dist.yml",
+   "taskfile.dist.yaml"
+  ]
  },
  {
   "name": "ListNestedIcon",
@@ -2758,7 +3634,13 @@
   "file": "format-painter",
   "set": "text",
   "aliases": [],
-  "description": "a paint roller / brush (copy formatting)"
+  "description": "a paint roller / brush (copy formatting)",
+  "color": "#9C6ADE",
+  "fileNames": [
+   ".astylerc",
+   "_astylerc",
+   "astylerc"
+  ]
  },
  {
   "name": "Heading4Icon",
@@ -2807,7 +3689,14 @@
   "file": "lock-outline",
   "set": "ui",
   "aliases": [],
-  "description": "a padlock in outline, its keyhole the mark"
+  "description": "a padlock in outline, its keyhole the mark",
+  "color": "#EF5350",
+  "folderNames": [
+   "private",
+   ".private",
+   "priv",
+   "_private"
+  ]
  },
  {
   "name": "UnlockOutlineIcon",
@@ -2968,7 +3857,18 @@
   "file": "docx-brand",
   "set": "brand",
   "aliases": [],
-  "description": "RunSnip Docx: lines of text with the caret writing on, in the brand frame"
+  "description": "RunSnip Docx: lines of text with the caret writing on, in the brand frame",
+  "color": "#2B579A",
+  "extensions": [
+   "doc",
+   "docx",
+   "docm",
+   "dot",
+   "dotx",
+   "dotm",
+   "odt",
+   "wpd"
+  ]
  },
  {
   "name": "XlsxBrandIcon",
@@ -3031,7 +3931,7 @@
   "file": "resume-brand",
   "set": "brand",
   "aliases": [],
-  "description": "RunSnip Resume: a résumé, its photo the mark, in the brand frame"
+  "description": "RunSnip Resume: a r\u00e9sum\u00e9, its photo the mark, in the brand frame"
  },
  {
   "name": "CodeBrandColorIcon",
@@ -3144,5 +4044,8542 @@
   "aliases": [],
   "colorOf": "ResumeBrandIcon",
   "description": "RunSnip Resume's mark in its own colour"
+ },
+ {
+  "name": "ThreeDIcon",
+  "file": "three-d",
+  "set": "files",
+  "aliases": [],
+  "color": "#26A69A",
+  "extensions": [
+   "stl",
+   "obj",
+   "fbx",
+   "ply",
+   "3ds",
+   "dae",
+   "gltf",
+   "glb",
+   "usd",
+   "usda",
+   "usdc",
+   "usdz",
+   "3mf",
+   "x3d",
+   "wrl",
+   "vrml",
+   "dxf",
+   "step",
+   "stp",
+   "iges",
+   "igs",
+   "max",
+   "ma",
+   "mb",
+   "c4d",
+   "lwo",
+   "lws",
+   "amf",
+   "off",
+   "3dm",
+   "skp",
+   "fcstd",
+   "scad"
+  ],
+  "folderNames": [
+   "3d",
+   "3d-models",
+   "meshes"
+  ],
+  "description": "3D models and scenes"
+ },
+ {
+  "name": "AbapIcon",
+  "file": "abap",
+  "set": "files",
+  "aliases": [],
+  "color": "#1875F0",
+  "extensions": [
+   "abap",
+   "acds",
+   "asddls"
+  ],
+  "description": "ABAP source"
+ },
+ {
+  "name": "AbcIcon",
+  "file": "abc",
+  "set": "files",
+  "aliases": [],
+  "color": "#E05A4F",
+  "extensions": [
+   "abc"
+  ],
+  "description": "ABC music notation"
+ },
+ {
+  "name": "ActionscriptIcon",
+  "file": "actionscript",
+  "set": "files",
+  "aliases": [
+   "AdobeSwcIcon"
+  ],
+  "color": "#C1272D",
+  "extensions": [
+   "as",
+   "swc",
+   "swf"
+  ],
+  "description": "ActionScript source and compiled Flash libraries"
+ },
+ {
+  "name": "AdaIcon",
+  "file": "ada",
+  "set": "files",
+  "aliases": [],
+  "color": "#0A6EB8",
+  "extensions": [
+   "ada",
+   "adb",
+   "ads",
+   "ali",
+   "gpr"
+  ],
+  "description": "Ada source"
+ },
+ {
+  "name": "AdminIcon",
+  "file": "admin",
+  "set": "files",
+  "aliases": [],
+  "color": "#7A6FD0",
+  "folderNames": [
+   "admin",
+   "admins",
+   "administration",
+   "administrator",
+   "administrators",
+   "moderator",
+   "moderators",
+   "backoffice",
+   "back-office",
+   "dashboard-admin"
+  ],
+  "description": "administration"
+ },
+ {
+  "name": "IllustratorIcon",
+  "file": "illustrator",
+  "set": "files",
+  "aliases": [
+   "AdobeIllustratorIcon"
+  ],
+  "color": "#FF9A00",
+  "extensions": [
+   "ai",
+   "ait"
+  ],
+  "description": "Illustrator artwork"
+ },
+ {
+  "name": "PhotoshopIcon",
+  "file": "photoshop",
+  "set": "files",
+  "aliases": [
+   "AdobePhotoshopIcon"
+  ],
+  "color": "#31A8FF",
+  "extensions": [
+   "psd",
+   "psb",
+   "pdd",
+   "psdt"
+  ],
+  "description": "Photoshop documents"
+ },
+ {
+  "name": "AdonisIcon",
+  "file": "adonis",
+  "set": "files",
+  "aliases": [],
+  "color": "#5A45FF",
+  "fileNames": [
+   ".adonisrc.json",
+   "adonisrc.ts",
+   "ace",
+   "ace.js",
+   "adonisrc.js"
+  ],
+  "description": "AdonisJS configuration"
+ },
+ {
+  "name": "AdvplIcon",
+  "file": "advpl",
+  "set": "files",
+  "aliases": [
+   "AdvplIncludeIcon",
+   "AdvplPtmIcon",
+   "AdvplTlppIcon"
+  ],
+  "color": "#00BCD4",
+  "extensions": [
+   "prw",
+   "prx",
+   "ptm",
+   "tlpp",
+   "ch",
+   "aph",
+   "apw"
+  ],
+  "description": "AdvPL / TLPP source"
+ },
+ {
+  "name": "AutohotkeyIcon",
+  "file": "autohotkey",
+  "set": "files",
+  "aliases": [
+   "Ahk2Icon"
+  ],
+  "color": "#5BA55B",
+  "extensions": [
+   "ahk",
+   "ahk2",
+   "ah2",
+   "ahkl"
+  ],
+  "description": "AutoHotkey scripts"
+ },
+ {
+  "name": "AmplifyIcon",
+  "file": "amplify",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF9900",
+  "fileNames": [
+   "amplify.yml",
+   "amplify.yaml",
+   ".amplifyrc",
+   "amplify.json"
+  ],
+  "folderNames": [
+   "amplify"
+  ],
+  "description": "Amplify configuration"
+ },
+ {
+  "name": "AndroidIcon",
+  "file": "android",
+  "set": "files",
+  "aliases": [],
+  "color": "#3DDC84",
+  "extensions": [
+   "apk",
+   "aab",
+   "smali",
+   "dex"
+  ],
+  "fileNames": [
+   "androidmanifest.xml"
+  ],
+  "folderNames": [
+   "android",
+   "androidtest",
+   "android-test"
+  ],
+  "description": "Android"
+ },
+ {
+  "name": "AngularIcon",
+  "file": "angular",
+  "set": "files",
+  "aliases": [],
+  "color": "#DD0031",
+  "extensions": [
+   "ng.html",
+   "module.ts",
+   "routing.ts",
+   "routes.ts"
+  ],
+  "fileNames": [
+   "angular.json",
+   ".angular-cli.json",
+   "angular-cli.json",
+   "ng-package.json",
+   "ng-package.js"
+  ],
+  "folderNames": [
+   "angular",
+   ".angular",
+   "ng",
+   "ngrx-store",
+   "ngrx"
+  ],
+  "description": "Angular"
+ },
+ {
+  "name": "AngularComponentIcon",
+  "file": "angular-component",
+  "set": "files",
+  "aliases": [],
+  "color": "#1976D2",
+  "extensions": [
+   "component.ts",
+   "component.js"
+  ],
+  "description": "Angular components"
+ },
+ {
+  "name": "AngularDirectiveIcon",
+  "file": "angular-directive",
+  "set": "files",
+  "aliases": [],
+  "color": "#AB47BC",
+  "extensions": [
+   "directive.ts",
+   "directive.js"
+  ],
+  "description": "Angular directives"
+ },
+ {
+  "name": "AngularGuardIcon",
+  "file": "angular-guard",
+  "set": "files",
+  "aliases": [],
+  "color": "#43A047",
+  "extensions": [
+   "guard.ts",
+   "guard.js"
+  ],
+  "description": "Angular guards"
+ },
+ {
+  "name": "AngularInterceptorIcon",
+  "file": "angular-interceptor",
+  "set": "files",
+  "aliases": [],
+  "color": "#F57C00",
+  "extensions": [
+   "interceptor.ts",
+   "interceptor.js"
+  ],
+  "description": "Angular interceptors"
+ },
+ {
+  "name": "AngularPipeIcon",
+  "file": "angular-pipe",
+  "set": "files",
+  "aliases": [],
+  "color": "#00897B",
+  "extensions": [
+   "pipe.ts",
+   "pipe.js"
+  ],
+  "description": "Angular pipes"
+ },
+ {
+  "name": "AngularResolverIcon",
+  "file": "angular-resolver",
+  "set": "files",
+  "aliases": [],
+  "color": "#5C6BC0",
+  "extensions": [
+   "resolver.ts",
+   "resolver.js"
+  ],
+  "description": "Angular resolvers"
+ },
+ {
+  "name": "AngularServiceIcon",
+  "file": "angular-service",
+  "set": "files",
+  "aliases": [],
+  "color": "#E0A100",
+  "extensions": [
+   "service.ts",
+   "service.js"
+  ],
+  "description": "Angular services"
+ },
+ {
+  "name": "AnsibleIcon",
+  "file": "ansible",
+  "set": "files",
+  "aliases": [],
+  "color": "#EE0000",
+  "fileNames": [
+   "ansible.cfg",
+   ".ansible-lint",
+   "galaxy.yml"
+  ],
+  "folderNames": [
+   "ansible",
+   "playbooks",
+   "playbook",
+   "roles",
+   "inventory",
+   "inventories",
+   "group_vars",
+   "host_vars",
+   ".ansible"
+  ],
+  "description": "Ansible playbooks and roles"
+ },
+ {
+  "name": "AntlrIcon",
+  "file": "antlr",
+  "set": "files",
+  "aliases": [],
+  "color": "#E5383B",
+  "extensions": [
+   "g4"
+  ],
+  "description": "ANTLR grammars"
+ },
+ {
+  "name": "ApiIcon",
+  "file": "api",
+  "set": "files",
+  "aliases": [
+   "ApiblueprintIcon"
+  ],
+  "color": "#2E86DE",
+  "extensions": [
+   "apib",
+   "apiblueprint"
+  ],
+  "folderNames": [
+   "api",
+   "apis",
+   "restapi",
+   "rest",
+   "endpoints",
+   "endpoint"
+  ],
+  "description": "APIs and API descriptions"
+ },
+ {
+  "name": "ApolloIcon",
+  "file": "apollo",
+  "set": "files",
+  "aliases": [],
+  "color": "#7B5CF5",
+  "fileNames": [
+   "apollo.config.js",
+   "apollo.config.ts",
+   "apollo.config.cjs",
+   "apollo.config.mjs",
+   "apollo.config.json"
+  ],
+  "folderNames": [
+   "apollo",
+   "apollo-client",
+   "apollo-server",
+   "apollo-cache"
+  ],
+  "description": "Apollo GraphQL"
+ },
+ {
+  "name": "ApplescriptIcon",
+  "file": "applescript",
+  "set": "files",
+  "aliases": [],
+  "color": "#8A93A0",
+  "extensions": [
+   "applescript",
+   "scpt",
+   "scptd"
+  ],
+  "description": "AppleScript"
+ },
+ {
+  "name": "AppsScriptIcon",
+  "file": "apps-script",
+  "set": "files",
+  "aliases": [],
+  "color": "#4285F4",
+  "extensions": [
+   "gs"
+  ],
+  "fileNames": [
+   ".clasp.json",
+   ".claspignore",
+   "appsscript.json"
+  ],
+  "description": "Apps Script projects"
+ },
+ {
+  "name": "AppveyorIcon",
+  "file": "appveyor",
+  "set": "files",
+  "aliases": [],
+  "color": "#00B3E0",
+  "fileNames": [
+   "appveyor.yml",
+   ".appveyor.yml",
+   "appveyor.yaml",
+   ".appveyor.yaml"
+  ],
+  "description": "AppVeyor CI configuration"
+ },
+ {
+  "name": "AppwriteIcon",
+  "file": "appwrite",
+  "set": "files",
+  "aliases": [],
+  "color": "#FD366E",
+  "fileNames": [
+   "appwrite.json",
+   "appwrite.config.json"
+  ],
+  "folderNames": [
+   "appwrite",
+   ".appwrite"
+  ],
+  "description": "Appwrite"
+ },
+ {
+  "name": "ArchitectureIcon",
+  "file": "architecture",
+  "set": "files",
+  "aliases": [],
+  "color": "#5C7CFA",
+  "extensions": [
+   "archimate"
+  ],
+  "fileNames": [
+   "architecture.md",
+   "architecture.mdx",
+   "architecture.txt"
+  ],
+  "folderNames": [
+   "architecture",
+   "adr",
+   "adrs"
+  ],
+  "description": "architecture diagrams and decision records"
+ },
+ {
+  "name": "ArduinoIcon",
+  "file": "arduino",
+  "set": "files",
+  "aliases": [],
+  "color": "#00979D",
+  "extensions": [
+   "ino"
+  ],
+  "description": "Arduino sketches"
+ },
+ {
+  "name": "AsciidocIcon",
+  "file": "asciidoc",
+  "set": "files",
+  "aliases": [],
+  "color": "#E40046",
+  "extensions": [
+   "adoc",
+   "asciidoc",
+   "asciidoctor"
+  ],
+  "description": "AsciiDoc documents"
+ },
+ {
+  "name": "AssemblyIcon",
+  "file": "assembly",
+  "set": "files",
+  "aliases": [],
+  "color": "#7E57C2",
+  "extensions": [
+   "asm",
+   "s",
+   "a51",
+   "nasm",
+   "masm",
+   "z80",
+   "65816",
+   "6502",
+   "agc",
+   "nas",
+   "a65"
+  ],
+  "folderNames": [
+   "assembly",
+   "asm",
+   "assemblies"
+  ],
+  "description": "assembly source"
+ },
+ {
+  "name": "AstroIcon",
+  "file": "astro",
+  "set": "files",
+  "aliases": [
+   "AstroConfigIcon"
+  ],
+  "color": "#FF5D01",
+  "extensions": [
+   "astro"
+  ],
+  "fileNames": [
+   "astro.config.js",
+   "astro.config.mjs",
+   "astro.config.cjs",
+   "astro.config.ts",
+   "astro.config.mts",
+   "astro.config.cts"
+  ],
+  "folderNames": [
+   "astro",
+   ".astro"
+  ],
+  "description": "Astro"
+ },
+ {
+  "name": "AtomIcon",
+  "file": "atom",
+  "set": "files",
+  "aliases": [],
+  "color": "#5FB57D",
+  "folderNames": [
+   ".atom",
+   "atom"
+  ],
+  "description": "Atom editor settings"
+ },
+ {
+  "name": "AureliaIcon",
+  "file": "aurelia",
+  "set": "files",
+  "aliases": [],
+  "color": "#ED2B88",
+  "fileNames": [
+   "aurelia.json"
+  ],
+  "folderNames": [
+   "aurelia",
+   "aurelia_project"
+  ],
+  "description": "Aurelia"
+ },
+ {
+  "name": "AutorunIcon",
+  "file": "autorun",
+  "set": "files",
+  "aliases": [
+   "AutoIcon"
+  ],
+  "color": "#8BC34A",
+  "fileNames": [
+   "autorun.inf",
+   "autoexec.bat"
+  ],
+  "description": "files run automatically"
+ },
+ {
+  "name": "AutoitIcon",
+  "file": "autoit",
+  "set": "files",
+  "aliases": [],
+  "color": "#5D83AC",
+  "extensions": [
+   "au3",
+   "a3x"
+  ],
+  "description": "AutoIt scripts"
+ },
+ {
+  "name": "CloudConfigIcon",
+  "file": "cloud-config",
+  "set": "files",
+  "aliases": [
+   "AwsIcon"
+  ],
+  "color": "#FF9900",
+  "folderNames": [
+   ".aws",
+   "aws"
+  ],
+  "description": "a cloud provider's configuration"
+ },
+ {
+  "name": "AzureIcon",
+  "file": "azure",
+  "set": "files",
+  "aliases": [],
+  "color": "#0089D6",
+  "extensions": [
+   "azcli"
+  ],
+  "fileNames": [
+   "azure.yaml",
+   "azure.yml",
+   "local.settings.json",
+   "azuredeploy.json",
+   "azuredeploy.parameters.json"
+  ],
+  "folderNames": [
+   ".azure",
+   "azure"
+  ],
+  "description": "Azure"
+ },
+ {
+  "name": "AzurePipelinesIcon",
+  "file": "azure-pipelines",
+  "set": "files",
+  "aliases": [],
+  "color": "#2560E0",
+  "fileNames": [
+   "azure-pipelines.yml",
+   "azure-pipelines.yaml",
+   ".azure-pipelines.yml",
+   ".azure-pipelines.yaml",
+   "azure-pipelines-main.yml",
+   "azure-pipelines-main.yaml"
+  ],
+  "folderNames": [
+   ".azure-pipelines",
+   "azure-pipelines",
+   ".azuredevops",
+   "azuredevops"
+  ],
+  "description": "Azure Pipelines"
+ },
+ {
+  "name": "BabelIcon",
+  "file": "babel",
+  "set": "files",
+  "aliases": [],
+  "color": "#E0B000",
+  "fileNames": [
+   ".babelrc",
+   ".babelrc.json",
+   ".babelrc.js",
+   ".babelrc.cjs",
+   ".babelrc.mjs",
+   ".babelrc.cts",
+   ".babelrc.mts",
+   "babel.config.js",
+   "babel.config.json",
+   "babel.config.cjs",
+   "babel.config.mjs",
+   "babel.config.ts",
+   "babel.config.cts",
+   "babel.config.mts",
+   ".babelignore",
+   "babel-plugin-macros.config.js"
+  ],
+  "description": "Babel configuration"
+ },
+ {
+  "name": "BallerinaIcon",
+  "file": "ballerina",
+  "set": "files",
+  "aliases": [],
+  "color": "#20B6B0",
+  "extensions": [
+   "bal",
+   "balx"
+  ],
+  "fileNames": [
+   "ballerina.toml"
+  ],
+  "description": "Ballerina source"
+ },
+ {
+  "name": "BaseIcon",
+  "file": "base",
+  "set": "files",
+  "aliases": [],
+  "color": "#78909C",
+  "folderNames": [
+   "base",
+   "bases",
+   "foundation",
+   "foundations"
+  ],
+  "description": "base, core and foundation code"
+ },
+ {
+  "name": "BashlyIcon",
+  "file": "bashly",
+  "set": "files",
+  "aliases": [
+   "BashlySettingsIcon",
+   "BashlyStringsIcon"
+  ],
+  "color": "#4E9A06",
+  "fileNames": [
+   "bashly.yml",
+   "bashly.yaml",
+   "bashly-settings.yml",
+   "bashly-settings.yaml",
+   "bashly-strings.yml",
+   "bashly-strings.yaml"
+  ],
+  "description": "bashly command-line definitions"
+ },
+ {
+  "name": "BazelIcon",
+  "file": "bazel",
+  "set": "files",
+  "aliases": [],
+  "color": "#43A047",
+  "extensions": [
+   "bzl",
+   "bazel"
+  ],
+  "fileNames": [
+   "build.bazel",
+   "workspace",
+   "workspace.bazel",
+   "workspace.bzlmod",
+   "module.bazel",
+   "module.bazel.lock",
+   ".bazelrc",
+   ".bazelversion",
+   ".bazelignore",
+   ".bazelproject",
+   "bazel.rc"
+  ],
+  "description": "Bazel builds"
+ },
+ {
+  "name": "BeancountIcon",
+  "file": "beancount",
+  "set": "files",
+  "aliases": [],
+  "color": "#D4A017",
+  "extensions": [
+   "beancount",
+   "bean"
+  ],
+  "description": "Beancount ledgers"
+ },
+ {
+  "name": "BibliographyIcon",
+  "file": "bibliography",
+  "set": "files",
+  "aliases": [
+   "BbxIcon",
+   "BibtexStyleIcon"
+  ],
+  "color": "#C77C3B",
+  "extensions": [
+   "bib",
+   "bibtex",
+   "bbx",
+   "cbx",
+   "lbx",
+   "dbx",
+   "bst",
+   "bcf",
+   "ris",
+   "enw",
+   "csl",
+   "bbl"
+  ],
+  "folderNames": [
+   "bibliography",
+   "bibliographies",
+   "references",
+   "citations"
+  ],
+  "description": "bibliographies and their styles"
+ },
+ {
+  "name": "BicepIcon",
+  "file": "bicep",
+  "set": "files",
+  "aliases": [],
+  "color": "#519ABA",
+  "extensions": [
+   "bicep",
+   "bicepparam"
+  ],
+  "fileNames": [
+   "bicepconfig.json"
+  ],
+  "folderNames": [
+   "bicep"
+  ],
+  "description": "Bicep templates"
+ },
+ {
+  "name": "BiomeIcon",
+  "file": "biome",
+  "set": "files",
+  "aliases": [],
+  "color": "#60A5FA",
+  "fileNames": [
+   "biome.json",
+   "biome.jsonc",
+   ".biome.json",
+   ".biome.jsonc"
+  ],
+  "description": "Biome configuration"
+ },
+ {
+  "name": "CiIcon",
+  "file": "ci",
+  "set": "files",
+  "aliases": [],
+  "color": "#10B981",
+  "fileNames": [
+   "bitbucket-pipelines.yml",
+   "bitbucket-pipelines.yaml"
+  ],
+  "folderNames": [
+   "ci",
+   ".ci",
+   "pipelines",
+   ".pipelines",
+   "pipeline"
+  ],
+  "description": "continuous integration pipelines (also Bitbucket Pipelines)"
+ },
+ {
+  "name": "BithoundIcon",
+  "file": "bithound",
+  "set": "files",
+  "aliases": [],
+  "color": "#E04E39",
+  "fileNames": [
+   ".bithoundrc"
+  ],
+  "description": "bitHound config"
+ },
+ {
+  "name": "BlenderIcon",
+  "file": "blender",
+  "set": "files",
+  "aliases": [],
+  "color": "#F5792A",
+  "extensions": [
+   "blend",
+   "blend1",
+   "blend2"
+  ],
+  "folderNames": [
+   "blender",
+   ".blender"
+  ],
+  "description": "Blender scene"
+ },
+ {
+  "name": "BlinkIcon",
+  "file": "blink",
+  "set": "files",
+  "aliases": [],
+  "color": "#F57C00",
+  "extensions": [
+   "blink"
+  ],
+  "description": "Blink source"
+ },
+ {
+  "name": "BlitzIcon",
+  "file": "blitz",
+  "set": "files",
+  "aliases": [],
+  "color": "#6700EB",
+  "fileNames": [
+   "blitz.config.*",
+   ".blitz.config.compiled.js"
+  ],
+  "description": "Blitz.js config"
+ },
+ {
+  "name": "BlocIcon",
+  "file": "bloc",
+  "set": "files",
+  "aliases": [],
+  "color": "#42A5F5",
+  "folderNames": [
+   "bloc",
+   "blocs",
+   "cubit",
+   "cubits"
+  ],
+  "description": "BLoC / Cubit state"
+ },
+ {
+  "name": "BowerIcon",
+  "file": "bower",
+  "set": "files",
+  "aliases": [],
+  "color": "#EF5734",
+  "fileNames": [
+   "bower.json",
+   ".bowerrc"
+  ],
+  "folderNames": [
+   "bower_components"
+  ],
+  "description": "Bower packages"
+ },
+ {
+  "name": "BrainfuckIcon",
+  "file": "brainfuck",
+  "set": "files",
+  "aliases": [],
+  "color": "#C2185B",
+  "extensions": [
+   "bf",
+   "b"
+  ],
+  "description": "Brainfuck source"
+ },
+ {
+  "name": "BrowserslistIcon",
+  "file": "browserslist",
+  "set": "files",
+  "aliases": [],
+  "color": "#E8A317",
+  "fileNames": [
+   "browserslist",
+   ".browserslistrc"
+  ],
+  "description": "Browserslist targets"
+ },
+ {
+  "name": "BrunoIcon",
+  "file": "bruno",
+  "set": "files",
+  "aliases": [],
+  "color": "#F4AA41",
+  "extensions": [
+   "bru"
+  ],
+  "fileNames": [
+   "bruno.json"
+  ],
+  "description": "Bruno API collection"
+ },
+ {
+  "name": "BuckIcon",
+  "file": "buck",
+  "set": "files",
+  "aliases": [],
+  "color": "#2E7EBF",
+  "fileNames": [
+   "buck",
+   ".buckconfig",
+   ".buckversion"
+  ],
+  "description": "Buck build"
+ },
+ {
+  "name": "BucklescriptIcon",
+  "file": "bucklescript",
+  "set": "files",
+  "aliases": [],
+  "color": "#DD4B39",
+  "description": "BuckleScript config"
+ },
+ {
+  "name": "BuildkiteIcon",
+  "file": "buildkite",
+  "set": "files",
+  "aliases": [],
+  "color": "#14CC80",
+  "fileNames": [
+   "buildkite.yml",
+   "buildkite.yaml"
+  ],
+  "folderNames": [
+   ".buildkite",
+   "buildkite"
+  ],
+  "description": "Buildkite pipelines"
+ },
+ {
+  "name": "BunIcon",
+  "file": "bun",
+  "set": "files",
+  "aliases": [],
+  "color": "#F472B6",
+  "fileNames": [
+   "bun.lockb",
+   "bun.lock",
+   "bunfig.toml"
+  ],
+  "description": "Bun config and lockfile"
+ },
+ {
+  "name": "CIcon",
+  "file": "c",
+  "set": "files",
+  "aliases": [],
+  "color": "#5C7CBA",
+  "extensions": [
+   "c",
+   "i"
+  ],
+  "description": "C source"
+ },
+ {
+  "name": "C3Icon",
+  "file": "c3",
+  "set": "files",
+  "aliases": [],
+  "color": "#3F7AC9",
+  "extensions": [
+   "c3",
+   "c3i",
+   "c3t"
+  ],
+  "description": "C3 source"
+ },
+ {
+  "name": "CabalIcon",
+  "file": "cabal",
+  "set": "files",
+  "aliases": [],
+  "color": "#5E5086",
+  "extensions": [
+   "cabal"
+  ],
+  "fileNames": [
+   "cabal.project",
+   "cabal.project.freeze",
+   "cabal.project.local"
+  ],
+  "description": "Cabal package"
+ },
+ {
+  "name": "CaddyIcon",
+  "file": "caddy",
+  "set": "files",
+  "aliases": [],
+  "color": "#22B638",
+  "extensions": [
+   "caddyfile"
+  ],
+  "fileNames": [
+   "caddyfile",
+   "caddyfile.*"
+  ],
+  "description": "Caddyfile"
+ },
+ {
+  "name": "CadenceIcon",
+  "file": "cadence",
+  "set": "files",
+  "aliases": [],
+  "color": "#00C46A",
+  "extensions": [
+   "cdc"
+  ],
+  "description": "Cadence smart contract"
+ },
+ {
+  "name": "CairoIcon",
+  "file": "cairo",
+  "set": "files",
+  "aliases": [],
+  "color": "#FE4A3C",
+  "extensions": [
+   "cairo"
+  ],
+  "description": "Cairo source"
+ },
+ {
+  "name": "CakeIcon",
+  "file": "cake",
+  "set": "files",
+  "aliases": [],
+  "color": "#E57373",
+  "extensions": [
+   "cake"
+  ],
+  "description": "Cake build script"
+ },
+ {
+  "name": "CapacitorIcon",
+  "file": "capacitor",
+  "set": "files",
+  "aliases": [],
+  "color": "#119EFF",
+  "fileNames": [
+   "capacitor.config.*"
+  ],
+  "description": "Capacitor config"
+ },
+ {
+  "name": "CapnpIcon",
+  "file": "capnp",
+  "set": "files",
+  "aliases": [],
+  "color": "#D84315",
+  "extensions": [
+   "capnp"
+  ],
+  "description": "Cap'n Proto schema"
+ },
+ {
+  "name": "CartIcon",
+  "file": "cart",
+  "set": "files",
+  "aliases": [],
+  "color": "#FB8C00",
+  "folderNames": [
+   "cart",
+   "carts",
+   "shopping-cart",
+   "shopping",
+   "shop",
+   "basket"
+  ],
+  "description": "cart / shop"
+ },
+ {
+  "name": "CbxIcon",
+  "file": "cbx",
+  "set": "files",
+  "aliases": [],
+  "color": "#F4511E",
+  "extensions": [
+   "cbr",
+   "cbz",
+   "cb7",
+   "cbt",
+   "cba"
+  ],
+  "description": "comic book archive"
+ },
+ {
+  "name": "CdsIcon",
+  "file": "cds",
+  "set": "files",
+  "aliases": [],
+  "color": "#0A6ED1",
+  "extensions": [
+   "cds"
+  ],
+  "fileNames": [
+   ".cdsrc.json",
+   ".cdsrc-private.json"
+  ],
+  "description": "SAP CDS model"
+ },
+ {
+  "name": "CertificateIcon",
+  "file": "certificate",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF8F00",
+  "extensions": [
+   "cer",
+   "cert",
+   "crt",
+   "der",
+   "csr",
+   "p7b",
+   "p7c"
+  ],
+  "description": "certificate"
+ },
+ {
+  "name": "ChessIcon",
+  "file": "chess",
+  "set": "files",
+  "aliases": [],
+  "color": "#A1887F",
+  "extensions": [
+   "pgn",
+   "fen"
+  ],
+  "description": "chess game notation"
+ },
+ {
+  "name": "ChromaticIcon",
+  "file": "chromatic",
+  "set": "files",
+  "aliases": [],
+  "color": "#FC521F",
+  "fileNames": [
+   "chromatic.config.json"
+  ],
+  "description": "Chromatic config"
+ },
+ {
+  "name": "ChromeIcon",
+  "file": "chrome",
+  "set": "files",
+  "aliases": [],
+  "color": "#4285F4",
+  "extensions": [
+   "crx"
+  ],
+  "description": "Chrome extension"
+ },
+ {
+  "name": "CircleciIcon",
+  "file": "circleci",
+  "set": "files",
+  "aliases": [],
+  "color": "#6B7B8C",
+  "fileNames": [
+   "circle.yml"
+  ],
+  "folderNames": [
+   ".circleci",
+   "circleci"
+  ],
+  "description": "CircleCI config"
+ },
+ {
+  "name": "ClangdIcon",
+  "file": "clangd",
+  "set": "files",
+  "aliases": [],
+  "color": "#5B8DD6",
+  "fileNames": [
+   ".clangd",
+   ".clang-format",
+   "_clang-format",
+   ".clang-tidy",
+   ".clang-format-ignore",
+   "compile_commands.json"
+  ],
+  "description": "clang tooling config"
+ },
+ {
+  "name": "ClassIcon",
+  "file": "class",
+  "set": "files",
+  "aliases": [],
+  "color": "#EF6C00",
+  "folderNames": [
+   "class",
+   "classes",
+   "_class",
+   "_classes"
+  ],
+  "description": "classes"
+ },
+ {
+  "name": "ClaudeIcon",
+  "file": "claude",
+  "set": "files",
+  "aliases": [],
+  "color": "#D97757",
+  "fileNames": [
+   "claude.md",
+   "claude.local.md"
+  ],
+  "folderNames": [
+   ".claude",
+   "claude"
+  ],
+  "description": "Claude config"
+ },
+ {
+  "name": "ClojureIcon",
+  "file": "clojure",
+  "set": "files",
+  "aliases": [],
+  "color": "#63B132",
+  "extensions": [
+   "clj",
+   "cljs",
+   "cljc",
+   "cljx",
+   "edn"
+  ],
+  "fileNames": [
+   "deps.edn",
+   "project.clj",
+   "shadow-cljs.edn",
+   "bb.edn"
+  ],
+  "description": "Clojure source"
+ },
+ {
+  "name": "CloudFunctionsIcon",
+  "file": "cloud-functions",
+  "set": "files",
+  "aliases": [],
+  "color": "#FFA726",
+  "folderNames": [
+   "cloudfunctions",
+   "cloud-function",
+   "edge-functions",
+   "workers",
+   ".cloudflare",
+   "cloudflare"
+  ],
+  "description": "cloud / edge functions (also Cloudflare)"
+ },
+ {
+  "name": "CloudfoundryIcon",
+  "file": "cloudfoundry",
+  "set": "files",
+  "aliases": [],
+  "color": "#0C9ED5",
+  "fileNames": [
+   ".cfignore"
+  ],
+  "description": "Cloud Foundry config"
+ },
+ {
+  "name": "ClusterIcon",
+  "file": "cluster",
+  "set": "files",
+  "aliases": [],
+  "color": "#26A69A",
+  "folderNames": [
+   "cluster",
+   "clusters"
+  ],
+  "description": "clusters"
+ },
+ {
+  "name": "CmakeIcon",
+  "file": "cmake",
+  "set": "files",
+  "aliases": [],
+  "color": "#3E8FD8",
+  "extensions": [
+   "cmake"
+  ],
+  "fileNames": [
+   "cmakelists.txt",
+   "cmakecache.txt",
+   "cmakepresets.json",
+   "cmakeuserpresets.json"
+  ],
+  "description": "CMake build"
+ },
+ {
+  "name": "CoalaIcon",
+  "file": "coala",
+  "set": "files",
+  "aliases": [],
+  "color": "#4CAF50",
+  "fileNames": [
+   ".coafile",
+   ".coarc"
+  ],
+  "description": "coala config"
+ },
+ {
+  "name": "CobolIcon",
+  "file": "cobol",
+  "set": "files",
+  "aliases": [],
+  "color": "#2C7BC4",
+  "extensions": [
+   "cob",
+   "cbl",
+   "cpy",
+   "cobol",
+   "ccp"
+  ],
+  "folderNames": [
+   "cobol"
+  ],
+  "description": "COBOL source"
+ },
+ {
+  "name": "CoconutIcon",
+  "file": "coconut",
+  "set": "files",
+  "aliases": [],
+  "color": "#B07A4F",
+  "extensions": [
+   "coco",
+   "coc",
+   "coconut"
+  ],
+  "description": "Coconut source"
+ },
+ {
+  "name": "CodeClimateIcon",
+  "file": "code-climate",
+  "set": "files",
+  "aliases": [],
+  "color": "#34A890",
+  "fileNames": [
+   ".codeclimate.yml",
+   ".codeclimate.yaml",
+   ".codeclimate.json"
+  ],
+  "description": "Code Climate config"
+ },
+ {
+  "name": "CodecovIcon",
+  "file": "codecov",
+  "set": "files",
+  "aliases": [],
+  "color": "#F01F7A",
+  "fileNames": [
+   "codecov.yml",
+   ".codecov.yml",
+   "codecov.yaml",
+   ".codecov.yaml",
+   "codecov.json"
+  ],
+  "description": "Codecov config"
+ },
+ {
+  "name": "CoderabbitAiIcon",
+  "file": "coderabbit-ai",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF570A",
+  "fileNames": [
+   ".coderabbit.yml",
+   ".coderabbit.yaml"
+  ],
+  "description": "CodeRabbit config"
+ },
+ {
+  "name": "CoffeeIcon",
+  "file": "coffee",
+  "set": "files",
+  "aliases": [],
+  "color": "#A0703D",
+  "extensions": [
+   "coffee",
+   "cson",
+   "iced",
+   "litcoffee"
+  ],
+  "description": "CoffeeScript source"
+ },
+ {
+  "name": "ColdfusionIcon",
+  "file": "coldfusion",
+  "set": "files",
+  "aliases": [],
+  "color": "#2BA8E0",
+  "extensions": [
+   "cfml",
+   "cfm",
+   "cfc"
+  ],
+  "description": "ColdFusion source"
+ },
+ {
+  "name": "ColoredpetrinetsIcon",
+  "file": "coloredpetrinets",
+  "set": "files",
+  "aliases": [],
+  "color": "#E53935",
+  "extensions": [
+   "cpn"
+  ],
+  "description": "Coloured Petri net"
+ },
+ {
+  "name": "CommitizenIcon",
+  "file": "commitizen",
+  "set": "files",
+  "aliases": [],
+  "color": "#3FA9F5",
+  "fileNames": [
+   ".czrc",
+   ".cz.json",
+   ".cz.toml",
+   ".cz.yaml",
+   ".cz.yml",
+   "cz.json",
+   "cz.toml",
+   "cz.yaml",
+   "cz.yml"
+  ],
+  "description": "Commitizen config"
+ },
+ {
+  "name": "CommitlintIcon",
+  "file": "commitlint",
+  "set": "files",
+  "aliases": [],
+  "color": "#00897B",
+  "fileNames": [
+   "commitlint.config.*",
+   ".commitlintrc",
+   ".commitlintrc.*",
+   ".commitlint.yaml",
+   ".commitlint.yml"
+  ],
+  "description": "commitlint config"
+ },
+ {
+  "name": "ConcourseIcon",
+  "file": "concourse",
+  "set": "files",
+  "aliases": [],
+  "color": "#3398DC",
+  "fileNames": [
+   ".concourse.yml",
+   ".concourse.yaml",
+   "concourse.yml",
+   "concourse.yaml"
+  ],
+  "description": "Concourse pipeline"
+ },
+ {
+  "name": "ConductIcon",
+  "file": "conduct",
+  "set": "files",
+  "aliases": [],
+  "color": "#EC407A",
+  "fileNames": [
+   "code_of_conduct.md",
+   "code_of_conduct",
+   "code_of_conduct.txt",
+   "code-of-conduct.md",
+   "conduct.md"
+  ],
+  "description": "code of conduct"
+ },
+ {
+  "name": "ConstantIcon",
+  "file": "constant",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF7043",
+  "folderNames": [
+   "constant",
+   "constants",
+   "const",
+   "consts",
+   "_constants"
+  ],
+  "description": "constants"
+ },
+ {
+  "name": "ContainerIcon",
+  "file": "container",
+  "set": "files",
+  "aliases": [],
+  "color": "#1E88E5",
+  "folderNames": [
+   "container",
+   "containers"
+  ],
+  "description": "containers"
+ },
+ {
+  "name": "ContextIcon",
+  "file": "context",
+  "set": "files",
+  "aliases": [],
+  "color": "#00ACC1",
+  "extensions": [
+   "context.ts",
+   "context.tsx",
+   "context.js",
+   "context.jsx"
+  ],
+  "folderNames": [
+   "context",
+   "contexts",
+   "ctx"
+  ],
+  "description": "context providers"
+ },
+ {
+  "name": "ContractIcon",
+  "file": "contract",
+  "set": "files",
+  "aliases": [],
+  "color": "#C48B4A",
+  "folderNames": [
+   "contract",
+   "contracts"
+  ],
+  "description": "contracts"
+ },
+ {
+  "name": "ContributingIcon",
+  "file": "contributing",
+  "set": "files",
+  "aliases": [],
+  "color": "#43A047",
+  "fileNames": [
+   "contributing.md",
+   "contributing",
+   "contributing.txt",
+   "contributing.rst"
+  ],
+  "description": "contributing guide"
+ },
+ {
+  "name": "ControllerIcon",
+  "file": "controller",
+  "set": "files",
+  "aliases": [],
+  "color": "#FFB300",
+  "extensions": [
+   "controller.ts",
+   "controller.js"
+  ],
+  "folderNames": [
+   "controller",
+   "controllers",
+   "_controllers"
+  ],
+  "description": "controllers"
+ },
+ {
+  "name": "CopilotIcon",
+  "file": "copilot",
+  "set": "files",
+  "aliases": [],
+  "color": "#8957E5",
+  "fileNames": [
+   "copilot-instructions.md",
+   ".copilotignore"
+  ],
+  "description": "Copilot instructions"
+ },
+ {
+  "name": "CoreIcon",
+  "file": "core",
+  "set": "files",
+  "aliases": [],
+  "color": "#5C6BC0",
+  "folderNames": [
+   "core",
+   "_core"
+  ],
+  "description": "core modules"
+ },
+ {
+  "name": "CoverageIcon",
+  "file": "coverage",
+  "set": "files",
+  "aliases": [],
+  "color": "#2E9E6E",
+  "folderNames": [
+   "coverage",
+   ".coverage",
+   ".nyc_output",
+   "htmlcov",
+   "lcov-report",
+   "coverage-report"
+  ],
+  "description": "test coverage reports"
+ },
+ {
+  "name": "CppIcon",
+  "file": "cpp",
+  "set": "files",
+  "aliases": [],
+  "color": "#00599C",
+  "extensions": [
+   "cpp",
+   "cc",
+   "cxx",
+   "c++",
+   "cp",
+   "ipp",
+   "tpp",
+   "inl",
+   "ixx",
+   "cppm",
+   "mpp"
+  ],
+  "description": "C++ source and headers"
+ },
+ {
+  "name": "CracoIcon",
+  "file": "craco",
+  "set": "files",
+  "aliases": [],
+  "color": "#26A0DA",
+  "fileNames": [
+   "craco.config.*",
+   ".cracorc",
+   ".cracorc.*"
+  ],
+  "description": "CRACO (Create React App Configuration Override) config"
+ },
+ {
+  "name": "CreditsIcon",
+  "file": "credits",
+  "set": "files",
+  "aliases": [],
+  "color": "#8E6CC9",
+  "fileNames": [
+   "credits",
+   "credits.*"
+  ],
+  "description": "credits"
+ },
+ {
+  "name": "CrystalIcon",
+  "file": "crystal",
+  "set": "files",
+  "aliases": [],
+  "color": "#7A8590",
+  "extensions": [
+   "cr",
+   "ecr"
+  ],
+  "fileNames": [
+   "shard.yml",
+   "shard.lock"
+  ],
+  "description": "Crystal source"
+ },
+ {
+  "name": "CsharpIcon",
+  "file": "csharp",
+  "set": "files",
+  "aliases": [],
+  "color": "#9B4F96",
+  "extensions": [
+   "cs",
+   "csx"
+  ],
+  "description": "C# source"
+ },
+ {
+  "name": "CssIcon",
+  "file": "css",
+  "set": "files",
+  "aliases": [],
+  "color": "#663399",
+  "extensions": [
+   "css",
+   "css.map"
+  ],
+  "folderNames": [
+   "css",
+   "stylesheet",
+   "stylesheets",
+   "style",
+   "styles"
+  ],
+  "description": "CSS stylesheets and their source maps"
+ },
+ {
+  "name": "CucumberIcon",
+  "file": "cucumber",
+  "set": "files",
+  "aliases": [],
+  "color": "#23D96C",
+  "extensions": [
+   "feature"
+  ],
+  "description": "Cucumber feature files"
+ },
+ {
+  "name": "CudaIcon",
+  "file": "cuda",
+  "set": "files",
+  "aliases": [],
+  "color": "#76B900",
+  "extensions": [
+   "cu",
+   "cuh"
+  ],
+  "description": "CUDA source"
+ },
+ {
+  "name": "CueIcon",
+  "file": "cue",
+  "set": "files",
+  "aliases": [],
+  "color": "#3E7CE0",
+  "extensions": [
+   "cue"
+  ],
+  "folderNames": [
+   "cue.mod"
+  ],
+  "description": "CUE configuration"
+ },
+ {
+  "name": "CursorEditorIcon",
+  "file": "cursor-editor",
+  "set": "files",
+  "aliases": [],
+  "color": "#7D8794",
+  "fileNames": [
+   ".cursorrules",
+   ".cursorignore",
+   ".cursorindexingignore"
+  ],
+  "folderNames": [
+   ".cursor"
+  ],
+  "description": "Cursor editor rules and settings"
+ },
+ {
+  "name": "CustomIcon",
+  "file": "custom",
+  "set": "files",
+  "aliases": [],
+  "color": "#E67E22",
+  "folderNames": [
+   "custom",
+   "customs",
+   "customization",
+   "customizations",
+   "customisation",
+   "customisations"
+  ],
+  "description": "customisations"
+ },
+ {
+  "name": "CypressIcon",
+  "file": "cypress",
+  "set": "files",
+  "aliases": [],
+  "color": "#3FAE8A",
+  "extensions": [
+   "cy.ts",
+   "cy.js",
+   "cy.tsx",
+   "cy.jsx",
+   "cy.mjs",
+   "cy.cjs"
+  ],
+  "fileNames": [
+   "cypress.config.*",
+   "cypress.json",
+   "cypress.env.json"
+  ],
+  "folderNames": [
+   "cypress",
+   ".cypress"
+  ],
+  "description": "Cypress end-to-end tests"
+ },
+ {
+  "name": "DIcon",
+  "file": "d",
+  "set": "files",
+  "aliases": [],
+  "color": "#B03931",
+  "extensions": [
+   "d",
+   "di"
+  ],
+  "fileNames": [
+   "dub.json",
+   "dub.sdl",
+   "dub.selections.json"
+  ],
+  "description": "D source"
+ },
+ {
+  "name": "DartIcon",
+  "file": "dart",
+  "set": "files",
+  "aliases": [],
+  "color": "#0175C2",
+  "extensions": [
+   "dart",
+   "g.dart",
+   "freezed.dart",
+   "gr.dart",
+   "mocks.dart",
+   "config.dart"
+  ],
+  "folderNames": [
+   "dart",
+   ".dart_tool"
+  ],
+  "description": "Dart source, generated Dart too"
+ },
+ {
+  "name": "DatabaseIcon",
+  "file": "database",
+  "set": "files",
+  "aliases": [],
+  "color": "#E8A33D",
+  "extensions": [
+   "db",
+   "db3",
+   "sqlite",
+   "sqlite3",
+   "sql",
+   "pgsql",
+   "psql",
+   "mysql",
+   "mdb",
+   "accdb",
+   "dbf",
+   "mdf",
+   "frm",
+   "ibd"
+  ],
+  "folderNames": [
+   "database",
+   "databases",
+   "db",
+   "sql",
+   "dal",
+   "data-access",
+   "data-access-layer",
+   "dao",
+   "daos"
+  ],
+  "description": "databases, SQL and the data access layer"
+ },
+ {
+  "name": "CodeAnalysisIcon",
+  "file": "code-analysis",
+  "set": "files",
+  "aliases": [],
+  "color": "#2CB67D",
+  "fileNames": [
+   ".deepsource.toml"
+  ],
+  "description": "static code analysis config (DeepSource)"
+ },
+ {
+  "name": "DeltaIcon",
+  "file": "delta",
+  "set": "files",
+  "aliases": [],
+  "color": "#E07A2F",
+  "folderNames": [
+   "delta",
+   "deltas"
+  ],
+  "description": "deltas"
+ },
+ {
+  "name": "DenizenscriptIcon",
+  "file": "denizenscript",
+  "set": "files",
+  "aliases": [],
+  "color": "#D4A72C",
+  "extensions": [
+   "dsc"
+  ],
+  "description": "DenizenScript"
+ },
+ {
+  "name": "DenoIcon",
+  "file": "deno",
+  "set": "files",
+  "aliases": [],
+  "color": "#3AB57D",
+  "fileNames": [
+   "deno.json",
+   "deno.jsonc",
+   "deno.lock"
+  ],
+  "description": "Deno config"
+ },
+ {
+  "name": "DependenciesUpdateIcon",
+  "file": "dependencies-update",
+  "set": "files",
+  "aliases": [],
+  "color": "#025E8C",
+  "fileNames": [
+   "dependabot.yml",
+   "dependabot.yaml"
+  ],
+  "description": "automated dependency updates (Dependabot)"
+ },
+ {
+  "name": "DevelopmentIcon",
+  "file": "development",
+  "set": "files",
+  "aliases": [],
+  "color": "#2F9E8F",
+  "folderNames": [
+   "dev",
+   "devel",
+   "development"
+  ],
+  "description": "development"
+ },
+ {
+  "name": "DhallIcon",
+  "file": "dhall",
+  "set": "files",
+  "aliases": [],
+  "color": "#7A5EBB",
+  "extensions": [
+   "dhall"
+  ],
+  "description": "Dhall configuration"
+ },
+ {
+  "name": "DiffIcon",
+  "file": "diff",
+  "set": "files",
+  "aliases": [],
+  "color": "#4CAF50",
+  "extensions": [
+   "diff",
+   "patch",
+   "rej"
+  ],
+  "description": "diffs and patches"
+ },
+ {
+  "name": "DinophpIcon",
+  "file": "dinophp",
+  "set": "files",
+  "aliases": [],
+  "color": "#7A86B8",
+  "description": "DinoPHP"
+ },
+ {
+  "name": "DirectiveIcon",
+  "file": "directive",
+  "set": "files",
+  "aliases": [],
+  "color": "#D9534F",
+  "folderNames": [
+   "directive",
+   "directives"
+  ],
+  "description": "directives"
+ },
+ {
+  "name": "DiscIcon",
+  "file": "disc",
+  "set": "files",
+  "aliases": [],
+  "color": "#78909C",
+  "extensions": [
+   "iso",
+   "img",
+   "qcow",
+   "dmg"
+  ],
+  "description": "disc and disk images"
+ },
+ {
+  "name": "DistIcon",
+  "file": "dist",
+  "set": "files",
+  "aliases": [],
+  "color": "#E5794B",
+  "folderNames": [
+   "dist",
+   ".dist",
+   "dists",
+   "out",
+   "output",
+   "outputs",
+   "build",
+   ".build",
+   "builds",
+   "release",
+   "releases",
+   "distribution"
+  ],
+  "description": "build output"
+ },
+ {
+  "name": "DjangoIcon",
+  "file": "django",
+  "set": "files",
+  "aliases": [],
+  "color": "#44B78B",
+  "extensions": [
+   "djt",
+   "djhtml",
+   "django"
+  ],
+  "description": "Django templates"
+ },
+ {
+  "name": "DllIcon",
+  "file": "dll",
+  "set": "files",
+  "aliases": [],
+  "color": "#7986CB",
+  "extensions": [
+   "dll",
+   "so",
+   "dylib",
+   "ocx",
+   "xll"
+  ],
+  "description": "dynamic libraries"
+ },
+ {
+  "name": "DockerIcon",
+  "file": "docker",
+  "set": "files",
+  "aliases": [],
+  "color": "#2496ED",
+  "extensions": [
+   "dockerfile",
+   "dockerignore"
+  ],
+  "fileNames": [
+   "dockerfile",
+   "dockerfile.*",
+   "*.dockerfile",
+   "containerfile",
+   "containerfile.*",
+   ".dockerignore",
+   "docker-compose.yml",
+   "docker-compose.yaml",
+   "docker-compose.*.yml",
+   "docker-compose.*.yaml",
+   "compose.yml",
+   "compose.yaml",
+   "compose.*.yml",
+   "compose.*.yaml"
+  ],
+  "folderNames": [
+   "docker",
+   ".docker",
+   "dockerfiles"
+  ],
+  "description": "Docker"
+ },
+ {
+  "name": "DoctexIcon",
+  "file": "doctex",
+  "set": "files",
+  "aliases": [],
+  "color": "#4E9A6A",
+  "extensions": [
+   "dtx",
+   "ins"
+  ],
+  "description": "documented LaTeX sources and their installers"
+ },
+ {
+  "name": "DotjsIcon",
+  "file": "dotjs",
+  "set": "files",
+  "aliases": [],
+  "color": "#5A9BD5",
+  "extensions": [
+   "jst",
+   "def"
+  ],
+  "description": "doT.js templates"
+ },
+ {
+  "name": "DrawioIcon",
+  "file": "drawio",
+  "set": "files",
+  "aliases": [],
+  "color": "#F08705",
+  "extensions": [
+   "drawio",
+   "dio",
+   "drawio.svg",
+   "drawio.png",
+   "dio.svg",
+   "dio.png"
+  ],
+  "description": "draw.io diagrams"
+ },
+ {
+  "name": "DrizzleIcon",
+  "file": "drizzle",
+  "set": "files",
+  "aliases": [],
+  "color": "#9DBF2E",
+  "fileNames": [
+   "drizzle.config.*"
+  ],
+  "folderNames": [
+   "drizzle",
+   ".drizzle"
+  ],
+  "description": "Drizzle ORM"
+ },
+ {
+  "name": "DroneIcon",
+  "file": "drone",
+  "set": "files",
+  "aliases": [],
+  "color": "#2185D0",
+  "fileNames": [
+   ".drone.yml",
+   ".drone.yaml",
+   ".drone.star",
+   ".drone.jsonnet"
+  ],
+  "description": "Drone CI pipelines"
+ },
+ {
+  "name": "DucIcon",
+  "file": "duc",
+  "set": "files",
+  "aliases": [],
+  "color": "#6A5ACD",
+  "extensions": [
+   "duc"
+  ],
+  "description": "DUC CAD drawings"
+ },
+ {
+  "name": "DumpIcon",
+  "file": "dump",
+  "set": "files",
+  "aliases": [],
+  "color": "#8D6E63",
+  "folderNames": [
+   "dump",
+   "dumps"
+  ],
+  "description": "dumps"
+ },
+ {
+  "name": "DuneIcon",
+  "file": "dune",
+  "set": "files",
+  "aliases": [],
+  "color": "#D6A13B",
+  "fileNames": [
+   "dune",
+   "dune-project",
+   "dune-workspace",
+   "dune.inc"
+  ],
+  "description": "Dune (OCaml) build files"
+ },
+ {
+  "name": "EdgeIcon",
+  "file": "edge",
+  "set": "files",
+  "aliases": [],
+  "color": "#5A45FF",
+  "extensions": [
+   "edge"
+  ],
+  "description": "Edge templates"
+ },
+ {
+  "name": "EditorconfigIcon",
+  "file": "editorconfig",
+  "set": "files",
+  "aliases": [],
+  "color": "#6E7E8F",
+  "fileNames": [
+   ".editorconfig"
+  ],
+  "description": "EditorConfig"
+ },
+ {
+  "name": "EjsIcon",
+  "file": "ejs",
+  "set": "files",
+  "aliases": [],
+  "color": "#90A959",
+  "extensions": [
+   "ejs"
+  ],
+  "description": "EJS templates"
+ },
+ {
+  "name": "ElementIcon",
+  "file": "element",
+  "set": "files",
+  "aliases": [],
+  "color": "#26C6DA",
+  "folderNames": [
+   "element",
+   "elements"
+  ],
+  "description": "elements"
+ },
+ {
+  "name": "ElixirIcon",
+  "file": "elixir",
+  "set": "files",
+  "aliases": [],
+  "color": "#7E57A6",
+  "extensions": [
+   "ex",
+   "exs",
+   "eex",
+   "heex",
+   "leex"
+  ],
+  "fileNames": [
+   "mix.lock"
+  ],
+  "description": "Elixir source"
+ },
+ {
+  "name": "ElmIcon",
+  "file": "elm",
+  "set": "files",
+  "aliases": [],
+  "color": "#1293D8",
+  "extensions": [
+   "elm"
+  ],
+  "fileNames": [
+   "elm.json",
+   "elm-package.json"
+  ],
+  "description": "Elm source"
+ },
+ {
+  "name": "EmberIcon",
+  "file": "ember",
+  "set": "files",
+  "aliases": [],
+  "color": "#E04E39",
+  "fileNames": [
+   ".ember-cli",
+   ".ember-cli.js",
+   "ember-cli-build.js"
+  ],
+  "description": "Ember.js"
+ },
+ {
+  "name": "EnumIcon",
+  "file": "enum",
+  "set": "files",
+  "aliases": [],
+  "color": "#7CB342",
+  "folderNames": [
+   "enum",
+   "enums",
+   "enumeration",
+   "enumerations"
+  ],
+  "description": "enumerations"
+ },
+ {
+  "name": "EnvironmentIcon",
+  "file": "environment",
+  "set": "files",
+  "aliases": [],
+  "color": "#66BB6A",
+  "folderNames": [
+   "environment",
+   "environments",
+   "env",
+   "envs"
+  ],
+  "description": "environments"
+ },
+ {
+  "name": "EpubIcon",
+  "file": "epub",
+  "set": "files",
+  "aliases": [],
+  "color": "#86B918",
+  "extensions": [
+   "epub"
+  ],
+  "description": "EPUB e-books"
+ },
+ {
+  "name": "ErlangIcon",
+  "file": "erlang",
+  "set": "files",
+  "aliases": [],
+  "color": "#A90533",
+  "extensions": [
+   "erl",
+   "hrl",
+   "escript",
+   "app.src"
+  ],
+  "fileNames": [
+   "rebar.config",
+   "rebar.lock",
+   "emakefile"
+  ],
+  "description": "Erlang source"
+ },
+ {
+  "name": "EsbuildIcon",
+  "file": "esbuild",
+  "set": "files",
+  "aliases": [],
+  "color": "#F2B705",
+  "fileNames": [
+   "esbuild.config.*",
+   "esbuild.js",
+   "esbuild.mjs",
+   "esbuild.cjs",
+   "esbuild.ts"
+  ],
+  "description": "esbuild config"
+ },
+ {
+  "name": "EslintIcon",
+  "file": "eslint",
+  "set": "files",
+  "aliases": [],
+  "color": "#4B32C3",
+  "fileNames": [
+   ".eslintrc",
+   ".eslintrc.*",
+   "eslint.config.*",
+   ".eslintignore",
+   ".eslintcache"
+  ],
+  "folderNames": [
+   "eslint",
+   ".eslint",
+   "eslint-rules"
+  ],
+  "description": "ESLint"
+ },
+ {
+  "name": "EventIcon",
+  "file": "event",
+  "set": "files",
+  "aliases": [],
+  "color": "#F9A825",
+  "folderNames": [
+   "event",
+   "events"
+  ],
+  "description": "events"
+ },
+ {
+  "name": "ExamplesIcon",
+  "file": "examples",
+  "set": "files",
+  "aliases": [],
+  "color": "#43A5BE",
+  "folderNames": [
+   "example",
+   "examples",
+   "sample",
+   "samples"
+  ],
+  "description": "examples and samples"
+ },
+ {
+  "name": "ExcalidrawIcon",
+  "file": "excalidraw",
+  "set": "files",
+  "aliases": [],
+  "color": "#6965DB",
+  "extensions": [
+   "excalidraw",
+   "excalidraw.json",
+   "excalidraw.svg",
+   "excalidraw.png"
+  ],
+  "description": "Excalidraw drawings"
+ },
+ {
+  "name": "ExeIcon",
+  "file": "exe",
+  "set": "files",
+  "aliases": [],
+  "color": "#5C7CFA",
+  "extensions": [
+   "exe",
+   "msi",
+   "msix",
+   "appx",
+   "appxbundle"
+  ],
+  "description": "Windows executables and installers"
+ },
+ {
+  "name": "ExpoIcon",
+  "file": "expo",
+  "set": "files",
+  "aliases": [],
+  "color": "#4630EB",
+  "fileNames": [
+   "eas.json",
+   "expo-env.d.ts"
+  ],
+  "folderNames": [
+   ".expo",
+   ".expo-shared",
+   ".eas",
+   "eas"
+  ],
+  "description": "Expo and EAS"
+ },
+ {
+  "name": "FastlaneIcon",
+  "file": "fastlane",
+  "set": "files",
+  "aliases": [],
+  "color": "#2EB86E",
+  "fileNames": [
+   "fastfile",
+   "appfile",
+   "matchfile",
+   "deliverfile",
+   "snapfile",
+   "gymfile",
+   "scanfile",
+   "pluginfile",
+   "precheckfile",
+   "screengrabfile"
+  ],
+  "folderNames": [
+   "fastlane"
+  ],
+  "description": "fastlane mobile release automation"
+ },
+ {
+  "name": "FaviconIcon",
+  "file": "favicon",
+  "set": "files",
+  "aliases": [],
+  "color": "#F5A623",
+  "fileNames": [
+   "favicon.ico",
+   "favicon.png",
+   "favicon.svg",
+   "favicon.*",
+   "favicon-*",
+   "apple-touch-icon.png",
+   "apple-touch-icon-precomposed.png",
+   "site.webmanifest",
+   "browserconfig.xml"
+  ],
+  "folderNames": [
+   "favicon",
+   "favicons"
+  ],
+  "description": "favicons and app icons"
+ },
+ {
+  "name": "FigmaIcon",
+  "file": "figma",
+  "set": "files",
+  "aliases": [],
+  "color": "#F24E1E",
+  "extensions": [
+   "fig",
+   "jam"
+  ],
+  "description": "Figma design files"
+ },
+ {
+  "name": "FirebaseIcon",
+  "file": "firebase",
+  "set": "files",
+  "aliases": [],
+  "color": "#FFA000",
+  "fileNames": [
+   "firebase.json",
+   ".firebaserc",
+   "firestore.rules",
+   "firestore.indexes.json",
+   "storage.rules",
+   "database.rules.json",
+   "database.rules.bolt",
+   "firebase.config.*",
+   "apphosting.yaml",
+   "google-services.json",
+   "googleservice-info.plist"
+  ],
+  "folderNames": [
+   "firebase",
+   ".firebase",
+   "firestore"
+  ],
+  "description": "Firebase and Firestore config"
+ },
+ {
+  "name": "FlashIcon",
+  "file": "flash",
+  "set": "files",
+  "aliases": [],
+  "color": "#E8312F",
+  "extensions": [
+   "fla",
+   "xfl"
+  ],
+  "description": "Adobe Flash movies and sources"
+ },
+ {
+  "name": "FlowIcon",
+  "file": "flow",
+  "set": "files",
+  "aliases": [],
+  "color": "#E8BD36",
+  "extensions": [
+   "js.flow"
+  ],
+  "fileNames": [
+   ".flowconfig"
+  ],
+  "folderNames": [
+   "flow-typed"
+  ],
+  "description": "Flow type checker"
+ },
+ {
+  "name": "FlutterIcon",
+  "file": "flutter",
+  "set": "files",
+  "aliases": [],
+  "color": "#027DFD",
+  "fileNames": [
+   ".flutter-plugins",
+   ".flutter-plugins-dependencies"
+  ],
+  "folderNames": [
+   "flutter"
+  ],
+  "description": "Flutter"
+ },
+ {
+  "name": "FontIcon",
+  "file": "font",
+  "set": "files",
+  "aliases": [],
+  "color": "#E5534B",
+  "extensions": [
+   "ttf",
+   "otf",
+   "woff",
+   "woff2",
+   "eot",
+   "ttc",
+   "pfb",
+   "pfm",
+   "pfa",
+   "afm",
+   "fnt",
+   "fon",
+   "sfd",
+   "bdf",
+   "pcf",
+   "ufo",
+   "glyphs"
+  ],
+  "folderNames": [
+   "font",
+   "fonts",
+   "typeface",
+   "typefaces"
+  ],
+  "description": "fonts"
+ },
+ {
+  "name": "ForgejoIcon",
+  "file": "forgejo",
+  "set": "files",
+  "aliases": [],
+  "color": "#FB923C",
+  "folderNames": [
+   ".forgejo"
+  ],
+  "description": "Forgejo repository config"
+ },
+ {
+  "name": "ForthIcon",
+  "file": "forth",
+  "set": "files",
+  "aliases": [],
+  "color": "#C0504D",
+  "extensions": [
+   "4th",
+   "fth",
+   "forth"
+  ],
+  "description": "Forth source"
+ },
+ {
+  "name": "FortranIcon",
+  "file": "fortran",
+  "set": "files",
+  "aliases": [],
+  "color": "#734F96",
+  "extensions": [
+   "f",
+   "for",
+   "ftn",
+   "fpp",
+   "f77",
+   "f90",
+   "f95",
+   "f03",
+   "f08",
+   "f18"
+  ],
+  "description": "Fortran source"
+ },
+ {
+  "name": "FoxproIcon",
+  "file": "foxpro",
+  "set": "files",
+  "aliases": [],
+  "color": "#E8803A",
+  "extensions": [
+   "prg",
+   "fxp",
+   "scx",
+   "sct",
+   "vcx",
+   "vct",
+   "pjx",
+   "pjt",
+   "mnx",
+   "frx",
+   "frt",
+   "qpr",
+   "spr",
+   "mpr"
+  ],
+  "description": "Visual FoxPro sources"
+ },
+ {
+  "name": "FreemarkerIcon",
+  "file": "freemarker",
+  "set": "files",
+  "aliases": [],
+  "color": "#326CAC",
+  "extensions": [
+   "ftl",
+   "ftlh",
+   "ftlx"
+  ],
+  "description": "FreeMarker templates"
+ },
+ {
+  "name": "FsharpIcon",
+  "file": "fsharp",
+  "set": "files",
+  "aliases": [],
+  "color": "#378BBA",
+  "extensions": [
+   "fs",
+   "fsi",
+   "fsx",
+   "fsscript"
+  ],
+  "description": "F# source"
+ },
+ {
+  "name": "FuseboxIcon",
+  "file": "fusebox",
+  "set": "files",
+  "aliases": [],
+  "color": "#F59E0B",
+  "fileNames": [
+   "fuse.js",
+   "fuse.ts"
+  ],
+  "description": "FuseBox bundler config"
+ },
+ {
+  "name": "GamemakerIcon",
+  "file": "gamemaker",
+  "set": "files",
+  "aliases": [],
+  "color": "#6CC24A",
+  "extensions": [
+   "yy",
+   "yyp",
+   "yymp",
+   "yymps",
+   "gml",
+   "gmx",
+   "gmk",
+   "gm81",
+   "gmz"
+  ],
+  "folderNames": [
+   "gamemaker"
+  ],
+  "description": "GameMaker projects"
+ },
+ {
+  "name": "GardenIcon",
+  "file": "garden",
+  "set": "files",
+  "aliases": [],
+  "color": "#10B981",
+  "extensions": [
+   "garden.yml",
+   "garden.yaml"
+  ],
+  "description": "Garden dev automation"
+ },
+ {
+  "name": "GatsbyIcon",
+  "file": "gatsby",
+  "set": "files",
+  "aliases": [],
+  "color": "#8A4BAF",
+  "fileNames": [
+   "gatsby-config.*",
+   "gatsby-node.*",
+   "gatsby-browser.*",
+   "gatsby-ssr.*"
+  ],
+  "description": "Gatsby config"
+ },
+ {
+  "name": "GcpIcon",
+  "file": "gcp",
+  "set": "files",
+  "aliases": [],
+  "color": "#4285F4",
+  "fileNames": [
+   ".gcloudignore",
+   "cloudbuild.yaml",
+   "cloudbuild.yml",
+   "cloudbuild.json"
+  ],
+  "description": "Google Cloud config"
+ },
+ {
+  "name": "GeminiIcon",
+  "file": "gemini",
+  "set": "files",
+  "aliases": [],
+  "color": "#8E6CC8",
+  "extensions": [
+   "gmi",
+   "gemini"
+  ],
+  "description": "Gemini protocol text"
+ },
+ {
+  "name": "GeminiAiIcon",
+  "file": "gemini-ai",
+  "set": "files",
+  "aliases": [],
+  "color": "#4796E3",
+  "fileNames": [
+   "gemini.md",
+   ".geminiignore"
+  ],
+  "folderNames": [
+   ".gemini"
+  ],
+  "description": "Gemini AI agent config"
+ },
+ {
+  "name": "WorkflowIcon",
+  "file": "workflow",
+  "set": "files",
+  "aliases": [],
+  "color": "#2088FF",
+  "fileNames": [
+   "action.yml",
+   "action.yaml"
+  ],
+  "folderNames": [
+   ".github/workflows",
+   ".gitea/workflows",
+   ".forgejo/workflows",
+   "workflows"
+  ],
+  "description": "CI workflows"
+ },
+ {
+  "name": "GitIcon",
+  "file": "git",
+  "set": "files",
+  "aliases": [],
+  "color": "#F05032",
+  "fileNames": [
+   ".gitignore",
+   ".gitattributes",
+   ".gitmodules",
+   ".gitkeep",
+   ".git-blame-ignore-revs",
+   ".gitconfig",
+   ".gitmessage",
+   ".gitreview"
+  ],
+  "folderNames": [
+   ".git",
+   "git",
+   "submodules",
+   ".submodules"
+  ],
+  "description": "Git"
+ },
+ {
+  "name": "GiteaIcon",
+  "file": "gitea",
+  "set": "files",
+  "aliases": [],
+  "color": "#609926",
+  "folderNames": [
+   ".gitea"
+  ],
+  "description": "Gitea repository config"
+ },
+ {
+  "name": "RepoConfigIcon",
+  "file": "repo-config",
+  "set": "files",
+  "aliases": [],
+  "color": "#6E7781",
+  "folderNames": [
+   ".github",
+   ".gitlab"
+  ],
+  "description": "repository host config (.github, .gitlab)"
+ },
+ {
+  "name": "SponsorIcon",
+  "file": "sponsor",
+  "set": "files",
+  "aliases": [],
+  "color": "#DB61A2",
+  "fileNames": [
+   "funding.yml",
+   "funding.yaml",
+   "funding.json"
+  ],
+  "description": "sponsorship and funding"
+ },
+ {
+  "name": "CloudWorkspaceIcon",
+  "file": "cloud-workspace",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF8A00",
+  "fileNames": [
+   ".gitpod.yml",
+   ".gitpod.yaml",
+   ".gitpod.dockerfile"
+  ],
+  "description": "cloud development workspace config (Gitpod)"
+ },
+ {
+  "name": "GleamIcon",
+  "file": "gleam",
+  "set": "files",
+  "aliases": [],
+  "color": "#E879C9",
+  "extensions": [
+   "gleam"
+  ],
+  "fileNames": [
+   "gleam.toml"
+  ],
+  "description": "Gleam source"
+ },
+ {
+  "name": "GnuplotIcon",
+  "file": "gnuplot",
+  "set": "files",
+  "aliases": [],
+  "color": "#4F8A10",
+  "extensions": [
+   "gp",
+   "gnu",
+   "gnuplot",
+   "plt",
+   "gpi"
+  ],
+  "description": "gnuplot scripts"
+ },
+ {
+  "name": "GoIcon",
+  "file": "go",
+  "set": "files",
+  "aliases": [],
+  "color": "#00ADD8",
+  "extensions": [
+   "go"
+  ],
+  "folderNames": [
+   "go"
+  ],
+  "description": "Go source"
+ },
+ {
+  "name": "GoModIcon",
+  "file": "go-mod",
+  "set": "files",
+  "aliases": [],
+  "color": "#5DC9E2",
+  "fileNames": [
+   "go.mod",
+   "go.sum",
+   "go.work",
+   "go.work.sum"
+  ],
+  "description": "Go modules"
+ },
+ {
+  "name": "GodotIcon",
+  "file": "godot",
+  "set": "files",
+  "aliases": [],
+  "color": "#478CBF",
+  "extensions": [
+   "gd",
+   "gdshader",
+   "gdshaderinc",
+   "gdextension",
+   "gdns",
+   "gdnlib",
+   "godot",
+   "tscn",
+   "tres",
+   "scn",
+   "escn"
+  ],
+  "folderNames": [
+   "godot",
+   ".godot"
+  ],
+  "description": "Godot projects"
+ },
+ {
+  "name": "GradleIcon",
+  "file": "gradle",
+  "set": "files",
+  "aliases": [],
+  "color": "#209BC4",
+  "extensions": [
+   "gradle",
+   "gradle.kts"
+  ],
+  "fileNames": [
+   "gradlew",
+   "gradlew.bat",
+   "gradle.properties",
+   "gradle-wrapper.properties",
+   "gradle-wrapper.jar"
+  ],
+  "folderNames": [
+   "gradle",
+   ".gradle"
+  ],
+  "description": "Gradle builds"
+ },
+ {
+  "name": "TelemetryIcon",
+  "file": "telemetry",
+  "set": "files",
+  "aliases": [],
+  "color": "#F46800",
+  "extensions": [
+   "alloy"
+  ],
+  "description": "Grafana Alloy telemetry config"
+ },
+ {
+  "name": "GrainIcon",
+  "file": "grain",
+  "set": "files",
+  "aliases": [],
+  "color": "#E8A33D",
+  "extensions": [
+   "gr"
+  ],
+  "description": "Grain source"
+ },
+ {
+  "name": "GraphqlIcon",
+  "file": "graphql",
+  "set": "files",
+  "aliases": [],
+  "color": "#E10098",
+  "extensions": [
+   "graphql",
+   "gql",
+   "graphqls"
+  ],
+  "fileNames": [
+   ".graphqlrc",
+   ".graphqlrc.*",
+   "graphql.config.*",
+   ".graphqlconfig",
+   "graphcool.yml",
+   ".graphcoolrc"
+  ],
+  "folderNames": [
+   "graphql",
+   "gql",
+   "graphcool"
+  ],
+  "description": "GraphQL schemas and queries"
+ },
+ {
+  "name": "GridsomeIcon",
+  "file": "gridsome",
+  "set": "files",
+  "aliases": [],
+  "color": "#00A672",
+  "fileNames": [
+   "gridsome.config.*",
+   "gridsome.server.*",
+   "gridsome.client.*"
+  ],
+  "description": "Gridsome config"
+ },
+ {
+  "name": "GroovyIcon",
+  "file": "groovy",
+  "set": "files",
+  "aliases": [],
+  "color": "#4298B8",
+  "extensions": [
+   "groovy",
+   "gvy",
+   "gy",
+   "gsh"
+  ],
+  "description": "Groovy source"
+ },
+ {
+  "name": "GruntIcon",
+  "file": "grunt",
+  "set": "files",
+  "aliases": [],
+  "color": "#E48E00",
+  "fileNames": [
+   "gruntfile.js",
+   "gruntfile.cjs",
+   "gruntfile.ts",
+   "gruntfile.coffee",
+   "gruntfile.babel.js"
+  ],
+  "description": "Grunt task runner"
+ },
+ {
+  "name": "GulpIcon",
+  "file": "gulp",
+  "set": "files",
+  "aliases": [],
+  "color": "#CF4647",
+  "fileNames": [
+   "gulpfile.js",
+   "gulpfile.cjs",
+   "gulpfile.mjs",
+   "gulpfile.ts",
+   "gulpfile.babel.js",
+   "gulpfile.esm.js",
+   "gulpfile.coffee"
+  ],
+  "folderNames": [
+   "gulp",
+   "gulp-tasks",
+   "gulpfile.js"
+  ],
+  "description": "gulp task runner"
+ },
+ {
+  "name": "HIcon",
+  "file": "h",
+  "set": "files",
+  "aliases": [],
+  "color": "#A074C4",
+  "extensions": [
+   "h"
+  ],
+  "description": "C headers"
+ },
+ {
+  "name": "HackIcon",
+  "file": "hack",
+  "set": "files",
+  "aliases": [],
+  "color": "#5C8DBC",
+  "extensions": [
+   "hack",
+   "hhi"
+  ],
+  "fileNames": [
+   ".hhconfig"
+  ],
+  "description": "Hack source"
+ },
+ {
+  "name": "HadolintIcon",
+  "file": "hadolint",
+  "set": "files",
+  "aliases": [],
+  "color": "#3A8FD9",
+  "fileNames": [
+   ".hadolint.yaml",
+   ".hadolint.yml",
+   "hadolint.yaml"
+  ],
+  "description": "hadolint config"
+ },
+ {
+  "name": "HamlIcon",
+  "file": "haml",
+  "set": "files",
+  "aliases": [],
+  "color": "#B5A13B",
+  "extensions": [
+   "haml"
+  ],
+  "description": "Haml templates"
+ },
+ {
+  "name": "HandlebarsIcon",
+  "file": "handlebars",
+  "set": "files",
+  "aliases": [],
+  "color": "#F0772B",
+  "extensions": [
+   "hbs",
+   "handlebars"
+  ],
+  "description": "Handlebars templates"
+ },
+ {
+  "name": "VisualDiffIcon",
+  "file": "visual-diff",
+  "set": "files",
+  "aliases": [],
+  "color": "#6E56CF",
+  "fileNames": [
+   ".happo.js",
+   ".happo.cjs",
+   ".happo.mjs",
+   ".happo.ts",
+   "happo.config.*"
+  ],
+  "description": "Happo visual regression config"
+ },
+ {
+  "name": "HardhatIcon",
+  "file": "hardhat",
+  "set": "files",
+  "aliases": [],
+  "color": "#E0B32B",
+  "fileNames": [
+   "hardhat.config.*"
+  ],
+  "description": "Hardhat config"
+ },
+ {
+  "name": "HaskellIcon",
+  "file": "haskell",
+  "set": "files",
+  "aliases": [],
+  "color": "#7D6AB0",
+  "extensions": [
+   "hs",
+   "lhs",
+   "hsc",
+   "hs-boot",
+   "hsig"
+  ],
+  "description": "Haskell source"
+ },
+ {
+  "name": "HaxeIcon",
+  "file": "haxe",
+  "set": "files",
+  "aliases": [],
+  "color": "#EA8220",
+  "extensions": [
+   "hx",
+   "hxml",
+   "hxsl"
+  ],
+  "description": "Haxe source"
+ },
+ {
+  "name": "HclIcon",
+  "file": "hcl",
+  "set": "files",
+  "aliases": [],
+  "color": "#8D5ACF",
+  "extensions": [
+   "hcl"
+  ],
+  "description": "HashiCorp configuration language"
+ },
+ {
+  "name": "HelmIcon",
+  "file": "helm",
+  "set": "files",
+  "aliases": [],
+  "color": "#2E6DC6",
+  "fileNames": [
+   "chart.yaml",
+   "chart.lock",
+   ".helmignore",
+   "helmfile.yaml",
+   "helmfile.yml",
+   "values.yaml",
+   "values.yml"
+  ],
+  "folderNames": [
+   "helm",
+   ".helm",
+   "helm-charts"
+  ],
+  "description": "Helm charts"
+ },
+ {
+  "name": "ProcfileIcon",
+  "file": "procfile",
+  "set": "files",
+  "aliases": [],
+  "color": "#8B67B5",
+  "fileNames": [
+   "procfile",
+   "procfile.*"
+  ],
+  "description": "Procfile process definitions"
+ },
+ {
+  "name": "HexIcon",
+  "file": "hex",
+  "set": "files",
+  "aliases": [],
+  "color": "#9575CD",
+  "extensions": [
+   "hex",
+   "ihex",
+   "ihx"
+  ],
+  "description": "Intel HEX binary images"
+ },
+ {
+  "name": "HipIcon",
+  "file": "hip",
+  "set": "files",
+  "aliases": [],
+  "color": "#E5383B",
+  "extensions": [
+   "hip"
+  ],
+  "description": "HIP GPU source"
+ },
+ {
+  "name": "HistoireIcon",
+  "file": "histoire",
+  "set": "files",
+  "aliases": [],
+  "color": "#22C55E",
+  "extensions": [
+   "story.vue",
+   "story.svelte"
+  ],
+  "fileNames": [
+   "histoire.config.*",
+   ".histoire.*"
+  ],
+  "description": "Histoire stories"
+ },
+ {
+  "name": "HjsonIcon",
+  "file": "hjson",
+  "set": "files",
+  "aliases": [],
+  "color": "#E5A00D",
+  "extensions": [
+   "hjson"
+  ],
+  "description": "Hjson"
+ },
+ {
+  "name": "HookIcon",
+  "file": "hook",
+  "set": "files",
+  "aliases": [],
+  "color": "#7E57C2",
+  "folderNames": [
+   "hook",
+   "hooks"
+  ],
+  "description": "Hooks"
+ },
+ {
+  "name": "HorusecIcon",
+  "file": "horusec",
+  "set": "files",
+  "aliases": [],
+  "color": "#F4C430",
+  "fileNames": [
+   "horusec-config.json"
+  ],
+  "description": "Horusec"
+ },
+ {
+  "name": "HppIcon",
+  "file": "hpp",
+  "set": "files",
+  "aliases": [],
+  "color": "#9C5FB7",
+  "extensions": [
+   "hpp",
+   "hh",
+   "hxx",
+   "h++"
+  ],
+  "description": "C++ header"
+ },
+ {
+  "name": "HtmlIcon",
+  "file": "html",
+  "set": "files",
+  "aliases": [],
+  "color": "#E44D26",
+  "extensions": [
+   "html",
+   "htm",
+   "xhtml",
+   "html_vm",
+   "asp"
+  ],
+  "description": "HTML"
+ },
+ {
+  "name": "HttpIcon",
+  "file": "http",
+  "set": "files",
+  "aliases": [],
+  "color": "#26A8E0",
+  "extensions": [
+   "http",
+   "rest"
+  ],
+  "description": "HTTP requests"
+ },
+ {
+  "name": "HuffIcon",
+  "file": "huff",
+  "set": "files",
+  "aliases": [],
+  "color": "#4A4A9F",
+  "extensions": [
+   "huff"
+  ],
+  "description": "Huff"
+ },
+ {
+  "name": "HurlIcon",
+  "file": "hurl",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF0288",
+  "extensions": [
+   "hurl"
+  ],
+  "description": "Hurl"
+ },
+ {
+  "name": "HuskyIcon",
+  "file": "husky",
+  "set": "files",
+  "aliases": [],
+  "color": "#5B9BD5",
+  "fileNames": [
+   ".huskyrc",
+   ".huskyrc.json",
+   ".huskyrc.js",
+   ".huskyrc.cjs",
+   ".huskyrc.yaml",
+   ".huskyrc.yml",
+   "husky.config.js",
+   "husky.config.cjs"
+  ],
+  "folderNames": [
+   ".husky",
+   "husky"
+  ],
+  "description": "Husky"
+ },
+ {
+  "name": "IdrisIcon",
+  "file": "idris",
+  "set": "files",
+  "aliases": [],
+  "color": "#C2185B",
+  "extensions": [
+   "idr",
+   "lidr",
+   "ipkg"
+  ],
+  "description": "Idris"
+ },
+ {
+  "name": "ImbaIcon",
+  "file": "imba",
+  "set": "files",
+  "aliases": [],
+  "color": "#FFC93C",
+  "extensions": [
+   "imba",
+   "imba1"
+  ],
+  "description": "Imba"
+ },
+ {
+  "name": "IncludeIcon",
+  "file": "include",
+  "set": "files",
+  "aliases": [],
+  "color": "#5C8DD6",
+  "folderNames": [
+   "include",
+   "includes",
+   "inc",
+   "_includes"
+  ],
+  "description": "Includes"
+ },
+ {
+  "name": "IntellijIcon",
+  "file": "intellij",
+  "set": "files",
+  "aliases": [],
+  "color": "#FE315D",
+  "extensions": [
+   "iml"
+  ],
+  "folderNames": [
+   ".idea"
+  ],
+  "description": "IntelliJ IDEA"
+ },
+ {
+  "name": "InterceptorIcon",
+  "file": "interceptor",
+  "set": "files",
+  "aliases": [],
+  "color": "#EF6C00",
+  "folderNames": [
+   "interceptor",
+   "interceptors"
+  ],
+  "description": "Interceptors"
+ },
+ {
+  "name": "InterfaceIcon",
+  "file": "interface",
+  "set": "files",
+  "aliases": [],
+  "color": "#26A69A",
+  "folderNames": [
+   "interface",
+   "interfaces"
+  ],
+  "description": "Interfaces"
+ },
+ {
+  "name": "IonicIcon",
+  "file": "ionic",
+  "set": "files",
+  "aliases": [],
+  "color": "#4E8EF7",
+  "fileNames": [
+   "ionic.config.json",
+   "ionic.project",
+   ".io-config.json"
+  ],
+  "description": "Ionic"
+ },
+ {
+  "name": "IstanbulIcon",
+  "file": "istanbul",
+  "set": "files",
+  "aliases": [],
+  "color": "#E2A13E",
+  "fileNames": [
+   ".nycrc",
+   ".nycrc.json",
+   ".nycrc.yaml",
+   ".nycrc.yml",
+   "nyc.config.js",
+   "nyc.config.cjs",
+   "nyc.config.mjs",
+   ".istanbul.yml"
+  ],
+  "description": "Istanbul (nyc) coverage"
+ },
+ {
+  "name": "JarIcon",
+  "file": "jar",
+  "set": "files",
+  "aliases": [],
+  "color": "#E76F00",
+  "extensions": [
+   "jar",
+   "war",
+   "ear"
+  ],
+  "description": "Java archives"
+ },
+ {
+  "name": "JavaIcon",
+  "file": "java",
+  "set": "files",
+  "aliases": [],
+  "color": "#E76F00",
+  "extensions": [
+   "java",
+   "jav",
+   "class"
+  ],
+  "folderNames": [
+   "java"
+  ],
+  "description": "Java"
+ },
+ {
+  "name": "JavascriptIcon",
+  "file": "javascript",
+  "set": "files",
+  "aliases": [],
+  "color": "#E5C21B",
+  "extensions": [
+   "js",
+   "mjs",
+   "cjs",
+   "es6",
+   "es"
+  ],
+  "folderNames": [
+   "js",
+   "javascript"
+  ],
+  "description": "JavaScript"
+ },
+ {
+  "name": "JenkinsIcon",
+  "file": "jenkins",
+  "set": "files",
+  "aliases": [],
+  "color": "#D33833",
+  "extensions": [
+   "jenkinsfile",
+   "jenkins"
+  ],
+  "fileNames": [
+   "jenkinsfile",
+   "jenkinsfile.*"
+  ],
+  "description": "Jenkins"
+ },
+ {
+  "name": "JestIcon",
+  "file": "jest",
+  "set": "files",
+  "aliases": [],
+  "color": "#C63D14",
+  "fileNames": [
+   "jest.config.*",
+   "jest.setup.*",
+   "jest-preset.json",
+   "jest.json"
+  ],
+  "description": "Jest"
+ },
+ {
+  "name": "JinjaIcon",
+  "file": "jinja",
+  "set": "files",
+  "aliases": [],
+  "color": "#B41717",
+  "extensions": [
+   "jinja",
+   "jinja2",
+   "j2",
+   "jinja-html"
+  ],
+  "folderNames": [
+   "jinja",
+   "jinja2"
+  ],
+  "description": "Jinja"
+ },
+ {
+  "name": "JsonIcon",
+  "file": "json",
+  "set": "files",
+  "aliases": [],
+  "color": "#F5B800",
+  "extensions": [
+   "json",
+   "jsonc",
+   "jsonl",
+   "ndjson"
+  ],
+  "folderNames": [
+   "json"
+  ],
+  "description": "JSON"
+ },
+ {
+  "name": "JsonSchemaIcon",
+  "file": "json-schema",
+  "set": "files",
+  "aliases": [],
+  "color": "#0C8CE9",
+  "extensions": [
+   "schema.json"
+  ],
+  "description": "JSON Schema"
+ },
+ {
+  "name": "JsrIcon",
+  "file": "jsr",
+  "set": "files",
+  "aliases": [],
+  "color": "#EBC500",
+  "fileNames": [
+   "jsr.json",
+   "jsr.jsonc"
+  ],
+  "description": "JSR"
+ },
+ {
+  "name": "JuliaIcon",
+  "file": "julia",
+  "set": "files",
+  "aliases": [],
+  "color": "#9558B2",
+  "extensions": [
+   "jl"
+  ],
+  "description": "Julia"
+ },
+ {
+  "name": "JustIcon",
+  "file": "just",
+  "set": "files",
+  "aliases": [],
+  "color": "#C8A26A",
+  "extensions": [
+   "just"
+  ],
+  "fileNames": [
+   "justfile",
+   ".justfile",
+   "*.just"
+  ],
+  "description": "just"
+ },
+ {
+  "name": "KarmaIcon",
+  "file": "karma",
+  "set": "files",
+  "aliases": [],
+  "color": "#56C5A8",
+  "fileNames": [
+   "karma.conf.js",
+   "karma.conf.ts",
+   "karma.conf.cjs",
+   "karma.conf.mjs",
+   "karma.conf.coffee"
+  ],
+  "description": "Karma"
+ },
+ {
+  "name": "KclIcon",
+  "file": "kcl",
+  "set": "files",
+  "aliases": [],
+  "color": "#2C5BE4",
+  "extensions": [
+   "k",
+   "kcl"
+  ],
+  "fileNames": [
+   "kcl.mod",
+   "kcl.mod.lock"
+  ],
+  "description": "KCL"
+ },
+ {
+  "name": "KeystaticIcon",
+  "file": "keystatic",
+  "set": "files",
+  "aliases": [],
+  "color": "#3F7FE0",
+  "fileNames": [
+   "keystatic.config.ts",
+   "keystatic.config.tsx",
+   "keystatic.config.js",
+   "keystatic.config.mjs"
+  ],
+  "description": "Keystatic"
+ },
+ {
+  "name": "KivyIcon",
+  "file": "kivy",
+  "set": "files",
+  "aliases": [],
+  "color": "#5DADE2",
+  "extensions": [
+   "kv"
+  ],
+  "description": "Kivy"
+ },
+ {
+  "name": "KlIcon",
+  "file": "kl",
+  "set": "files",
+  "aliases": [],
+  "color": "#33B5E5",
+  "extensions": [
+   "kl"
+  ],
+  "description": "KL (Kaleidoscope)"
+ },
+ {
+  "name": "KotlinIcon",
+  "file": "kotlin",
+  "set": "files",
+  "aliases": [],
+  "color": "#7F52FF",
+  "extensions": [
+   "kt",
+   "kts",
+   "ktm"
+  ],
+  "folderNames": [
+   "kotlin"
+  ],
+  "description": "Kotlin"
+ },
+ {
+  "name": "KubernetesIcon",
+  "file": "kubernetes",
+  "set": "files",
+  "aliases": [],
+  "color": "#326CE5",
+  "fileNames": [
+   "kustomization.yaml",
+   "kustomization.yml"
+  ],
+  "folderNames": [
+   "kubernetes",
+   "k8s",
+   "kube",
+   "kustomize",
+   ".kube"
+  ],
+  "description": "Kubernetes"
+ },
+ {
+  "name": "KustoIcon",
+  "file": "kusto",
+  "set": "files",
+  "aliases": [],
+  "color": "#0078D4",
+  "extensions": [
+   "kql",
+   "kusto"
+  ],
+  "folderNames": [
+   "kusto",
+   ".kusto"
+  ],
+  "description": "Kusto (KQL)"
+ },
+ {
+  "name": "LaravelIcon",
+  "file": "laravel",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF2D20",
+  "fileNames": [
+   "artisan"
+  ],
+  "description": "Laravel"
+ },
+ {
+  "name": "LatexIcon",
+  "file": "latex",
+  "set": "files",
+  "aliases": [],
+  "color": "#3D8BA8",
+  "extensions": [
+   "ltx",
+   "latex",
+   "cls",
+   "sty"
+  ],
+  "fileNames": [
+   "latexmkrc",
+   ".latexmkrc"
+  ],
+  "description": "LaTeX"
+ },
+ {
+  "name": "LeanIcon",
+  "file": "lean",
+  "set": "files",
+  "aliases": [],
+  "color": "#4A6DBA",
+  "extensions": [
+   "lean"
+  ],
+  "fileNames": [
+   "lakefile.lean",
+   "lakefile.toml",
+   "lean-toolchain",
+   "lake-manifest.json"
+  ],
+  "description": "Lean"
+ },
+ {
+  "name": "LefthookIcon",
+  "file": "lefthook",
+  "set": "files",
+  "aliases": [],
+  "color": "#E53935",
+  "fileNames": [
+   "lefthook.yml",
+   "lefthook.yaml",
+   "lefthook.toml",
+   "lefthook.json",
+   ".lefthook.yml",
+   ".lefthook.yaml",
+   ".lefthook.toml",
+   ".lefthook.json",
+   "lefthook-local.yml",
+   "lefthook-local.yaml",
+   ".lefthook-local.yml",
+   ".lefthook-local.yaml"
+  ],
+  "folderNames": [
+   ".lefthook",
+   ".lefthook-local"
+  ],
+  "description": "Lefthook"
+ },
+ {
+  "name": "LernaIcon",
+  "file": "lerna",
+  "set": "files",
+  "aliases": [],
+  "color": "#9333EA",
+  "fileNames": [
+   "lerna.json"
+  ],
+  "description": "Lerna"
+ },
+ {
+  "name": "LessIcon",
+  "file": "less",
+  "set": "files",
+  "aliases": [],
+  "color": "#4A7FC1",
+  "extensions": [
+   "less"
+  ],
+  "folderNames": [
+   "less"
+  ],
+  "description": "Less"
+ },
+ {
+  "name": "CloudDeployIcon",
+  "file": "cloud-deploy",
+  "set": "files",
+  "aliases": [],
+  "color": "#4B5FD6",
+  "fileNames": [
+   "liara.json",
+   ".liara.json",
+   "liara_nodejs.json"
+  ],
+  "description": "Deploying to a hosted platform"
+ },
+ {
+  "name": "LicenseIcon",
+  "file": "license",
+  "set": "files",
+  "aliases": [],
+  "color": "#E8B500",
+  "fileNames": [
+   "license",
+   "licence",
+   "copying",
+   "license.*",
+   "licence.*",
+   "copying.*",
+   "license-*",
+   "licence-*",
+   "copying.lesser",
+   "notice",
+   "notice.*"
+  ],
+  "folderNames": [
+   "license",
+   "licenses",
+   "licence",
+   "licences",
+   "legal"
+  ],
+  "description": "Licences"
+ },
+ {
+  "name": "LighthouseIcon",
+  "file": "lighthouse",
+  "set": "files",
+  "aliases": [],
+  "color": "#F44B21",
+  "fileNames": [
+   ".lighthouserc",
+   ".lighthouserc.js",
+   ".lighthouserc.cjs",
+   ".lighthouserc.json",
+   ".lighthouserc.yml",
+   ".lighthouserc.yaml",
+   "lighthouserc.js",
+   "lighthouserc.cjs",
+   "lighthouserc.json",
+   "lighthouserc.yml",
+   "lighthouserc.yaml"
+  ],
+  "description": "Lighthouse"
+ },
+ {
+  "name": "LilypondIcon",
+  "file": "lilypond",
+  "set": "files",
+  "aliases": [],
+  "color": "#6BAE3E",
+  "extensions": [
+   "ly",
+   "ily"
+  ],
+  "description": "LilyPond"
+ },
+ {
+  "name": "LintStagedIcon",
+  "file": "lint-staged",
+  "set": "files",
+  "aliases": [],
+  "color": "#3F9F5A",
+  "fileNames": [
+   ".lintstagedrc",
+   ".lintstagedrc.json",
+   ".lintstagedrc.yaml",
+   ".lintstagedrc.yml",
+   ".lintstagedrc.js",
+   ".lintstagedrc.cjs",
+   ".lintstagedrc.mjs",
+   "lint-staged.config.js",
+   "lint-staged.config.cjs",
+   "lint-staged.config.mjs",
+   "lint-staged.config.ts"
+  ],
+  "description": "lint-staged"
+ },
+ {
+  "name": "LinuxIcon",
+  "file": "linux",
+  "set": "files",
+  "aliases": [],
+  "color": "#E2B13C",
+  "folderNames": [
+   "linux"
+  ],
+  "description": "Linux"
+ },
+ {
+  "name": "JupyterIcon",
+  "file": "jupyter",
+  "set": "files",
+  "aliases": [],
+  "color": "#F37726",
+  "extensions": [
+   "ipynb"
+  ],
+  "folderNames": [
+   "jupyter",
+   "notebooks",
+   "notebook",
+   ".ipynb_checkpoints"
+  ],
+  "description": "Jupyter"
+ },
+ {
+  "name": "LiquidIcon",
+  "file": "liquid",
+  "set": "files",
+  "aliases": [],
+  "color": "#7AB55C",
+  "extensions": [
+   "liquid"
+  ],
+  "description": "Liquid template"
+ },
+ {
+  "name": "LispIcon",
+  "file": "lisp",
+  "set": "files",
+  "aliases": [],
+  "color": "#3FB68B",
+  "extensions": [
+   "lisp",
+   "lsp",
+   "cl",
+   "asd",
+   "fasl"
+  ],
+  "description": "Lisp source"
+ },
+ {
+  "name": "LivescriptIcon",
+  "file": "livescript",
+  "set": "files",
+  "aliases": [],
+  "color": "#317EAC",
+  "extensions": [
+   "ls"
+  ],
+  "description": "LiveScript source"
+ },
+ {
+  "name": "LogIcon",
+  "file": "log",
+  "set": "files",
+  "aliases": [],
+  "color": "#AFB42B",
+  "extensions": [
+   "log"
+  ],
+  "folderNames": [
+   "log",
+   "logs",
+   "logging"
+  ],
+  "description": "log files"
+ },
+ {
+  "name": "LolcodeIcon",
+  "file": "lolcode",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF4D8D",
+  "extensions": [
+   "lol",
+   "lols"
+  ],
+  "description": "LOLCODE source"
+ },
+ {
+  "name": "LottieIcon",
+  "file": "lottie",
+  "set": "files",
+  "aliases": [],
+  "color": "#00DDB3",
+  "extensions": [
+   "lottie"
+  ],
+  "folderNames": [
+   "lottie",
+   "lotties"
+  ],
+  "description": "Lottie animation"
+ },
+ {
+  "name": "LuaIcon",
+  "file": "lua",
+  "set": "files",
+  "aliases": [],
+  "color": "#4A63D8",
+  "extensions": [
+   "lua",
+   "rockspec"
+  ],
+  "fileNames": [
+   ".luacheckrc",
+   ".luarc.json",
+   ".luarc.jsonc"
+  ],
+  "folderNames": [
+   "lua"
+  ],
+  "description": "Lua source"
+ },
+ {
+  "name": "LuauIcon",
+  "file": "luau",
+  "set": "files",
+  "aliases": [],
+  "color": "#00A2FF",
+  "extensions": [
+   "luau"
+  ],
+  "fileNames": [
+   ".luaurc"
+  ],
+  "folderNames": [
+   "luau"
+  ],
+  "description": "Luau source"
+ },
+ {
+  "name": "LynxIcon",
+  "file": "lynx",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF6448",
+  "fileNames": [
+   "lynx.config.*"
+  ],
+  "description": "Lynx app config"
+ },
+ {
+  "name": "LyricIcon",
+  "file": "lyric",
+  "set": "files",
+  "aliases": [],
+  "color": "#0091EA",
+  "extensions": [
+   "lrc"
+  ],
+  "description": "lyrics"
+ },
+ {
+  "name": "Macaulay2Icon",
+  "file": "macaulay2",
+  "set": "files",
+  "aliases": [],
+  "color": "#7CA236",
+  "extensions": [
+   "m2"
+  ],
+  "description": "Macaulay2 source"
+ },
+ {
+  "name": "MacosIcon",
+  "file": "macos",
+  "set": "files",
+  "aliases": [],
+  "color": "#A2AAAD",
+  "folderNames": [
+   "macos",
+   "mac",
+   "osx",
+   "darwin"
+  ],
+  "description": "macOS"
+ },
+ {
+  "name": "MakefileIcon",
+  "file": "makefile",
+  "set": "files",
+  "aliases": [],
+  "color": "#E53935",
+  "extensions": [
+   "mk",
+   "mak",
+   "make"
+  ],
+  "fileNames": [
+   "makefile",
+   "gnumakefile",
+   "bsdmakefile",
+   "kbuild"
+  ],
+  "description": "Makefile"
+ },
+ {
+  "name": "MappingsIcon",
+  "file": "mappings",
+  "set": "files",
+  "aliases": [],
+  "color": "#26A69A",
+  "folderNames": [
+   "mappings",
+   "mapping",
+   "mappers",
+   "mapper"
+  ],
+  "description": "mappings"
+ },
+ {
+  "name": "MarkdownIcon",
+  "file": "markdown",
+  "set": "files",
+  "aliases": [],
+  "color": "#3D8AD6",
+  "extensions": [
+   "md",
+   "markdown",
+   "mdown",
+   "mkd",
+   "mkdn",
+   "mdwn",
+   "mkdown",
+   "ronn"
+  ],
+  "folderNames": [
+   "markdown",
+   "md"
+  ],
+  "description": "Markdown"
+ },
+ {
+  "name": "MarkdocIcon",
+  "file": "markdoc",
+  "set": "files",
+  "aliases": [],
+  "color": "#8792F2",
+  "extensions": [
+   "mdoc",
+   "markdoc"
+  ],
+  "fileNames": [
+   "markdoc.config.*"
+  ],
+  "description": "Markdoc"
+ },
+ {
+  "name": "MarkdownlintIcon",
+  "file": "markdownlint",
+  "set": "files",
+  "aliases": [],
+  "color": "#7E57C2",
+  "fileNames": [
+   ".markdownlint.json",
+   ".markdownlint.jsonc",
+   ".markdownlint.yaml",
+   ".markdownlint.yml",
+   ".markdownlintrc",
+   ".markdownlintignore",
+   ".markdownlint-cli2.jsonc",
+   ".markdownlint-cli2.yaml",
+   ".markdownlint-cli2.cjs",
+   ".markdownlint-cli2.mjs"
+  ],
+  "description": "markdownlint config"
+ },
+ {
+  "name": "MdxIcon",
+  "file": "mdx",
+  "set": "files",
+  "aliases": [],
+  "color": "#F9AC00",
+  "extensions": [
+   "mdx"
+  ],
+  "description": "MDX"
+ },
+ {
+  "name": "MdsvexIcon",
+  "file": "mdsvex",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF3E00",
+  "extensions": [
+   "svx"
+  ],
+  "description": "mdsvex"
+ },
+ {
+  "name": "MarkojsIcon",
+  "file": "markojs",
+  "set": "files",
+  "aliases": [],
+  "color": "#2596BE",
+  "extensions": [
+   "marko"
+  ],
+  "description": "Marko template"
+ },
+ {
+  "name": "MathematicaIcon",
+  "file": "mathematica",
+  "set": "files",
+  "aliases": [],
+  "color": "#DD1100",
+  "extensions": [
+   "nb",
+   "nbp"
+  ],
+  "description": "Wolfram notebook"
+ },
+ {
+  "name": "MatlabIcon",
+  "file": "matlab",
+  "set": "files",
+  "aliases": [],
+  "color": "#E16737",
+  "extensions": [
+   "mlx",
+   "mat",
+   "mlapp"
+  ],
+  "description": "MATLAB"
+ },
+ {
+  "name": "MavenIcon",
+  "file": "maven",
+  "set": "files",
+  "aliases": [],
+  "color": "#C71A36",
+  "extensions": [
+   "pom"
+  ],
+  "fileNames": [
+   "pom.xml",
+   "mvnw",
+   "mvnw.cmd",
+   "maven.config"
+  ],
+  "description": "Maven build"
+ },
+ {
+  "name": "MercurialIcon",
+  "file": "mercurial",
+  "set": "files",
+  "aliases": [],
+  "color": "#999999",
+  "fileNames": [
+   ".hgignore",
+   ".hgtags",
+   ".hgrc",
+   "hgrc",
+   ".hgsub",
+   ".hgsubstate"
+  ],
+  "folderNames": [
+   ".hg"
+  ],
+  "description": "Mercurial"
+ },
+ {
+  "name": "MerlinIcon",
+  "file": "merlin",
+  "set": "files",
+  "aliases": [],
+  "color": "#7E57C2",
+  "fileNames": [
+   ".merlin"
+  ],
+  "description": "Merlin config"
+ },
+ {
+  "name": "MermaidIcon",
+  "file": "mermaid",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF3670",
+  "extensions": [
+   "mmd",
+   "mermaid"
+  ],
+  "description": "Mermaid diagram"
+ },
+ {
+  "name": "MesonIcon",
+  "file": "meson",
+  "set": "files",
+  "aliases": [],
+  "color": "#6D4AC8",
+  "extensions": [
+   "wrap"
+  ],
+  "fileNames": [
+   "meson.build",
+   "meson_options.txt",
+   "meson.options"
+  ],
+  "description": "Meson build"
+ },
+ {
+  "name": "MetroIcon",
+  "file": "metro",
+  "set": "files",
+  "aliases": [],
+  "color": "#EF4242",
+  "fileNames": [
+   "metro.config.*"
+  ],
+  "folderNames": [
+   "metro"
+  ],
+  "description": "Metro bundler"
+ },
+ {
+  "name": "MiddlewareIcon",
+  "file": "middleware",
+  "set": "files",
+  "aliases": [],
+  "color": "#8BC34A",
+  "folderNames": [
+   "middleware",
+   "middlewares"
+  ],
+  "description": "middleware"
+ },
+ {
+  "name": "MigrationsIcon",
+  "file": "migrations",
+  "set": "files",
+  "aliases": [],
+  "color": "#FFA000",
+  "fileNames": [
+   "liquibase.properties"
+  ],
+  "folderNames": [
+   "migrations",
+   "migration",
+   "migrate",
+   "liquibase"
+  ],
+  "description": "database migrations"
+ },
+ {
+  "name": "MinecraftIcon",
+  "file": "minecraft",
+  "set": "files",
+  "aliases": [],
+  "color": "#6EB742",
+  "extensions": [
+   "mcfunction",
+   "mcmeta",
+   "mrpack",
+   "nbt",
+   "mca",
+   "litematic",
+   "schematic",
+   "mcworld",
+   "mcpack",
+   "mcaddon"
+  ],
+  "fileNames": [
+   "fabric.mod.json",
+   "mods.toml",
+   "mcmod.info"
+  ],
+  "description": "Minecraft"
+ },
+ {
+  "name": "MintIcon",
+  "file": "mint",
+  "set": "files",
+  "aliases": [],
+  "color": "#2FA36B",
+  "extensions": [
+   "mint"
+  ],
+  "description": "Mint source"
+ },
+ {
+  "name": "MistIcon",
+  "file": "mist",
+  "set": "files",
+  "aliases": [],
+  "color": "#6AA6D6",
+  "extensions": [
+   "mist"
+  ],
+  "description": "Mist"
+ },
+ {
+  "name": "MjmlIcon",
+  "file": "mjml",
+  "set": "files",
+  "aliases": [],
+  "color": "#F45E43",
+  "extensions": [
+   "mjml"
+  ],
+  "fileNames": [
+   ".mjmlconfig"
+  ],
+  "folderNames": [
+   "mjml"
+  ],
+  "description": "MJML email"
+ },
+ {
+  "name": "MochaIcon",
+  "file": "mocha",
+  "set": "files",
+  "aliases": [],
+  "color": "#8D6748",
+  "fileNames": [
+   ".mocharc.*",
+   "mocha.opts"
+  ],
+  "description": "Mocha config"
+ },
+ {
+  "name": "MockIcon",
+  "file": "mock",
+  "set": "files",
+  "aliases": [],
+  "color": "#9575CD",
+  "folderNames": [
+   "mock",
+   "mocks",
+   "__mocks__",
+   "mocking"
+  ],
+  "description": "mocks"
+ },
+ {
+  "name": "ModernizrIcon",
+  "file": "modernizr",
+  "set": "files",
+  "aliases": [],
+  "color": "#E04E39",
+  "fileNames": [
+   ".modernizrrc",
+   ".modernizrrc.js",
+   ".modernizrrc.json",
+   "modernizr.js",
+   "modernizr-config.json"
+  ],
+  "description": "Modernizr config"
+ },
+ {
+  "name": "MojoIcon",
+  "file": "mojo",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF4C1F",
+  "extensions": [
+   "mojo",
+   "\ud83d\udd25"
+  ],
+  "folderNames": [
+   "mojo"
+  ],
+  "description": "Mojo source"
+ },
+ {
+  "name": "MoleculeIcon",
+  "file": "molecule",
+  "set": "files",
+  "aliases": [],
+  "color": "#00A0B0",
+  "folderNames": [
+   "molecule"
+  ],
+  "description": "Molecule scenarios"
+ },
+ {
+  "name": "MoonscriptIcon",
+  "file": "moonscript",
+  "set": "files",
+  "aliases": [],
+  "color": "#E8C547",
+  "extensions": [
+   "moon"
+  ],
+  "description": "MoonScript source"
+ },
+ {
+  "name": "MxmlIcon",
+  "file": "mxml",
+  "set": "files",
+  "aliases": [],
+  "color": "#EF6C00",
+  "extensions": [
+   "mxml"
+  ],
+  "description": "MXML"
+ },
+ {
+  "name": "NanoStagedIcon",
+  "file": "nano-staged",
+  "set": "files",
+  "aliases": [],
+  "color": "#00B37E",
+  "fileNames": [
+   ".nano-staged.*",
+   "nano-staged.*",
+   ".nanostagedrc"
+  ],
+  "description": "nano-staged config"
+ },
+ {
+  "name": "NdstIcon",
+  "file": "ndst",
+  "set": "files",
+  "aliases": [],
+  "color": "#E60012",
+  "extensions": [
+   "ndst.yml",
+   "ndst.yaml",
+   "ndst.json"
+  ],
+  "description": "Nintendo DS toolchain"
+ },
+ {
+  "name": "NestIcon",
+  "file": "nest",
+  "set": "files",
+  "aliases": [],
+  "color": "#E0234E",
+  "fileNames": [
+   "nest-cli.json",
+   ".nest-cli.json",
+   "nestconfig.json",
+   ".nestconfig.json"
+  ],
+  "description": "NestJS"
+ },
+ {
+  "name": "SiteDeployIcon",
+  "file": "site-deploy",
+  "set": "files",
+  "aliases": [],
+  "color": "#00C7B7",
+  "fileNames": [
+   "netlify.toml",
+   "netlify.yml",
+   "netlify.yaml",
+   "_redirects",
+   "_headers"
+  ],
+  "folderNames": [
+   ".netlify",
+   "netlify"
+  ],
+  "description": "site deploy config (Netlify)"
+ },
+ {
+  "name": "NextIcon",
+  "file": "next",
+  "set": "files",
+  "aliases": [],
+  "color": "#8E8E8E",
+  "fileNames": [
+   "next.config.*",
+   "next-env.d.ts"
+  ],
+  "folderNames": [
+   ".next",
+   "next"
+  ],
+  "description": "Next.js"
+ },
+ {
+  "name": "NginxIcon",
+  "file": "nginx",
+  "set": "files",
+  "aliases": [],
+  "color": "#009639",
+  "extensions": [
+   "nginx",
+   "nginxconf"
+  ],
+  "fileNames": [
+   "nginx.conf",
+   "nginx.conf.*"
+  ],
+  "folderNames": [
+   "nginx",
+   ".nginx"
+  ],
+  "description": "nginx config"
+ },
+ {
+  "name": "NimIcon",
+  "file": "nim",
+  "set": "files",
+  "aliases": [],
+  "color": "#F3B91D",
+  "extensions": [
+   "nim",
+   "nims",
+   "nimble"
+  ],
+  "fileNames": [
+   "nim.cfg"
+  ],
+  "description": "Nim source"
+ },
+ {
+  "name": "NixIcon",
+  "file": "nix",
+  "set": "files",
+  "aliases": [],
+  "color": "#5277C3",
+  "extensions": [
+   "nix"
+  ],
+  "fileNames": [
+   "flake.lock"
+  ],
+  "description": "Nix"
+ },
+ {
+  "name": "NodejsIcon",
+  "file": "nodejs",
+  "set": "files",
+  "aliases": [],
+  "color": "#8CC84B",
+  "fileNames": [
+   ".nvmrc",
+   ".node-version"
+  ],
+  "folderNames": [
+   "node",
+   "nodejs"
+  ],
+  "description": "Node.js"
+ },
+ {
+  "name": "NodemonIcon",
+  "file": "nodemon",
+  "set": "files",
+  "aliases": [],
+  "color": "#76D04B",
+  "fileNames": [
+   "nodemon.json",
+   ".nodemonrc",
+   ".nodemonrc.json",
+   ".nodemonignore"
+  ],
+  "description": "nodemon config"
+ },
+ {
+  "name": "NpmIcon",
+  "file": "npm",
+  "set": "files",
+  "aliases": [],
+  "color": "#CB3837",
+  "fileNames": [
+   "package.json",
+   "package-lock.json",
+   "npm-shrinkwrap.json",
+   ".npmrc",
+   ".npmignore"
+  ],
+  "description": "npm package"
+ },
+ {
+  "name": "NugetIcon",
+  "file": "nuget",
+  "set": "files",
+  "aliases": [],
+  "color": "#2C82C9",
+  "extensions": [
+   "nupkg",
+   "snupkg",
+   "nuspec"
+  ],
+  "fileNames": [
+   "nuget.config",
+   "packages.config"
+  ],
+  "description": "NuGet package"
+ },
+ {
+  "name": "NunjucksIcon",
+  "file": "nunjucks",
+  "set": "files",
+  "aliases": [],
+  "color": "#3C9A2E",
+  "extensions": [
+   "njk",
+   "nunjucks",
+   "nunjs",
+   "nunj"
+  ],
+  "description": "Nunjucks template"
+ },
+ {
+  "name": "NuxtIcon",
+  "file": "nuxt",
+  "set": "files",
+  "aliases": [],
+  "color": "#00DC82",
+  "fileNames": [
+   "nuxt.config.*",
+   ".nuxtrc",
+   ".nuxtignore"
+  ],
+  "folderNames": [
+   ".nuxt",
+   "nuxt"
+  ],
+  "description": "Nuxt"
+ },
+ {
+  "name": "NxIcon",
+  "file": "nx",
+  "set": "files",
+  "aliases": [],
+  "color": "#4A90C8",
+  "fileNames": [
+   "nx.json",
+   "project.json",
+   ".nxignore"
+  ],
+  "description": "Nx workspace"
+ },
+ {
+  "name": "ObjectiveCIcon",
+  "file": "objective-c",
+  "set": "files",
+  "aliases": [],
+  "color": "#4A8CF7",
+  "extensions": [
+   "m",
+   "mm"
+  ],
+  "description": "Objective-C source"
+ },
+ {
+  "name": "ObsidianIcon",
+  "file": "obsidian",
+  "set": "files",
+  "aliases": [],
+  "color": "#7C3AED",
+  "folderNames": [
+   ".obsidian"
+  ],
+  "description": "Obsidian vault"
+ },
+ {
+  "name": "OcamlIcon",
+  "file": "ocaml",
+  "set": "files",
+  "aliases": [],
+  "color": "#EC6813",
+  "extensions": [
+   "ml",
+   "mli",
+   "mll",
+   "mly",
+   "cmx",
+   "cmxa",
+   "cmi",
+   "cmo",
+   "cma"
+  ],
+  "fileNames": [
+   ".ocamlinit",
+   ".ocamlformat"
+  ],
+  "description": "OCaml source"
+ },
+ {
+  "name": "OdinIcon",
+  "file": "odin",
+  "set": "files",
+  "aliases": [],
+  "color": "#3882D2",
+  "extensions": [
+   "odin"
+  ],
+  "description": "Odin source"
+ },
+ {
+  "name": "OnnxIcon",
+  "file": "onnx",
+  "set": "files",
+  "aliases": [],
+  "color": "#5B6E8C",
+  "extensions": [
+   "onnx"
+  ],
+  "description": "ONNX model"
+ },
+ {
+  "name": "OpaIcon",
+  "file": "opa",
+  "set": "files",
+  "aliases": [],
+  "color": "#7D9199",
+  "extensions": [
+   "rego"
+  ],
+  "description": "OPA policy (Rego)"
+ },
+ {
+  "name": "OpamIcon",
+  "file": "opam",
+  "set": "files",
+  "aliases": [],
+  "color": "#EE6A1A",
+  "extensions": [
+   "opam"
+  ],
+  "fileNames": [
+   "opam",
+   "opam.locked"
+  ],
+  "description": "opam, OCaml's package manager"
+ },
+ {
+  "name": "OpenapiIcon",
+  "file": "openapi",
+  "set": "files",
+  "aliases": [],
+  "color": "#6BA539",
+  "fileNames": [
+   "openapi.json",
+   "openapi.yaml",
+   "openapi.yml",
+   "openapi.*.json",
+   "openapi.*.yaml",
+   "openapi.*.yml"
+  ],
+  "description": "OpenAPI descriptions"
+ },
+ {
+  "name": "OpencodeIcon",
+  "file": "opencode",
+  "set": "files",
+  "aliases": [],
+  "color": "#8A919C",
+  "fileNames": [
+   "opencode.json",
+   "opencode.jsonc"
+  ],
+  "folderNames": [
+   ".opencode"
+  ],
+  "description": "opencode, the coding agent"
+ },
+ {
+  "name": "OpentofuIcon",
+  "file": "opentofu",
+  "set": "files",
+  "aliases": [],
+  "color": "#E8C21A",
+  "extensions": [
+   "tofu",
+   "tofu.json",
+   "tofutest.hcl"
+  ],
+  "description": "OpenTofu configuration"
+ },
+ {
+  "name": "OrganismIcon",
+  "file": "organism",
+  "set": "files",
+  "aliases": [],
+  "color": "#8BC34A",
+  "folderNames": [
+   "organism",
+   "organisms"
+  ],
+  "description": "organisms in atomic design"
+ },
+ {
+  "name": "OxcIcon",
+  "file": "oxc",
+  "set": "files",
+  "aliases": [],
+  "color": "#00B5C2",
+  "fileNames": [
+   ".oxlintrc.json",
+   "oxlintrc.json",
+   ".oxlintrc",
+   "oxlint.json",
+   "oxc.config.*",
+   ".oxfmtrc.json",
+   ".oxfmtrc.jsonc"
+  ],
+  "description": "Oxc and oxlint configuration"
+ },
+ {
+  "name": "PandaIcon",
+  "file": "panda",
+  "set": "files",
+  "aliases": [],
+  "color": "#E8C21A",
+  "fileNames": [
+   "panda.config.*"
+  ],
+  "description": "Panda CSS configuration"
+ },
+ {
+  "name": "ParcelIcon",
+  "file": "parcel",
+  "set": "files",
+  "aliases": [],
+  "color": "#DFAD6E",
+  "fileNames": [
+   ".parcelrc",
+   ".parcelrc.json"
+  ],
+  "folderNames": [
+   ".parcel-cache"
+  ],
+  "description": "Parcel, the bundler"
+ },
+ {
+  "name": "PascalIcon",
+  "file": "pascal",
+  "set": "files",
+  "aliases": [],
+  "color": "#B0CE4E",
+  "extensions": [
+   "pas",
+   "p",
+   "dpr",
+   "lpr",
+   "dpk",
+   "lpk",
+   "dfm",
+   "lfm",
+   "lpi",
+   "dproj"
+  ],
+  "description": "Pascal and Delphi source"
+ },
+ {
+  "name": "PawnIcon",
+  "file": "pawn",
+  "set": "files",
+  "aliases": [],
+  "color": "#DBB284",
+  "extensions": [
+   "pwn",
+   "amx"
+  ],
+  "description": "Pawn scripts"
+ },
+ {
+  "name": "PayloadIcon",
+  "file": "payload",
+  "set": "files",
+  "aliases": [],
+  "color": "#9097A0",
+  "fileNames": [
+   "payload.config.*"
+  ],
+  "description": "Payload CMS configuration"
+ },
+ {
+  "name": "PdfIcon",
+  "file": "pdf",
+  "set": "files",
+  "aliases": [],
+  "color": "#E5252A",
+  "extensions": [
+   "pdf"
+  ],
+  "folderNames": [
+   "pdf",
+   "pdfs"
+  ],
+  "description": "PDF documents"
+ },
+ {
+  "name": "PdmIcon",
+  "file": "pdm",
+  "set": "files",
+  "aliases": [],
+  "color": "#7C5CD6",
+  "fileNames": [
+   "pdm.lock",
+   "pdm.toml",
+   ".pdm.toml",
+   ".pdm-python"
+  ],
+  "folderNames": [
+   ".pdm-build",
+   "__pypackages__"
+  ],
+  "description": "PDM, the Python package manager"
+ },
+ {
+  "name": "PercyIcon",
+  "file": "percy",
+  "set": "files",
+  "aliases": [],
+  "color": "#9E66BF",
+  "fileNames": [
+   ".percy.yml",
+   ".percy.yaml",
+   ".percy.json",
+   ".percy.js",
+   ".percy.cjs",
+   ".percy.mjs",
+   ".percyrc",
+   "percy.config.js",
+   "percy.config.cjs",
+   "percy.config.mjs",
+   "percy.config.yml",
+   "percy.config.yaml"
+  ],
+  "description": "Percy, visual testing"
+ },
+ {
+  "name": "PerlIcon",
+  "file": "perl",
+  "set": "files",
+  "aliases": [],
+  "color": "#0298C3",
+  "extensions": [
+   "pl",
+   "pm",
+   "pod",
+   "t",
+   "psgi",
+   "xs",
+   "plx",
+   "perl",
+   "al"
+  ],
+  "fileNames": [
+   "cpanfile",
+   "cpanfile.snapshot",
+   "makefile.pl",
+   "build.pl",
+   ".perltidyrc",
+   ".perlcriticrc"
+  ],
+  "description": "Perl source"
+ },
+ {
+  "name": "PhpIcon",
+  "file": "php",
+  "set": "files",
+  "aliases": [],
+  "color": "#777BB4",
+  "extensions": [
+   "php",
+   "php3",
+   "php4",
+   "php5",
+   "php7",
+   "php8",
+   "phtml",
+   "phps",
+   "phpt"
+  ],
+  "fileNames": [
+   "php.ini"
+  ],
+  "folderNames": [
+   "php"
+  ],
+  "description": "PHP source"
+ },
+ {
+  "name": "PhpCsFixerIcon",
+  "file": "php-cs-fixer",
+  "set": "files",
+  "aliases": [],
+  "color": "#F0B132",
+  "fileNames": [
+   ".php-cs-fixer.php",
+   ".php-cs-fixer.dist.php",
+   ".php_cs",
+   ".php_cs.dist",
+   ".php-cs-fixer.cache",
+   ".php_cs.cache"
+  ],
+  "description": "PHP CS Fixer configuration"
+ },
+ {
+  "name": "PhpmailerIcon",
+  "file": "phpmailer",
+  "set": "files",
+  "aliases": [],
+  "color": "#6C78B8",
+  "folderNames": [
+   "phpmailer"
+  ],
+  "description": "PHPMailer"
+ },
+ {
+  "name": "PhpstanIcon",
+  "file": "phpstan",
+  "set": "files",
+  "aliases": [],
+  "color": "#6C7BD8",
+  "fileNames": [
+   "phpstan.neon",
+   "phpstan.neon.dist",
+   "phpstan.dist.neon",
+   "phpstan-baseline.neon"
+  ],
+  "description": "PHPStan configuration"
+ },
+ {
+  "name": "PhpunitIcon",
+  "file": "phpunit",
+  "set": "files",
+  "aliases": [],
+  "color": "#3C9CD7",
+  "fileNames": [
+   "phpunit.xml",
+   "phpunit.xml.dist",
+   "phpunit.dist.xml",
+   ".phpunit.result.cache"
+  ],
+  "folderNames": [
+   ".phpunit.cache"
+  ],
+  "description": "PHPUnit configuration"
+ },
+ {
+  "name": "PinejsIcon",
+  "file": "pinejs",
+  "set": "files",
+  "aliases": [],
+  "color": "#2EA067",
+  "extensions": [
+   "sbvr"
+  ],
+  "description": "Pine.js models"
+ },
+ {
+  "name": "PipeIcon",
+  "file": "pipe",
+  "set": "files",
+  "aliases": [],
+  "color": "#00ACC1",
+  "folderNames": [
+   "pipe",
+   "pipes"
+  ],
+  "description": "pipes"
+ },
+ {
+  "name": "BuildPipelineIcon",
+  "file": "build-pipeline",
+  "set": "files",
+  "aliases": [],
+  "color": "#1E88E5",
+  "fileNames": [
+   ".gitlab-ci.yaml",
+   ".gitlab-ci.yml",
+   ".pipeline.yaml",
+   ".pipeline.yml",
+   "jenkinsfile.pipeline",
+   "pipeline.yaml",
+   "pipeline.yml",
+   "pipelines.yaml",
+   "pipelines.yml"
+  ],
+  "description": "CI pipelines"
+ },
+ {
+  "name": "PklIcon",
+  "file": "pkl",
+  "set": "files",
+  "aliases": [],
+  "color": "#6B9543",
+  "extensions": [
+   "pkl"
+  ],
+  "fileNames": [
+   "pklproject",
+   "pklproject.deps.json"
+  ],
+  "description": "Pkl configuration"
+ },
+ {
+  "name": "PlasticIcon",
+  "file": "plastic",
+  "set": "files",
+  "aliases": [],
+  "color": "#F57C00",
+  "fileNames": [
+   "ignore.conf",
+   "cloaked.conf",
+   "hidden_changes.conf",
+   "writable.conf",
+   "readonly.conf"
+  ],
+  "folderNames": [
+   ".plastic"
+  ],
+  "description": "Plastic SCM"
+ },
+ {
+  "name": "PlaywrightIcon",
+  "file": "playwright",
+  "set": "files",
+  "aliases": [],
+  "color": "#2EAD33",
+  "fileNames": [
+   "playwright.config.*",
+   "playwright-ct.config.*",
+   "playwright.service.config.*"
+  ],
+  "description": "Playwright configuration"
+ },
+ {
+  "name": "PlopIcon",
+  "file": "plop",
+  "set": "files",
+  "aliases": [],
+  "color": "#5C6BC0",
+  "fileNames": [
+   "plopfile.*"
+  ],
+  "description": "Plop, the micro-generator"
+ },
+ {
+  "name": "Pm2EcosystemIcon",
+  "file": "pm2-ecosystem",
+  "set": "files",
+  "aliases": [],
+  "color": "#6A3FCF",
+  "fileNames": [
+   "ecosystem.config.*",
+   "ecosystem.json",
+   "ecosystem.yml",
+   "ecosystem.yaml",
+   "pm2.json",
+   "pm2.config.js",
+   "process.json"
+  ],
+  "description": "PM2 ecosystem files"
+ },
+ {
+  "name": "PnpmIcon",
+  "file": "pnpm",
+  "set": "files",
+  "aliases": [],
+  "color": "#F9AD00",
+  "fileNames": [
+   "pnpm-lock.yaml",
+   "pnpm-workspace.yaml",
+   ".pnpmfile.cjs",
+   ".pnpmfile.mjs",
+   "pnpmfile.js",
+   ".pnpm-debug.log"
+  ],
+  "folderNames": [
+   ".pnpm-store",
+   ".pnpm"
+  ],
+  "description": "pnpm"
+ },
+ {
+  "name": "PoetryIcon",
+  "file": "poetry",
+  "set": "files",
+  "aliases": [],
+  "color": "#60A5FA",
+  "fileNames": [
+   "poetry.lock",
+   "poetry.toml"
+  ],
+  "description": "Poetry, the Python packager"
+ },
+ {
+  "name": "PolicyIcon",
+  "file": "policy",
+  "set": "files",
+  "aliases": [],
+  "color": "#00897B",
+  "folderNames": [
+   "policy",
+   "policies"
+  ],
+  "description": "policies"
+ },
+ {
+  "name": "PostcssIcon",
+  "file": "postcss",
+  "set": "files",
+  "aliases": [],
+  "color": "#DD3A0A",
+  "extensions": [
+   "pcss",
+   "postcss",
+   "sss"
+  ],
+  "fileNames": [
+   "postcss.config.*",
+   ".postcssrc",
+   ".postcssrc.json",
+   ".postcssrc.yml",
+   ".postcssrc.yaml",
+   ".postcssrc.js",
+   ".postcssrc.cjs",
+   ".postcssrc.mjs",
+   ".postcssrc.ts",
+   ".postcssrc.cts",
+   ".postcssrc.mts"
+  ],
+  "description": "PostCSS"
+ },
+ {
+  "name": "PosthtmlIcon",
+  "file": "posthtml",
+  "set": "files",
+  "aliases": [],
+  "color": "#E86E2A",
+  "fileNames": [
+   "posthtml.config.*",
+   ".posthtmlrc",
+   ".posthtmlrc.*"
+  ],
+  "description": "PostHTML configuration"
+ },
+ {
+  "name": "ApiCollectionIcon",
+  "file": "api-collection",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF6C37",
+  "extensions": [
+   "postman_collection.json",
+   "postman_environment.json",
+   "postman_globals.json"
+  ],
+  "folderNames": [
+   "postman",
+   ".postman",
+   "postman_collections",
+   "api-collections"
+  ],
+  "description": "collections of API requests (Postman)"
+ },
+ {
+  "name": "PowerpointIcon",
+  "file": "powerpoint",
+  "set": "files",
+  "aliases": [],
+  "color": "#C43E1C",
+  "extensions": [
+   "ppt",
+   "pptx",
+   "pptm",
+   "pps",
+   "ppsx",
+   "ppsm",
+   "pot",
+   "potx",
+   "potm",
+   "ppa",
+   "ppam",
+   "sldx",
+   "sldm",
+   "odp"
+  ],
+  "description": "PowerPoint presentations"
+ },
+ {
+  "name": "PowershellIcon",
+  "file": "powershell",
+  "set": "files",
+  "aliases": [],
+  "color": "#5391FE",
+  "extensions": [
+   "ps1",
+   "psm1",
+   "psd1",
+   "ps1xml",
+   "psc1",
+   "pssc",
+   "cdxml",
+   "psrc"
+  ],
+  "fileNames": [
+   "profile.ps1",
+   "microsoft.powershell_profile.ps1"
+  ],
+  "folderNames": [
+   "powershell",
+   "ps1",
+   ".powershell"
+  ],
+  "description": "PowerShell scripts"
+ },
+ {
+  "name": "PreCommitIcon",
+  "file": "pre-commit",
+  "set": "files",
+  "aliases": [],
+  "color": "#FAB040",
+  "fileNames": [
+   ".pre-commit-config.yaml",
+   ".pre-commit-config.yml",
+   ".pre-commit-hooks.yaml",
+   ".pre-commit-hooks.yml"
+  ],
+  "description": "pre-commit hooks"
+ },
+ {
+  "name": "PrettierIcon",
+  "file": "prettier",
+  "set": "files",
+  "aliases": [],
+  "color": "#56B3B4",
+  "fileNames": [
+   ".prettierrc",
+   ".prettierrc.*",
+   "prettier.config.*",
+   ".prettierignore"
+  ],
+  "description": "Prettier configuration"
+ },
+ {
+  "name": "PrismaIcon",
+  "file": "prisma",
+  "set": "files",
+  "aliases": [],
+  "color": "#5A67D8",
+  "extensions": [
+   "prisma"
+  ],
+  "fileNames": [
+   "prisma.config.*"
+  ],
+  "folderNames": [
+   "prisma"
+  ],
+  "description": "Prisma schemas"
+ },
+ {
+  "name": "ProcessingIcon",
+  "file": "processing",
+  "set": "files",
+  "aliases": [],
+  "color": "#0096D8",
+  "extensions": [
+   "pde"
+  ],
+  "description": "Processing sketches"
+ },
+ {
+  "name": "PrologIcon",
+  "file": "prolog",
+  "set": "files",
+  "aliases": [],
+  "color": "#B5475E",
+  "extensions": [
+   "pro",
+   "prolog",
+   "plg",
+   "yap"
+  ],
+  "description": "Prolog source"
+ },
+ {
+  "name": "PromptIcon",
+  "file": "prompt",
+  "set": "files",
+  "aliases": [],
+  "color": "#9C6ADE",
+  "extensions": [
+   "prompt",
+   "prompt.md",
+   "prompty",
+   "prompt.txt",
+   "prompt.yml",
+   "prompt.yaml",
+   "prompt.json"
+  ],
+  "folderNames": [
+   "prompts",
+   "prompt",
+   ".prompts",
+   "prompt-templates"
+  ],
+  "description": "prompts for a language model"
+ },
+ {
+  "name": "ProtoIcon",
+  "file": "proto",
+  "set": "files",
+  "aliases": [],
+  "color": "#5B8DEF",
+  "extensions": [
+   "proto",
+   "textproto",
+   "pbtxt",
+   "txtpb"
+  ],
+  "folderNames": [
+   "proto",
+   "protos",
+   "protobuf",
+   "protobufs"
+  ],
+  "description": "Protocol Buffers"
+ },
+ {
+  "name": "ProtractorIcon",
+  "file": "protractor",
+  "set": "files",
+  "aliases": [],
+  "color": "#E53935",
+  "fileNames": [
+   "protractor.conf.*",
+   "protractor.config.*"
+  ],
+  "description": "Protractor configuration"
+ },
+ {
+  "name": "PugIcon",
+  "file": "pug",
+  "set": "files",
+  "aliases": [],
+  "color": "#A86454",
+  "extensions": [
+   "pug",
+   "jade"
+  ],
+  "fileNames": [
+   ".pug-lintrc",
+   ".pug-lintrc.js",
+   ".pug-lintrc.json",
+   ".jade-lintrc"
+  ],
+  "description": "Pug templates"
+ },
+ {
+  "name": "MarionetteIcon",
+  "file": "marionette",
+  "set": "files",
+  "aliases": [],
+  "color": "#FFAE1A",
+  "extensions": [
+   "pp",
+   "epp"
+  ],
+  "fileNames": [
+   "puppetfile",
+   "puppetfile.lock"
+  ],
+  "description": "Puppet manifests"
+ },
+ {
+  "name": "PuppeteerIcon",
+  "file": "puppeteer",
+  "set": "files",
+  "aliases": [],
+  "color": "#00B686",
+  "fileNames": [
+   ".puppeteerrc",
+   ".puppeteerrc.*",
+   "puppeteer.config.*"
+  ],
+  "description": "Puppeteer configuration"
+ },
+ {
+  "name": "PurescriptIcon",
+  "file": "purescript",
+  "set": "files",
+  "aliases": [],
+  "color": "#7B8AB8",
+  "extensions": [
+   "purs"
+  ],
+  "fileNames": [
+   "spago.dhall",
+   "spago.yaml",
+   "spago.lock"
+  ],
+  "folderNames": [
+   ".spago"
+  ],
+  "description": "PureScript source"
+ },
+ {
+  "name": "PythonIcon",
+  "file": "python",
+  "set": "files",
+  "aliases": [],
+  "color": "#3776AB",
+  "extensions": [
+   "py",
+   "pyw",
+   "pyi",
+   "pyx",
+   "pxd",
+   "pxi",
+   "pyz",
+   "ipy",
+   "pyde"
+  ],
+  "fileNames": [
+   "requirements.txt",
+   "requirements-*.txt",
+   "requirements.in",
+   "requirements-*.in",
+   "pyproject.toml",
+   "setup.py",
+   "setup.cfg",
+   "manifest.in",
+   "pipfile",
+   "pipfile.lock",
+   ".python-version",
+   "tox.ini",
+   "pyvenv.cfg",
+   ".pylintrc",
+   "pylintrc",
+   ".flake8",
+   ".pypirc",
+   "py.typed",
+   "__init__.py",
+   "__main__.py",
+   "conftest.py"
+  ],
+  "folderNames": [
+   "python",
+   "py",
+   "pythonlib",
+   "pythonlibs",
+   "__pycache__"
+  ],
+  "description": "Python source and project files"
+ },
+ {
+  "name": "PytorchIcon",
+  "file": "pytorch",
+  "set": "files",
+  "aliases": [],
+  "color": "#EE4C2C",
+  "extensions": [
+   "pt",
+   "pth",
+   "ptl"
+  ],
+  "folderNames": [
+   "pytorch",
+   "torch"
+  ],
+  "description": "PyTorch models"
+ },
+ {
+  "name": "QsharpIcon",
+  "file": "qsharp",
+  "set": "files",
+  "aliases": [],
+  "color": "#D9A400",
+  "extensions": [
+   "qs"
+  ],
+  "fileNames": [
+   "qsharp.json"
+  ],
+  "description": "Q# source"
+ },
+ {
+  "name": "QuartoIcon",
+  "file": "quarto",
+  "set": "files",
+  "aliases": [],
+  "color": "#75AADB",
+  "extensions": [
+   "qmd"
+  ],
+  "fileNames": [
+   "_quarto.yml",
+   "_quarto.yaml",
+   "_quarto-*.yml",
+   "_quarto-*.yaml"
+  ],
+  "folderNames": [
+   ".quarto"
+  ],
+  "description": "Quarto documents"
+ },
+ {
+  "name": "QuasarIcon",
+  "file": "quasar",
+  "set": "files",
+  "aliases": [],
+  "color": "#1976D2",
+  "fileNames": [
+   "quasar.conf.js",
+   "quasar.config.*",
+   "quasar.extensions.json"
+  ],
+  "folderNames": [
+   ".quasar",
+   "quasar"
+  ],
+  "description": "Quasar framework"
+ },
+ {
+  "name": "QuokkaIcon",
+  "file": "quokka",
+  "set": "files",
+  "aliases": [],
+  "color": "#2EB86E",
+  "fileNames": [
+   ".quokka",
+   ".quokka.json"
+  ],
+  "description": "Quokka.js configuration"
+ },
+ {
+  "name": "RIcon",
+  "file": "r",
+  "set": "files",
+  "aliases": [],
+  "color": "#276DC3",
+  "extensions": [
+   "r",
+   "rdata",
+   "rds",
+   "rda",
+   "rhistory",
+   "rprofile",
+   "rproj"
+  ],
+  "fileNames": [
+   ".rprofile",
+   ".rhistory",
+   ".renviron",
+   ".lintr",
+   "renv.lock"
+  ],
+  "folderNames": [
+   "r",
+   "renv"
+  ],
+  "description": "R source and data"
+ },
+ {
+  "name": "RacketIcon",
+  "file": "racket",
+  "set": "files",
+  "aliases": [],
+  "color": "#3E5BA9",
+  "extensions": [
+   "rkt",
+   "rktl",
+   "rktd",
+   "scrbl"
+  ],
+  "description": "Racket source"
+ },
+ {
+  "name": "RamlIcon",
+  "file": "raml",
+  "set": "files",
+  "aliases": [],
+  "color": "#3F8FBF",
+  "extensions": [
+   "raml"
+  ],
+  "description": "RAML API descriptions"
+ },
+ {
+  "name": "RazorIcon",
+  "file": "razor",
+  "set": "files",
+  "aliases": [],
+  "color": "#512BD4",
+  "extensions": [
+   "cshtml",
+   "vbhtml",
+   "razor"
+  ],
+  "description": "Razor views"
+ },
+ {
+  "name": "RbxmkIcon",
+  "file": "rbxmk",
+  "set": "files",
+  "aliases": [],
+  "color": "#00A2FF",
+  "extensions": [
+   "rbxmk",
+   "rbxmk.lua",
+   "rbxmk.luau"
+  ],
+  "description": "rbxmk scripts"
+ },
+ {
+  "name": "RcIcon",
+  "file": "rc",
+  "set": "files",
+  "aliases": [],
+  "color": "#78909C",
+  "extensions": [
+   "rc",
+   "rc2"
+  ],
+  "description": "resource scripts and run-commands files"
+ },
+ {
+  "name": "ReactIcon",
+  "file": "react",
+  "set": "files",
+  "aliases": [],
+  "color": "#149ECA",
+  "extensions": [
+   "jsx"
+  ],
+  "description": "React components in JavaScript"
+ },
+ {
+  "name": "ReactTsIcon",
+  "file": "react-ts",
+  "set": "files",
+  "aliases": [],
+  "color": "#3178C6",
+  "extensions": [
+   "tsx"
+  ],
+  "description": "React components in TypeScript"
+ },
+ {
+  "name": "ReasonIcon",
+  "file": "reason",
+  "set": "files",
+  "aliases": [],
+  "color": "#DD4B39",
+  "extensions": [
+   "re",
+   "rei"
+  ],
+  "description": "Reason source"
+ },
+ {
+  "name": "RedIcon",
+  "file": "red",
+  "set": "files",
+  "aliases": [],
+  "color": "#B32629",
+  "extensions": [
+   "red",
+   "reds"
+  ],
+  "description": "Red source"
+ },
+ {
+  "name": "RedisIcon",
+  "file": "redis",
+  "set": "files",
+  "aliases": [],
+  "color": "#DC382D",
+  "fileNames": [
+   "redis.conf"
+  ],
+  "folderNames": [
+   "redis"
+  ],
+  "description": "Redis"
+ },
+ {
+  "name": "RegeditIcon",
+  "file": "regedit",
+  "set": "files",
+  "aliases": [],
+  "color": "#0A7ED6",
+  "extensions": [
+   "reg"
+  ],
+  "description": "Windows registry file"
+ },
+ {
+  "name": "RemarkIcon",
+  "file": "remark",
+  "set": "files",
+  "aliases": [],
+  "color": "#D33833",
+  "fileNames": [
+   ".remarkrc",
+   ".remarkrc.json",
+   ".remarkrc.js",
+   ".remarkrc.cjs",
+   ".remarkrc.mjs",
+   ".remarkrc.yaml",
+   ".remarkrc.yml",
+   ".remarkignore"
+  ],
+  "description": "remark configuration"
+ },
+ {
+  "name": "RemixIcon",
+  "file": "remix",
+  "set": "files",
+  "aliases": [],
+  "color": "#3992FF",
+  "fileNames": [
+   "remix.config.*",
+   "remix.env.d.ts"
+  ],
+  "description": "Remix configuration"
+ },
+ {
+  "name": "RenovateIcon",
+  "file": "renovate",
+  "set": "files",
+  "aliases": [],
+  "color": "#1F8DD6",
+  "fileNames": [
+   "renovate.json",
+   "renovate.json5",
+   ".renovaterc",
+   ".renovaterc.json",
+   ".renovaterc.json5"
+  ],
+  "description": "Renovate configuration"
+ },
+ {
+  "name": "RunConfigIcon",
+  "file": "run-config",
+  "set": "files",
+  "aliases": [],
+  "color": "#F26207",
+  "fileNames": [
+   ".replit",
+   "replit.nix"
+  ],
+  "description": "online workspace run configuration (.replit)"
+ },
+ {
+  "name": "RepositoryIcon",
+  "file": "repository",
+  "set": "files",
+  "aliases": [],
+  "color": "#7E57C2",
+  "folderNames": [
+   "repository",
+   "repositories",
+   "repo",
+   "repos"
+  ],
+  "description": "repositories"
+ },
+ {
+  "name": "RescriptIcon",
+  "file": "rescript",
+  "set": "files",
+  "aliases": [],
+  "color": "#E6484F",
+  "extensions": [
+   "res",
+   "resi"
+  ],
+  "fileNames": [
+   "rescript.json",
+   "bsconfig.json"
+  ],
+  "description": "ReScript source"
+ },
+ {
+  "name": "ResolverIcon",
+  "file": "resolver",
+  "set": "files",
+  "aliases": [],
+  "color": "#EC407A",
+  "folderNames": [
+   "resolver",
+   "resolvers"
+  ],
+  "description": "resolvers"
+ },
+ {
+  "name": "RestqlIcon",
+  "file": "restql",
+  "set": "files",
+  "aliases": [],
+  "color": "#4A9FD8",
+  "extensions": [
+   "rql",
+   "restql"
+  ],
+  "description": "RESTQL query"
+ },
+ {
+  "name": "ReviewIcon",
+  "file": "review",
+  "set": "files",
+  "aliases": [],
+  "color": "#3F9BD9",
+  "folderNames": [
+   "review",
+   "reviews",
+   "code-review",
+   "code-reviews"
+  ],
+  "description": "reviews"
+ },
+ {
+  "name": "RiotIcon",
+  "file": "riot",
+  "set": "files",
+  "aliases": [],
+  "color": "#E53935",
+  "extensions": [
+   "riot"
+  ],
+  "description": "Riot component"
+ },
+ {
+  "name": "RoadmapIcon",
+  "file": "roadmap",
+  "set": "files",
+  "aliases": [],
+  "color": "#2D9CDB",
+  "fileNames": [
+   "roadmap",
+   "roadmap.md",
+   "roadmap.txt",
+   "roadmap.rst"
+  ],
+  "description": "roadmap"
+ },
+ {
+  "name": "GameControllerIcon",
+  "file": "game-controller",
+  "set": "files",
+  "aliases": [],
+  "color": "#5A8DEE",
+  "extensions": [
+   "rbxl",
+   "rbxlx",
+   "rbxm",
+   "rbxmx"
+  ],
+  "description": "game place and model files (.rbxl, .rbxm)"
+ },
+ {
+  "name": "RocketIcon",
+  "file": "rocket",
+  "set": "files",
+  "aliases": [],
+  "color": "#D33847",
+  "fileNames": [
+   "rocket.toml"
+  ],
+  "description": "Rocket configuration"
+ },
+ {
+  "name": "RolldownIcon",
+  "file": "rolldown",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF7E17",
+  "fileNames": [
+   "rolldown.config.*"
+  ],
+  "description": "Rolldown configuration"
+ },
+ {
+  "name": "RollupIcon",
+  "file": "rollup",
+  "set": "files",
+  "aliases": [],
+  "color": "#EC4A3F",
+  "fileNames": [
+   "rollup.config.*"
+  ],
+  "description": "Rollup configuration"
+ },
+ {
+  "name": "RomeIcon",
+  "file": "rome",
+  "set": "files",
+  "aliases": [],
+  "color": "#D6A13A",
+  "fileNames": [
+   "rome.json"
+  ],
+  "description": "Rome configuration"
+ },
+ {
+  "name": "RoutesIcon",
+  "file": "routes",
+  "set": "files",
+  "aliases": [],
+  "color": "#43A047",
+  "fileNames": [
+   "routes.*",
+   "routing.*",
+   "router.*"
+  ],
+  "folderNames": [
+   "routes",
+   "route",
+   "routing",
+   "router",
+   "routers"
+  ],
+  "description": "routes and routing"
+ },
+ {
+  "name": "RspecIcon",
+  "file": "rspec",
+  "set": "files",
+  "aliases": [],
+  "color": "#D9534F",
+  "fileNames": [
+   ".rspec",
+   ".rspec-local",
+   ".rspec_parallel",
+   "spec_helper.rb",
+   "rails_helper.rb"
+  ],
+  "description": "RSpec configuration"
+ },
+ {
+  "name": "RstackIcon",
+  "file": "rstack",
+  "set": "files",
+  "aliases": [],
+  "color": "#F25A1D",
+  "fileNames": [
+   "rsbuild.config.*",
+   "rslib.config.*",
+   "rspress.config.*",
+   "rstest.config.*",
+   "rsdoctor.config.*"
+  ],
+  "description": "Rstack tool configuration (Rsbuild, Rslib, Rspress, Rstest)"
+ },
+ {
+  "name": "RubocopIcon",
+  "file": "rubocop",
+  "set": "files",
+  "aliases": [],
+  "color": "#C0392B",
+  "fileNames": [
+   ".rubocop.yml",
+   ".rubocop.yaml",
+   ".rubocop_todo.yml"
+  ],
+  "description": "RuboCop configuration"
+ },
+ {
+  "name": "RuffIcon",
+  "file": "ruff",
+  "set": "files",
+  "aliases": [],
+  "color": "#8FAE1B",
+  "fileNames": [
+   "ruff.toml",
+   ".ruff.toml"
+  ],
+  "description": "Ruff configuration"
+ },
+ {
+  "name": "RustIcon",
+  "file": "rust",
+  "set": "files",
+  "aliases": [],
+  "color": "#D07A45",
+  "extensions": [
+   "rs"
+  ],
+  "fileNames": [
+   "rust-toolchain",
+   "rust-toolchain.toml",
+   "rustfmt.toml",
+   ".rustfmt.toml",
+   "clippy.toml",
+   ".clippy.toml"
+  ],
+  "folderNames": [
+   "rust",
+   ".cargo"
+  ],
+  "description": "Rust source"
+ },
+ {
+  "name": "ApexIcon",
+  "file": "apex",
+  "set": "files",
+  "aliases": [],
+  "color": "#00A1E0",
+  "extensions": [
+   "apex",
+   "trigger",
+   "soql",
+   "sosl"
+  ],
+  "fileNames": [
+   "sfdx-project.json",
+   ".forceignore"
+  ],
+  "description": "Apex source (Salesforce platform)"
+ },
+ {
+  "name": "SaltIcon",
+  "file": "salt",
+  "set": "files",
+  "aliases": [],
+  "color": "#3FAE9E",
+  "extensions": [
+   "sls"
+  ],
+  "fileNames": [
+   "saltfile"
+  ],
+  "folderNames": [
+   "salt",
+   "saltstack",
+   ".salt"
+  ],
+  "description": "Salt states"
+ },
+ {
+  "name": "SanIcon",
+  "file": "san",
+  "set": "files",
+  "aliases": [],
+  "color": "#3E8ED0",
+  "extensions": [
+   "san"
+  ],
+  "description": "San component"
+ },
+ {
+  "name": "SandboxIcon",
+  "file": "sandbox",
+  "set": "files",
+  "aliases": [],
+  "color": "#D9A441",
+  "folderNames": [
+   "sandbox",
+   "sandboxes",
+   "sandpit"
+  ],
+  "description": "sandboxes"
+ },
+ {
+  "name": "StatisticsIcon",
+  "file": "statistics",
+  "set": "files",
+  "aliases": [],
+  "color": "#0766D1",
+  "extensions": [
+   "sas",
+   "sas7bdat",
+   "sas7bcat",
+   "sasnb"
+  ],
+  "description": "SAS program and data"
+ },
+ {
+  "name": "SassIcon",
+  "file": "sass",
+  "set": "files",
+  "aliases": [],
+  "color": "#CF649A",
+  "extensions": [
+   "scss",
+   "sass"
+  ],
+  "folderNames": [
+   "sass",
+   "scss",
+   "_sass"
+  ],
+  "description": "Sass stylesheet"
+ },
+ {
+  "name": "SbtIcon",
+  "file": "sbt",
+  "set": "files",
+  "aliases": [],
+  "color": "#D9531E",
+  "extensions": [
+   "sbt"
+  ],
+  "fileNames": [
+   ".sbtopts"
+  ],
+  "description": "sbt build"
+ },
+ {
+  "name": "ScalaIcon",
+  "file": "scala",
+  "set": "files",
+  "aliases": [],
+  "color": "#DC322F",
+  "extensions": [
+   "scala",
+   "sc"
+  ],
+  "folderNames": [
+   "scala"
+  ],
+  "description": "Scala source"
+ },
+ {
+  "name": "SchemeIcon",
+  "file": "scheme",
+  "set": "files",
+  "aliases": [],
+  "color": "#C2435B",
+  "extensions": [
+   "scm",
+   "ss",
+   "sld",
+   "sps"
+  ],
+  "description": "Scheme source"
+ },
+ {
+  "name": "SconsIcon",
+  "file": "scons",
+  "set": "files",
+  "aliases": [],
+  "color": "#E06C2D",
+  "fileNames": [
+   "sconstruct",
+   "sconscript",
+   ".sconsign.dblite"
+  ],
+  "folderNames": [
+   "site_scons",
+   "scons"
+  ],
+  "description": "SCons build"
+ },
+ {
+  "name": "ScrapIcon",
+  "file": "scrap",
+  "set": "files",
+  "aliases": [],
+  "color": "#A1887F",
+  "folderNames": [
+   "scrap",
+   "scraps",
+   "scratch",
+   "scratches",
+   "scratchpad"
+  ],
+  "description": "scraps and scratch work"
+ },
+ {
+  "name": "ScrewdriverIcon",
+  "file": "screwdriver",
+  "set": "files",
+  "aliases": [],
+  "color": "#0A85D9",
+  "fileNames": [
+   "screwdriver.yaml",
+   "screwdriver.yml"
+  ],
+  "description": "Screwdriver CI pipeline"
+ },
+ {
+  "name": "SeedersIcon",
+  "file": "seeders",
+  "set": "files",
+  "aliases": [],
+  "color": "#5DAA3A",
+  "folderNames": [
+   "seeders",
+   "seeds",
+   "seed",
+   "seeding"
+  ],
+  "description": "database seeders"
+ },
+ {
+  "name": "SemanticReleaseIcon",
+  "file": "semantic-release",
+  "set": "files",
+  "aliases": [],
+  "color": "#C25FA7",
+  "fileNames": [
+   ".releaserc",
+   ".releaserc.json",
+   ".releaserc.yaml",
+   ".releaserc.yml",
+   ".releaserc.js",
+   ".releaserc.cjs",
+   ".releaserc.mjs",
+   "release.config.*"
+  ],
+  "description": "semantic-release configuration"
+ },
+ {
+  "name": "SemgrepIcon",
+  "file": "semgrep",
+  "set": "files",
+  "aliases": [],
+  "color": "#1DAA6A",
+  "fileNames": [
+   ".semgrep.yml",
+   ".semgrep.yaml",
+   ".semgrepignore",
+   "semgrep.yml",
+   "semgrep.yaml"
+  ],
+  "description": "Semgrep configuration"
+ },
+ {
+  "name": "ErrorTrackingIcon",
+  "file": "error-tracking",
+  "set": "files",
+  "aliases": [],
+  "color": "#7C5CC4",
+  "fileNames": [
+   ".sentryclirc",
+   "sentry.properties",
+   "sentry.client.config.*",
+   "sentry.server.config.*",
+   "sentry.edge.config.*"
+  ],
+  "description": "error monitoring configuration (Sentry)"
+ },
+ {
+  "name": "SequelizeIcon",
+  "file": "sequelize",
+  "set": "files",
+  "aliases": [],
+  "color": "#52B0E7",
+  "fileNames": [
+   ".sequelizerc"
+  ],
+  "description": "Sequelize configuration"
+ },
+ {
+  "name": "ServerlessIcon",
+  "file": "serverless",
+  "set": "files",
+  "aliases": [],
+  "color": "#FD5750",
+  "fileNames": [
+   "serverless.yml",
+   "serverless.yaml",
+   "serverless.json",
+   "serverless.ts",
+   "serverless.js"
+  ],
+  "folderNames": [
+   "serverless",
+   ".serverless"
+  ],
+  "description": "Serverless Framework"
+ },
+ {
+  "name": "ShaderIcon",
+  "file": "shader",
+  "set": "files",
+  "aliases": [],
+  "color": "#B05BD6",
+  "extensions": [
+   "glsl",
+   "vert",
+   "frag",
+   "geom",
+   "tesc",
+   "tese",
+   "comp",
+   "hlsl",
+   "shader",
+   "vsh",
+   "fsh",
+   "cg",
+   "usf",
+   "ush"
+  ],
+  "folderNames": [
+   "shaders",
+   "shader",
+   "glsl"
+  ],
+  "description": "shaders"
+ },
+ {
+  "name": "ShellcheckIcon",
+  "file": "shellcheck",
+  "set": "files",
+  "aliases": [],
+  "color": "#6A9B2E",
+  "fileNames": [
+   ".shellcheckrc",
+   "shellcheckrc"
+  ],
+  "description": "ShellCheck configuration"
+ },
+ {
+  "name": "SimulationsIcon",
+  "file": "simulations",
+  "set": "files",
+  "aliases": [],
+  "color": "#EF8B2C",
+  "folderNames": [
+   "simulations",
+   "simulation",
+   "sim",
+   "sims"
+  ],
+  "description": "simulations"
+ },
+ {
+  "name": "SimulinkIcon",
+  "file": "simulink",
+  "set": "files",
+  "aliases": [],
+  "color": "#E16737",
+  "extensions": [
+   "slx",
+   "slxc",
+   "sldd"
+  ],
+  "description": "Simulink model"
+ },
+ {
+  "name": "SiyuanIcon",
+  "file": "siyuan",
+  "set": "files",
+  "aliases": [],
+  "color": "#D84A3A",
+  "extensions": [
+   "sy"
+  ],
+  "description": "SiYuan document"
+ },
+ {
+  "name": "SketchIcon",
+  "file": "sketch",
+  "set": "files",
+  "aliases": [],
+  "color": "#E9A700",
+  "extensions": [
+   "sketch"
+  ],
+  "description": "Sketch design"
+ },
+ {
+  "name": "SkillIcon",
+  "file": "skill",
+  "set": "files",
+  "aliases": [],
+  "color": "#D97757",
+  "fileNames": [
+   "skill.md"
+  ],
+  "folderNames": [
+   "skills",
+   ".skills"
+  ],
+  "description": "agent skills"
+ },
+ {
+  "name": "SlimIcon",
+  "file": "slim",
+  "set": "files",
+  "aliases": [],
+  "color": "#2F9C8A",
+  "extensions": [
+   "slim"
+  ],
+  "description": "Slim template"
+ },
+ {
+  "name": "SlintIcon",
+  "file": "slint",
+  "set": "files",
+  "aliases": [],
+  "color": "#2379F4",
+  "extensions": [
+   "slint"
+  ],
+  "description": "Slint UI"
+ },
+ {
+  "name": "SlugIcon",
+  "file": "slug",
+  "set": "files",
+  "aliases": [],
+  "color": "#C2895A",
+  "extensions": [
+   "slug"
+  ],
+  "description": "Slug source"
+ },
+ {
+  "name": "SmartyIcon",
+  "file": "smarty",
+  "set": "files",
+  "aliases": [],
+  "color": "#DDAA00",
+  "extensions": [
+   "smarty"
+  ],
+  "description": "Smarty template"
+ },
+ {
+  "name": "SmlIcon",
+  "file": "sml",
+  "set": "files",
+  "aliases": [],
+  "color": "#7A68C4",
+  "extensions": [
+   "sml",
+   "sig",
+   "fun"
+  ],
+  "description": "Standard ML source"
+ },
+ {
+  "name": "SnakemakeIcon",
+  "file": "snakemake",
+  "set": "files",
+  "aliases": [],
+  "color": "#039475",
+  "extensions": [
+   "smk"
+  ],
+  "fileNames": [
+   "snakefile"
+  ],
+  "description": "Snakemake workflow"
+ },
+ {
+  "name": "SnapcraftIcon",
+  "file": "snapcraft",
+  "set": "files",
+  "aliases": [],
+  "color": "#E95420",
+  "fileNames": [
+   "snapcraft.yaml",
+   ".snapcraft.yaml"
+  ],
+  "folderNames": [
+   "snap",
+   ".snapcraft"
+  ],
+  "description": "Snapcraft"
+ },
+ {
+  "name": "SnowpackIcon",
+  "file": "snowpack",
+  "set": "files",
+  "aliases": [],
+  "color": "#2E5E82",
+  "fileNames": [
+   "snowpack.config.js",
+   "snowpack.config.cjs",
+   "snowpack.config.mjs",
+   "snowpack.config.ts",
+   "snowpack.config.json",
+   "snowpack.deps.json"
+  ],
+  "description": "Snowpack config"
+ },
+ {
+  "name": "SolidityIcon",
+  "file": "solidity",
+  "set": "files",
+  "aliases": [],
+  "color": "#5C6BC0",
+  "extensions": [
+   "sol"
+  ],
+  "description": "Solidity smart contract"
+ },
+ {
+  "name": "SonarcloudIcon",
+  "file": "sonarcloud",
+  "set": "files",
+  "aliases": [],
+  "color": "#F3702A",
+  "fileNames": [
+   "sonar-project.properties",
+   ".sonarcloud.properties",
+   "sonarcloud.yaml",
+   "sonarcloud.yml",
+   "sonarqube.xml"
+  ],
+  "description": "SonarCloud / SonarQube config"
+ },
+ {
+  "name": "SpwnIcon",
+  "file": "spwn",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF6E40",
+  "extensions": [
+   "spwn"
+  ],
+  "description": "SPWN source"
+ },
+ {
+  "name": "BrowserIdeIcon",
+  "file": "browser-ide",
+  "set": "files",
+  "aliases": [],
+  "color": "#1389FD",
+  "fileNames": [
+   ".stackblitzrc"
+  ],
+  "description": "in-browser IDE config (StackBlitz)"
+ },
+ {
+  "name": "StanIcon",
+  "file": "stan",
+  "set": "files",
+  "aliases": [],
+  "color": "#E0313B",
+  "extensions": [
+   "stan",
+   "stanfunctions"
+  ],
+  "description": "Stan probabilistic model"
+ },
+ {
+  "name": "ChaosExperimentIcon",
+  "file": "chaos-experiment",
+  "set": "files",
+  "aliases": [],
+  "color": "#0FB37F",
+  "fileNames": [
+   ".steadybit.yml",
+   ".steadybit.yaml",
+   "steadybit.yml",
+   "steadybit.yaml"
+  ],
+  "description": "chaos engineering config (Steadybit)"
+ },
+ {
+  "name": "StencilIcon",
+  "file": "stencil",
+  "set": "files",
+  "aliases": [],
+  "color": "#5851FF",
+  "fileNames": [
+   "stencil.config.js",
+   "stencil.config.ts",
+   "stencil.config.mjs"
+  ],
+  "folderNames": [
+   "stencil",
+   ".stencil"
+  ],
+  "description": "Stencil config"
+ },
+ {
+  "name": "StitchesIcon",
+  "file": "stitches",
+  "set": "files",
+  "aliases": [],
+  "color": "#7C66DC",
+  "fileNames": [
+   "stitches.config.js",
+   "stitches.config.ts",
+   "stitches.config.mjs"
+  ],
+  "description": "Stitches styles"
+ },
+ {
+  "name": "StoreIcon",
+  "file": "store",
+  "set": "files",
+  "aliases": [],
+  "color": "#26A69A",
+  "folderNames": [
+   "store",
+   "stores",
+   "state",
+   "states",
+   "redux",
+   "vuex",
+   "pinia",
+   "zustand"
+  ],
+  "description": "state store"
+ },
+ {
+  "name": "StorybookIcon",
+  "file": "storybook",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF4785",
+  "extensions": [
+   "stories.js",
+   "stories.jsx",
+   "stories.ts",
+   "stories.tsx",
+   "stories.mdx",
+   "stories.svelte",
+   "stories.vue",
+   "story.js",
+   "story.jsx",
+   "story.ts",
+   "story.tsx",
+   "story.mdx"
+  ],
+  "folderNames": [
+   ".storybook",
+   "storybook",
+   "stories",
+   "__stories__"
+  ],
+  "description": "Storybook stories"
+ },
+ {
+  "name": "StrykerIcon",
+  "file": "stryker",
+  "set": "files",
+  "aliases": [],
+  "color": "#E74C3C",
+  "fileNames": [
+   "stryker.conf.js",
+   "stryker.conf.cjs",
+   "stryker.conf.mjs",
+   "stryker.conf.json",
+   "stryker.config.js",
+   "stryker.config.cjs",
+   "stryker.config.mjs",
+   "stryker.config.json",
+   ".strykerrc"
+  ],
+  "description": "Stryker mutation testing config"
+ },
+ {
+  "name": "TexIcon",
+  "file": "tex",
+  "set": "files",
+  "aliases": [],
+  "color": "#008080",
+  "extensions": [
+   "tex",
+   "clo",
+   "ldf",
+   "fd"
+  ],
+  "description": "TeX / LaTeX source and styles"
+ },
+ {
+  "name": "StylableIcon",
+  "file": "stylable",
+  "set": "files",
+  "aliases": [],
+  "color": "#4D9AD5",
+  "extensions": [
+   "st.css"
+  ],
+  "fileNames": [
+   "stylable.config.js",
+   "stylable.config.cjs",
+   "stylable.config.mjs"
+  ],
+  "description": "Stylable stylesheet"
+ },
+ {
+  "name": "StylelintIcon",
+  "file": "stylelint",
+  "set": "files",
+  "aliases": [],
+  "color": "#607D8B",
+  "fileNames": [
+   ".stylelintrc",
+   ".stylelintrc.json",
+   ".stylelintrc.yaml",
+   ".stylelintrc.yml",
+   ".stylelintrc.js",
+   ".stylelintrc.cjs",
+   ".stylelintrc.mjs",
+   ".stylelintignore",
+   "stylelint.config.js",
+   "stylelint.config.cjs",
+   "stylelint.config.mjs",
+   "stylelint.config.ts",
+   ".stylelintcache"
+  ],
+  "description": "Stylelint config"
+ },
+ {
+  "name": "StylusIcon",
+  "file": "stylus",
+  "set": "files",
+  "aliases": [],
+  "color": "#8BC34A",
+  "extensions": [
+   "styl",
+   "stylus"
+  ],
+  "folderNames": [
+   "stylus"
+  ],
+  "description": "Stylus stylesheet"
+ },
+ {
+  "name": "SublimeIcon",
+  "file": "sublime",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF9800",
+  "extensions": [
+   "sublime-project",
+   "sublime-workspace",
+   "sublime-settings",
+   "sublime-keymap",
+   "sublime-commands",
+   "sublime-menu",
+   "sublime-build",
+   "sublime-snippet",
+   "sublime-macro",
+   "sublime-completions",
+   "sublime-syntax",
+   "sublime-theme",
+   "sublime-color-scheme",
+   "tmtheme",
+   "tmlanguage"
+  ],
+  "folderNames": [
+   ".sublime",
+   "sublime"
+  ],
+  "description": "Sublime Text project and settings"
+ },
+ {
+  "name": "HostedBackendIcon",
+  "file": "hosted-backend",
+  "set": "files",
+  "aliases": [],
+  "color": "#3ECF8E",
+  "folderNames": [
+   "supabase",
+   ".supabase"
+  ],
+  "description": "hosted backend project (Supabase)"
+ },
+ {
+  "name": "SvelteIcon",
+  "file": "svelte",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF3E00",
+  "extensions": [
+   "svelte",
+   "svelte.js",
+   "svelte.ts"
+  ],
+  "fileNames": [
+   "svelte.config.js",
+   "svelte.config.cjs",
+   "svelte.config.mjs",
+   "svelte.config.ts"
+  ],
+  "folderNames": [
+   "svelte",
+   ".svelte-kit"
+  ],
+  "description": "Svelte component"
+ },
+ {
+  "name": "SvgIcon",
+  "file": "svg",
+  "set": "files",
+  "aliases": [],
+  "color": "#FFB13B",
+  "extensions": [
+   "svg",
+   "svgz"
+  ],
+  "fileNames": [
+   "svgo.config.js",
+   "svgo.config.cjs",
+   "svgo.config.mjs",
+   "svgo.config.ts",
+   ".svgo.yml",
+   ".svgo.yaml",
+   ".svgrrc",
+   ".svgrrc.json",
+   ".svgrrc.yaml",
+   ".svgrrc.yml",
+   ".svgrrc.js",
+   "svgr.config.js",
+   "svgr.config.cjs",
+   "svgr.config.mjs"
+  ],
+  "folderNames": [
+   "svg",
+   "svgs",
+   "vectors"
+  ],
+  "description": "SVG vector image (and SVGO / SVGR config)"
+ },
+ {
+  "name": "SwaggerIcon",
+  "file": "swagger",
+  "set": "files",
+  "aliases": [],
+  "color": "#85EA2D",
+  "extensions": [
+   "swagger.json",
+   "swagger.yaml",
+   "swagger.yml",
+   "openapi.json",
+   "openapi.yaml",
+   "openapi.yml"
+  ],
+  "description": "Swagger / OpenAPI definition"
+ },
+ {
+  "name": "SwayIcon",
+  "file": "sway",
+  "set": "files",
+  "aliases": [],
+  "color": "#00B07A",
+  "extensions": [
+   "sw"
+  ],
+  "fileNames": [
+   "forc.toml",
+   "forc.lock"
+  ],
+  "description": "Sway source"
+ },
+ {
+  "name": "SwcIcon",
+  "file": "swc",
+  "set": "files",
+  "aliases": [],
+  "color": "#F8C457",
+  "fileNames": [
+   ".swcrc",
+   ".swcrc.json"
+  ],
+  "description": "SWC config"
+ },
+ {
+  "name": "SwiftIcon",
+  "file": "swift",
+  "set": "files",
+  "aliases": [],
+  "color": "#F05138",
+  "extensions": [
+   "swift"
+  ],
+  "fileNames": [
+   "package.swift",
+   "package.resolved"
+  ],
+  "description": "Swift source"
+ },
+ {
+  "name": "SyncpackIcon",
+  "file": "syncpack",
+  "set": "files",
+  "aliases": [],
+  "color": "#4B8BBE",
+  "fileNames": [
+   ".syncpackrc",
+   ".syncpackrc.json",
+   ".syncpackrc.yaml",
+   ".syncpackrc.yml",
+   ".syncpackrc.js",
+   ".syncpackrc.cjs",
+   ".syncpackrc.mjs",
+   "syncpack.config.js",
+   "syncpack.config.cjs",
+   "syncpack.config.mjs",
+   "syncpack.config.ts"
+  ],
+  "description": "Syncpack config"
+ },
+ {
+  "name": "SyntaxIcon",
+  "file": "syntax",
+  "set": "files",
+  "aliases": [],
+  "color": "#AB47BC",
+  "folderNames": [
+   "syntax",
+   "syntaxes",
+   "grammar",
+   "grammars"
+  ],
+  "description": "syntax definitions"
+ },
+ {
+  "name": "SystemdIcon",
+  "file": "systemd",
+  "set": "files",
+  "aliases": [],
+  "color": "#30D475",
+  "extensions": [
+   "service",
+   "socket",
+   "timer",
+   "mount",
+   "automount",
+   "netdev",
+   "nspawn"
+  ],
+  "description": "systemd unit"
+ },
+ {
+  "name": "TailwindcssIcon",
+  "file": "tailwindcss",
+  "set": "files",
+  "aliases": [],
+  "color": "#38BDF8",
+  "fileNames": [
+   "tailwind.config.js",
+   "tailwind.config.cjs",
+   "tailwind.config.mjs",
+   "tailwind.config.ts",
+   "tailwind.config.cts",
+   "tailwind.config.mts",
+   "tailwind.js",
+   "tailwind.ts"
+  ],
+  "description": "Tailwind CSS config"
+ },
+ {
+  "name": "TapeIcon",
+  "file": "tape",
+  "set": "files",
+  "aliases": [],
+  "color": "#B4A089",
+  "fileNames": [
+   ".taprc"
+  ],
+  "extensions": [
+   "tape.js",
+   "tape.ts"
+  ],
+  "description": "tape tests"
+ },
+ {
+  "name": "TargetIcon",
+  "file": "target",
+  "set": "files",
+  "aliases": [],
+  "color": "#EF5350",
+  "folderNames": [
+   "target",
+   "targets"
+  ],
+  "description": "build output"
+ },
+ {
+  "name": "TauriIcon",
+  "file": "tauri",
+  "set": "files",
+  "aliases": [],
+  "color": "#FFC131",
+  "fileNames": [
+   "tauri.conf.json",
+   "tauri.conf.json5",
+   "tauri.conf.toml",
+   "tauri.linux.conf.json",
+   "tauri.windows.conf.json",
+   "tauri.macos.conf.json",
+   "tauri.android.conf.json",
+   "tauri.ios.conf.json",
+   ".taurignore"
+  ],
+  "folderNames": [
+   "src-tauri"
+  ],
+  "description": "Tauri app config"
+ },
+ {
+  "name": "TazeIcon",
+  "file": "taze",
+  "set": "files",
+  "aliases": [],
+  "color": "#00BFA5",
+  "fileNames": [
+   "taze.config.js",
+   "taze.config.cjs",
+   "taze.config.mjs",
+   "taze.config.ts",
+   ".tazerc",
+   ".tazerc.json"
+  ],
+  "description": "taze config"
+ },
+ {
+  "name": "TclIcon",
+  "file": "tcl",
+  "set": "files",
+  "aliases": [],
+  "color": "#EF5350",
+  "extensions": [
+   "tcl",
+   "tk",
+   "tm",
+   "exp",
+   "itcl",
+   "tbc"
+  ],
+  "description": "Tcl source"
+ },
+ {
+  "name": "TealIcon",
+  "file": "teal",
+  "set": "files",
+  "aliases": [],
+  "color": "#00B0A4",
+  "extensions": [
+   "tl"
+  ],
+  "fileNames": [
+   "tlconfig.lua"
+  ],
+  "description": "Teal source"
+ },
+ {
+  "name": "TelevisionIcon",
+  "file": "television",
+  "set": "files",
+  "aliases": [],
+  "color": "#7E57C2",
+  "folderNames": [
+   "television",
+   "tv"
+  ],
+  "description": "television / broadcast"
+ },
+ {
+  "name": "TerraformIcon",
+  "file": "terraform",
+  "set": "files",
+  "aliases": [],
+  "color": "#844FBA",
+  "extensions": [
+   "tf",
+   "tf.json",
+   "tfvars",
+   "tfvars.json",
+   "tfstate",
+   "tfstate.backup",
+   "tfbackend",
+   "tftest.hcl"
+  ],
+  "fileNames": [
+   ".terraform.lock.hcl",
+   ".terraformrc",
+   "terraform.rc"
+  ],
+  "folderNames": [
+   "terraform",
+   ".terraform"
+  ],
+  "description": "Terraform configuration"
+ },
+ {
+  "name": "TestIcon",
+  "file": "test",
+  "set": "files",
+  "aliases": [],
+  "color": "#00C853",
+  "folderNames": [
+   "test",
+   "tests",
+   "__tests__",
+   "__test__",
+   "testing",
+   "spec",
+   "specs",
+   "__specs__",
+   "e2e",
+   "integration",
+   "unit",
+   "integration-tests",
+   "unit-tests",
+   "e2e-tests"
+  ],
+  "description": "tests"
+ },
+ {
+  "name": "TestJsIcon",
+  "file": "test-js",
+  "set": "files",
+  "aliases": [],
+  "color": "#E8A90C",
+  "extensions": [
+   "test.js",
+   "test.cjs",
+   "test.mjs",
+   "spec.js",
+   "spec.cjs",
+   "spec.mjs",
+   "e2e-test.js",
+   "e2e-spec.js",
+   "test.jsx",
+   "spec.jsx"
+  ],
+  "description": "JavaScript tests"
+ },
+ {
+  "name": "TestTsIcon",
+  "file": "test-ts",
+  "set": "files",
+  "aliases": [],
+  "color": "#0288D1",
+  "extensions": [
+   "test.ts",
+   "test.cts",
+   "test.mts",
+   "spec.ts",
+   "spec.cts",
+   "spec.mts",
+   "e2e-test.ts",
+   "e2e-spec.ts",
+   "test.tsx",
+   "spec.tsx"
+  ],
+  "description": "TypeScript tests"
+ },
+ {
+  "name": "TextlintIcon",
+  "file": "textlint",
+  "set": "files",
+  "aliases": [],
+  "color": "#2C7FD3",
+  "fileNames": [
+   ".textlintrc",
+   ".textlintrc.json",
+   ".textlintrc.yaml",
+   ".textlintrc.yml",
+   ".textlintrc.js",
+   ".textlintignore"
+  ],
+  "description": "textlint config"
+ },
+ {
+  "name": "TiltIcon",
+  "file": "tilt",
+  "set": "files",
+  "aliases": [],
+  "color": "#20BA31",
+  "fileNames": [
+   "tiltfile",
+   ".tiltignore"
+  ],
+  "description": "Tiltfile"
+ },
+ {
+  "name": "WhiteboardIcon",
+  "file": "whiteboard",
+  "set": "files",
+  "aliases": [],
+  "color": "#5B5BD6",
+  "extensions": [
+   "tldr"
+  ],
+  "description": "whiteboard drawing (tldraw)"
+ },
+ {
+  "name": "TobiIcon",
+  "file": "tobi",
+  "set": "files",
+  "aliases": [],
+  "color": "#C76F45",
+  "extensions": [
+   "tobi"
+  ],
+  "fileNames": [
+   "tobimake"
+  ],
+  "description": "tobi and tobimake files"
+ },
+ {
+  "name": "TomlIcon",
+  "file": "toml",
+  "set": "files",
+  "aliases": [],
+  "color": "#C0572E",
+  "extensions": [
+   "toml"
+  ],
+  "description": "TOML"
+ },
+ {
+  "name": "ToonIcon",
+  "file": "toon",
+  "set": "files",
+  "aliases": [],
+  "color": "#EF6C00",
+  "extensions": [
+   "toon"
+  ],
+  "description": "TOON data"
+ },
+ {
+  "name": "CiPipelineIcon",
+  "file": "ci-pipeline",
+  "set": "files",
+  "aliases": [],
+  "color": "#CB3349",
+  "fileNames": [
+   ".travis.yml",
+   ".travis.yaml"
+  ],
+  "description": "CI config (Travis CI)"
+ },
+ {
+  "name": "JobTriggerIcon",
+  "file": "job-trigger",
+  "set": "files",
+  "aliases": [],
+  "color": "#5DB834",
+  "fileNames": [
+   "trigger.config.ts",
+   "trigger.config.js",
+   "trigger.config.mjs"
+  ],
+  "folderNames": [
+   "trigger",
+   "triggers"
+  ],
+  "description": "background job triggers (Trigger.dev)"
+ },
+ {
+  "name": "TsconfigIcon",
+  "file": "tsconfig",
+  "set": "files",
+  "aliases": [],
+  "color": "#3178C6",
+  "fileNames": [
+   "tsconfig.json",
+   "jsconfig.json",
+   "tsconfig.*.json",
+   "jsconfig.*.json",
+   "tsconfig-*.json",
+   "tsconfig.base.json"
+  ],
+  "description": "TypeScript config"
+ },
+ {
+  "name": "TsdocIcon",
+  "file": "tsdoc",
+  "set": "files",
+  "aliases": [],
+  "color": "#3178C6",
+  "fileNames": [
+   "tsdoc.json"
+  ],
+  "description": "TSDoc config"
+ },
+ {
+  "name": "TsdownIcon",
+  "file": "tsdown",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF7E17",
+  "fileNames": [
+   "tsdown.config.ts",
+   "tsdown.config.js",
+   "tsdown.config.mjs",
+   "tsdown.config.cjs",
+   "tsdown.config.mts",
+   "tsdown.config.cts",
+   "tsdown.config.json"
+  ],
+  "description": "tsdown config"
+ },
+ {
+  "name": "TsilIcon",
+  "file": "tsil",
+  "set": "files",
+  "aliases": [],
+  "color": "#00897B",
+  "extensions": [
+   "tsil"
+  ],
+  "description": "TSIL source"
+ },
+ {
+  "name": "TuneIcon",
+  "file": "tune",
+  "set": "files",
+  "aliases": [],
+  "color": "#D4A017",
+  "extensions": [
+   "env"
+  ],
+  "fileNames": [
+   ".env",
+   ".env.*",
+   ".envrc",
+   ".flaskenv",
+   ".env-sample",
+   "env.example"
+  ],
+  "description": "environment variables (.env)"
+ },
+ {
+  "name": "TurborepoIcon",
+  "file": "turborepo",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF1E56",
+  "fileNames": [
+   "turbo.json",
+   "turbo.jsonc"
+  ],
+  "folderNames": [
+   ".turbo",
+   "turbo"
+  ],
+  "description": "Turborepo config"
+ },
+ {
+  "name": "TwigIcon",
+  "file": "twig",
+  "set": "files",
+  "aliases": [],
+  "color": "#8BC34A",
+  "extensions": [
+   "twig",
+   "html.twig"
+  ],
+  "description": "Twig templates"
+ },
+ {
+  "name": "TwineIcon",
+  "file": "twine",
+  "set": "files",
+  "aliases": [],
+  "color": "#4A90D9",
+  "extensions": [
+   "tw",
+   "twee",
+   "tw2",
+   "tw3"
+  ],
+  "description": "Twine stories"
+ },
+ {
+  "name": "TypedocIcon",
+  "file": "typedoc",
+  "set": "files",
+  "aliases": [],
+  "color": "#9600FF",
+  "fileNames": [
+   "typedoc.json",
+   "typedoc.jsonc",
+   "typedoc.config.*",
+   "typedoc.js",
+   "typedoc.cjs",
+   "typedoc.mjs"
+  ],
+  "description": "TypeDoc config"
+ },
+ {
+  "name": "TypescriptIcon",
+  "file": "typescript",
+  "set": "files",
+  "aliases": [],
+  "color": "#3178C6",
+  "extensions": [
+   "ts",
+   "mts",
+   "cts"
+  ],
+  "folderNames": [
+   "typescript",
+   "ts"
+  ],
+  "description": "TypeScript source"
+ },
+ {
+  "name": "TypescriptDefIcon",
+  "file": "typescript-def",
+  "set": "files",
+  "aliases": [],
+  "color": "#2163AE",
+  "extensions": [
+   "d.ts",
+   "d.mts",
+   "d.cts"
+  ],
+  "description": "TypeScript declaration files"
+ },
+ {
+  "name": "TypstIcon",
+  "file": "typst",
+  "set": "files",
+  "aliases": [],
+  "color": "#239DAD",
+  "extensions": [
+   "typ"
+  ],
+  "description": "Typst documents"
+ },
+ {
+  "name": "UiuaIcon",
+  "file": "uiua",
+  "set": "files",
+  "aliases": [],
+  "color": "#D46FA1",
+  "extensions": [
+   "ua"
+  ],
+  "description": "Uiua source"
+ },
+ {
+  "name": "UmiIcon",
+  "file": "umi",
+  "set": "files",
+  "aliases": [],
+  "color": "#1890FF",
+  "fileNames": [
+   ".umirc",
+   ".umirc.*",
+   "umi.config.*",
+   ".umi"
+  ],
+  "description": "Umi config"
+ },
+ {
+  "name": "UmlIcon",
+  "file": "uml",
+  "set": "files",
+  "aliases": [],
+  "color": "#F2A33A",
+  "extensions": [
+   "puml",
+   "plantuml",
+   "iuml",
+   "pu",
+   "uml",
+   "wsd"
+  ],
+  "description": "UML diagrams"
+ },
+ {
+  "name": "UnityIcon",
+  "file": "unity",
+  "set": "files",
+  "aliases": [],
+  "color": "#7F8C99",
+  "extensions": [
+   "unity",
+   "unitypackage",
+   "prefab",
+   "asset",
+   "anim",
+   "controller",
+   "physicmaterial",
+   "shadergraph",
+   "shadersubgraph"
+  ],
+  "folderNames": [
+   "unity",
+   "projectsettings"
+  ],
+  "description": "Unity projects and assets"
+ },
+ {
+  "name": "UnlicenseIcon",
+  "file": "unlicense",
+  "set": "files",
+  "aliases": [],
+  "color": "#A1887F",
+  "fileNames": [
+   "unlicense",
+   "unlicense.txt",
+   "unlicense.md"
+  ],
+  "description": "Unlicense (public domain)"
+ },
+ {
+  "name": "UnocssIcon",
+  "file": "unocss",
+  "set": "files",
+  "aliases": [],
+  "color": "#7A7A7A",
+  "fileNames": [
+   "uno.config.*",
+   "unocss.config.*"
+  ],
+  "description": "UnoCSS config"
+ },
+ {
+  "name": "UvIcon",
+  "file": "uv",
+  "set": "files",
+  "aliases": [],
+  "color": "#DE5FE9",
+  "fileNames": [
+   "uv.lock",
+   "uv.toml"
+  ],
+  "description": "uv (Python package manager)"
+ },
+ {
+  "name": "VagrantIcon",
+  "file": "vagrant",
+  "set": "files",
+  "aliases": [],
+  "color": "#1868F2",
+  "fileNames": [
+   "vagrantfile",
+   ".vagrantplugins"
+  ],
+  "folderNames": [
+   ".vagrant"
+  ],
+  "description": "Vagrant"
+ },
+ {
+  "name": "ValaIcon",
+  "file": "vala",
+  "set": "files",
+  "aliases": [],
+  "color": "#A56DE2",
+  "extensions": [
+   "vala",
+   "vapi"
+  ],
+  "description": "Vala source"
+ },
+ {
+  "name": "VanillaExtractIcon",
+  "file": "vanilla-extract",
+  "set": "files",
+  "aliases": [],
+  "color": "#E68FB4",
+  "extensions": [
+   "css.ts",
+   "css.js"
+  ],
+  "description": "vanilla-extract styles"
+ },
+ {
+  "name": "VarnishIcon",
+  "file": "varnish",
+  "set": "files",
+  "aliases": [],
+  "color": "#1C8DCB",
+  "extensions": [
+   "vcl"
+  ],
+  "description": "Varnish (VCL)"
+ },
+ {
+  "name": "VedicIcon",
+  "file": "vedic",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF8F00",
+  "extensions": [
+   "vedic"
+  ],
+  "description": "Vedic source"
+ },
+ {
+  "name": "VeliteIcon",
+  "file": "velite",
+  "set": "files",
+  "aliases": [],
+  "color": "#E2508A",
+  "fileNames": [
+   "velite.config.*"
+  ],
+  "description": "Velite config"
+ },
+ {
+  "name": "DeploymentIcon",
+  "file": "deployment",
+  "set": "files",
+  "aliases": [],
+  "color": "#6E7FD0",
+  "fileNames": [
+   "vercel.json",
+   ".vercelignore",
+   "now.json",
+   ".nowignore",
+   "zbpack.json",
+   "zeabur.json"
+  ],
+  "folderNames": [
+   ".vercel",
+   ".now",
+   ".zeabur",
+   "zeabur"
+  ],
+  "description": "deployment platform config (Vercel, Zeabur)"
+ },
+ {
+  "name": "VerilogIcon",
+  "file": "verilog",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF7043",
+  "extensions": [
+   "v",
+   "vh",
+   "sv",
+   "svh",
+   "vlg"
+  ],
+  "description": "Verilog / SystemVerilog source"
+ },
+ {
+  "name": "VerseIcon",
+  "file": "verse",
+  "set": "files",
+  "aliases": [],
+  "color": "#2E8BEF",
+  "extensions": [
+   "verse"
+  ],
+  "description": "Verse source"
+ },
+ {
+  "name": "VflIcon",
+  "file": "vfl",
+  "set": "files",
+  "aliases": [],
+  "color": "#9575CD",
+  "extensions": [
+   "vfl"
+  ],
+  "description": "VFL layout"
+ },
+ {
+  "name": "VimIcon",
+  "file": "vim",
+  "set": "files",
+  "aliases": [],
+  "color": "#019833",
+  "extensions": [
+   "vim",
+   "vimrc",
+   "gvimrc"
+  ],
+  "fileNames": [
+   ".vimrc",
+   "_vimrc",
+   ".gvimrc",
+   "_gvimrc",
+   ".exrc",
+   ".viminfo",
+   "vimrc",
+   "gvimrc"
+  ],
+  "folderNames": [
+   ".vim",
+   "vim",
+   "vimfiles"
+  ],
+  "description": "Vim"
+ },
+ {
+  "name": "VisualstudioIcon",
+  "file": "visualstudio",
+  "set": "files",
+  "aliases": [],
+  "color": "#865FC5",
+  "extensions": [
+   "sln",
+   "slnx",
+   "vcxproj",
+   "vcxproj.filters",
+   "vcproj",
+   "vcxitems",
+   "suo",
+   "vsix",
+   "vssettings",
+   "vsconfig"
+  ],
+  "folderNames": [
+   ".vs"
+  ],
+  "description": "Visual Studio solutions and projects"
+ },
+ {
+  "name": "ViteIcon",
+  "file": "vite",
+  "set": "files",
+  "aliases": [],
+  "color": "#646CFF",
+  "fileNames": [
+   "vite.config.*"
+  ],
+  "description": "Vite config"
+ },
+ {
+  "name": "VitestIcon",
+  "file": "vitest",
+  "set": "files",
+  "aliases": [],
+  "color": "#729B1B",
+  "fileNames": [
+   "vitest.config.*",
+   "vitest.workspace.*",
+   "vitest.setup.*"
+  ],
+  "description": "Vitest config"
+ },
+ {
+  "name": "VlangIcon",
+  "file": "vlang",
+  "set": "files",
+  "aliases": [],
+  "color": "#5D87BF",
+  "extensions": [
+   "vv"
+  ],
+  "fileNames": [
+   "v.mod"
+  ],
+  "description": "V source"
+ },
+ {
+  "name": "VmIcon",
+  "file": "vm",
+  "set": "files",
+  "aliases": [],
+  "color": "#3F7FBF",
+  "extensions": [
+   "vmx",
+   "vmdk",
+   "vdi",
+   "vhd",
+   "vhdx",
+   "ova",
+   "ovf",
+   "qcow2"
+  ],
+  "folderNames": [
+   "vm",
+   "vms",
+   "virtual",
+   "virtual-machines",
+   "virtualmachines"
+  ],
+  "description": "virtual machines"
+ },
+ {
+  "name": "VscodeIcon",
+  "file": "vscode",
+  "set": "files",
+  "aliases": [],
+  "color": "#007ACC",
+  "extensions": [
+   "code-workspace",
+   "code-snippets",
+   "code-profile"
+  ],
+  "fileNames": [
+   ".vscodeignore",
+   "vsc-extension-quickstart.md"
+  ],
+  "folderNames": [
+   ".vscode",
+   ".vscode-test"
+  ],
+  "description": "VS Code settings"
+ },
+ {
+  "name": "VueIcon",
+  "file": "vue",
+  "set": "files",
+  "aliases": [],
+  "color": "#41B883",
+  "extensions": [
+   "vue"
+  ],
+  "fileNames": [
+   "vue.config.*"
+  ],
+  "folderNames": [
+   "vue",
+   ".vuepress",
+   "vuepress"
+  ],
+  "description": "Vue components and config"
+ },
+ {
+  "name": "WallabyIcon",
+  "file": "wallaby",
+  "set": "files",
+  "aliases": [],
+  "color": "#E5A00D",
+  "fileNames": [
+   "wallaby.js",
+   "wallaby.cjs",
+   "wallaby.mjs",
+   "wallaby.conf.js",
+   "wallaby.config.js",
+   ".wallaby.js"
+  ],
+  "description": "Wallaby.js config"
+ },
+ {
+  "name": "WarpIcon",
+  "file": "warp",
+  "set": "files",
+  "aliases": [],
+  "color": "#01A4FF",
+  "folderNames": [
+   ".warp"
+  ],
+  "description": "Warp terminal workflows"
+ },
+ {
+  "name": "WatchmanIcon",
+  "file": "watchman",
+  "set": "files",
+  "aliases": [],
+  "color": "#26A69A",
+  "fileNames": [
+   ".watchmanconfig",
+   ".watchman-cookie"
+  ],
+  "description": "Watchman config"
+ },
+ {
+  "name": "WebassemblyIcon",
+  "file": "webassembly",
+  "set": "files",
+  "aliases": [],
+  "color": "#654FF0",
+  "extensions": [
+   "wasm",
+   "wat",
+   "wast",
+   "wit"
+  ],
+  "description": "WebAssembly"
+ },
+ {
+  "name": "WebpackIcon",
+  "file": "webpack",
+  "set": "files",
+  "aliases": [],
+  "color": "#1C78C0",
+  "fileNames": [
+   "webpack.config.*",
+   "webpack.*.js",
+   "webpack.*.ts",
+   "webpack.*.mjs",
+   "webpack.*.cjs",
+   "webpackfile.js"
+  ],
+  "folderNames": [
+   "webpack",
+   ".webpack"
+  ],
+  "description": "webpack config"
+ },
+ {
+  "name": "WepyIcon",
+  "file": "wepy",
+  "set": "files",
+  "aliases": [],
+  "color": "#58B368",
+  "extensions": [
+   "wpy"
+  ],
+  "description": "WePY components"
+ },
+ {
+  "name": "WerfIcon",
+  "file": "werf",
+  "set": "files",
+  "aliases": [],
+  "color": "#2F9FD8",
+  "fileNames": [
+   "werf.yaml",
+   "werf.yml",
+   "werf-giterminism.yaml",
+   "werf-giterminism.yml",
+   "werf-*.yaml",
+   "werf-*.yml"
+  ],
+  "folderNames": [
+   ".werf"
+  ],
+  "description": "werf config"
+ },
+ {
+  "name": "WindicssIcon",
+  "file": "windicss",
+  "set": "files",
+  "aliases": [],
+  "color": "#48B0F1",
+  "fileNames": [
+   "windi.config.*",
+   "windicss.config.*"
+  ],
+  "description": "Windi CSS config"
+ },
+ {
+  "name": "WindowsIcon",
+  "file": "windows",
+  "set": "files",
+  "aliases": [],
+  "color": "#0078D4",
+  "folderNames": [
+   "windows",
+   "win",
+   "win32",
+   "win64",
+   "winui"
+  ],
+  "description": "Windows-specific files"
+ },
+ {
+  "name": "WolframlanguageIcon",
+  "file": "wolframlanguage",
+  "set": "files",
+  "aliases": [],
+  "color": "#DD1100",
+  "extensions": [
+   "wl",
+   "wls",
+   "wlt",
+   "mt",
+   "cdf"
+  ],
+  "description": "Wolfram Language and notebooks"
+ },
+ {
+  "name": "WordpressIcon",
+  "file": "wordpress",
+  "set": "files",
+  "aliases": [],
+  "color": "#21759B",
+  "folderNames": [
+   "wordpress",
+   "wp",
+   "wp-content",
+   "wp-includes",
+   "wp-admin"
+  ],
+  "description": "WordPress"
+ },
+ {
+  "name": "EdgeWorkerIcon",
+  "file": "edge-worker",
+  "set": "files",
+  "aliases": [],
+  "color": "#F38020",
+  "fileNames": [
+   "wrangler.toml",
+   "wrangler.json",
+   "wrangler.jsonc"
+  ],
+  "folderNames": [
+   ".wrangler"
+  ],
+  "description": "edge worker config (Wrangler)"
+ },
+ {
+  "name": "WxtIcon",
+  "file": "wxt",
+  "set": "files",
+  "aliases": [],
+  "color": "#4CAF50",
+  "fileNames": [
+   "wxt.config.*"
+  ],
+  "folderNames": [
+   ".wxt"
+  ],
+  "description": "WXT config"
+ },
+ {
+  "name": "XamlIcon",
+  "file": "xaml",
+  "set": "files",
+  "aliases": [],
+  "color": "#512BD4",
+  "extensions": [
+   "xaml",
+   "axaml"
+  ],
+  "description": "XAML markup"
+ },
+ {
+  "name": "XmakeIcon",
+  "file": "xmake",
+  "set": "files",
+  "aliases": [],
+  "color": "#2E9E6A",
+  "fileNames": [
+   "xmake.lua"
+  ],
+  "folderNames": [
+   ".xmake"
+  ],
+  "description": "xmake build"
+ },
+ {
+  "name": "XmlIcon",
+  "file": "xml",
+  "set": "files",
+  "aliases": [],
+  "color": "#E37933",
+  "extensions": [
+   "xml",
+   "xsd",
+   "xsl",
+   "xslt",
+   "dtd",
+   "rng",
+   "xmp",
+   "xliff",
+   "xlf",
+   "resx",
+   "wsdl"
+  ],
+  "description": "XML"
+ },
+ {
+  "name": "YamlIcon",
+  "file": "yaml",
+  "set": "files",
+  "aliases": [],
+  "color": "#CB171E",
+  "extensions": [
+   "yaml",
+   "yml"
+  ],
+  "description": "YAML"
+ },
+ {
+  "name": "YangIcon",
+  "file": "yang",
+  "set": "files",
+  "aliases": [],
+  "color": "#3FA7A6",
+  "extensions": [
+   "yang"
+  ],
+  "description": "YANG data models"
+ },
+ {
+  "name": "YarnIcon",
+  "file": "yarn",
+  "set": "files",
+  "aliases": [],
+  "color": "#2C8EBB",
+  "fileNames": [
+   "yarn.lock",
+   ".yarnrc",
+   ".yarnrc.yml",
+   ".yarnclean",
+   ".yarn-integrity",
+   ".yarn-metadata.json",
+   ".pnp.cjs",
+   ".pnp.loader.mjs"
+  ],
+  "folderNames": [
+   ".yarn",
+   "yarn"
+  ],
+  "description": "Yarn package manager"
+ },
+ {
+  "name": "ZedIcon",
+  "file": "zed",
+  "set": "files",
+  "aliases": [],
+  "color": "#084CCF",
+  "folderNames": [
+   ".zed",
+   "zed"
+  ],
+  "description": "Zed editor settings"
+ },
+ {
+  "name": "ZigIcon",
+  "file": "zig",
+  "set": "files",
+  "aliases": [],
+  "color": "#F7A41D",
+  "extensions": [
+   "zig",
+   "zon"
+  ],
+  "fileNames": [
+   "build.zig",
+   "build.zig.zon"
+  ],
+  "folderNames": [
+   ".zig-cache",
+   "zig-cache",
+   "zig-out"
+  ],
+  "description": "Zig source"
  }
 ]

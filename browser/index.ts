@@ -1,7 +1,7 @@
 import { RUNSNIP_APPS } from "../brand";
 import { createElement, toSvg } from "../render";
 import { icons } from "./names";
-import { ATTRIBUTE, renderIcon, renderIcons, type Renderer } from "./load";
+import { ATTRIBUTE, SELECTOR, renderIcon, renderIcons, type Renderer } from "./load";
 
 /**
  * The UMD build (dist/icons.umd.js): every icon in one file, for a page with no build step —
@@ -42,14 +42,14 @@ if (typeof document !== "undefined") {
   const first = () => {
     if (!script?.hasAttribute("data-rs-manual")) load();
     if (script?.hasAttribute("data-rs-observe")) {
-      /* Elements added later are drawn as they arrive; an <svg> drawn here never carries data-rs-icon, so this never
+      /* Elements added later are drawn as they arrive; an <svg> drawn here never carries data-rs-icon, -file or -folder, so this never
          answers its own work. */
       new MutationObserver((records) => {
         for (const record of records) {
           for (const node of Array.from(record.addedNodes)) if (node.nodeType === 1) renderIcons(node as Element, renderer);
-          if (record.type === "attributes" && (record.target as Element).hasAttribute?.(ATTRIBUTE)) renderIcon(record.target as Element, renderer);
+          if (record.type === "attributes" && (record.target as Element).matches?.(SELECTOR)) renderIcon(record.target as Element, renderer);
         }
-      }).observe(document.documentElement, { childList: true, subtree: true, attributes: true, attributeFilter: [ATTRIBUTE] });
+      }).observe(document.documentElement, { childList: true, subtree: true, attributes: true, attributeFilter: [ATTRIBUTE, "data-rs-file", "data-rs-folder"] });
     }
   };
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", first, { once: true });

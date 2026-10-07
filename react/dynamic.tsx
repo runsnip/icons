@@ -3,7 +3,8 @@
 import { useEffect, useState } from "react";
 import { loadIcon } from "../dynamic";
 import type { Icon as IconData } from "../types";
-import { Icon, type IconProps } from "./create";
+import type { IconProps } from "./create";
+import { Icon } from "./icon";
 
 /**
  * An icon by its file name (`bold`, `chevron-right`), loaded the first time it is shown — for names that come from

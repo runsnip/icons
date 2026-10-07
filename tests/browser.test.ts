@@ -4,7 +4,7 @@ import { readFileSync } from "node:fs";
 import { icons } from "../browser/names";
 import { renderIcon, renderIcons } from "../browser/load";
 
-/* Just enough of a DOM for the drawing: elements with attributes and children, replaceWith, and a query by attribute. */
+/* Just enough of a DOM for the drawing: elements with attributes and children, replaceWith, and queries by attribute. */
 class Node_ {
   nodeType = 1;
   parent: Node_ | null = null;
@@ -23,7 +23,9 @@ class Node_ {
   appendChild(c: Node_) { c.parent = this; this.children.push(c); return c; }
   insertBefore(c: Node_, ref: Node_ | null) { c.parent = this; const i = ref ? this.children.indexOf(ref) : -1; if (i < 0) this.children.push(c); else this.children.splice(i, 0, c); return c; }
   replaceWith(c: Node_) { const p = this.parent!; p.children[p.children.indexOf(this)] = c; c.parent = p; }
-  querySelectorAll(selector: string) { const name = /^\[(.+)\]$/.exec(selector)![1]; const out: Node_[] = []; const walk = (n: Node_) => { for (const c of n.children) { if (c.hasAttribute(name)) out.push(c); walk(c); } }; walk(this); return out; }
+  /* Selectors by attribute only: "[a]" or "[a],[b]". */
+  matches(selector: string) { return selector.split(",").some((one) => this.hasAttribute(/^\[(.+)\]$/.exec(one.trim())![1])); }
+  querySelectorAll(selector: string) { const out: Node_[] = []; const walk = (n: Node_) => { for (const c of n.children) { if (c.matches(selector)) out.push(c); walk(c); } }; walk(this); return out; }
 }
 class Doc { createElementNS(_: string, tag: string) { return new Node_(tag, this); } }
 const page = (...attrs: Record<string, string>[]) => {
@@ -59,4 +61,15 @@ test("data-rs-icon is replaced by its <svg>, its attributes moved, named or hidd
   /* Drawn once: a second pass finds nothing left to draw but the name that is no icon. */
   assert.equal(renderIcons(as(root), { icons }), 0);
   assert.equal(renderIcon(as(nope), { icons }), null);
+});
+
+test("data-rs-file and data-rs-folder are drawn as their kinds, in the form and colour asked for", () => {
+  const root = page({ "data-rs-file": "x.zzzzqq" }, { "data-rs-folder": "zzzzqq", "data-rs-open": "", "data-rs-colored": "" }, { "data-rs-icon": "lock", "data-rs-form": "file" });
+  assert.equal(renderIcons(as(root), { icons }), 3);
+  const [file, folder, lock] = root.children;
+  assert.equal(file.getAttribute("data-rs-rendered"), "x.zzzzqq");
+  assert.equal(file.children.length, 1);
+  assert.equal(folder.children.length, 2);
+  assert.ok(folder.children.every((c) => c.getAttribute("stroke") === "#6D87AB"));
+  assert.ok(lock.children.length > 2);
 });

@@ -45,7 +45,11 @@ export function createIcon(icon: Icon): IconComponent {
   return Component;
 }
 
-/** Any icon's data as a component, for an icon held as data (from loadIcon, or chosen at run time). */
-export function Icon({ icon, ...props }: IconProps & { icon: Icon }) {
-  return createElement(createIcon(icon), props);
+/* One component per icon's data, kept: an icon drawn by name or as data is the same component every render, so
+   React updates it rather than mounting it again. */
+const made = new WeakMap<Icon, IconComponent>();
+export function componentOf(icon: Icon): IconComponent {
+  let component = made.get(icon);
+  if (!component) made.set(icon, (component = createIcon(icon)));
+  return component;
 }

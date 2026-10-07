@@ -14,7 +14,8 @@ import { elementBounds } from "./bounds.mjs";
 const root = new URL("..", import.meta.url);
 const pending = process.argv.find((a) => a.startsWith("--manifest="))?.slice(11);
 /* --manifest=pending/<set>.json: icons being drawn, not yet in icons.json, checked or shown on their own. */
-const manifest = pending ? JSON.parse(readFileSync(pending, "utf8")) : JSON.parse(readFileSync(new URL("icons.json", root), "utf8"));
+/* An `extends` entry draws nothing (merge-pending.mjs): there is no drawing of its own to check. */
+const manifest = (pending ? JSON.parse(readFileSync(pending, "utf8")) : JSON.parse(readFileSync(new URL("icons.json", root), "utf8"))).filter((i) => !i.extends);
 const { FIELD, GLYPHS } = await import(new URL("system.ts", root).href);
 const asked = process.argv.slice(2).filter((a) => !a.startsWith("--"));
 const list = asked.length ? manifest.filter((i) => asked.includes(i.file) || asked.includes(i.name)) : manifest;

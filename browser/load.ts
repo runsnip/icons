@@ -1,3 +1,4 @@
+import { resolveIcon, type IconForm } from "../files";
 import { createElement } from "../render";
 import type { Icon } from "../types";
 
@@ -12,6 +13,10 @@ import type { Icon } from "../types";
  *   data-rs-size          px; for a logo wider than tall, its height
  *   data-rs-color         the stroke's colour (the fill's for a filled mark); currentColor otherwise
  *   data-rs-stroke-width  the stroke's width
+ *   data-rs-file          in place of data-rs-icon: a file's name, drawn as its kind's glyph (a page when none)
+ *   data-rs-folder        in place of data-rs-icon: a folder's name, drawn as a folder carrying its kind's glyph
+ *   data-rs-form          glyph, file or folder (files.ts); data-rs-open, a folder open; data-rs-colored, the kind's
+ *                         own colour rather than the text's
  *
  * Every other attribute — class, id, style, aria-*, data-* — moves onto the `<svg>`. An icon with `aria-label`,
  * `aria-labelledby` or `title` is an image with that name; one without is decoration, hidden from assistive
@@ -19,6 +24,8 @@ import type { Icon } from "../types";
  */
 
 export const ATTRIBUTE = "data-rs-icon";
+/** Every attribute that makes an element an icon to draw. */
+export const SELECTOR = "[data-rs-icon],[data-rs-file],[data-rs-folder]";
 const OWN = /^data-rs-/;
 const NAMED = ["aria-label", "aria-labelledby"];
 
@@ -37,8 +44,17 @@ export interface Renderer {
 
 /** One element replaced by its icon's `<svg>`, which is returned; null, and the element left, when the name is no icon. */
 export function renderIcon(element: Element, renderer: Renderer): SVGSVGElement | null {
+  const file = element.getAttribute("data-rs-file");
+  const folder = element.getAttribute("data-rs-folder");
   const name = (element.getAttribute(ATTRIBUTE) ?? "").trim().toLowerCase();
-  const icon = renderer.icons[name];
+  const icon = resolveIcon(renderer.icons, {
+    name: file === null && folder === null ? name : undefined,
+    file: file ?? undefined,
+    folder: folder ?? undefined,
+    form: (element.getAttribute("data-rs-form") as IconForm | null) ?? undefined,
+    open: element.hasAttribute("data-rs-open"),
+    colored: element.hasAttribute("data-rs-colored"),
+  });
   if (!icon) {
     renderer.unknown?.(name, element);
     return null;
@@ -65,7 +81,7 @@ export function renderIcon(element: Element, renderer: Renderer): SVGSVGElement 
     svg.removeAttribute("aria-hidden");
     if (!svg.hasAttribute("role")) svg.setAttribute("role", "img");
   } else svg.setAttribute("aria-hidden", "true");
-  svg.setAttribute("data-rs-rendered", name);
+  svg.setAttribute("data-rs-rendered", folder ?? file ?? name);
   element.replaceWith(svg);
   return svg;
 }
@@ -73,8 +89,8 @@ export function renderIcon(element: Element, renderer: Renderer): SVGSVGElement 
 /** Every element under `root` (and `root` itself) carrying data-rs-icon, drawn; the number drawn. */
 export function renderIcons(root: ParentNode, renderer: Renderer): number {
   const found: Element[] = [];
-  if ((root as Element).nodeType === 1 && (root as Element).hasAttribute(ATTRIBUTE)) found.push(root as Element);
-  found.push(...Array.from(root.querySelectorAll(`[${ATTRIBUTE}]`)));
+  if ((root as Element).nodeType === 1 && (root as Element).matches(SELECTOR)) found.push(root as Element);
+  found.push(...Array.from(root.querySelectorAll(SELECTOR)));
   let drawn = 0;
   for (const element of found) if (renderIcon(element, renderer)) drawn++;
   return drawn;

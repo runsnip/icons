@@ -61,12 +61,12 @@ export default function Icon() {
 
 ## From a CDN, in any page
 
-A UMD build holds every icon, for a page with no build step: `dist/icons.umd.min.js` (98 KB, 26 KB gzipped), what
+A UMD build holds every icon, for a page with no build step: `dist/icons.umd.min.js` (281 KB, 79 KB gzipped), what
 the bare package URL serves, and `icons.umd.js` to read. It stays apart from the ES modules, so a bundler never takes
 it. Any element carrying `data-rs-icon` becomes the icon's `<svg>` once the page has loaded:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@runsnip/icons@0.1"></script>
+<script src="https://cdn.jsdelivr.net/npm/@runsnip/icons@0.2"></script>
 
 <i data-rs-icon="bold"></i>
 <span data-rs-icon="chevron-right" data-rs-size="16" class="muted" aria-label="Next"></span>
@@ -79,6 +79,8 @@ it. Any element carrying `data-rs-icon` becomes the icon's `<svg>` once the page
 | `data-rs-size` | px; for a logo wider than tall, its height |
 | `data-rs-color` | the stroke's colour (the fill's for a filled mark); the text's colour otherwise |
 | `data-rs-stroke-width` | the stroke's width |
+| `data-rs-file`, `data-rs-folder` | in place of `data-rs-icon`: a file's or folder's name, drawn as its kind (Files and folders) |
+| `data-rs-form`, `data-rs-open`, `data-rs-colored` | the form (`glyph`, `file`, `folder`), a folder open, the kind's own colour |
 
 Every other attribute — `class`, `id`, `style`, `aria-*`, `data-*` — moves onto the `<svg>`. With `aria-label`,
 `aria-labelledby` or `title` the icon is an image with that name; without, it is decoration, hidden from assistive
@@ -113,6 +115,43 @@ ThumbsUp, Bug, Wrench, Plug, BookOpen, Layers, Sparkles, Play and Pause. The out
 unit smaller so the two weigh the same; where the shape has a small part (a padlock's keyhole, a pin's needle) that
 part is its mark, and a bare shape (a square, a star, a cloud, a shield, play, pause) is exempt from the one-motif
 rule, as `GLYPHS` says.
+
+## Files and folders
+
+Every kind of file and folder a code editor shows — 640 of them: languages, frameworks, tools, config files, the
+folders projects keep — has one glyph, drawn to the set's rules, with its own colour and the names it matches
+(icons.json's `color`, `extensions`, `fileNames`, `folderNames`). Each glyph comes in four forms, made from it and never
+drawn apart (`files.ts`), in the text's colour or in its kind's own:
+
+| Form | | React |
+| --- | --- | --- |
+| glyph | the drawing itself | `<Icon name="typescript" />` |
+| file | a page, the glyph at its bottom-right corner | `<Icon name="typescript" form="file" />` |
+| folder | a folder carrying the glyph likewise, closed or `open` | `<Icon name="typescript" form="folder" open />` |
+| coloured | any of them in the kind's own colour, frame included | `<Icon name="typescript" form="file" colored />` |
+
+`Icon` finds the kind from a name too — the whole name (`package.json`, `Dockerfile`), then a pattern on it
+(`vite.config.*`), then the longest extension (`a.d.ts` before `.ts`); a folder by its name (`src`, `.github`). A file
+of no known kind is a plain page, a folder of none a plain folder:
+
+```tsx
+import { Icon } from "@runsnip/icons/react";
+
+<Icon file="src/Button.test.tsx" />              // the glyph of its kind
+<Icon file="src/Button.test.tsx" form="file" colored />
+<Icon folder="node_modules" open />
+```
+
+Outside React, `fileKindOf(name)` and `folderKindOf(name)` give the kind (the glyph's file name), `iconForm(icon,
+{ form, open, colored, color })` the form as an icon for `toSvg` or `createElement`, and `resolveIcon(icons, request)`
+does both from a table of icons by name. A page with the CDN script writes `data-rs-file="index.ts"`,
+`data-rs-folder="src"`, and `data-rs-form`, `data-rs-open`, `data-rs-colored`.
+
+Drawing by name holds every icon of the set (the UMD build: 281 KB, 79 KB gzipped — where a theme of separate SVG
+files is 1,250 requests and 5 MB); an app that draws only a few takes their components by import instead.
+
+A framework, language or service is drawn in RunSnip's own strokes; a company's own logo is not (below): a kind that
+stands for one is drawn as what the file does — `.github` is `repo-config`, `vercel.json` is `deployment`.
 
 ## RunSnip's apps
 
