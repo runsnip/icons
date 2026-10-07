@@ -88,3 +88,9 @@ as one on the logo, which RunSnip cannot give; and a logo changes when its owner
 
 Write `icons/<name>.ts` (its drawing, with SVG's attribute names), list it in `icons.json`, run `npm run generate`
 (index, dynamic loading, the React components), and record the new hash the tests ask for.
+
+## Licence
+
+MIT — the icons are free to use, change and ship, in any product. The licence covers copyright only: the RunSnip name
+and the brand set's marks (`RunSnipMark`, `RunSnipWordmark`, every `*BrandIcon` and `*BrandColorIcon`) are RunSnip's
+trademarks, to be used in referring to RunSnip and its apps, never to pass another product off as RunSnip's.

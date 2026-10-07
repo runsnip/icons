@@ -2,7 +2,7 @@
   "name": "@runsnip/icons",
   "version": "0.1.0",
   "description": "RunSnip's icons, each its own module holding only its drawing: as an SVG string, a DOM element or a React component (Server Components included), or loaded by name.",
-  "license": "PolyForm-Shield-1.0.0",
+  "license": "MIT",
   "author": {
     "name": "Canh Nguyen Van",
     "url": "https://canhnguyen.vn"
