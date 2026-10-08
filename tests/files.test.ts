@@ -73,3 +73,14 @@ test("<Icon> by name, by file and by folder draws what toSvg draws", () => {
   same({ icon: LockIcon, form: "file" }, iconForm(LockIcon, { form: "file" }));
   assert.equal(renderToStaticMarkup(h(IconComponent, { name: "no-such-icon" } as never)), "");
 });
+
+test("a kind is found as Material Icon Theme finds it: by languages' extensions, marked folder names, a name in its folder", () => {
+  /* Shell and batch files, which the theme assigns by language rather than by extension. */
+  for (const name of ["a.sh", "a.bash", "a.zsh", "a.fish", "a.bat", "a.cmd"]) assert.equal(fileKindOf(name), "terminal", name);
+  /* A folder's name bare of the marks round it: _src, .src, -src and __src__ are src. */
+  for (const name of ["src", "_src", ".src", "-src", "__src__"]) assert.equal(folderKindOf(name), folderKindOf("src"), name);
+  /* A name kept with its folder, ahead of the name alone. */
+  assert.equal(fileKindOf("project/.config/babelrc"), "babel");
+  assert.equal(folderKindOf(".github/workflows"), "workflow");
+  assert.equal(folderKindOf("i18n"), "translate");
+});

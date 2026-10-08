@@ -175,11 +175,13 @@ export function iconForm(icon: Icon | null, options: FormOptions = {}): Icon {
 
 /**
  * A file's kind — its glyph's file name, for `loadIcon` and `<Icon name>` — from its name: the whole name
- * (`package.json`, `Dockerfile`), then a pattern on it (`Dockerfile.dev`), then its extensions, longest first
+ * (`package.json`, `Dockerfile`) — with its folder first where one is kept so (`.config/babelrc`) — then a pattern on it (`Dockerfile.dev`), then its extensions, longest first
  * (`a.d.ts` is `d.ts` before `ts`). Null for a file of no known kind. A path is taken by its last part.
  */
 export function fileKindOf(fileName: string): string | null {
   const name = fileName.slice(fileName.lastIndexOf("/") + 1).toLowerCase();
+  const inFolder = BY_FILE_NAME[`${parentOf(fileName)}/${name}`];
+  if (inFolder) return inFolder;
   if (BY_FILE_NAME[name]) return BY_FILE_NAME[name];
   for (const [pattern, kind] of BY_FILE_PATTERN) if (pattern.test(name)) return kind;
   for (let dot = name.indexOf(".", 1); dot !== -1; dot = name.indexOf(".", dot + 1)) {
@@ -189,11 +191,26 @@ export function fileKindOf(fileName: string): string | null {
   return null;
 }
 
-/** A folder's kind from its name (`src`, `.github`, `node_modules`); null for a folder of no known kind. */
+/**
+ * A folder's kind from its name (`src`, `.github`, `node_modules`); null for a folder of no known kind. A name kept
+ * with its folder first (`.github/workflows`), then the name as written, then bare of what projects put round a name to sort or hide it — a leading `.`, `_` or `-`, a
+ * wrapping `__…__` — so `_src`, `.src` and `__src__` are `src` without each being listed.
+ */
 export function folderKindOf(folderName: string): string | null {
-  const name = folderName.replace(/\/+$/, "");
-  return BY_FOLDER_NAME[name.slice(name.lastIndexOf("/") + 1).toLowerCase()] ?? null;
+  const path = folderName.replace(/\/+$/, "");
+  const name = path.slice(path.lastIndexOf("/") + 1).toLowerCase();
+  return BY_FOLDER_NAME[`${parentOf(path)}/${name}`] ?? BY_FOLDER_NAME[name] ?? BY_FOLDER_NAME[bareFolderName(name)] ?? null;
 }
+
+/* The folder a path's last part sits in, bare and lower-case — what a name kept with its folder is keyed by:
+   `.github/workflows`, `.config/babelrc`, `prisma/schema` (a .github folder is keyed `github/…`). */
+const parentOf = (path: string): string => {
+  const parts = path.replace(/\/+$/, "").split("/");
+  return parts.length > 1 ? bareFolderName(parts[parts.length - 2].toLowerCase()) : "";
+};
+
+/** A folder's name without the marks round it: `__tests__`, `.tests`, `_tests`, `-tests` are `tests`. */
+export const bareFolderName = (name: string): string => name.replace(/^__(.+)__$/, "$1").replace(/^[._-]+/, "");
 
 /** A kind's own colour, by its glyph's file name. */
 export const kindColor = (kind: string): string | undefined => KIND_COLORS[kind];
