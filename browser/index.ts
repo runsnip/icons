@@ -1,5 +1,6 @@
 import { RUNSNIP_APPS } from "../brand";
 import { createElement, toSvg } from "../render";
+import { resolveIcon, type IconRequest } from "../files";
 import { icons } from "./names";
 import { ATTRIBUTE, SELECTOR, renderIcon, renderIcons, type Renderer } from "./load";
 
@@ -35,6 +36,8 @@ export function load(root: ParentNode | string = document): number {
 /** One element drawn; its <svg>, or null when its name is no icon. */
 export const render = (element: Element) => renderIcon(element, renderer);
 export const names = Object.keys(icons);
+/** An icon by its name or by the file or folder it stands for, in any form: resolveIcon over every icon. */
+export const resolve = (request: IconRequest) => resolveIcon(icons, request);
 export { icons, toSvg, createElement, RUNSNIP_APPS as apps };
 
 if (typeof document !== "undefined") {

@@ -95,7 +95,7 @@ RunSnipLoad(container);        // or RunSnipLoad("#panel"); RunSnipLoad() draws 
 
 Or the script tag says what it should do by itself: `data-rs-observe` draws elements as they are added, with no
 call; `data-rs-manual` leaves even the first pass to the page. `window.RunSnipIcons` holds the rest: `icons` and
-`names`, `render(element)`, `toSvg`, `createElement`, and `apps` (`RUNSNIP_APPS`). Under AMD (`define`) the same object is
+`names`, `render(element)`, `resolve({ name, file, folder, form, open, colored })`, `toSvg`, `createElement`, and `apps` (`RUNSNIP_APPS`). Under AMD (`define`) the same object is
 the module's value, and no global is set. Node and bundlers take the ES modules.
 
 ## The rules every icon is drawn to
@@ -118,37 +118,46 @@ rule, as `GLYPHS` says.
 
 ## Files and folders
 
-Every kind of file and folder a code editor shows — 640 of them: languages, frameworks, tools, config files, the
-folders projects keep — has one glyph, drawn to the set's rules, with its own colour and the names it matches
-(icons.json's `color`, `extensions`, `fileNames`, `folderNames`). Each glyph comes in four forms, made from it and never
-drawn apart (`files.ts`), in the text's colour or in its kind's own:
+Every icon Material Icon Theme gives a file or a folder is redrawn here — 680 kinds: languages, frameworks, tools,
+config files, the folders projects keep — one glyph each, drawn to the set's rules, with its own colour and the names
+it matches as the theme matches them (icons.json's `color`, `extensions`, `fileNames`, `folderNames`). Each kind
+comes as icons of its own, made from its glyph and never drawn apart (`scripts/file-forms.mjs`), imported by name:
 
-| Form | | React |
+| | The text's colour | Its own colour, fixed |
 | --- | --- | --- |
-| glyph | the drawing itself | `<Icon name="typescript" />` |
-| file | a page, the glyph at its bottom-right corner | `<Icon name="typescript" form="file" />` |
-| folder | a folder carrying the glyph likewise, closed or `open` | `<Icon name="typescript" form="folder" open />` |
-| coloured | any of them in the kind's own colour, frame included | `<Icon name="typescript" form="file" colored />` |
+| the glyph | `ReactIcon` | `ReactColorIcon` |
+| a file: a page, the glyph at its bottom-right corner | `ReactFileIcon` | `ReactFileColorIcon` |
+| a folder carrying the glyph likewise | `ReactFolderIcon` | `ReactFolderColorIcon` |
+| the folder open | `ReactFolderOpenIcon` | `ReactFolderOpenColorIcon` |
 
-`Icon` finds the kind from a name too — the whole name (`package.json`, `Dockerfile`), then a pattern on it
-(`vite.config.*`), then the longest extension (`a.d.ts` before `.ts`); a folder by its name (`src`, `.github`). A file
-of no known kind is a plain page, a folder of none a plain folder:
+```tsx
+import { ReactFileIcon, ReactFolderColorIcon } from "@runsnip/icons/react";
+
+<ReactFileIcon size={16} />           // the text's colour
+<ReactFolderColorIcon size={16} />    // React's own colour: a colour given here changes nothing inside it
+```
+
+By name — `react`, `react-file`, `react-folder-open-color` — the same icons come from `loadIcon`, `<Icon name>` and a
+page's `data-rs-icon`; the UMD build makes them from the glyph when asked, so it carries the drawings only.
+
+A tree that knows its files' names rather than their kinds takes the kind from the name, as the theme does: the
+whole name (`package.json`), kept with its folder first where the theme keeps it so (`.config/babelrc`), then a
+pattern (`vite.config.*`), then the longest extension (`a.d.ts` before `.ts`); a folder by its name, bare of the marks
+put round it (`_src`, `.src`, `__src__` are `src`). A file of no known kind is a plain page, a folder of none a plain
+folder:
 
 ```tsx
 import { Icon } from "@runsnip/icons/react";
 
-<Icon file="src/Button.test.tsx" />              // the glyph of its kind
 <Icon file="src/Button.test.tsx" form="file" colored />
 <Icon folder="node_modules" open />
 ```
 
-Outside React, `fileKindOf(name)` and `folderKindOf(name)` give the kind (the glyph's file name), `iconForm(icon,
-{ form, open, colored, color })` the form as an icon for `toSvg` or `createElement`, and `resolveIcon(icons, request)`
-does both from a table of icons by name. A page with the CDN script writes `data-rs-file="index.ts"`,
-`data-rs-folder="src"`, and `data-rs-form`, `data-rs-open`, `data-rs-colored`.
-
-Drawing by name holds every icon of the set (the UMD build: 281 KB, 79 KB gzipped — where a theme of separate SVG
-files is 1,250 requests and 5 MB); an app that draws only a few takes their components by import instead.
+Outside React, `fileKindOf(name)` and `folderKindOf(name)` give the kind (the glyph's file name) and
+`resolveIcon(icons, request)` the icon; a page with the CDN script writes `data-rs-file="index.ts"`,
+`data-rs-folder="src"`, with `data-rs-form`, `data-rs-open`, `data-rs-colored`. Drawing by name holds every glyph and
+every name (the UMD build: 353 KB, 92 KB gzipped — where the theme's separate SVG files are 1,250 requests and
+5 MB); an app that draws only a few takes their components by import instead.
 
 A framework, language or service is drawn in RunSnip's own strokes; a company's own logo is not (below): a kind that
 stands for one is drawn as what the file does — `.github` is `repo-config`, `vercel.json` is `deployment`.
