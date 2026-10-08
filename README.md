@@ -4,6 +4,8 @@ RunSnip's icons. Each is a module of its own holding only its drawing — the el
 be drawn anywhere: as an SVG string, a DOM element, or a React component, on a server as in a browser. An app bundles
 only the icons it imports.
 
+Every icon, its forms and the code to draw it: **[icons.runsnip.net](https://icons.runsnip.net)**.
+
 ```ts
 import { BoldIcon, toSvg, createElement } from "@runsnip/icons";
 
