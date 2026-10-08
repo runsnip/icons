@@ -68,7 +68,7 @@ the bare package URL serves, and `icons.umd.js` to read. It stays apart from the
 it. Any element carrying `data-rs-icon` becomes the icon's `<svg>` once the page has loaded:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@runsnip/icons@0.2"></script>
+<script src="https://cdn.jsdelivr.net/npm/@runsnip/icons@0.3"></script>
 
 <i data-rs-icon="bold"></i>
 <span data-rs-icon="chevron-right" data-rs-size="16" class="muted" aria-label="Next"></span>
@@ -102,7 +102,7 @@ the module's value, and no global is set. Node and bundlers take the ES modules.
 
 What the set holds, without the drawings — each icon's name, set, aliases and meaning, and a kind's colour and the
 names it matches — is `dist/catalog.json`, beside the UMD build, for a catalogue or a picker:
-`https://cdn.jsdelivr.net/npm/@runsnip/icons@0.2/dist/catalog.json`.
+`https://cdn.jsdelivr.net/npm/@runsnip/icons@0.3/dist/catalog.json`.
 
 ## The rules every icon is drawn to
 
