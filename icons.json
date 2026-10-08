@@ -2440,6 +2440,44 @@
   "aliases": []
  },
  {
+  "name": "TerrariumMark",
+  "file": "terrarium-mark",
+  "set": "brand",
+  "aliases": [],
+  "description": "Terrarium: a cloud kept under a bell jar — the knob, the glass, the base — in the text's colour; the logo's small cut, made for icon sizes"
+ },
+ {
+  "name": "TerrariumMarkColor",
+  "file": "terrarium-mark-color",
+  "set": "brand",
+  "aliases": [],
+  "colorOf": "TerrariumMark",
+  "description": "Terrarium's mark in terracotta (#C1502E), for light grounds"
+ },
+ {
+  "name": "TerrariumMarkOnDark",
+  "file": "terrarium-mark-on-dark",
+  "set": "brand",
+  "aliases": [],
+  "colorOf": "TerrariumMark",
+  "description": "Terrarium's mark in light terracotta (#E8805F), for dark grounds (#15171A or darker)"
+ },
+ {
+  "name": "TerrariumTile",
+  "file": "terrarium-tile",
+  "set": "brand",
+  "aliases": [],
+  "description": "Terrarium's app icon in the text's colour: the mark in the brand frame"
+ },
+ {
+  "name": "TerrariumTileColor",
+  "file": "terrarium-tile-color",
+  "set": "brand",
+  "aliases": [],
+  "colorOf": "TerrariumTile",
+  "description": "Terrarium's app icon: the mark in paper (#F4F1EC) on a terracotta tile"
+ },
+ {
   "name": "CommentAddIcon",
   "file": "comment-add",
   "set": "collab",

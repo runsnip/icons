@@ -198,6 +198,20 @@ slate. `CodeAppIcon`, `FinderAppIcon` and the others of the app set are a launch
 The coloured marks are made from the plain ones (`scripts/brand-colors.mjs`), never drawn apart, so the two cannot
 drift; the audit holds each to its plain mark's drawing.
 
+### Terrarium
+
+Terrarium, the local stand-in for cloud services, keeps its own mark: a cloud under a bell jar, from its brand
+(`terrarium/brand/logo/final`). The icons are its small cut — the cut its guidelines give for 32 px and below, with
+thicker glass and a bigger knob — scaled into the set's field, one shape filled even-odd, not redrawn.
+
+| Icon | Colour | For |
+| --- | --- | --- |
+| `TerrariumMark` | the text's | anywhere the text's colour is right |
+| `TerrariumMarkColor` | terracotta `#C1502E` | light grounds (4.71:1 on white) |
+| `TerrariumMarkOnDark` | light terracotta `#E8805F` | dark grounds, `#15171A` or darker (6.57:1) |
+| `TerrariumTile` | the text's | the app icon in the brand frame |
+| `TerrariumTileColor` | paper `#F4F1EC` on terracotta | the app icon, as `terrarium-app-icon.svg` draws it |
+
 ## No other company's logo
 
 The set holds RunSnip's own marks (the wordmark, the mark) and no other company's — not Google's, GitHub's or any
@@ -214,5 +228,5 @@ Write `icons/<name>.ts` (its drawing, with SVG's attribute names), list it in `i
 ## Licence
 
 MIT — the icons are free to use, change and ship, in any product. The licence covers copyright only: the RunSnip name
-and the brand set's marks (`RunSnipMark`, `RunSnipWordmark`, every `*BrandIcon` and `*BrandColorIcon`) are RunSnip's
+and the brand set's marks (`RunSnipMark`, `RunSnipWordmark`, every `*BrandIcon` and `*BrandColorIcon`, the `Terrarium*` marks) are RunSnip's
 trademarks, to be used in referring to RunSnip and its apps, never to pass another product off as RunSnip's.
