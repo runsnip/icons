@@ -10,7 +10,7 @@ const [report] = JSON.parse(execFileSync("npm", ["pack", "--dry-run", "--json", 
 const files = new Set(report.files.map((f) => f.path));
 const problems = [];
 
-for (const want of ["package.json", "LICENSE", "README.md"]) if (!files.has(want)) problems.push(`missing ${want}`);
+for (const want of ["package.json", "LICENSE", "README.md", "dist/catalog.json"]) if (!files.has(want)) problems.push(`missing ${want}`);
 /* The script a CDN serves for the bare package URL (unpkg, jsdelivr): a page's <script src> must find it. */
 for (const field of ["unpkg", "jsdelivr"]) {
   const path = pkg[field]?.replace(/^\.\//, "");

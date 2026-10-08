@@ -56,6 +56,11 @@ for (const minify of [false, true]) {
     logLevel: "warning",
   });
 }
+/* What the set holds, without the drawings: each icon's name, set, aliases and meaning, and a kind's colour and the
+   names it matches — for a catalogue or a picker that draws with the UMD build (jsDelivr serves both). */
+const catalog = JSON.parse(readFileSync(join(root, "icons.json"), "utf8")).map(({ name, file, set, aliases, description, color, colorOf, extensions, fileNames, folderNames }) =>
+  Object.fromEntries(Object.entries({ name, file, set, aliases, description, color, colorOf, extensions, fileNames, folderNames }).filter(([, v]) => v !== undefined && !(Array.isArray(v) && !v.length))));
+writeFileSync(join(root, "dist/catalog.json"), JSON.stringify({ version: pkg.version, icons: catalog }));
 execFileSync("npx", ["tsc", "-p", "tsconfig.build.json"], { stdio: "inherit", cwd: root });
 
 /* Declarations name their neighbours as the source does, without an extension: fine for a bundler,

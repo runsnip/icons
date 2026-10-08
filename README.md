@@ -95,8 +95,12 @@ RunSnipLoad(container);        // or RunSnipLoad("#panel"); RunSnipLoad() draws 
 
 Or the script tag says what it should do by itself: `data-rs-observe` draws elements as they are added, with no
 call; `data-rs-manual` leaves even the first pass to the page. `window.RunSnipIcons` holds the rest: `icons` and
-`names`, `render(element)`, `resolve({ name, file, folder, form, open, colored })`, `toSvg`, `createElement`, and `apps` (`RUNSNIP_APPS`). Under AMD (`define`) the same object is
+`names`, `render(element)`, `resolve({ name, file, folder, form, open, colored })`, `iconForm`, `fileKindOf`, `folderKindOf`, `kindColor`, `toSvg`, `createElement`, and `apps` (`RUNSNIP_APPS`). Under AMD (`define`) the same object is
 the module's value, and no global is set. Node and bundlers take the ES modules.
+
+What the set holds, without the drawings — each icon's name, set, aliases and meaning, and a kind's colour and the
+names it matches — is `dist/catalog.json`, beside the UMD build, for a catalogue or a picker:
+`https://cdn.jsdelivr.net/npm/@runsnip/icons@0.2/dist/catalog.json`.
 
 ## The rules every icon is drawn to
 
