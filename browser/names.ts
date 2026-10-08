@@ -1032,42 +1032,41 @@ import i1027 from "../icons/zed";
 import i1028 from "../icons/zig";
 import i1029 from "../icons/otne";
 import i1030 from "../icons/graphcool";
-import i1031 from "../icons/gitlab";
-import i1032 from "../icons/pipeline";
-import i1033 from "../icons/jsconfig";
-import i1034 from "../icons/taskfile";
-import i1035 from "../icons/verified";
-import i1036 from "../icons/zeabur";
-import i1037 from "../icons/harmonix";
-import i1038 from "../icons/auto";
-import i1039 from "../icons/supabase";
-import i1040 from "../icons/svgr";
-import i1041 from "../icons/tobimake";
-import i1042 from "../icons/ifanr-cloud";
-import i1043 from "../icons/cline";
-import i1044 from "../icons/packship";
-import i1045 from "../icons/github-actions-workflow";
-import i1046 from "../icons/ahk2";
-import i1047 from "../icons/ngrx";
-import i1048 from "../icons/redux";
-import i1049 from "../icons/vuex-store";
-import i1050 from "../icons/qwik";
-import i1051 from "../icons/rojo";
-import i1052 from "../icons/silverstripe";
-import i1053 from "../icons/bashly-hook";
-import i1054 from "../icons/latex-class";
-import i1055 from "../icons/latex-package";
-import i1056 from "../icons/salesforce";
-import i1057 from "../icons/ngrx-actions";
-import i1058 from "../icons/ngrx-effects";
-import i1059 from "../icons/ngrx-entity";
-import i1060 from "../icons/ngrx-reducer";
-import i1061 from "../icons/ngrx-selectors";
-import i1062 from "../icons/ngrx-state";
-import i1063 from "../icons/redux-action";
-import i1064 from "../icons/redux-reducer";
-import i1065 from "../icons/redux-selector";
-import i1066 from "../icons/redux-store";
+import i1031 from "../icons/pipeline";
+import i1032 from "../icons/jsconfig";
+import i1033 from "../icons/taskfile";
+import i1034 from "../icons/verified";
+import i1035 from "../icons/zeabur";
+import i1036 from "../icons/harmonix";
+import i1037 from "../icons/auto";
+import i1038 from "../icons/supabase";
+import i1039 from "../icons/svgr";
+import i1040 from "../icons/tobimake";
+import i1041 from "../icons/ifanr-cloud";
+import i1042 from "../icons/cline";
+import i1043 from "../icons/packship";
+import i1044 from "../icons/github-actions-workflow";
+import i1045 from "../icons/ahk2";
+import i1046 from "../icons/ngrx";
+import i1047 from "../icons/redux";
+import i1048 from "../icons/vuex-store";
+import i1049 from "../icons/qwik";
+import i1050 from "../icons/rojo";
+import i1051 from "../icons/silverstripe";
+import i1052 from "../icons/bashly-hook";
+import i1053 from "../icons/latex-class";
+import i1054 from "../icons/latex-package";
+import i1055 from "../icons/salesforce";
+import i1056 from "../icons/ngrx-actions";
+import i1057 from "../icons/ngrx-effects";
+import i1058 from "../icons/ngrx-entity";
+import i1059 from "../icons/ngrx-reducer";
+import i1060 from "../icons/ngrx-selectors";
+import i1061 from "../icons/ngrx-state";
+import i1062 from "../icons/redux-action";
+import i1063 from "../icons/redux-reducer";
+import i1064 from "../icons/redux-selector";
+import i1065 from "../icons/redux-store";
 
 /** Every icon by the name a page gives in data-rs-icon: its file name (bold, chevron-right), or an alias's. */
 export const icons: Record<string, Icon> = {
@@ -2139,40 +2138,39 @@ export const icons: Record<string, Icon> = {
   "zig": i1028,
   "otne": i1029,
   "graphcool": i1030,
-  "gitlab": i1031,
-  "pipeline": i1032,
-  "jsconfig": i1033,
-  "taskfile": i1034,
-  "verified": i1035,
-  "zeabur": i1036,
-  "harmonix": i1037,
-  "auto": i1038,
-  "supabase": i1039,
-  "svgr": i1040,
-  "tobimake": i1041,
-  "ifanr-cloud": i1042,
-  "cline": i1043,
-  "packship": i1044,
-  "github-actions-workflow": i1045,
-  "ahk2": i1046,
-  "ngrx": i1047,
-  "redux": i1048,
-  "vuex-store": i1049,
-  "qwik": i1050,
-  "rojo": i1051,
-  "silverstripe": i1052,
-  "bashly-hook": i1053,
-  "latex-class": i1054,
-  "latex-package": i1055,
-  "salesforce": i1056,
-  "ngrx-actions": i1057,
-  "ngrx-effects": i1058,
-  "ngrx-entity": i1059,
-  "ngrx-reducer": i1060,
-  "ngrx-selectors": i1061,
-  "ngrx-state": i1062,
-  "redux-action": i1063,
-  "redux-reducer": i1064,
-  "redux-selector": i1065,
-  "redux-store": i1066,
+  "pipeline": i1031,
+  "jsconfig": i1032,
+  "taskfile": i1033,
+  "verified": i1034,
+  "zeabur": i1035,
+  "harmonix": i1036,
+  "auto": i1037,
+  "supabase": i1038,
+  "svgr": i1039,
+  "tobimake": i1040,
+  "ifanr-cloud": i1041,
+  "cline": i1042,
+  "packship": i1043,
+  "github-actions-workflow": i1044,
+  "ahk2": i1045,
+  "ngrx": i1046,
+  "redux": i1047,
+  "vuex-store": i1048,
+  "qwik": i1049,
+  "rojo": i1050,
+  "silverstripe": i1051,
+  "bashly-hook": i1052,
+  "latex-class": i1053,
+  "latex-package": i1054,
+  "salesforce": i1055,
+  "ngrx-actions": i1056,
+  "ngrx-effects": i1057,
+  "ngrx-entity": i1058,
+  "ngrx-reducer": i1059,
+  "ngrx-selectors": i1060,
+  "ngrx-state": i1061,
+  "redux-action": i1062,
+  "redux-reducer": i1063,
+  "redux-selector": i1064,
+  "redux-store": i1065,
 };

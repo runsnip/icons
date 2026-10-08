@@ -10951,8 +10951,6 @@
   "aliases": [],
   "color": "#1E88E5",
   "fileNames": [
-   ".gitlab-ci.yaml",
-   ".gitlab-ci.yml",
    ".pipeline.yaml",
    ".pipeline.yml",
    "jenkinsfile.pipeline",
@@ -15158,17 +15156,6 @@
   ],
   "fileNames": [
    "project.graphcool"
-  ]
- },
- {
-  "name": "GitlabIcon",
-  "file": "gitlab",
-  "set": "files",
-  "aliases": [],
-  "color": "#EF6C00",
-  "description": "GitLab",
-  "extensions": [
-   "gitlab-ci.yml"
   ]
  },
  {

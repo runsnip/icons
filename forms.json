@@ -39910,68 +39910,6 @@
   "colored": true
  },
  {
-  "name": "GitlabColorIcon",
-  "file": "gitlab-color",
-  "set": "forms",
-  "aliases": [],
-  "formOf": "GitlabIcon",
-  "form": "glyph",
-  "colored": true
- },
- {
-  "name": "GitlabFileIcon",
-  "file": "gitlab-file",
-  "set": "forms",
-  "aliases": [],
-  "formOf": "GitlabIcon",
-  "form": "file"
- },
- {
-  "name": "GitlabFileColorIcon",
-  "file": "gitlab-file-color",
-  "set": "forms",
-  "aliases": [],
-  "formOf": "GitlabIcon",
-  "form": "file",
-  "colored": true
- },
- {
-  "name": "GitlabFolderIcon",
-  "file": "gitlab-folder",
-  "set": "forms",
-  "aliases": [],
-  "formOf": "GitlabIcon",
-  "form": "folder"
- },
- {
-  "name": "GitlabFolderColorIcon",
-  "file": "gitlab-folder-color",
-  "set": "forms",
-  "aliases": [],
-  "formOf": "GitlabIcon",
-  "form": "folder",
-  "colored": true
- },
- {
-  "name": "GitlabFolderOpenIcon",
-  "file": "gitlab-folder-open",
-  "set": "forms",
-  "aliases": [],
-  "formOf": "GitlabIcon",
-  "form": "folder",
-  "open": true
- },
- {
-  "name": "GitlabFolderOpenColorIcon",
-  "file": "gitlab-folder-open-color",
-  "set": "forms",
-  "aliases": [],
-  "formOf": "GitlabIcon",
-  "form": "folder",
-  "open": true,
-  "colored": true
- },
- {
   "name": "PipelineColorIcon",
   "file": "pipeline-color",
   "set": "forms",

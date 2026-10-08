@@ -83,4 +83,7 @@ test("a kind is found as Material Icon Theme finds it: by languages' extensions,
   assert.equal(fileKindOf("project/.config/babelrc"), "babel");
   assert.equal(folderKindOf(".github/workflows"), "workflow");
   assert.equal(folderKindOf("i18n"), "translate");
+  /* GitLab is not drawn (a company's logo): its CI files are YAML, its folder a host's config like .github. */
+  for (const name of [".gitlab-ci.yml", ".gitlab-ci.yaml", "deploy.gitlab-ci.yml"]) assert.equal(fileKindOf(name), "yaml", name);
+  assert.equal(folderKindOf(".gitlab"), folderKindOf(".github"));
 });
