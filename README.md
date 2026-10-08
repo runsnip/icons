@@ -61,7 +61,7 @@ export default function Icon() {
 
 ## From a CDN, in any page
 
-A UMD build holds every icon, for a page with no build step: `dist/icons.umd.min.js` (281 KB, 79 KB gzipped), what
+A UMD build holds every icon, for a page with no build step: `dist/icons.umd.min.js` (353 KB, 92 KB gzipped), what
 the bare package URL serves, and `icons.umd.js` to read. It stays apart from the ES modules, so a bundler never takes
 it. Any element carrying `data-rs-icon` becomes the icon's `<svg>` once the page has loaded:
 
