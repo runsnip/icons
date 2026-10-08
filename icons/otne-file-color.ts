@@ -1,0 +1,10 @@
+/* Made by scripts/file-forms.mjs from the kind's glyph. Do not edit; run `npm run generate`. */
+import type { Icon } from "../types";
+
+/** Otne: a page carrying its glyph in its colour, #00C853. */
+export const OtneFileColorIcon: Icon = {
+  name: "OtneFileColorIcon",
+  node: [["path",{"d":"M8.5 20.5H7A2.5 2.5 0 0 1 4.5 18V6A2.5 2.5 0 0 1 7 3.5h7L19.5 9","stroke":"#00C853"}],["circle",{"cx":15.5,"cy":15.5,"r":5,"stroke-width":1.5,"stroke":"#00C853"}],["rect",{"x":12.559,"y":14.471,"width":5.882,"height":2.059,"rx":1.029,"stroke-width":1.5,"stroke":"#00C853"}],["path",{"d":"M15.5 13.441v4.118","stroke-width":1.95,"stroke":"#00C853"}]],
+};
+
+export default OtneFileColorIcon;

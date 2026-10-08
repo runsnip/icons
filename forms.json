@@ -39784,5 +39784,2361 @@
   "form": "folder",
   "open": true,
   "colored": true
+ },
+ {
+  "name": "OtneColorIcon",
+  "file": "otne-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "OtneIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "OtneFileIcon",
+  "file": "otne-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "OtneIcon",
+  "form": "file"
+ },
+ {
+  "name": "OtneFileColorIcon",
+  "file": "otne-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "OtneIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "OtneFolderIcon",
+  "file": "otne-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "OtneIcon",
+  "form": "folder"
+ },
+ {
+  "name": "OtneFolderColorIcon",
+  "file": "otne-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "OtneIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "OtneFolderOpenIcon",
+  "file": "otne-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "OtneIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "OtneFolderOpenColorIcon",
+  "file": "otne-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "OtneIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "GraphcoolColorIcon",
+  "file": "graphcool-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "GraphcoolIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "GraphcoolFileIcon",
+  "file": "graphcool-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "GraphcoolIcon",
+  "form": "file"
+ },
+ {
+  "name": "GraphcoolFileColorIcon",
+  "file": "graphcool-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "GraphcoolIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "GraphcoolFolderIcon",
+  "file": "graphcool-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "GraphcoolIcon",
+  "form": "folder"
+ },
+ {
+  "name": "GraphcoolFolderColorIcon",
+  "file": "graphcool-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "GraphcoolIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "GraphcoolFolderOpenIcon",
+  "file": "graphcool-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "GraphcoolIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "GraphcoolFolderOpenColorIcon",
+  "file": "graphcool-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "GraphcoolIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "GitlabColorIcon",
+  "file": "gitlab-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "GitlabIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "GitlabFileIcon",
+  "file": "gitlab-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "GitlabIcon",
+  "form": "file"
+ },
+ {
+  "name": "GitlabFileColorIcon",
+  "file": "gitlab-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "GitlabIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "GitlabFolderIcon",
+  "file": "gitlab-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "GitlabIcon",
+  "form": "folder"
+ },
+ {
+  "name": "GitlabFolderColorIcon",
+  "file": "gitlab-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "GitlabIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "GitlabFolderOpenIcon",
+  "file": "gitlab-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "GitlabIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "GitlabFolderOpenColorIcon",
+  "file": "gitlab-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "GitlabIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "PipelineColorIcon",
+  "file": "pipeline-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "PipelineIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "PipelineFileIcon",
+  "file": "pipeline-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "PipelineIcon",
+  "form": "file"
+ },
+ {
+  "name": "PipelineFileColorIcon",
+  "file": "pipeline-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "PipelineIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "PipelineFolderIcon",
+  "file": "pipeline-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "PipelineIcon",
+  "form": "folder"
+ },
+ {
+  "name": "PipelineFolderColorIcon",
+  "file": "pipeline-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "PipelineIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "PipelineFolderOpenIcon",
+  "file": "pipeline-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "PipelineIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "PipelineFolderOpenColorIcon",
+  "file": "pipeline-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "PipelineIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "JsconfigColorIcon",
+  "file": "jsconfig-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "JsconfigIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "JsconfigFileIcon",
+  "file": "jsconfig-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "JsconfigIcon",
+  "form": "file"
+ },
+ {
+  "name": "JsconfigFileColorIcon",
+  "file": "jsconfig-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "JsconfigIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "JsconfigFolderIcon",
+  "file": "jsconfig-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "JsconfigIcon",
+  "form": "folder"
+ },
+ {
+  "name": "JsconfigFolderColorIcon",
+  "file": "jsconfig-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "JsconfigIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "JsconfigFolderOpenIcon",
+  "file": "jsconfig-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "JsconfigIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "JsconfigFolderOpenColorIcon",
+  "file": "jsconfig-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "JsconfigIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "TaskfileColorIcon",
+  "file": "taskfile-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "TaskfileIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "TaskfileFileIcon",
+  "file": "taskfile-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "TaskfileIcon",
+  "form": "file"
+ },
+ {
+  "name": "TaskfileFileColorIcon",
+  "file": "taskfile-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "TaskfileIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "TaskfileFolderIcon",
+  "file": "taskfile-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "TaskfileIcon",
+  "form": "folder"
+ },
+ {
+  "name": "TaskfileFolderColorIcon",
+  "file": "taskfile-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "TaskfileIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "TaskfileFolderOpenIcon",
+  "file": "taskfile-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "TaskfileIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "TaskfileFolderOpenColorIcon",
+  "file": "taskfile-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "TaskfileIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "VerifiedColorIcon",
+  "file": "verified-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "VerifiedIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "VerifiedFileIcon",
+  "file": "verified-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "VerifiedIcon",
+  "form": "file"
+ },
+ {
+  "name": "VerifiedFileColorIcon",
+  "file": "verified-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "VerifiedIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "VerifiedFolderIcon",
+  "file": "verified-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "VerifiedIcon",
+  "form": "folder"
+ },
+ {
+  "name": "VerifiedFolderColorIcon",
+  "file": "verified-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "VerifiedIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "VerifiedFolderOpenIcon",
+  "file": "verified-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "VerifiedIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "VerifiedFolderOpenColorIcon",
+  "file": "verified-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "VerifiedIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "ZeaburColorIcon",
+  "file": "zeabur-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ZeaburIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "ZeaburFileIcon",
+  "file": "zeabur-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ZeaburIcon",
+  "form": "file"
+ },
+ {
+  "name": "ZeaburFileColorIcon",
+  "file": "zeabur-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ZeaburIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "ZeaburFolderIcon",
+  "file": "zeabur-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ZeaburIcon",
+  "form": "folder"
+ },
+ {
+  "name": "ZeaburFolderColorIcon",
+  "file": "zeabur-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ZeaburIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "ZeaburFolderOpenIcon",
+  "file": "zeabur-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ZeaburIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "ZeaburFolderOpenColorIcon",
+  "file": "zeabur-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ZeaburIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "HarmonixColorIcon",
+  "file": "harmonix-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "HarmonixIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "HarmonixFileIcon",
+  "file": "harmonix-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "HarmonixIcon",
+  "form": "file"
+ },
+ {
+  "name": "HarmonixFileColorIcon",
+  "file": "harmonix-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "HarmonixIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "HarmonixFolderIcon",
+  "file": "harmonix-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "HarmonixIcon",
+  "form": "folder"
+ },
+ {
+  "name": "HarmonixFolderColorIcon",
+  "file": "harmonix-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "HarmonixIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "HarmonixFolderOpenIcon",
+  "file": "harmonix-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "HarmonixIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "HarmonixFolderOpenColorIcon",
+  "file": "harmonix-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "HarmonixIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "AutoReleaseColorIcon",
+  "file": "auto-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "AutoReleaseIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "AutoReleaseFileIcon",
+  "file": "auto-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "AutoReleaseIcon",
+  "form": "file"
+ },
+ {
+  "name": "AutoReleaseFileColorIcon",
+  "file": "auto-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "AutoReleaseIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "AutoReleaseFolderIcon",
+  "file": "auto-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "AutoReleaseIcon",
+  "form": "folder"
+ },
+ {
+  "name": "AutoReleaseFolderColorIcon",
+  "file": "auto-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "AutoReleaseIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "AutoReleaseFolderOpenIcon",
+  "file": "auto-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "AutoReleaseIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "AutoReleaseFolderOpenColorIcon",
+  "file": "auto-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "AutoReleaseIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "SupabaseColorIcon",
+  "file": "supabase-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SupabaseIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "SupabaseFileIcon",
+  "file": "supabase-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SupabaseIcon",
+  "form": "file"
+ },
+ {
+  "name": "SupabaseFileColorIcon",
+  "file": "supabase-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SupabaseIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "SupabaseFolderIcon",
+  "file": "supabase-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SupabaseIcon",
+  "form": "folder"
+ },
+ {
+  "name": "SupabaseFolderColorIcon",
+  "file": "supabase-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SupabaseIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "SupabaseFolderOpenIcon",
+  "file": "supabase-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SupabaseIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "SupabaseFolderOpenColorIcon",
+  "file": "supabase-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SupabaseIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "SvgrColorIcon",
+  "file": "svgr-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SvgrIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "SvgrFileIcon",
+  "file": "svgr-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SvgrIcon",
+  "form": "file"
+ },
+ {
+  "name": "SvgrFileColorIcon",
+  "file": "svgr-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SvgrIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "SvgrFolderIcon",
+  "file": "svgr-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SvgrIcon",
+  "form": "folder"
+ },
+ {
+  "name": "SvgrFolderColorIcon",
+  "file": "svgr-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SvgrIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "SvgrFolderOpenIcon",
+  "file": "svgr-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SvgrIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "SvgrFolderOpenColorIcon",
+  "file": "svgr-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SvgrIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "TobimakeColorIcon",
+  "file": "tobimake-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "TobimakeIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "TobimakeFileIcon",
+  "file": "tobimake-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "TobimakeIcon",
+  "form": "file"
+ },
+ {
+  "name": "TobimakeFileColorIcon",
+  "file": "tobimake-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "TobimakeIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "TobimakeFolderIcon",
+  "file": "tobimake-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "TobimakeIcon",
+  "form": "folder"
+ },
+ {
+  "name": "TobimakeFolderColorIcon",
+  "file": "tobimake-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "TobimakeIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "TobimakeFolderOpenIcon",
+  "file": "tobimake-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "TobimakeIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "TobimakeFolderOpenColorIcon",
+  "file": "tobimake-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "TobimakeIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "IfanrCloudColorIcon",
+  "file": "ifanr-cloud-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "IfanrCloudIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "IfanrCloudFileIcon",
+  "file": "ifanr-cloud-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "IfanrCloudIcon",
+  "form": "file"
+ },
+ {
+  "name": "IfanrCloudFileColorIcon",
+  "file": "ifanr-cloud-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "IfanrCloudIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "IfanrCloudFolderIcon",
+  "file": "ifanr-cloud-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "IfanrCloudIcon",
+  "form": "folder"
+ },
+ {
+  "name": "IfanrCloudFolderColorIcon",
+  "file": "ifanr-cloud-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "IfanrCloudIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "IfanrCloudFolderOpenIcon",
+  "file": "ifanr-cloud-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "IfanrCloudIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "IfanrCloudFolderOpenColorIcon",
+  "file": "ifanr-cloud-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "IfanrCloudIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "ClineColorIcon",
+  "file": "cline-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ClineIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "ClineFileIcon",
+  "file": "cline-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ClineIcon",
+  "form": "file"
+ },
+ {
+  "name": "ClineFileColorIcon",
+  "file": "cline-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ClineIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "ClineFolderIcon",
+  "file": "cline-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ClineIcon",
+  "form": "folder"
+ },
+ {
+  "name": "ClineFolderColorIcon",
+  "file": "cline-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ClineIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "ClineFolderOpenIcon",
+  "file": "cline-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ClineIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "ClineFolderOpenColorIcon",
+  "file": "cline-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ClineIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "PackshipColorIcon",
+  "file": "packship-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "PackshipIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "PackshipFileIcon",
+  "file": "packship-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "PackshipIcon",
+  "form": "file"
+ },
+ {
+  "name": "PackshipFileColorIcon",
+  "file": "packship-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "PackshipIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "PackshipFolderIcon",
+  "file": "packship-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "PackshipIcon",
+  "form": "folder"
+ },
+ {
+  "name": "PackshipFolderColorIcon",
+  "file": "packship-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "PackshipIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "PackshipFolderOpenIcon",
+  "file": "packship-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "PackshipIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "PackshipFolderOpenColorIcon",
+  "file": "packship-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "PackshipIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "GithubActionsWorkflowColorIcon",
+  "file": "github-actions-workflow-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "GithubActionsWorkflowIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "GithubActionsWorkflowFileIcon",
+  "file": "github-actions-workflow-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "GithubActionsWorkflowIcon",
+  "form": "file"
+ },
+ {
+  "name": "GithubActionsWorkflowFileColorIcon",
+  "file": "github-actions-workflow-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "GithubActionsWorkflowIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "GithubActionsWorkflowFolderIcon",
+  "file": "github-actions-workflow-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "GithubActionsWorkflowIcon",
+  "form": "folder"
+ },
+ {
+  "name": "GithubActionsWorkflowFolderColorIcon",
+  "file": "github-actions-workflow-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "GithubActionsWorkflowIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "GithubActionsWorkflowFolderOpenIcon",
+  "file": "github-actions-workflow-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "GithubActionsWorkflowIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "GithubActionsWorkflowFolderOpenColorIcon",
+  "file": "github-actions-workflow-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "GithubActionsWorkflowIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "AutohotkeyV2ColorIcon",
+  "file": "ahk2-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "AutohotkeyV2Icon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "AutohotkeyV2FileIcon",
+  "file": "ahk2-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "AutohotkeyV2Icon",
+  "form": "file"
+ },
+ {
+  "name": "AutohotkeyV2FileColorIcon",
+  "file": "ahk2-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "AutohotkeyV2Icon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "AutohotkeyV2FolderIcon",
+  "file": "ahk2-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "AutohotkeyV2Icon",
+  "form": "folder"
+ },
+ {
+  "name": "AutohotkeyV2FolderColorIcon",
+  "file": "ahk2-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "AutohotkeyV2Icon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "AutohotkeyV2FolderOpenIcon",
+  "file": "ahk2-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "AutohotkeyV2Icon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "AutohotkeyV2FolderOpenColorIcon",
+  "file": "ahk2-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "AutohotkeyV2Icon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "NgrxColorIcon",
+  "file": "ngrx-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "NgrxFileIcon",
+  "file": "ngrx-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxIcon",
+  "form": "file"
+ },
+ {
+  "name": "NgrxFileColorIcon",
+  "file": "ngrx-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "NgrxFolderIcon",
+  "file": "ngrx-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxIcon",
+  "form": "folder"
+ },
+ {
+  "name": "NgrxFolderColorIcon",
+  "file": "ngrx-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "NgrxFolderOpenIcon",
+  "file": "ngrx-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "NgrxFolderOpenColorIcon",
+  "file": "ngrx-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "ReduxColorIcon",
+  "file": "redux-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "ReduxFileIcon",
+  "file": "redux-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxIcon",
+  "form": "file"
+ },
+ {
+  "name": "ReduxFileColorIcon",
+  "file": "redux-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "ReduxFolderIcon",
+  "file": "redux-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxIcon",
+  "form": "folder"
+ },
+ {
+  "name": "ReduxFolderColorIcon",
+  "file": "redux-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "ReduxFolderOpenIcon",
+  "file": "redux-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "ReduxFolderOpenColorIcon",
+  "file": "redux-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "VuexStoreColorIcon",
+  "file": "vuex-store-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "VuexStoreIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "VuexStoreFileIcon",
+  "file": "vuex-store-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "VuexStoreIcon",
+  "form": "file"
+ },
+ {
+  "name": "VuexStoreFileColorIcon",
+  "file": "vuex-store-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "VuexStoreIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "VuexStoreFolderIcon",
+  "file": "vuex-store-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "VuexStoreIcon",
+  "form": "folder"
+ },
+ {
+  "name": "VuexStoreFolderColorIcon",
+  "file": "vuex-store-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "VuexStoreIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "VuexStoreFolderOpenIcon",
+  "file": "vuex-store-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "VuexStoreIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "VuexStoreFolderOpenColorIcon",
+  "file": "vuex-store-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "VuexStoreIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "QwikColorIcon",
+  "file": "qwik-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "QwikIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "QwikFileIcon",
+  "file": "qwik-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "QwikIcon",
+  "form": "file"
+ },
+ {
+  "name": "QwikFileColorIcon",
+  "file": "qwik-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "QwikIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "QwikFolderIcon",
+  "file": "qwik-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "QwikIcon",
+  "form": "folder"
+ },
+ {
+  "name": "QwikFolderColorIcon",
+  "file": "qwik-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "QwikIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "QwikFolderOpenIcon",
+  "file": "qwik-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "QwikIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "QwikFolderOpenColorIcon",
+  "file": "qwik-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "QwikIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "RojoColorIcon",
+  "file": "rojo-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "RojoIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "RojoFileIcon",
+  "file": "rojo-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "RojoIcon",
+  "form": "file"
+ },
+ {
+  "name": "RojoFileColorIcon",
+  "file": "rojo-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "RojoIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "RojoFolderIcon",
+  "file": "rojo-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "RojoIcon",
+  "form": "folder"
+ },
+ {
+  "name": "RojoFolderColorIcon",
+  "file": "rojo-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "RojoIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "RojoFolderOpenIcon",
+  "file": "rojo-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "RojoIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "RojoFolderOpenColorIcon",
+  "file": "rojo-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "RojoIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "SilverstripeColorIcon",
+  "file": "silverstripe-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SilverstripeIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "SilverstripeFileIcon",
+  "file": "silverstripe-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SilverstripeIcon",
+  "form": "file"
+ },
+ {
+  "name": "SilverstripeFileColorIcon",
+  "file": "silverstripe-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SilverstripeIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "SilverstripeFolderIcon",
+  "file": "silverstripe-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SilverstripeIcon",
+  "form": "folder"
+ },
+ {
+  "name": "SilverstripeFolderColorIcon",
+  "file": "silverstripe-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SilverstripeIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "SilverstripeFolderOpenIcon",
+  "file": "silverstripe-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SilverstripeIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "SilverstripeFolderOpenColorIcon",
+  "file": "silverstripe-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SilverstripeIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "BashlyHookColorIcon",
+  "file": "bashly-hook-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "BashlyHookIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "BashlyHookFileIcon",
+  "file": "bashly-hook-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "BashlyHookIcon",
+  "form": "file"
+ },
+ {
+  "name": "BashlyHookFileColorIcon",
+  "file": "bashly-hook-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "BashlyHookIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "BashlyHookFolderIcon",
+  "file": "bashly-hook-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "BashlyHookIcon",
+  "form": "folder"
+ },
+ {
+  "name": "BashlyHookFolderColorIcon",
+  "file": "bashly-hook-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "BashlyHookIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "BashlyHookFolderOpenIcon",
+  "file": "bashly-hook-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "BashlyHookIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "BashlyHookFolderOpenColorIcon",
+  "file": "bashly-hook-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "BashlyHookIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "LatexClassColorIcon",
+  "file": "latex-class-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "LatexClassIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "LatexClassFileIcon",
+  "file": "latex-class-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "LatexClassIcon",
+  "form": "file"
+ },
+ {
+  "name": "LatexClassFileColorIcon",
+  "file": "latex-class-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "LatexClassIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "LatexClassFolderIcon",
+  "file": "latex-class-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "LatexClassIcon",
+  "form": "folder"
+ },
+ {
+  "name": "LatexClassFolderColorIcon",
+  "file": "latex-class-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "LatexClassIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "LatexClassFolderOpenIcon",
+  "file": "latex-class-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "LatexClassIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "LatexClassFolderOpenColorIcon",
+  "file": "latex-class-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "LatexClassIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "LatexPackageColorIcon",
+  "file": "latex-package-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "LatexPackageIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "LatexPackageFileIcon",
+  "file": "latex-package-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "LatexPackageIcon",
+  "form": "file"
+ },
+ {
+  "name": "LatexPackageFileColorIcon",
+  "file": "latex-package-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "LatexPackageIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "LatexPackageFolderIcon",
+  "file": "latex-package-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "LatexPackageIcon",
+  "form": "folder"
+ },
+ {
+  "name": "LatexPackageFolderColorIcon",
+  "file": "latex-package-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "LatexPackageIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "LatexPackageFolderOpenIcon",
+  "file": "latex-package-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "LatexPackageIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "LatexPackageFolderOpenColorIcon",
+  "file": "latex-package-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "LatexPackageIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "SalesforceColorIcon",
+  "file": "salesforce-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SalesforceIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "SalesforceFileIcon",
+  "file": "salesforce-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SalesforceIcon",
+  "form": "file"
+ },
+ {
+  "name": "SalesforceFileColorIcon",
+  "file": "salesforce-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SalesforceIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "SalesforceFolderIcon",
+  "file": "salesforce-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SalesforceIcon",
+  "form": "folder"
+ },
+ {
+  "name": "SalesforceFolderColorIcon",
+  "file": "salesforce-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SalesforceIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "SalesforceFolderOpenIcon",
+  "file": "salesforce-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SalesforceIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "SalesforceFolderOpenColorIcon",
+  "file": "salesforce-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "SalesforceIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "NgrxActionsColorIcon",
+  "file": "ngrx-actions-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxActionsIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "NgrxActionsFileIcon",
+  "file": "ngrx-actions-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxActionsIcon",
+  "form": "file"
+ },
+ {
+  "name": "NgrxActionsFileColorIcon",
+  "file": "ngrx-actions-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxActionsIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "NgrxActionsFolderIcon",
+  "file": "ngrx-actions-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxActionsIcon",
+  "form": "folder"
+ },
+ {
+  "name": "NgrxActionsFolderColorIcon",
+  "file": "ngrx-actions-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxActionsIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "NgrxActionsFolderOpenIcon",
+  "file": "ngrx-actions-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxActionsIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "NgrxActionsFolderOpenColorIcon",
+  "file": "ngrx-actions-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxActionsIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "NgrxEffectsColorIcon",
+  "file": "ngrx-effects-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxEffectsIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "NgrxEffectsFileIcon",
+  "file": "ngrx-effects-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxEffectsIcon",
+  "form": "file"
+ },
+ {
+  "name": "NgrxEffectsFileColorIcon",
+  "file": "ngrx-effects-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxEffectsIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "NgrxEffectsFolderIcon",
+  "file": "ngrx-effects-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxEffectsIcon",
+  "form": "folder"
+ },
+ {
+  "name": "NgrxEffectsFolderColorIcon",
+  "file": "ngrx-effects-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxEffectsIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "NgrxEffectsFolderOpenIcon",
+  "file": "ngrx-effects-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxEffectsIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "NgrxEffectsFolderOpenColorIcon",
+  "file": "ngrx-effects-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxEffectsIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "NgrxEntityColorIcon",
+  "file": "ngrx-entity-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxEntityIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "NgrxEntityFileIcon",
+  "file": "ngrx-entity-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxEntityIcon",
+  "form": "file"
+ },
+ {
+  "name": "NgrxEntityFileColorIcon",
+  "file": "ngrx-entity-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxEntityIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "NgrxEntityFolderIcon",
+  "file": "ngrx-entity-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxEntityIcon",
+  "form": "folder"
+ },
+ {
+  "name": "NgrxEntityFolderColorIcon",
+  "file": "ngrx-entity-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxEntityIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "NgrxEntityFolderOpenIcon",
+  "file": "ngrx-entity-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxEntityIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "NgrxEntityFolderOpenColorIcon",
+  "file": "ngrx-entity-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxEntityIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "NgrxReducerColorIcon",
+  "file": "ngrx-reducer-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxReducerIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "NgrxReducerFileIcon",
+  "file": "ngrx-reducer-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxReducerIcon",
+  "form": "file"
+ },
+ {
+  "name": "NgrxReducerFileColorIcon",
+  "file": "ngrx-reducer-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxReducerIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "NgrxReducerFolderIcon",
+  "file": "ngrx-reducer-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxReducerIcon",
+  "form": "folder"
+ },
+ {
+  "name": "NgrxReducerFolderColorIcon",
+  "file": "ngrx-reducer-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxReducerIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "NgrxReducerFolderOpenIcon",
+  "file": "ngrx-reducer-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxReducerIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "NgrxReducerFolderOpenColorIcon",
+  "file": "ngrx-reducer-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxReducerIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "NgrxSelectorsColorIcon",
+  "file": "ngrx-selectors-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxSelectorsIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "NgrxSelectorsFileIcon",
+  "file": "ngrx-selectors-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxSelectorsIcon",
+  "form": "file"
+ },
+ {
+  "name": "NgrxSelectorsFileColorIcon",
+  "file": "ngrx-selectors-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxSelectorsIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "NgrxSelectorsFolderIcon",
+  "file": "ngrx-selectors-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxSelectorsIcon",
+  "form": "folder"
+ },
+ {
+  "name": "NgrxSelectorsFolderColorIcon",
+  "file": "ngrx-selectors-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxSelectorsIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "NgrxSelectorsFolderOpenIcon",
+  "file": "ngrx-selectors-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxSelectorsIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "NgrxSelectorsFolderOpenColorIcon",
+  "file": "ngrx-selectors-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxSelectorsIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "NgrxStateColorIcon",
+  "file": "ngrx-state-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxStateIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "NgrxStateFileIcon",
+  "file": "ngrx-state-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxStateIcon",
+  "form": "file"
+ },
+ {
+  "name": "NgrxStateFileColorIcon",
+  "file": "ngrx-state-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxStateIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "NgrxStateFolderIcon",
+  "file": "ngrx-state-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxStateIcon",
+  "form": "folder"
+ },
+ {
+  "name": "NgrxStateFolderColorIcon",
+  "file": "ngrx-state-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxStateIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "NgrxStateFolderOpenIcon",
+  "file": "ngrx-state-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxStateIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "NgrxStateFolderOpenColorIcon",
+  "file": "ngrx-state-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "NgrxStateIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "ReduxActionColorIcon",
+  "file": "redux-action-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxActionIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "ReduxActionFileIcon",
+  "file": "redux-action-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxActionIcon",
+  "form": "file"
+ },
+ {
+  "name": "ReduxActionFileColorIcon",
+  "file": "redux-action-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxActionIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "ReduxActionFolderIcon",
+  "file": "redux-action-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxActionIcon",
+  "form": "folder"
+ },
+ {
+  "name": "ReduxActionFolderColorIcon",
+  "file": "redux-action-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxActionIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "ReduxActionFolderOpenIcon",
+  "file": "redux-action-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxActionIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "ReduxActionFolderOpenColorIcon",
+  "file": "redux-action-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxActionIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "ReduxReducerColorIcon",
+  "file": "redux-reducer-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxReducerIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "ReduxReducerFileIcon",
+  "file": "redux-reducer-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxReducerIcon",
+  "form": "file"
+ },
+ {
+  "name": "ReduxReducerFileColorIcon",
+  "file": "redux-reducer-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxReducerIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "ReduxReducerFolderIcon",
+  "file": "redux-reducer-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxReducerIcon",
+  "form": "folder"
+ },
+ {
+  "name": "ReduxReducerFolderColorIcon",
+  "file": "redux-reducer-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxReducerIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "ReduxReducerFolderOpenIcon",
+  "file": "redux-reducer-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxReducerIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "ReduxReducerFolderOpenColorIcon",
+  "file": "redux-reducer-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxReducerIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "ReduxSelectorColorIcon",
+  "file": "redux-selector-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxSelectorIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "ReduxSelectorFileIcon",
+  "file": "redux-selector-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxSelectorIcon",
+  "form": "file"
+ },
+ {
+  "name": "ReduxSelectorFileColorIcon",
+  "file": "redux-selector-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxSelectorIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "ReduxSelectorFolderIcon",
+  "file": "redux-selector-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxSelectorIcon",
+  "form": "folder"
+ },
+ {
+  "name": "ReduxSelectorFolderColorIcon",
+  "file": "redux-selector-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxSelectorIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "ReduxSelectorFolderOpenIcon",
+  "file": "redux-selector-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxSelectorIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "ReduxSelectorFolderOpenColorIcon",
+  "file": "redux-selector-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxSelectorIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
+ },
+ {
+  "name": "ReduxStoreColorIcon",
+  "file": "redux-store-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxStoreIcon",
+  "form": "glyph",
+  "colored": true
+ },
+ {
+  "name": "ReduxStoreFileIcon",
+  "file": "redux-store-file",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxStoreIcon",
+  "form": "file"
+ },
+ {
+  "name": "ReduxStoreFileColorIcon",
+  "file": "redux-store-file-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxStoreIcon",
+  "form": "file",
+  "colored": true
+ },
+ {
+  "name": "ReduxStoreFolderIcon",
+  "file": "redux-store-folder",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxStoreIcon",
+  "form": "folder"
+ },
+ {
+  "name": "ReduxStoreFolderColorIcon",
+  "file": "redux-store-folder-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxStoreIcon",
+  "form": "folder",
+  "colored": true
+ },
+ {
+  "name": "ReduxStoreFolderOpenIcon",
+  "file": "redux-store-folder-open",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxStoreIcon",
+  "form": "folder",
+  "open": true
+ },
+ {
+  "name": "ReduxStoreFolderOpenColorIcon",
+  "file": "redux-store-folder-open-color",
+  "set": "forms",
+  "aliases": [],
+  "formOf": "ReduxStoreIcon",
+  "form": "folder",
+  "open": true,
+  "colored": true
  }
 ]

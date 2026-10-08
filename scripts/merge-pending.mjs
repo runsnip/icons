@@ -5,7 +5,7 @@ import { readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 
 const root = new URL("..", import.meta.url);
 const manifest = JSON.parse(readFileSync(new URL("icons.json", root), "utf8"));
-const have = new Set(manifest.map((i) => i.name));
+const have = new Set(manifest.flatMap((i) => [i.name, ...(i.aliases ?? [])]));
 for (const file of readdirSync(new URL("pending/", root)).filter((f) => f.endsWith(".json")).sort()) {
   const list = JSON.parse(readFileSync(new URL(`pending/${file}`, root), "utf8"));
   for (const { meaning, ...entry } of list) {

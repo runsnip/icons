@@ -828,7 +828,6 @@
   "aliases": [],
   "color": "#8B5CF6",
   "fileNames": [
-   ".clinerules",
    ".clineignore",
    "robots.txt"
   ],
@@ -928,6 +927,11 @@
    "meta",
    ".meta",
    "metadata"
+  ],
+  "fileNames": [
+   "github/labeler.yml",
+   "github/labeler.yaml",
+   "tags"
   ]
  },
  {
@@ -4123,12 +4127,6 @@
    "validations",
    "validator",
    "validators"
-  ],
-  "fileNames": [
-   "taskfile.yml",
-   "taskfile.yaml",
-   "taskfile.dist.yml",
-   "taskfile.dist.yaml"
   ]
  },
  {
@@ -13247,15 +13245,7 @@
    "svgo.config.mjs",
    "svgo.config.ts",
    ".svgo.yml",
-   ".svgo.yaml",
-   ".svgrrc",
-   ".svgrrc.json",
-   ".svgrrc.yaml",
-   ".svgrrc.yml",
-   ".svgrrc.js",
-   "svgr.config.js",
-   "svgr.config.cjs",
-   "svgr.config.mjs"
+   ".svgo.yaml"
   ],
   "folderNames": [
    "svg",
@@ -13772,7 +13762,6 @@
   "color": "#3178C6",
   "fileNames": [
    "tsconfig.json",
-   "jsconfig.json",
    "tsconfig.*.json",
    "jsconfig.*.json",
    "tsconfig-*.json",
@@ -14223,7 +14212,6 @@
    "now.json",
    ".nowignore",
    "zbpack.json",
-   "zeabur.json",
    "vercel.ts"
   ],
   "folderNames": [
@@ -15108,5 +15096,439 @@
    "zig-out"
   ],
   "description": "Zig source"
+ },
+ {
+  "name": "OtneIcon",
+  "file": "otne",
+  "set": "files",
+  "aliases": [],
+  "color": "#00C853",
+  "description": "Otne",
+  "extensions": [
+   "otne"
+  ]
+ },
+ {
+  "name": "GraphcoolIcon",
+  "file": "graphcool",
+  "set": "files",
+  "aliases": [],
+  "color": "#4CAF50",
+  "description": "Graphcool",
+  "extensions": [
+   "graphcool"
+  ],
+  "fileNames": [
+   "project.graphcool"
+  ]
+ },
+ {
+  "name": "GitlabIcon",
+  "file": "gitlab",
+  "set": "files",
+  "aliases": [],
+  "color": "#EF6C00",
+  "description": "GitLab",
+  "extensions": [
+   "gitlab-ci.yml"
+  ]
+ },
+ {
+  "name": "PipelineIcon",
+  "file": "pipeline",
+  "set": "files",
+  "aliases": [],
+  "color": "#F57F17",
+  "description": "A pipeline",
+  "extensions": [
+   "pipeline"
+  ]
+ },
+ {
+  "name": "JsconfigIcon",
+  "file": "jsconfig",
+  "set": "files",
+  "aliases": [],
+  "color": "#FFCA28",
+  "description": "A JavaScript config",
+  "extensions": [
+   "jsconfig.json"
+  ],
+  "fileNames": [
+   "jsconfig.json"
+  ]
+ },
+ {
+  "name": "TaskfileIcon",
+  "file": "taskfile",
+  "set": "files",
+  "aliases": [],
+  "color": "#4DB6AC",
+  "description": "Taskfile",
+  "extensions": [
+   "taskfile.yml",
+   "taskfile.yaml"
+  ],
+  "fileNames": [
+   "taskfile.yml",
+   "taskfile.yaml",
+   "taskfile.dist.yml",
+   "taskfile.dist.yaml",
+   ".taskrc.yml",
+   ".taskrc.yaml"
+  ]
+ },
+ {
+  "name": "VerifiedIcon",
+  "file": "verified",
+  "set": "files",
+  "aliases": [],
+  "color": "#8BC34A",
+  "description": "Verified",
+  "extensions": [
+   "sigstore.json"
+  ]
+ },
+ {
+  "name": "ZeaburIcon",
+  "file": "zeabur",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF3D00",
+  "description": "Zeabur",
+  "extensions": [
+   "zeabur"
+  ],
+  "fileNames": [
+   "zeabur.json",
+   "zeabur.jsonc",
+   "zeabur.json5",
+   "zeabur.yaml",
+   "zeabur.yml",
+   "zeabur.toml"
+  ]
+ },
+ {
+  "name": "HarmonixIcon",
+  "file": "harmonix",
+  "set": "files",
+  "aliases": [],
+  "color": "#536DFE",
+  "description": "Harmonix",
+  "fileNames": [
+   "harmonix.config.js",
+   "harmonix.config.ts"
+  ]
+ },
+ {
+  "name": "AutoReleaseIcon",
+  "file": "auto",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF5252",
+  "description": "Auto",
+  "fileNames": [
+   ".autorc",
+   "auto.config.js",
+   "auto.config.ts",
+   "auto-config.json",
+   "auto-config.yaml",
+   "auto-config.yml",
+   "auto-config.ts",
+   "auto-config.js"
+  ]
+ },
+ {
+  "name": "SupabaseIcon",
+  "file": "supabase",
+  "set": "files",
+  "aliases": [],
+  "color": "#66BB6A",
+  "description": "Supabase",
+  "fileNames": [
+   "supabase.js",
+   "supabase.ts",
+   "supabase.py"
+  ]
+ },
+ {
+  "name": "SvgrIcon",
+  "file": "svgr",
+  "set": "files",
+  "aliases": [],
+  "color": "#FFB300",
+  "description": "SVGR",
+  "fileNames": [
+   ".svgrrc",
+   ".svgrrc.json",
+   ".svgrrc.jsonc",
+   ".svgrrc.json5",
+   ".svgrrc.yaml",
+   ".svgrrc.yml",
+   ".svgrrc.toml",
+   ".svgrrc.js",
+   ".svgrrc.mjs",
+   ".svgrrc.cjs",
+   ".svgrrc.ts",
+   ".svgrrc.mts",
+   ".svgrrc.cts",
+   "config/svgrrc",
+   "config/svgrrc.json",
+   "config/svgrrc.jsonc",
+   "config/svgrrc.json5",
+   "config/svgrrc.yaml",
+   "config/svgrrc.yml",
+   "config/svgrrc.toml",
+   "config/svgrrc.js",
+   "config/svgrrc.mjs",
+   "config/svgrrc.cjs",
+   "config/svgrrc.ts",
+   "config/svgrrc.mts",
+   "config/svgrrc.cts",
+   "svgr.config.json",
+   "svgr.config.jsonc",
+   "svgr.config.json5",
+   "svgr.config.yaml",
+   "svgr.config.yml",
+   "svgr.config.toml",
+   "svgr.config.js",
+   "svgr.config.mjs",
+   "svgr.config.cjs",
+   "svgr.config.ts",
+   "svgr.config.mts",
+   "svgr.config.cts"
+  ]
+ },
+ {
+  "name": "TobimakeIcon",
+  "file": "tobimake",
+  "set": "files",
+  "aliases": [],
+  "color": "#C2185B",
+  "description": "Tobimake",
+  "fileNames": [
+   ".tobimake"
+  ]
+ },
+ {
+  "name": "IfanrCloudIcon",
+  "file": "ifanr-cloud",
+  "set": "files",
+  "aliases": [],
+  "color": "#0288D1",
+  "description": "ifanr cloud",
+  "fileNames": [
+   ".mincloudrc",
+   ".qa-mincloudrc"
+  ]
+ },
+ {
+  "name": "ClineIcon",
+  "file": "cline",
+  "set": "files",
+  "aliases": [],
+  "color": "#42A5F5",
+  "description": "Cline",
+  "fileNames": [
+   ".clinerules"
+  ],
+  "folderNames": [
+   "cline_docs"
+  ]
+ },
+ {
+  "name": "PackshipIcon",
+  "file": "packship",
+  "set": "files",
+  "aliases": [],
+  "color": "#9575CD",
+  "description": "Packship",
+  "fileNames": [
+   ".packshiprc",
+   ".packshiprc.json",
+   ".packshiprc.js",
+   ".packshiprc.ts",
+   "packship.config.js",
+   "packship.config.ts",
+   "packship.config.mjs",
+   "packship.config.mts",
+   "packship.config.json"
+  ]
+ },
+ {
+  "name": "GithubActionsWorkflowIcon",
+  "file": "github-actions-workflow",
+  "set": "files",
+  "aliases": [],
+  "color": "#78909C",
+  "description": "A workflow"
+ },
+ {
+  "name": "AutohotkeyV2Icon",
+  "file": "ahk2",
+  "set": "files",
+  "aliases": [],
+  "color": "#AFB42B",
+  "description": "AutoHotkey v2"
+ },
+ {
+  "name": "NgrxIcon",
+  "file": "ngrx",
+  "set": "files",
+  "aliases": [],
+  "color": "#AB47BC",
+  "description": "NgRx"
+ },
+ {
+  "name": "ReduxIcon",
+  "file": "redux",
+  "set": "files",
+  "aliases": [],
+  "color": "#AB47BC",
+  "description": "Redux"
+ },
+ {
+  "name": "VuexStoreIcon",
+  "file": "vuex-store",
+  "set": "files",
+  "aliases": [],
+  "color": "#41B883",
+  "description": "A Vuex store"
+ },
+ {
+  "name": "QwikIcon",
+  "file": "qwik",
+  "set": "files",
+  "aliases": [],
+  "color": "#29B6F6",
+  "description": "Qwik"
+ },
+ {
+  "name": "RojoIcon",
+  "file": "rojo",
+  "set": "files",
+  "aliases": [],
+  "color": "#E53935",
+  "description": "Rojo"
+ },
+ {
+  "name": "SilverstripeIcon",
+  "file": "silverstripe",
+  "set": "files",
+  "aliases": [],
+  "color": "#0288D1",
+  "description": "Silverstripe"
+ },
+ {
+  "name": "BashlyHookIcon",
+  "file": "bashly-hook",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF7043",
+  "description": "A Bashly hook"
+ },
+ {
+  "name": "LatexClassIcon",
+  "file": "latex-class",
+  "set": "files",
+  "aliases": [],
+  "color": "#E040FB",
+  "description": "A LaTeX class"
+ },
+ {
+  "name": "LatexPackageIcon",
+  "file": "latex-package",
+  "set": "files",
+  "aliases": [],
+  "color": "#B388FF",
+  "description": "A LaTeX package"
+ },
+ {
+  "name": "SalesforceIcon",
+  "file": "salesforce",
+  "set": "files",
+  "aliases": [],
+  "color": "#039BE5",
+  "description": "Salesforce"
+ },
+ {
+  "name": "NgrxActionsIcon",
+  "file": "ngrx-actions",
+  "set": "files",
+  "aliases": [],
+  "color": "#AB47BC",
+  "description": "NgRx actions"
+ },
+ {
+  "name": "NgrxEffectsIcon",
+  "file": "ngrx-effects",
+  "set": "files",
+  "aliases": [],
+  "color": "#26C6DA",
+  "description": "NgRx effects"
+ },
+ {
+  "name": "NgrxEntityIcon",
+  "file": "ngrx-entity",
+  "set": "files",
+  "aliases": [],
+  "color": "#FBC02D",
+  "description": "An NgRx entity"
+ },
+ {
+  "name": "NgrxReducerIcon",
+  "file": "ngrx-reducer",
+  "set": "files",
+  "aliases": [],
+  "color": "#E53935",
+  "description": "An NgRx reducer"
+ },
+ {
+  "name": "NgrxSelectorsIcon",
+  "file": "ngrx-selectors",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF6E40",
+  "description": "NgRx selectors"
+ },
+ {
+  "name": "NgrxStateIcon",
+  "file": "ngrx-state",
+  "set": "files",
+  "aliases": [],
+  "color": "#9CCC65",
+  "description": "NgRx state"
+ },
+ {
+  "name": "ReduxActionIcon",
+  "file": "redux-action",
+  "set": "files",
+  "aliases": [],
+  "color": "#AB47BC",
+  "description": "A Redux action"
+ },
+ {
+  "name": "ReduxReducerIcon",
+  "file": "redux-reducer",
+  "set": "files",
+  "aliases": [],
+  "color": "#EF5350",
+  "description": "A Redux reducer"
+ },
+ {
+  "name": "ReduxSelectorIcon",
+  "file": "redux-selector",
+  "set": "files",
+  "aliases": [],
+  "color": "#FF6E40",
+  "description": "A Redux selector"
+ },
+ {
+  "name": "ReduxStoreIcon",
+  "file": "redux-store",
+  "set": "files",
+  "aliases": [],
+  "color": "#8BC34A",
+  "description": "A Redux store"
  }
 ]
