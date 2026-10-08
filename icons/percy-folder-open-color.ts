@@ -1,0 +1,10 @@
+/* Made by scripts/file-forms.mjs from the kind's glyph. Do not edit; run `npm run generate`. */
+import type { Icon } from "../types";
+
+/** Percy, visual testing: an open folder carrying its glyph in its colour, #9E66BF. */
+export const PercyFolderOpenColorIcon: Icon = {
+  name: "PercyFolderOpenColorIcon",
+  node: [["path",{"d":"M3.5 17V6A1.5 1.5 0 0 1 5 4.5h4.5l2 2.5H17a1.5 1.5 0 0 1 1.5 1.5V9","stroke":"#9E66BF"}],["path",{"d":"M8.5 19.5h-5L7 11.5h1","stroke":"#9E66BF"}],["rect",{"x":10.5,"y":11.382,"width":4.412,"height":8.235,"rx":0.882,"stroke-width":1.5,"stroke":"#9E66BF"}],["rect",{"x":16.088,"y":11.382,"width":4.412,"height":8.235,"rx":0.882,"stroke-width":1.5,"stroke":"#9E66BF"}],["rect",{"x":17.265,"y":14.324,"width":2.059,"height":2.353,"rx":0.441,"fill":"#9E66BF","stroke":"none"}]],
+};
+
+export default PercyFolderOpenColorIcon;

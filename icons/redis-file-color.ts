@@ -1,0 +1,10 @@
+/* Made by scripts/file-forms.mjs from the kind's glyph. Do not edit; run `npm run generate`. */
+import type { Icon } from "../types";
+
+/** Redis: a page carrying its glyph in its colour, #DC382D. */
+export const RedisFileColorIcon: Icon = {
+  name: "RedisFileColorIcon",
+  node: [["path",{"d":"M8.5 20.5H7A2.5 2.5 0 0 1 4.5 18V6A2.5 2.5 0 0 1 7 3.5h7L19.5 9","stroke":"#DC382D"}],["path",{"d":"M10.5 13.441 15.5 11.382l5 2.059L15.5 15.5Z","stroke-width":1.5,"stroke":"#DC382D"}],["path",{"d":"M10.5 15.794 15.5 17.853l5 -2.059M10.5 18.147 15.5 20.206l5 -2.059","stroke-width":1.5,"stroke":"#DC382D"}],["path",{"d":"M15.5 11.971l0.706 0.941 1.647 0.529 -1.647 0.529L15.5 14.912l-0.706 -0.941 -1.647 -0.529 1.647 -0.529Z","fill":"#DC382D","stroke":"none"}]],
+};
+
+export default RedisFileColorIcon;

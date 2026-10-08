@@ -6,7 +6,7 @@ import { readFileSync } from "node:fs";
 
 const root = new URL("..", import.meta.url).pathname;
 const pkg = JSON.parse(readFileSync(new URL("../package.json", import.meta.url), "utf8"));
-const [report] = JSON.parse(execFileSync("npm", ["pack", "--dry-run", "--json", "--ignore-scripts"], { cwd: root, encoding: "utf8" }));
+const [report] = JSON.parse(execFileSync("npm", ["pack", "--dry-run", "--json", "--ignore-scripts"], { cwd: root, encoding: "utf8", maxBuffer: 256 * 1024 * 1024 }));
 const files = new Set(report.files.map((f) => f.path));
 const problems = [];
 
@@ -16,8 +16,8 @@ for (const field of ["unpkg", "jsdelivr"]) {
   const path = pkg[field]?.replace(/^\.\//, "");
   if (path && !files.has(path)) problems.push(`"${field}": ${path} is not in the tarball`);
 }
-/* A pattern export (./icons/*) is checked for every icon icons.json lists. */
-const icons = JSON.parse(readFileSync(new URL("../icons.json", import.meta.url), "utf8")).map((i) => i.file);
+/* A pattern export (./icons/*) is checked for every icon icons.json and forms.json list. */
+const icons = ["../icons.json", "../forms.json"].flatMap((f) => JSON.parse(readFileSync(new URL(f, import.meta.url), "utf8"))).map((i) => i.file);
 for (const [subpath, target] of Object.entries(pkg.exports)) {
   for (const key of ["default", "types"]) {
     const pattern = target[key]?.replace(/^\.\//, "");

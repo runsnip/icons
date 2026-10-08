@@ -10,6 +10,8 @@ import { DEFAULTS, iconNames, loadIcon, toSvg, type Icon } from "../index";
 
 const root = new URL("../", import.meta.url);
 const manifest = JSON.parse(readFileSync(new URL("icons.json", root), "utf8")) as { name: string; file: string; aliases: string[] }[];
+/* The forms of the kinds (scripts/file-forms.mjs): modules of the package like the drawings. */
+const forms = JSON.parse(readFileSync(new URL("forms.json", root), "utf8")) as { name: string; file: string; aliases: string[] }[];
 
 /* Attributes compared as sets, element by element: the same drawing, whatever order they are written in. */
 const parse = (markup: string) => [...markup.matchAll(/<([a-z]+)([^>]*)>/g)].map(([, tag, attrs]) =>
@@ -17,9 +19,9 @@ const parse = (markup: string) => [...markup.matchAll(/<([a-z]+)([^>]*)>/g)].map
 
 test("every icon in icons.json has its module, every module is listed, and index and dynamic name them all", async () => {
   const files = readdirSync(new URL("icons/", root)).map((f) => f.replace(/\.ts$/, "")).sort();
-  assert.deepEqual(files, manifest.map((i) => i.file).sort());
+  assert.deepEqual(files, [...manifest, ...forms].map((i) => i.file).sort());
   assert.deepEqual([...iconNames].sort(), files);
-  for (const i of manifest) {
+  for (const i of [...manifest, ...forms]) {
     const icon = (data as Record<string, unknown>)[i.name] as Icon;
     assert.equal(icon?.name, i.name, `${i.name} not exported by index`);
     for (const alias of i.aliases) assert.equal((data as Record<string, unknown>)[alias], icon, `${alias} is not ${i.name}`);
@@ -78,4 +80,17 @@ test("each coloured brand mark is what brand.ts makes of its plain mark now", as
     const made = await colourModule(app);
     assert.equal(readFileSync(new URL(`icons/${made.file}.ts`, root), "utf8"), made.source, `${made.name}: run npm run generate`);
   }
+});
+
+test("every kind in every form: each module is what file-forms makes of its glyph now", async () => {
+  /* A path held in a variable: the script is plain JavaScript, imported at run time, with no declarations to check. */
+  const script = "../scripts/file-forms.mjs";
+  const { forms: make } = (await import(script)) as { forms: () => Promise<{ entry: { name: string; file: string }; source: string }[]> };
+  const made = await make();
+  assert.deepEqual(made.map((m) => m.entry), forms, "forms.json: run npm run generate");
+  for (const { entry, source } of made) assert.equal(readFileSync(new URL(`icons/${entry.file}.ts`, root), "utf8"), source, `${entry.name}: run npm run generate`);
+  /* The coloured forms keep their colour: one given when drawing changes nothing inside. */
+  const colored = toSvg((data as Record<string, unknown>).ReactFileColorIcon as Icon, { color: "red" });
+  assert.doesNotMatch(colored.replace(/^<svg[^>]*>/, ""), /red/);
+  assert.match(toSvg((data as Record<string, unknown>).ReactFileIcon as Icon), /currentColor/);
 });

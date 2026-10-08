@@ -468,7 +468,9 @@
    "lock"
   ],
   "fileNames": [
-   "security"
+   "security",
+   "security.md",
+   "security.txt"
   ]
  },
  {
@@ -602,7 +604,8 @@
    "screen",
    "page",
    "pages",
-   "html"
+   "html",
+   "public_html"
   ]
  },
  {
@@ -692,7 +695,14 @@
    "hobofile",
    "podfile",
    "rantfile",
-   "thorfile"
+   "thorfile",
+   "berksfile.lock",
+   "deliverfile",
+   "gymfile",
+   "matchfile",
+   "puppetfile",
+   "scanfile",
+   "snapfile"
   ],
   "extensions": [
    "rb",
@@ -745,7 +755,6 @@
    "contributors.txt",
    "maintainers",
    "maintainers.md",
-   ".mailmap",
    "codeowners",
    "owners",
    "authors.rst",
@@ -786,6 +795,9 @@
    "smtp",
    "mailer",
    "mailers"
+  ],
+  "fileNames": [
+   ".mailmap"
   ]
  },
  {
@@ -915,8 +927,7 @@
   "folderNames": [
    "meta",
    ".meta",
-   "metadata",
-   "meta-inf"
+   "metadata"
   ]
  },
  {
@@ -1023,10 +1034,7 @@
   "folderNames": [
    "helper",
    "helpers",
-   "tools",
    "tool",
-   "tooling",
-   ".tools",
    "utils",
    "util",
    "utility",
@@ -1062,7 +1070,8 @@
    "modules",
    "integrations",
    "remote",
-   "remotes"
+   "remotes",
+   "integration"
   ]
  },
  {
@@ -1092,7 +1101,9 @@
    "backend",
    "backends",
    "infrastructure",
-   "infra"
+   "infra",
+   "inventory",
+   "inventories"
   ]
  },
  {
@@ -1221,7 +1232,8 @@
    "zprofile",
    "zsh-theme",
    "zshenv",
-   "zshrc"
+   "zshrc",
+   "exp"
   ],
   "fileNames": [
    "commit-msg",
@@ -1237,7 +1249,8 @@
    "zprofile",
    "zshenv",
    "zshrc",
-   "zshrc_apple_terminal"
+   "zshrc_apple_terminal",
+   ".envrc"
   ]
  },
  {
@@ -1283,7 +1296,8 @@
    "preference",
    "preferences",
    "props",
-   "properties"
+   "properties",
+   "meta-inf"
   ],
   "extensions": [
    "ini",
@@ -1303,7 +1317,8 @@
    "tool-versions",
    "directory",
    "npmrc",
-   "repo"
+   "repo",
+   "mak"
   ],
   "fileNames": [
    ".jshintignore",
@@ -1311,7 +1326,11 @@
    ".mrconfig",
    ".yardopts",
    "manifest.mf",
-   ".conf"
+   ".conf",
+   ".clang-format",
+   ".clang-format-ignore",
+   ".clang-tidy",
+   "compile_flags.txt"
   ]
  },
  {
@@ -1327,8 +1346,7 @@
   ],
   "extensions": [
    "txt",
-   "text",
-   "rtf"
+   "text"
   ]
  },
  {
@@ -1500,7 +1518,10 @@
    "srw",
    "x3f",
    "ktx",
-   "ktx2"
+   "ktx2",
+   "img",
+   "ase",
+   "gpr"
   ],
   "folderNames": [
    "images",
@@ -1550,7 +1571,6 @@
    "flac",
    "aac",
    "m4a",
-   "ogg",
    "oga",
    "opus",
    "wma",
@@ -1612,7 +1632,8 @@
    "vqf",
    "wfp",
    "wpl",
-   "wproj"
+   "wproj",
+   "gp"
   ],
   "folderNames": [
    "audio",
@@ -1693,9 +1714,6 @@
   "set": "ui",
   "aliases": [],
   "color": "#AB47BC",
-  "extensions": [
-   "cff"
-  ],
   "fileNames": [
    "citation",
    "citation.md",
@@ -1717,14 +1735,16 @@
   "color": "#8D6E63",
   "fileNames": [
    "instructions.md",
-   "*.instructions.md"
+   "*.instructions.md",
+   "instruction.md"
   ],
   "folderNames": [
    "instructions",
    "instruction"
   ],
   "extensions": [
-   "instructions.md"
+   "instructions.md",
+   "instruction.md"
   ]
  },
  {
@@ -2023,7 +2043,9 @@
    "toolboxes",
    "devtools",
    "kit",
-   "kits"
+   "kits",
+   "tools",
+   "tooling"
   ],
   "color": "#1E88E5"
  },
@@ -2058,7 +2080,8 @@
    "mp2",
    "mpe",
    "mpv",
-   "m2v"
+   "m2v",
+   "ogg"
   ],
   "folderNames": [
    "video",
@@ -2151,7 +2174,6 @@
    "wwwroot",
    "web-root",
    "htdocs",
-   "public_html",
    "web",
    "website",
    "websites",
@@ -2345,7 +2367,6 @@
   "extensions": [
    "templ",
    "tmpl",
-   "tpl",
    "template"
   ],
   "folderNames": [
@@ -2483,7 +2504,11 @@
   "description": "a pointer cursor",
   "fileNames": [
    ".cursor",
-   ".cursorrc"
+   ".cursorrc",
+   ".cursorignore",
+   ".cursorindexingignore",
+   ".cursorrules",
+   ".cursor.json"
   ],
   "folderNames": [
    "cursor"
@@ -2600,7 +2625,6 @@
   "extensions": [
    "pal",
    "gpl",
-   "ase",
    "aco",
    "act",
    "hex.pal",
@@ -2667,7 +2691,9 @@
   "extensions": [
    "po",
    "mo",
-   "lang"
+   "lang",
+   "pot",
+   "xlf"
   ]
  },
  {
@@ -3043,7 +3069,6 @@
   "description": "a clock with an arrow running back",
   "color": "#7CB342",
   "extensions": [
-   "bak",
    "backup",
    "old",
    "orig"
@@ -3547,7 +3572,6 @@
    "fns",
    "lambda",
    "lambdas",
-   "cloud-functions",
    "logic",
    "math",
    "maths",
@@ -4376,11 +4400,11 @@
    "doc",
    "docx",
    "docm",
-   "dot",
    "dotx",
    "dotm",
    "odt",
-   "wpd"
+   "wpd",
+   "rtf"
   ]
  },
  {
@@ -4670,8 +4694,7 @@
   "color": "#C1272D",
   "extensions": [
    "as",
-   "swc",
-   "swf"
+   "swc"
   ],
   "description": "ActionScript source and compiled Flash libraries"
  },
@@ -4685,8 +4708,7 @@
    "ada",
    "adb",
    "ads",
-   "ali",
-   "gpr"
+   "ali"
   ],
   "description": "Ada source"
  },
@@ -4842,9 +4864,8 @@
   "extensions": [
    "ng.html",
    "module.ts",
-   "routing.ts",
-   "routes.ts",
-   "ng-template"
+   "ng-template",
+   "module.js"
   ],
   "fileNames": [
    "angular.json",
@@ -4918,7 +4939,8 @@
   "color": "#00897B",
   "extensions": [
    "pipe.ts",
-   "pipe.js"
+   "pipe.js",
+   "filter.js"
   ],
   "description": "Angular pipes"
  },
@@ -4962,8 +4984,6 @@
    "playbooks",
    "playbook",
    "roles",
-   "inventory",
-   "inventories",
    "group_vars",
    "host_vars",
    ".ansible"
@@ -5077,7 +5097,9 @@
   "color": "#FD366E",
   "fileNames": [
    "appwrite.json",
-   "appwrite.config.json"
+   "appwrite.config.json",
+   "appwrite.js",
+   "appwrite.ts"
   ],
   "folderNames": [
    "appwrite",
@@ -5256,7 +5278,8 @@
   "folderNames": [
    ".aws",
    "aws",
-   "gcp"
+   "gcp",
+   "azure"
   ],
   "description": "a cloud provider's configuration"
  },
@@ -5275,10 +5298,6 @@
    "local.settings.json",
    "azuredeploy.json",
    "azuredeploy.parameters.json"
-  ],
-  "folderNames": [
-   ".azure",
-   "azure"
   ],
   "description": "Azure"
  },
@@ -5303,7 +5322,13 @@
    "azuredevops",
    "azure-pipelines-ci"
   ],
-  "description": "Azure Pipelines"
+  "description": "Azure Pipelines",
+  "extensions": [
+   "azure-pipelines.yml",
+   "azure-pipelines.yaml",
+   "azure-pipelines-main.yml",
+   "azure-pipelines-main.yaml"
+  ]
  },
  {
   "name": "BabelIcon",
@@ -5358,7 +5383,38 @@
    "config/babel-plugin-macrosrc.cjs",
    "config/babel-plugin-macrosrc.ts",
    "config/babel-plugin-macrosrc.mts",
-   "config/babel-plugin-macrosrc.cts"
+   "config/babel-plugin-macrosrc.cts",
+   ".babelrc.jsonc",
+   ".babelrc.yaml",
+   ".babelrc.yml",
+   ".babelrc.toml",
+   ".babelrc.ts",
+   "babel.config.jsonc",
+   "babel.config.yaml",
+   "babel.config.yml",
+   "babel.config.toml",
+   ".babel-plugin-macrosrc.json",
+   ".babel-plugin-macrosrc.jsonc",
+   ".babel-plugin-macrosrc.yaml",
+   ".babel-plugin-macrosrc.yml",
+   ".babel-plugin-macrosrc.toml",
+   ".babel-plugin-macrosrc.js",
+   ".babel-plugin-macrosrc.mjs",
+   ".babel-plugin-macrosrc.cjs",
+   ".babel-plugin-macrosrc.ts",
+   ".babel-plugin-macrosrc.mts",
+   ".babel-plugin-macrosrc.cts",
+   "babel-plugin-macros.config.json",
+   "babel-plugin-macros.config.jsonc",
+   "babel-plugin-macros.config.yaml",
+   "babel-plugin-macros.config.yml",
+   "babel-plugin-macros.config.toml",
+   "babel-plugin-macros.config.mjs",
+   "babel-plugin-macros.config.cjs",
+   "babel-plugin-macros.config.ts",
+   "babel-plugin-macros.config.mts",
+   "babel-plugin-macros.config.cts",
+   "babel-transform.js"
   ],
   "description": "Babel configuration"
  },
@@ -5464,14 +5520,12 @@
    "bib",
    "bibtex",
    "bbx",
-   "cbx",
    "lbx",
    "dbx",
    "bst",
    "bcf",
    "ris",
    "enw",
-   "csl",
    "bbl",
    "blg"
   ],
@@ -5529,10 +5583,7 @@
   ],
   "folderNames": [
    "ci",
-   ".ci",
-   "pipelines",
-   ".pipelines",
-   "pipeline"
+   ".ci"
   ],
   "description": "continuous integration pipelines (also Bitbucket Pipelines)"
  },
@@ -5855,7 +5906,8 @@
    "cbz",
    "cb7",
    "cbt",
-   "cba"
+   "cba",
+   "cbx"
   ],
   "description": "comic book archive"
  },
@@ -5948,10 +6000,7 @@
   "color": "#5B8DD6",
   "fileNames": [
    ".clangd",
-   ".clang-format",
    "_clang-format",
-   ".clang-tidy",
-   ".clang-format-ignore",
    "compile_commands.json"
   ],
   "description": "clang tooling config"
@@ -6026,7 +6075,8 @@
    ".cloudflare",
    "cloudflare",
    "firebase-cloud-functions",
-   "firebase-cloudfunctions"
+   "firebase-cloudfunctions",
+   "cloud-functions"
   ],
   "description": "cloud / edge functions (also Cloudflare)"
  },
@@ -6095,7 +6145,6 @@
   "extensions": [
    "cob",
    "cbl",
-   "cpy",
    "cobol",
    "ccp"
   ],
@@ -6166,8 +6215,7 @@
   "extensions": [
    "coffee",
    "cson",
-   "iced",
-   "litcoffee"
+   "iced"
   ],
   "description": "CoffeeScript source"
  },
@@ -6444,7 +6492,9 @@
    "nyc-output",
    "nyc_output",
    "it",
-   "integration-test"
+   "integration-test",
+   "e2e",
+   "integration-tests"
   ],
   "description": "test coverage reports"
  },
@@ -6462,7 +6512,6 @@
    "cp",
    "ipp",
    "tpp",
-   "inl",
    "ixx",
    "cppm",
    "mpp",
@@ -6636,14 +6685,6 @@
   "set": "files",
   "aliases": [],
   "color": "#7D8794",
-  "fileNames": [
-   ".cursorrules",
-   ".cursorignore",
-   ".cursorindexingignore"
-  ],
-  "folderNames": [
-   ".cursor"
-  ],
   "description": "Cursor editor rules and settings"
  },
  {
@@ -6669,10 +6710,6 @@
   "aliases": [],
   "color": "#3FAE8A",
   "extensions": [
-   "cy.ts",
-   "cy.js",
-   "cy.tsx",
-   "cy.jsx",
    "cy.mjs",
    "cy.cjs"
   ],
@@ -6779,7 +6816,9 @@
    "parquet",
    "sdf",
    "kdbx",
-   "dsql"
+   "dsql",
+   "bak",
+   "ldf"
   ],
   "folderNames": [
    "database",
@@ -6853,7 +6892,12 @@
    "dependabot.yml",
    "dependabot.yaml"
   ],
-  "description": "automated dependency updates (Dependabot)"
+  "description": "automated dependency updates (Dependabot)",
+  "extensions": [
+   ".ncurc.json",
+   ".ncurc.yml",
+   ".ncurc.js"
+  ]
  },
  {
   "name": "DevelopmentIcon",
@@ -6888,7 +6932,6 @@
   "color": "#4CAF50",
   "extensions": [
    "diff",
-   "patch",
    "rej"
   ],
   "description": "diffs and patches"
@@ -6926,11 +6969,12 @@
   "color": "#78909C",
   "extensions": [
    "iso",
-   "img",
    "qcow",
    "dmg",
    "hdd",
-   "qed"
+   "qed",
+   "vmdk",
+   "qcow2"
   ],
   "description": "disc and disk images"
  },
@@ -6998,7 +7042,11 @@
    "dockerfile",
    "dockerignore",
    "containerignore",
-   "containerfile"
+   "containerfile",
+   "docker-compose.yml",
+   "docker-compose.yaml",
+   "compose.yaml",
+   "compose.yml"
   ],
   "fileNames": [
    "dockerfile",
@@ -7133,7 +7181,8 @@
   "color": "#5A9BD5",
   "extensions": [
    "jst",
-   "def"
+   "def",
+   "dot"
   ],
   "description": "doT.js templates"
  },
@@ -7189,7 +7238,10 @@
    ".drone.star",
    ".drone.jsonnet"
   ],
-  "description": "Drone CI pipelines"
+  "description": "Drone CI pipelines",
+  "extensions": [
+   "drone.yml"
+  ]
  },
  {
   "name": "DucIcon",
@@ -7251,7 +7303,8 @@
   "color": "#6E7E8F",
   "fileNames": [
    ".editorconfig",
-   ".ecrc"
+   ".ecrc",
+   ".editorconfig-checker.json"
   ],
   "description": "EditorConfig"
  },
@@ -7320,7 +7373,8 @@
   "fileNames": [
    ".ember-cli",
    ".ember-cli.js",
-   "ember-cli-build.js"
+   "ember-cli-build.js",
+   "ember-cli-builds.js"
   ],
   "description": "Ember.js"
  },
@@ -7400,7 +7454,33 @@
    "esbuild.config.cjs",
    "esbuild.config.ts",
    "esbuild.config.mts",
-   "esbuild.config.cts"
+   "esbuild.config.cts",
+   "esbuild.mts",
+   "esbuild.cts",
+   "esbuild.dev.js",
+   "esbuild.dev.mjs",
+   "esbuild.dev.cjs",
+   "esbuild.dev.ts",
+   "esbuild.dev.mts",
+   "esbuild.dev.cts",
+   "esbuild.stage.js",
+   "esbuild.stage.mjs",
+   "esbuild.stage.cjs",
+   "esbuild.stage.ts",
+   "esbuild.stage.mts",
+   "esbuild.stage.cts",
+   "esbuild.prod.js",
+   "esbuild.prod.mjs",
+   "esbuild.prod.cjs",
+   "esbuild.prod.ts",
+   "esbuild.prod.mts",
+   "esbuild.prod.cts",
+   "esbuild.test.js",
+   "esbuild.test.mjs",
+   "esbuild.test.cjs",
+   "esbuild.test.ts",
+   "esbuild.test.mts",
+   "esbuild.test.cts"
   ],
   "description": "esbuild config"
  },
@@ -7453,7 +7533,10 @@
    "config/eslintrc.cjs",
    "config/eslintrc.ts",
    "config/eslintrc.mts",
-   "config/eslintrc.cts"
+   "config/eslintrc.cts",
+   ".eslintrc-md.js",
+   ".eslintrc-jsdoc.js",
+   "eslint-options.js"
   ],
   "folderNames": [
    "eslint",
@@ -7509,7 +7592,10 @@
   ],
   "description": "Excalidraw drawings",
   "fileNames": [
-   "excalidraw"
+   "excalidraw",
+   "excalidraw.json",
+   "excalidraw.svg",
+   "excalidraw.png"
   ]
  },
  {
@@ -7557,11 +7643,6 @@
   "fileNames": [
    "fastfile",
    "appfile",
-   "matchfile",
-   "deliverfile",
-   "snapfile",
-   "gymfile",
-   "scanfile",
    "pluginfile",
    "precheckfile",
    "screengrabfile"
@@ -7643,7 +7724,8 @@
   "color": "#E8312F",
   "extensions": [
    "fla",
-   "xfl"
+   "xfl",
+   "swf"
   ],
   "description": "Adobe Flash movies and sources"
  },
@@ -7741,7 +7823,8 @@
   "extensions": [
    "4th",
    "fth",
-   "forth"
+   "forth",
+   "frt"
   ],
   "description": "Forth source"
  },
@@ -7782,7 +7865,6 @@
    "pjt",
    "mnx",
    "frx",
-   "frt",
    "qpr",
    "spr",
    "mpr"
@@ -7867,7 +7949,9 @@
   "fileNames": [
    "project.garden.yml",
    "project.garden.yaml",
-   ".gardenignore"
+   ".gardenignore",
+   "garden.yml",
+   "garden.yaml"
   ]
  },
  {
@@ -7997,7 +8081,10 @@
    "patches",
    "githooks"
   ],
-  "description": "Git"
+  "description": "Git",
+  "extensions": [
+   "patch"
+  ]
  },
  {
   "name": "GiteaIcon",
@@ -8073,7 +8160,6 @@
   "aliases": [],
   "color": "#4F8A10",
   "extensions": [
-   "gp",
    "gnu",
    "gnuplot",
    "plt",
@@ -8290,7 +8376,10 @@
    "gruntfile.cjs",
    "gruntfile.ts",
    "gruntfile.coffee",
-   "gruntfile.babel.js"
+   "gruntfile.babel.js",
+   "gruntfile.cts",
+   "gruntfile.babel.ts",
+   "gruntfile.babel.coffee"
   ],
   "description": "Grunt task runner"
  },
@@ -8307,7 +8396,9 @@
    "gulpfile.ts",
    "gulpfile.babel.js",
    "gulpfile.esm.js",
-   "gulpfile.coffee"
+   "gulpfile.coffee",
+   "gulpfile.cts",
+   "gulpfile.mts"
   ],
   "folderNames": [
    "gulp",
@@ -8355,7 +8446,8 @@
   "fileNames": [
    ".hadolint.yaml",
    ".hadolint.yml",
-   "hadolint.yaml"
+   "hadolint.yaml",
+   "hadolint.yml"
   ],
   "description": "hadolint config"
  },
@@ -8574,7 +8666,10 @@
   "fileNames": [
    "horusec-config.json"
   ],
-  "description": "Horusec"
+  "description": "Horusec",
+  "extensions": [
+   "horusec-config.json"
+  ]
  },
  {
   "name": "HppIcon",
@@ -8588,7 +8683,8 @@
    "hxx",
    "h++",
    "hp",
-   "tcc"
+   "tcc",
+   "inl"
   ],
   "description": "C++ header"
  },
@@ -8679,7 +8775,22 @@
    "config/huskyrc.cjs",
    "config/huskyrc.ts",
    "config/huskyrc.mts",
-   "config/huskyrc.cts"
+   "config/huskyrc.cts",
+   ".huskyrc.jsonc",
+   ".huskyrc.toml",
+   ".huskyrc.mjs",
+   ".huskyrc.ts",
+   ".huskyrc.mts",
+   ".huskyrc.cts",
+   "husky.config.json",
+   "husky.config.jsonc",
+   "husky.config.yaml",
+   "husky.config.yml",
+   "husky.config.toml",
+   "husky.config.mjs",
+   "husky.config.ts",
+   "husky.config.mts",
+   "husky.config.cts"
   ],
   "folderNames": [
    ".husky",
@@ -8736,9 +8847,6 @@
   "set": "files",
   "aliases": [],
   "color": "#FE315D",
-  "extensions": [
-   "iml"
-  ],
   "folderNames": [
    ".idea",
    "idea"
@@ -8893,7 +9001,35 @@
    "jest.config.json",
    "jest.setup.js",
    "jest.setup.ts",
-   ".jestrc"
+   ".jestrc",
+   "jest.e2e.config.js",
+   "jest.e2e.config.cjs",
+   "jest.e2e.config.mjs",
+   "jest.e2e.config.ts",
+   "jest.e2e.config.cts",
+   "jest.e2e.config.mts",
+   "jest.e2e.config.json",
+   "jest.e2e.json",
+   "jest-unit.config.js",
+   "jest-e2e.config.js",
+   "jest-e2e.config.cjs",
+   "jest-e2e.config.mjs",
+   "jest-e2e.config.ts",
+   "jest-e2e.config.cts",
+   "jest-e2e.config.mts",
+   "jest-e2e.config.json",
+   "jest-e2e.json",
+   "jest-github-actions-reporter.js",
+   ".jestrc.js",
+   ".jestrc.json",
+   "jest.teardown.js",
+   "jest-preset.js",
+   "jest-preset.cjs",
+   "jest-preset.mjs",
+   "jest.preset.js",
+   "jest.preset.mjs",
+   "jest.preset.cjs",
+   "jest.preset.json"
   ],
   "description": "Jest"
  },
@@ -8948,7 +9084,8 @@
    ".jsbeautifyrc",
    ".esformatter",
    "cdp.pid",
-   ".whitesource"
+   ".whitesource",
+   "composer.lock"
   ]
  },
  {
@@ -9012,7 +9149,11 @@
    "karma.conf.ts",
    "karma.conf.cjs",
    "karma.conf.mjs",
-   "karma.conf.coffee"
+   "karma.conf.coffee",
+   "karma.config.js",
+   "karma.config.ts",
+   "karma-main.js",
+   "karma-main.ts"
   ],
   "description": "Karma"
  },
@@ -9028,7 +9169,9 @@
   ],
   "fileNames": [
    "kcl.mod",
-   "kcl.mod.lock"
+   "kcl.mod.lock",
+   "kcl.yaml",
+   "kcl.yml"
   ],
   "description": "KCL"
  },
@@ -9042,7 +9185,8 @@
    "keystatic.config.ts",
    "keystatic.config.tsx",
    "keystatic.config.js",
-   "keystatic.config.mjs"
+   "keystatic.config.mjs",
+   "keystatic.config.jsx"
   ],
   "description": "Keystatic"
  },
@@ -9095,7 +9239,13 @@
   "color": "#326CE5",
   "fileNames": [
    "kustomization.yaml",
-   "kustomization.yml"
+   "kustomization.yml",
+   "k8s.yml",
+   "k8s.yaml",
+   "kubernetes.yml",
+   "kubernetes.yaml",
+   ".k8s.yml",
+   ".k8s.yaml"
   ],
   "folderNames": [
    "kubernetes",
@@ -9132,7 +9282,11 @@
   "fileNames": [
    "artisan"
   ],
-  "description": "Laravel"
+  "description": "Laravel",
+  "extensions": [
+   "blade.php",
+   "inky.php"
+  ]
  },
  {
   "name": "LatexIcon",
@@ -9141,9 +9295,6 @@
   "aliases": [],
   "color": "#3D8BA8",
   "extensions": [
-   "ltx",
-   "latex",
-   "cls",
    "sty"
   ],
   "fileNames": [
@@ -9189,7 +9340,11 @@
    ".lefthook-local.yml",
    ".lefthook-local.yaml",
    ".lefthookrc",
-   "lefthookrc"
+   "lefthookrc",
+   ".lefthook-local.json",
+   ".lefthook-local.toml",
+   "lefthook-local.json",
+   "lefthook-local.toml"
   ],
   "folderNames": [
    ".lefthook",
@@ -9278,7 +9433,9 @@
    "licence-lgpl",
    "licence.md",
    "licence.rst",
-   "licence.txt"
+   "licence.txt",
+   "copyright.md",
+   "copyright.txt"
   ],
   "folderNames": [
    "license",
@@ -9570,7 +9727,6 @@
   "color": "#E53935",
   "extensions": [
    "mk",
-   "mak",
    "make"
   ],
   "fileNames": [
@@ -9615,7 +9771,8 @@
    "markdn",
    "mdtext",
    "mdtxt",
-   "workbook"
+   "workbook",
+   "litcoffee"
   ],
   "folderNames": [
    "markdown",
@@ -9631,7 +9788,8 @@
   "color": "#8792F2",
   "extensions": [
    "mdoc",
-   "markdoc"
+   "markdoc",
+   "markdoc.md"
   ],
   "fileNames": [
    "markdoc.config.*",
@@ -9754,7 +9912,8 @@
    ".hgsub",
    ".hgsubstate",
    ".hg",
-   ".hgflow"
+   ".hgflow",
+   "mercurial.ini"
   ],
   "folderNames": [
    ".hg",
@@ -9910,7 +10069,11 @@
   "aliases": [],
   "color": "#6AA6D6",
   "extensions": [
-   "mist"
+   "mist",
+   "mist.js",
+   "mist.ts",
+   "mist.jsx",
+   "mist.tsx"
   ],
   "description": "Mist"
  },
@@ -10094,7 +10257,8 @@
    "netlify.yml",
    "netlify.yaml",
    "_redirects",
-   "_headers"
+   "_headers",
+   "netlify.json"
   ],
   "folderNames": [
    ".netlify",
@@ -10182,7 +10346,9 @@
   "fileNames": [
    ".nvmrc",
    ".node-version",
-   ".esmrc"
+   ".esmrc",
+   "package.json",
+   "package-lock.json"
   ],
   "folderNames": [
    "node",
@@ -10201,7 +10367,8 @@
    "nodemon.json",
    ".nodemonrc",
    ".nodemonrc.json",
-   ".nodemonignore"
+   ".nodemonignore",
+   "nodemon-debug.json"
   ],
   "description": "nodemon config"
  },
@@ -10212,8 +10379,6 @@
   "aliases": [],
   "color": "#CB3837",
   "fileNames": [
-   "package.json",
-   "package-lock.json",
    "npm-shrinkwrap.json",
    ".npmrc",
    ".npmignore"
@@ -10234,7 +10399,8 @@
   "fileNames": [
    "nuget.config",
    "packages.config",
-   ".nuspec"
+   ".nuspec",
+   "nuget.exe"
   ],
   "description": "NuGet package"
  },
@@ -10393,7 +10559,12 @@
    "openapi.*.yaml",
    "openapi.*.yml"
   ],
-  "description": "OpenAPI descriptions"
+  "description": "OpenAPI descriptions",
+  "extensions": [
+   "openapi.json",
+   "openapi.yml",
+   "openapi.yaml"
+  ]
  },
  {
   "name": "OpencodeIcon",
@@ -10449,7 +10620,10 @@
    "oxlint.json",
    "oxc.config.*",
    ".oxfmtrc.json",
-   ".oxfmtrc.jsonc"
+   ".oxfmtrc.jsonc",
+   ".oxlintrc.jsonc",
+   "oxlint.config.ts",
+   "oxfmt.config.ts"
   ],
   "description": "Oxc and oxlint configuration"
  },
@@ -10493,7 +10667,6 @@
   "color": "#B0CE4E",
   "extensions": [
    "pas",
-   "p",
    "dpr",
    "lpr",
    "dpk",
@@ -10565,7 +10738,11 @@
    "pdm-plugins",
    "pdm-build"
   ],
-  "description": "PDM, the Python package manager"
+  "description": "PDM, the Python package manager",
+  "extensions": [
+   "pdm.lock",
+   "pdm.toml"
+  ]
  },
  {
   "name": "PercyIcon",
@@ -10596,7 +10773,6 @@
   "aliases": [],
   "color": "#0298C3",
   "extensions": [
-   "pl",
    "pm",
    "pod",
    "t",
@@ -10655,7 +10831,9 @@
    ".php_cs",
    ".php_cs.dist",
    ".php-cs-fixer.cache",
-   ".php_cs.cache"
+   ".php_cs.cache",
+   ".php_cs.php",
+   ".php_cs.dist.php"
   ],
   "description": "PHP CS Fixer configuration"
  },
@@ -10695,7 +10873,9 @@
    "phpunit.xml.dist",
    "phpunit.dist.xml",
    ".phpunit.result.cache",
-   "phpunit-watcher.yml.dist"
+   "phpunit-watcher.yml.dist",
+   ".phpunit-watcher.yml",
+   "phpunit-watcher.yml"
   ],
   "folderNames": [
    ".phpunit.cache"
@@ -10722,7 +10902,9 @@
   "color": "#00ACC1",
   "folderNames": [
    "pipe",
-   "pipes"
+   "pipes",
+   "pipeline",
+   "pipelines"
   ],
   "description": "pipes"
  },
@@ -10945,7 +11127,9 @@
    "config/postcssrc.cjs",
    "config/postcssrc.ts",
    "config/postcssrc.mts",
-   "config/postcssrc.cts"
+   "config/postcssrc.cts",
+   ".postcssrc.jsonc",
+   ".postcssrc.toml"
   ],
   "description": "PostCSS"
  },
@@ -11031,7 +11215,6 @@
    "pps",
    "ppsx",
    "ppsm",
-   "pot",
    "potx",
    "potm",
    "ppa",
@@ -11146,7 +11329,8 @@
   ],
   "fileNames": [
    "prisma.config.*",
-   "prisma.config.ts"
+   "prisma.config.ts",
+   "prisma.yml"
   ],
   "folderNames": [
    "prisma",
@@ -11175,7 +11359,9 @@
    "pro",
    "prolog",
    "plg",
-   "yap"
+   "yap",
+   "p",
+   "pl"
   ],
   "description": "Prolog source"
  },
@@ -11192,7 +11378,8 @@
    "prompt.txt",
    "prompt.yml",
    "prompt.yaml",
-   "prompt.json"
+   "prompt.json",
+   "prompts.md"
   ],
   "folderNames": [
    "prompts",
@@ -11268,7 +11455,6 @@
    "epp"
   ],
   "fileNames": [
-   "puppetfile",
    "puppetfile.lock"
   ],
   "description": "Puppet manifests"
@@ -11365,7 +11551,8 @@
    "rpy",
    "pyc",
    "whl",
-   "egg"
+   "egg",
+   "cpy"
   ],
   "fileNames": [
    "requirements.txt",
@@ -11470,7 +11657,8 @@
    "quasar.extensions.json",
    "quasar.config.js",
    "quasar.config.ts",
-   "quasar.config.cjs"
+   "quasar.config.cjs",
+   "quasar.conf.ts"
   ],
   "folderNames": [
    ".quasar",
@@ -11488,7 +11676,13 @@
    ".quokka",
    ".quokka.json"
   ],
-  "description": "Quokka.js configuration"
+  "description": "Quokka.js configuration",
+  "extensions": [
+   "quokka.js",
+   "quokka.ts",
+   "quokka.jsx",
+   "quokka.tsx"
+  ]
  },
  {
   "name": "RIcon",
@@ -11699,7 +11893,8 @@
    "renovate.json5",
    ".renovaterc",
    ".renovaterc.json",
-   ".renovaterc.json5"
+   ".renovaterc.json5",
+   "renovate-config.json"
   ],
   "description": "Renovate configuration"
  },
@@ -11810,7 +12005,11 @@
    "roadmap",
    "roadmap.md",
    "roadmap.txt",
-   "roadmap.rst"
+   "roadmap.rst",
+   "timeline.md",
+   "timeline.txt",
+   "milestones.md",
+   "milestones.txt"
   ],
   "description": "roadmap"
  },
@@ -11835,7 +12034,17 @@
   "aliases": [],
   "color": "#D33847",
   "fileNames": [
-   "rocket.toml"
+   "rocket.toml",
+   ".release-it.json",
+   ".release-it.ts",
+   ".release-it.js",
+   ".release-it.cjs",
+   ".release-it.yaml",
+   ".release-it.yml",
+   ".release-it.toml",
+   "release.toml",
+   "release-plz.toml",
+   ".release-plz.toml"
   ],
   "description": "Rocket configuration"
  },
@@ -11881,7 +12090,10 @@
    "rollup.config.dev.ts",
    "rollup.config.prod.vendor.js",
    "rollup.config.prod.vendor.mjs",
-   "rollup.config.prod.vendor.ts"
+   "rollup.config.prod.vendor.ts",
+   "rollup-config.js",
+   "rollup-config.mjs",
+   "rollup-config.ts"
   ],
   "description": "Rollup configuration"
  },
@@ -11913,7 +12125,11 @@
    "routes.js",
    "routes.jsx",
    "routes.ts",
-   "routes.tsx"
+   "routes.tsx",
+   "route.js",
+   "route.jsx",
+   "route.ts",
+   "route.tsx"
   ],
   "folderNames": [
    "routes",
@@ -11924,7 +12140,21 @@
    "navigation",
    "navigations"
   ],
-  "description": "routes and routing"
+  "description": "routes and routing",
+  "extensions": [
+   "routing.ts",
+   "routing.tsx",
+   "routing.js",
+   "routing.jsx",
+   "route.ts",
+   "route.tsx",
+   "route.js",
+   "route.jsx",
+   "routes.ts",
+   "routes.tsx",
+   "routes.js",
+   "routes.jsx"
+  ]
  },
  {
   "name": "RspecIcon",
@@ -11976,7 +12206,21 @@
    "rspress.config.cjs",
    "rspress.config.ts",
    "rspress.config.mts",
-   "rspress.config.cts"
+   "rspress.config.cts",
+   "rspack.config.js",
+   "rspack.config.mjs",
+   "rspack.config.cjs",
+   "rspack.config.ts",
+   "rspack.config.mts",
+   "rspack.config.cts",
+   "rslint.config.js",
+   "rslint.config.mjs",
+   "rslint.config.cjs",
+   "rslint.config.ts",
+   "rslint.config.mts",
+   "rslint.config.cts",
+   "rslint.json",
+   "rslint.jsonc"
   ],
   "description": "Rstack tool configuration (Rsbuild, Rslib, Rspress, Rstest)"
  },
@@ -11989,7 +12233,8 @@
   "fileNames": [
    ".rubocop.yml",
    ".rubocop.yaml",
-   ".rubocop_todo.yml"
+   ".rubocop_todo.yml",
+   ".rubocop-todo.yml"
   ],
   "description": "RuboCop configuration"
  },
@@ -12272,7 +12517,12 @@
    "config/releaserc.cjs",
    "config/releaserc.ts",
    "config/releaserc.mts",
-   "config/releaserc.cts"
+   "config/releaserc.cts",
+   ".releaserc.jsonc",
+   ".releaserc.toml",
+   ".releaserc.ts",
+   ".releaserc.mts",
+   ".releaserc.cts"
   ],
   "description": "semantic-release configuration"
  },
@@ -12320,7 +12570,8 @@
    "sentry.edge.config.cjs",
    "sentry.edge.config.ts",
    "sentry.edge.config.mts",
-   "sentry.edge.config.cts"
+   "sentry.edge.config.cts",
+   ".env.sentry-build-plugin"
   ],
   "description": "error monitoring configuration (Sentry)"
  },
@@ -12506,7 +12757,11 @@
    ".skills",
    "skill"
   ],
-  "description": "agent skills"
+  "description": "agent skills",
+  "extensions": [
+   "skill.md",
+   "skills.md"
+  ]
  },
  {
   "name": "SlimIcon",
@@ -12552,7 +12807,8 @@
   "aliases": [],
   "color": "#DDAA00",
   "extensions": [
-   "smarty"
+   "smarty",
+   "tpl"
   ],
   "description": "Smarty template"
  },
@@ -12598,7 +12854,8 @@
   "color": "#E95420",
   "fileNames": [
    "snapcraft.yaml",
-   ".snapcraft.yaml"
+   ".snapcraft.yaml",
+   "snapcraft.yml"
   ],
   "folderNames": [
    "snap",
@@ -12619,7 +12876,9 @@
    "snowpack.config.mjs",
    "snowpack.config.ts",
    "snowpack.config.json",
-   "snowpack.deps.json"
+   "snowpack.deps.json",
+   "snowpack.config.cts",
+   "snowpack.config.mts"
   ],
   "description": "Snowpack config"
  },
@@ -12645,7 +12904,8 @@
    ".sonarcloud.properties",
    "sonarcloud.yaml",
    "sonarcloud.yml",
-   "sonarqube.xml"
+   "sonarqube.xml",
+   "sonarqube.analysis.xml"
   ],
   "description": "SonarCloud / SonarQube config"
  },
@@ -12695,7 +12955,11 @@
    "steadybit.yml",
    "steadybit.yaml"
   ],
-  "description": "chaos engineering config (Steadybit)"
+  "description": "chaos engineering config (Steadybit)",
+  "extensions": [
+   "steadybit.yml",
+   "steadybit.yaml"
+  ]
  },
  {
   "name": "StencilIcon",
@@ -12788,7 +13052,15 @@
    "stryker.config.cjs",
    "stryker.config.mjs",
    "stryker.config.json",
-   ".strykerrc"
+   ".strykerrc",
+   ".stryker.conf.json",
+   ".stryker.conf.js",
+   ".stryker.conf.cjs",
+   ".stryker.conf.mjs",
+   ".stryker.config.json",
+   ".stryker.config.js",
+   ".stryker.config.mjs",
+   ".stryker.config.cjs"
   ],
   "description": "Stryker mutation testing config"
  },
@@ -12801,11 +13073,14 @@
   "extensions": [
    "tex",
    "clo",
-   "ldf",
    "fd",
    "aux",
    "tikz",
-   "synctex"
+   "synctex",
+   "ltx",
+   "cls",
+   "latex",
+   "synctex.gz"
   ],
   "description": "TeX / LaTeX source and styles"
  },
@@ -12859,7 +13134,19 @@
    "config/stylelintrc.cjs",
    "config/stylelintrc.ts",
    "config/stylelintrc.mts",
-   "config/stylelintrc.cts"
+   "config/stylelintrc.cts",
+   ".stylelintrc.jsonc",
+   ".stylelintrc.toml",
+   ".stylelintrc.ts",
+   ".stylelintrc.mts",
+   ".stylelintrc.cts",
+   "stylelint.config.json",
+   "stylelint.config.jsonc",
+   "stylelint.config.yaml",
+   "stylelint.config.yml",
+   "stylelint.config.toml",
+   "stylelint.config.mts",
+   "stylelint.config.cts"
   ],
   "description": "Stylelint config"
  },
@@ -12898,8 +13185,7 @@
    "sublime-syntax",
    "sublime-theme",
    "sublime-color-scheme",
-   "tmtheme",
-   "tmlanguage"
+   "tmtheme"
   ],
   "folderNames": [
    ".sublime",
@@ -12934,7 +13220,9 @@
    "svelte.config.js",
    "svelte.config.cjs",
    "svelte.config.mjs",
-   "svelte.config.ts"
+   "svelte.config.ts",
+   "svelte.config.mts",
+   "svelte.config.cts"
   ],
   "folderNames": [
    "svelte",
@@ -12986,12 +13274,14 @@
   "extensions": [
    "swagger.json",
    "swagger.yaml",
-   "swagger.yml",
-   "openapi.json",
-   "openapi.yaml",
-   "openapi.yml"
+   "swagger.yml"
   ],
-  "description": "Swagger / OpenAPI definition"
+  "description": "Swagger / OpenAPI definition",
+  "fileNames": [
+   "swagger.json",
+   "swagger.yml",
+   "swagger.yaml"
+  ]
  },
  {
   "name": "SwayIcon",
@@ -13078,7 +13368,19 @@
    "config/syncpackrc.cjs",
    "config/syncpackrc.ts",
    "config/syncpackrc.mts",
-   "config/syncpackrc.cts"
+   "config/syncpackrc.cts",
+   ".syncpackrc.jsonc",
+   ".syncpackrc.toml",
+   ".syncpackrc.ts",
+   ".syncpackrc.mts",
+   ".syncpackrc.cts",
+   "syncpack.config.json",
+   "syncpack.config.jsonc",
+   "syncpack.config.yaml",
+   "syncpack.config.yml",
+   "syncpack.config.toml",
+   "syncpack.config.mts",
+   "syncpack.config.cts"
   ],
   "description": "Syncpack config"
  },
@@ -13176,7 +13478,8 @@
    "tauri.macos.conf.json",
    "tauri.android.conf.json",
    "tauri.ios.conf.json",
-   ".taurignore"
+   ".taurignore",
+   "tauri.config.json"
   ],
   "folderNames": [
    "src-tauri"
@@ -13198,7 +13501,9 @@
    "taze.config.mjs",
    "taze.config.ts",
    ".tazerc",
-   ".tazerc.json"
+   ".tazerc.json",
+   "taze.config.mts",
+   "taze.config.cts"
   ],
   "description": "taze config"
  },
@@ -13212,7 +13517,6 @@
    "tcl",
    "tk",
    "tm",
-   "exp",
    "itcl",
    "tbc",
    "do"
@@ -13288,10 +13592,7 @@
    "spec",
    "specs",
    "__specs__",
-   "e2e",
-   "integration",
    "unit",
-   "integration-tests",
    "unit-tests",
    "e2e-tests",
    "snapshots",
@@ -13314,9 +13615,10 @@
    "spec.mjs",
    "e2e-test.js",
    "e2e-spec.js",
-   "test.jsx",
-   "spec.jsx",
-   "js.snap"
+   "js.snap",
+   "e2e-spec.cjs",
+   "e2e-spec.mjs",
+   "cy.js"
   ],
   "description": "JavaScript tests"
  },
@@ -13339,7 +13641,18 @@
    "spec.tsx",
    "ts.snap",
    "tsx.snap",
-   "jsx.snap"
+   "jsx.snap",
+   "cy.ts",
+   "e2e-spec.cts",
+   "e2e-spec.mts",
+   "spec-d.ts",
+   "test-d.ts",
+   "spec.jsx",
+   "test.jsx",
+   "cy.jsx",
+   "cy.tsx",
+   "spec-d.tsx",
+   "test-d.tsx"
   ],
   "description": "TypeScript tests"
  },
@@ -13355,7 +13668,8 @@
    ".textlintrc.yaml",
    ".textlintrc.yml",
    ".textlintrc.js",
-   ".textlintignore"
+   ".textlintignore",
+   ".textlintrc.cjs"
   ],
   "description": "textlint config"
  },
@@ -13439,7 +13753,10 @@
   "fileNames": [
    "trigger.config.ts",
    "trigger.config.js",
-   "trigger.config.mjs"
+   "trigger.config.mjs",
+   "trigger.config.cjs",
+   "trigger.config.mts",
+   "trigger.config.cts"
   ],
   "folderNames": [
    "trigger",
@@ -13486,7 +13803,10 @@
    "tsconfig.client.json",
    "tsconfig.declaration.json"
   ],
-  "description": "TypeScript config"
+  "description": "TypeScript config",
+  "extensions": [
+   "tsconfig.json"
+  ]
  },
  {
   "name": "TsdocIcon",
@@ -13541,7 +13861,6 @@
   "fileNames": [
    ".env",
    ".env.*",
-   ".envrc",
    ".flaskenv",
    ".env-sample",
    "env.example",
@@ -13684,7 +14003,10 @@
   "extensions": [
    "typ"
   ],
-  "description": "Typst documents"
+  "description": "Typst documents",
+  "fileNames": [
+   "typst.toml"
+  ]
  },
  {
   "name": "UiuaIcon",
@@ -13797,7 +14119,8 @@
   "color": "#DE5FE9",
   "fileNames": [
    "uv.lock",
-   "uv.toml"
+   "uv.toml",
+   ".uv.toml"
   ],
   "description": "uv (Python package manager)"
  },
@@ -13839,7 +14162,11 @@
   "color": "#E68FB4",
   "extensions": [
    "css.ts",
-   "css.js"
+   "css.js",
+   "css.cjs",
+   "css.mjs",
+   "css.tsx",
+   "css.jsx"
   ],
   "description": "vanilla-extract styles"
  },
@@ -13896,7 +14223,8 @@
    "now.json",
    ".nowignore",
    "zbpack.json",
-   "zeabur.json"
+   "zeabur.json",
+   "vercel.ts"
   ],
   "folderNames": [
    ".vercel",
@@ -13915,12 +14243,13 @@
   "aliases": [],
   "color": "#FF7043",
   "extensions": [
-   "v",
    "vh",
    "sv",
    "svh",
    "vlg",
-   "vhdl"
+   "vhdl",
+   "vhd",
+   "vhdx"
   ],
   "description": "Verilog / SystemVerilog source"
  },
@@ -13993,7 +14322,6 @@
    "vcproj",
    "vcxitems",
    "suo",
-   "vsix",
    "vssettings",
    "vsconfig",
    "csproj",
@@ -14053,7 +14381,19 @@
    "vitest.config.cjs",
    "vitest.config.ts",
    "vitest.config.mts",
-   "vitest.config.cts"
+   "vitest.config.cts",
+   "vitest.unit.config.js",
+   "vitest.unit.config.mjs",
+   "vitest.unit.config.cjs",
+   "vitest.unit.config.ts",
+   "vitest.unit.config.mts",
+   "vitest.unit.config.cts",
+   "vitest.e2e.config.js",
+   "vitest.e2e.config.mjs",
+   "vitest.e2e.config.cjs",
+   "vitest.e2e.config.ts",
+   "vitest.e2e.config.mts",
+   "vitest.e2e.config.cts"
   ],
   "description": "Vitest config"
  },
@@ -14064,10 +14404,12 @@
   "aliases": [],
   "color": "#5D87BF",
   "extensions": [
-   "vv"
+   "vv",
+   "v"
   ],
   "fileNames": [
-   "v.mod"
+   "v.mod",
+   "vpkg.json"
   ],
   "description": "V source"
  },
@@ -14079,13 +14421,9 @@
   "color": "#3F7FBF",
   "extensions": [
    "vmx",
-   "vmdk",
    "vdi",
-   "vhd",
-   "vhdx",
    "ova",
    "ovf",
-   "qcow2",
    "vbox",
    "vbox-prev"
   ],
@@ -14110,7 +14448,8 @@
    "code-profile",
    "vscodeignore",
    "vsixmanifest",
-   "code-workplace"
+   "code-workplace",
+   "vsix"
   ],
   "fileNames": [
    ".vscodeignore",
@@ -14139,7 +14478,10 @@
    "vue.config.cjs",
    "vue.config.mjs",
    "vue.config.ts",
-   ".vuerc"
+   ".vuerc",
+   "vetur.config.js",
+   "vetur.config.ts",
+   "volar.config.js"
   ],
   "folderNames": [
    "vue",
@@ -14173,7 +14515,10 @@
   "folderNames": [
    ".warp"
   ],
-  "description": "Warp terminal workflows"
+  "description": "Warp terminal workflows",
+  "fileNames": [
+   "warp.md"
+  ]
  },
  {
   "name": "WatchmanIcon",
@@ -14388,7 +14733,42 @@
    "webpack.test.mjs",
    "webpack.test.cjs",
    "webpack.test.ts",
-   "webpack.config.coffee"
+   "webpack.config.coffee",
+   "webpack.base.mts",
+   "webpack.base.cts",
+   "webpack.client.mts",
+   "webpack.client.cts",
+   "webpack.common.mts",
+   "webpack.common.cts",
+   "webpack.dev.mts",
+   "webpack.dev.cts",
+   "webpack.development.mts",
+   "webpack.development.cts",
+   "webpack.dist.mts",
+   "webpack.dist.cts",
+   "webpack.mix.mts",
+   "webpack.mix.cts",
+   "webpack.prod.config.mts",
+   "webpack.prod.config.cts",
+   "webpack.prod.mts",
+   "webpack.prod.cts",
+   "webpack.production.mts",
+   "webpack.production.cts",
+   "webpack.server.mts",
+   "webpack.server.cts",
+   "webpack.test.mts",
+   "webpack.test.cts",
+   "webpack.js",
+   "webpack.mjs",
+   "webpack.cjs",
+   "webpack.ts",
+   "webpack.mts",
+   "webpack.cts",
+   "webpackfile.mjs",
+   "webpackfile.cjs",
+   "webpackfile.ts",
+   "webpackfile.mts",
+   "webpackfile.cts"
   ],
   "folderNames": [
    "webpack",
@@ -14421,7 +14801,8 @@
    "werf-*.yaml",
    "werf-*.yml",
    "werf-includes.yaml",
-   "werf-includes.yml"
+   "werf-includes.yml",
+   "werf-includes.lock"
   ],
   "folderNames": [
    ".werf"
@@ -14545,10 +14926,12 @@
   "aliases": [],
   "color": "#512BD4",
   "extensions": [
-   "xaml",
-   "axaml"
+   "xaml"
   ],
-  "description": "XAML markup"
+  "description": "XAML markup",
+  "fileNames": [
+   "xamlstyler.json"
+  ]
  },
  {
   "name": "XmakeIcon",
@@ -14580,7 +14963,6 @@
    "rng",
    "xmp",
    "xliff",
-   "xlf",
    "resx",
    "wsdl",
    "plist",
@@ -14627,7 +15009,11 @@
    "xib",
    "xoml",
    "xpdl",
-   "xul"
+   "xul",
+   "iml",
+   "tmlanguage",
+   "axaml",
+   "csl"
   ],
   "description": "XML",
   "fileNames": [
@@ -14650,7 +15036,8 @@
    "eyml",
    "winget",
    "yaml-tmpreferences",
-   "yaml-tmtheme"
+   "yaml-tmtheme",
+   "cff"
   ],
   "description": "YAML"
  },
@@ -14679,7 +15066,9 @@
    ".yarn-integrity",
    ".yarn-metadata.json",
    ".pnp.cjs",
-   ".pnp.loader.mjs"
+   ".pnp.loader.mjs",
+   "yarn-error.log",
+   ".yarnrc.yaml"
   ],
   "folderNames": [
    ".yarn",

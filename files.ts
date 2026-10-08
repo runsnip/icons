@@ -242,9 +242,21 @@ export function resolveIcon(icons: Record<string, Icon>, request: IconRequest): 
   }
   const key = (name ?? "").trim().toLowerCase();
   const icon = icons[key];
-  if (!icon) return null;
-  return iconForm(icon, { form: request.form, open, colored, color: KIND_COLORS[key] ?? KIND_COLORS[kebabOf(icon.name)] });
+  if (icon) return iconForm(icon, { form: request.form, open, colored, color: KIND_COLORS[key] ?? KIND_COLORS[kebabOf(icon.name)] });
+  /* A form's own name, as scripts/file-forms.mjs names its module: react-file, react-folder-open-color. */
+  const form = FORM_NAME.exec(key);
+  const kind = form && icons[form[1]];
+  if (!kind || !KIND_COLORS[form[1]]) return null;
+  return iconForm(kind, {
+    form: form[2] === "-file" ? "file" : form[2] ? "folder" : "glyph",
+    open: form[2] === "-folder-open",
+    colored: Boolean(form[3]),
+    color: KIND_COLORS[form[1]],
+  });
 }
+
+/* <kind>, then -file, -folder or -folder-open, then -color: one of them at least. */
+const FORM_NAME = /^(.+?)(-file|-folder-open|-folder)?(-color)?$/;
 
 /* An icon's file name from its name, for an alias given where the kind is listed under the file: TsIcon → ts. */
 const kebabOf = (name: string) => name.replace(/Icon$/, "").replace(/([a-z0-9])([A-Z])/g, "$1-$2").replace(/([A-Z])([A-Z][a-z])/g, "$1-$2").toLowerCase();

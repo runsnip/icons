@@ -1,0 +1,10 @@
+/* Made by scripts/file-forms.mjs from the kind's glyph. Do not edit; run `npm run generate`. */
+import type { Icon } from "../types";
+
+/** VFL layout: a page carrying its glyph, in the text's colour. */
+export const VflFileIcon: Icon = {
+  name: "VflFileIcon",
+  node: [["path",{"d":"M8.5 20.5H7A2.5 2.5 0 0 1 4.5 18V6A2.5 2.5 0 0 1 7 3.5h7L19.5 9"}],["path",{"d":"M10.5 12.265v6.471M20.5 12.265v6.471","stroke-width":1.5}],["rect",{"x":13.147,"y":13.147,"width":4.706,"height":4.706,"rx":0.882,"stroke-width":1.5}],["path",{"d":"M10.794 15.5h2.059M18.147 15.5H20.206","stroke-width":1.95}]],
+};
+
+export default VflFileIcon;

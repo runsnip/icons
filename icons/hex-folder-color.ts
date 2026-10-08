@@ -1,0 +1,10 @@
+/* Made by scripts/file-forms.mjs from the kind's glyph. Do not edit; run `npm run generate`. */
+import type { Icon } from "../types";
+
+/** Intel HEX binary images: a folder carrying its glyph in its colour, #9575CD. */
+export const HexFolderColorIcon: Icon = {
+  name: "HexFolderColorIcon",
+  node: [["path",{"d":"M8.5 19.5H5A1.5 1.5 0 0 1 3.5 18V6A1.5 1.5 0 0 1 5 4.5h4.5l2 2.5H19A1.5 1.5 0 0 1 20.5 8.5","stroke":"#9575CD"}],["path",{"d":"M20.5 15.5L18 19.829L13 19.829L10.5 15.5L13 11.171L18 11.171Z","stroke-width":1.5,"stroke":"#9575CD"}],["path",{"d":"M17.382 15.5L16.441 17.129L14.559 17.129L13.618 15.5L14.559 13.871L16.441 13.871Z","fill":"#9575CD","stroke":"none"}]],
+};
+
+export default HexFolderColorIcon;

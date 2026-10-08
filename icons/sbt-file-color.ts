@@ -1,0 +1,10 @@
+/* Made by scripts/file-forms.mjs from the kind's glyph. Do not edit; run `npm run generate`. */
+import type { Icon } from "../types";
+
+/** sbt build: a page carrying its glyph in its colour, #D9531E. */
+export const SbtFileColorIcon: Icon = {
+  name: "SbtFileColorIcon",
+  node: [["path",{"d":"M8.5 20.5H7A2.5 2.5 0 0 1 4.5 18V6A2.5 2.5 0 0 1 7 3.5h7L19.5 9","stroke":"#D9531E"}],["circle",{"cx":15.5,"cy":15.5,"r":5,"stroke-width":1.5,"stroke":"#D9531E"}],["path",{"d":"M12.559 17.559h2.059v-1.765h1.765v-1.765H18.441","stroke-width":1.95,"stroke":"#D9531E"}]],
+};
+
+export default SbtFileColorIcon;

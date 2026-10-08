@@ -6,12 +6,17 @@
  *   browser/names.ts   every icon by the name a page writes in data-rs-icon: its file name, and its aliases'
  *   kinds.ts           the kinds of file and folder: each glyph's colour and the names it matches (icons.json's
  *                      `color`, `extensions`, `fileNames`, `folderNames`), as the tables files.ts looks names up in
+ * The forms of the kinds (forms.json, made by scripts/file-forms.mjs) are icons like the drawn ones in index,
+ * dynamic and react; a page reaches them by name through resolveIcon instead, so the UMD build stays the drawings.
  * Adding an icon: write icons/<name>.ts, add it to icons.json, run `npm run generate`.
  */
-import { readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 
 const root = new URL("..", import.meta.url).pathname;
 const manifest = JSON.parse(readFileSync(`${root}icons.json`, "utf8"));
+const formsPath = `${root}forms.json`;
+/* Every icon a module of the package: the drawings, then the forms made of them. */
+const all = [...manifest, ...(existsSync(formsPath) ? JSON.parse(readFileSync(formsPath, "utf8")) : [])];
 const head = "/* Made by scripts/generate.mjs from icons/*.ts and icons.json. Do not edit; run `npm run generate`. */\n";
 
 const index = [head,
@@ -22,7 +27,7 @@ const index = [head,
   'export { RUNSNIP_APPS, ON_BRAND, type RunSnipApp } from "./brand";',
   'export { FILE_COLOR, FOLDER_COLOR, corner, fileKindOf, folderKindOf, iconForm, kindColor, paint, resolveIcon, transformElement, transformPath, type FormOptions, type IconForm, type IconRequest } from "./files";',
   "",
-  ...manifest.map((i) => `export { ${[i.name, ...i.aliases.map((a) => `${i.name} as ${a}`)].join(", ")} } from "./icons/${i.file}";`),
+  ...all.map((i) => `export { ${[i.name, ...i.aliases.map((a) => `${i.name} as ${a}`)].join(", ")} } from "./icons/${i.file}";`),
   ""].join("\n");
 
 const dynamic = [head,
@@ -30,7 +35,7 @@ const dynamic = [head,
   "",
   "/** Every icon by its file name (kebab-case: `bold`, `chevron-right`), loaded only when asked for. */",
   "export const iconImports: Record<string, () => Promise<Icon>> = {",
-  ...manifest.map((i) => `  ${JSON.stringify(i.file)}: () => import("./icons/${i.file}").then((m) => m.default),`),
+  ...all.map((i) => `  ${JSON.stringify(i.file)}: () => import("./icons/${i.file}").then((m) => m.default),`),
   "};",
   "",
   "/** The names `loadIcon` and `DynamicIcon` take. */",
@@ -45,9 +50,9 @@ const dynamic = [head,
 
 const react = [head,
   'import { createIcon, type IconComponent } from "./create";',
-  ...manifest.map((i) => `import ${i.name}Data from "../icons/${i.file}";`),
+  ...all.map((i) => `import ${i.name}Data from "../icons/${i.file}";`),
   "",
-  ...manifest.flatMap((i) => [
+  ...all.flatMap((i) => [
     `export const ${i.name}: IconComponent = /* @__PURE__ */ createIcon(${i.name}Data);`,
     ...i.aliases.map((a) => `export const ${a}: IconComponent = ${i.name};`),
   ]),
@@ -71,7 +76,7 @@ const browserNames = [head,
 
 /* Every icon an entry of its own, so `@runsnip/icons/icons/<name>` is one small file and a dynamic import one chunk. */
 const entries = { index: "index.ts", dynamic: "dynamic.ts", render: "render.ts", "react/index": "react/index.ts", "react/dynamic": "react/dynamic.tsx" };
-for (const i of manifest) entries[`icons/${i.file}`] = `icons/${i.file}.ts`;
+for (const i of all) entries[`icons/${i.file}`] = `icons/${i.file}.ts`;
 
 /*
  * The kinds of file and folder. A name is matched lowercased; a file name with * in it is a pattern (`dockerfile.*`,
@@ -118,4 +123,4 @@ writeFileSync(`${root}scripts/entries.json`, JSON.stringify(entries, null, 2) + 
 writeFileSync(`${root}dynamic.ts`, dynamic);
 writeFileSync(`${root}react/icons.ts`, react);
 writeFileSync(`${root}browser/names.ts`, browserNames);
-console.log(`${manifest.length} icons (${kinds.length} kinds of file), ${manifest.reduce((n, i) => n + i.aliases.length, 0)} aliases`);
+console.log(`${manifest.length} icons and ${all.length - manifest.length} forms (${kinds.length} kinds of file), ${manifest.reduce((n, i) => n + i.aliases.length, 0)} aliases`);

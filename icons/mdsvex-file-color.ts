@@ -1,0 +1,10 @@
+/* Made by scripts/file-forms.mjs from the kind's glyph. Do not edit; run `npm run generate`. */
+import type { Icon } from "../types";
+
+/** mdsvex: a page carrying its glyph in its colour, #FF3E00. */
+export const MdsvexFileColorIcon: Icon = {
+  name: "MdsvexFileColorIcon",
+  node: [["path",{"d":"M8.5 20.5H7A2.5 2.5 0 0 1 4.5 18V6A2.5 2.5 0 0 1 7 3.5h7L19.5 9","stroke":"#FF3E00"}],["rect",{"x":10.5,"y":11.971,"width":10,"height":7.059,"rx":1.471,"stroke-width":1.5,"stroke":"#FF3E00"}],["path",{"d":"M12.265 17.265V13.735l1.471 1.765 1.471 -1.765v3.529","stroke-width":1.5,"stroke":"#FF3E00"}],["path",{"d":"M19.029 14.029h-1.294a0.735 0.735 0 0 0 0 1.471h0.588a0.735 0.735 0 0 1 0 1.471h-1.353","stroke-width":1.95,"stroke":"#FF3E00"}]],
+};
+
+export default MdsvexFileColorIcon;

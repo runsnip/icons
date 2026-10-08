@@ -1,0 +1,10 @@
+/* Made by scripts/file-forms.mjs from the kind's glyph. Do not edit; run `npm run generate`. */
+import type { Icon } from "../types";
+
+/** RSpec configuration: a folder carrying its glyph, in the text's colour. */
+export const RspecFolderIcon: Icon = {
+  name: "RspecFolderIcon",
+  node: [["path",{"d":"M8.5 19.5H5A1.5 1.5 0 0 1 3.5 18V6A1.5 1.5 0 0 1 5 4.5h4.5l2 2.5H19A1.5 1.5 0 0 1 20.5 8.5"}],["path",{"d":"M10.5 13.735 15.5 20.5 20.5 13.735 18.441 11.088H12.559Z","stroke-width":1.5}],["path",{"d":"M13.441 14.324 14.912 15.794 17.559 13.147","stroke-width":1.95}]],
+};
+
+export default RspecFolderIcon;

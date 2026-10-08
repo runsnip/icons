@@ -1,0 +1,10 @@
+/* Made by scripts/file-forms.mjs from the kind's glyph. Do not edit; run `npm run generate`. */
+import type { Icon } from "../types";
+
+/** Illustrator artwork: an open folder carrying its glyph in its colour, #FF9A00. */
+export const IllustratorFolderOpenColorIcon: Icon = {
+  name: "IllustratorFolderOpenColorIcon",
+  node: [["path",{"d":"M3.5 17V6A1.5 1.5 0 0 1 5 4.5h4.5l2 2.5H17a1.5 1.5 0 0 1 1.5 1.5V9","stroke":"#FF9A00"}],["path",{"d":"M8.5 19.5h-5L7 11.5h1","stroke":"#FF9A00"}],["rect",{"x":10.5,"y":10.5,"width":10,"height":10,"rx":1.765,"stroke-width":1.5,"stroke":"#FF9A00"}],["path",{"d":"M12.735 18.441 14.324 12.559 15.912 18.441M13.371 16.441H15.276M17.735 14.912V18.441M17.735 12.853v0.059","stroke-width":1.95,"stroke":"#FF9A00"}]],
+};
+
+export default IllustratorFolderOpenColorIcon;

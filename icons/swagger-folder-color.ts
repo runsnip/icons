@@ -1,0 +1,10 @@
+/* Made by scripts/file-forms.mjs from the kind's glyph. Do not edit; run `npm run generate`. */
+import type { Icon } from "../types";
+
+/** Swagger / OpenAPI definition: a folder carrying its glyph in its colour, #85EA2D. */
+export const SwaggerFolderColorIcon: Icon = {
+  name: "SwaggerFolderColorIcon",
+  node: [["path",{"d":"M8.5 19.5H5A1.5 1.5 0 0 1 3.5 18V6A1.5 1.5 0 0 1 5 4.5h4.5l2 2.5H19A1.5 1.5 0 0 1 20.5 8.5","stroke":"#85EA2D"}],["circle",{"cx":15.5,"cy":15.5,"r":5,"stroke-width":1.5,"stroke":"#85EA2D"}],["path",{"d":"M14.324 13.147c-0.765 0 -1.059 0.353 -1.059 1v0.471c0 0.471 -0.235 0.882 -0.706 0.882 0.471 0 0.706 0.412 0.706 0.882v0.471c0 0.647 0.294 1 1.059 1M16.676 13.147c0.765 0 1.059 0.353 1.059 1v0.471c0 0.471 0.235 0.882 0.706 0.882 -0.471 0 -0.706 0.412 -0.706 0.882v0.471c0 0.647 -0.294 1 -1.059 1","stroke-width":1.95,"stroke":"#85EA2D"}]],
+};
+
+export default SwaggerFolderColorIcon;

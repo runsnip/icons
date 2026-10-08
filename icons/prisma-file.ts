@@ -1,0 +1,10 @@
+/* Made by scripts/file-forms.mjs from the kind's glyph. Do not edit; run `npm run generate`. */
+import type { Icon } from "../types";
+
+/** Prisma schemas: a page carrying its glyph, in the text's colour. */
+export const PrismaFileIcon: Icon = {
+  name: "PrismaFileIcon",
+  node: [["path",{"d":"M8.5 20.5H7A2.5 2.5 0 0 1 4.5 18V6A2.5 2.5 0 0 1 7 3.5h7L19.5 9"}],["path",{"d":"M16.088 10.5 20.206 19.029 13.441 20.5 10.794 17.559Z","stroke-width":1.5}],["path",{"d":"M16.088 10.5 13.441 20.5","stroke-width":1.95}]],
+};
+
+export default PrismaFileIcon;

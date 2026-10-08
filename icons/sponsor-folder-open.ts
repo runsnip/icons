@@ -1,0 +1,10 @@
+/* Made by scripts/file-forms.mjs from the kind's glyph. Do not edit; run `npm run generate`. */
+import type { Icon } from "../types";
+
+/** sponsorship and funding: an open folder carrying its glyph, in the text's colour. */
+export const SponsorFolderOpenIcon: Icon = {
+  name: "SponsorFolderOpenIcon",
+  node: [["path",{"d":"M3.5 17V6A1.5 1.5 0 0 1 5 4.5h4.5l2 2.5H17a1.5 1.5 0 0 1 1.5 1.5V9"}],["path",{"d":"M8.5 19.5h-5L7 11.5h1"}],["path",{"d":"M10.5 16.971h1.765l1.765 0.882h2.353a0.882 0.882 0 0 1 0 1.765H14.029M10.5 20.206h5.588l3.882 -2.353a0.824 0.824 0 0 0 -0.941 -1.353L16.971 17.853","stroke-width":1.5}],["path",{"d":"M15.5 15.206C14.088 14.324 13.147 13.5 13.147 12.5a1.176 1.176 0 0 1 2.353 -0.235 1.176 1.176 0 0 1 2.353 0.235c0 1 -0.941 1.824 -2.353 2.706Z","fill":"currentColor","stroke":"none"}]],
+};
+
+export default SponsorFolderOpenIcon;
