@@ -4,7 +4,7 @@ import type { Icon } from "../types";
 /** Markdown: an open folder carrying its glyph in its colour, #3D8AD6. */
 export const MarkdownFolderOpenColorIcon: Icon = {
   name: "MarkdownFolderOpenColorIcon",
-  node: [["path",{"d":"M3.5 17V6A1.5 1.5 0 0 1 5 4.5h4.5l2 2.5H17a1.5 1.5 0 0 1 1.5 1.5V9","stroke":"#3D8AD6"}],["path",{"d":"M8.5 19.5h-5L7 11.5h1","stroke":"#3D8AD6"}],["rect",{"x":10.5,"y":11.971,"width":10,"height":7.059,"rx":1.471,"stroke-width":1.5,"stroke":"#3D8AD6"}],["path",{"d":"M12.265 17.265V13.735l1.471 1.765 1.471 -1.765v3.529","stroke-width":1.5,"stroke":"#3D8AD6"}],["path",{"d":"M17.853 13.735v3.529M16.676 16.088l1.176 1.176 1.176 -1.176","stroke-width":1.95,"stroke":"#3D8AD6"}]],
+  node: [["path",{"d":"M3.5 17V6A1.5 1.5 0 0 1 5 4.5h4.5l2 2.5H17a1.5 1.5 0 0 1 1.5 1.5V9","stroke":"#3D8AD6"}],["path",{"d":"M8.5 19.5h-5L7 11.5h1","stroke":"#3D8AD6"}],["path",{"d":"M10.5 19.029V11.971l2.5 3.529L15.5 11.971v7.059","stroke-width":1.5,"stroke":"#3D8AD6"}],["path",{"d":"M18.441 11.971v6.765M16.529 16.824 18.441 18.735l1.912 -1.912","stroke-width":1.95,"stroke":"#3D8AD6"}]],
 };
 
 export default MarkdownFolderOpenColorIcon;

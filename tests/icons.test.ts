@@ -60,7 +60,7 @@ test("the set's stance, and colour on a filled mark", () => {
 test("the drawings are the ones recorded: a change to any icon changes this", async () => {
   const all = [];
   for (const i of manifest) { const icon = (await import(`../icons/${i.file}.ts`)).default as Icon; all.push([icon.name, icon.node, icon.svg ?? null]); }
-  assert.equal(createHash("sha256").update(JSON.stringify(all)).digest("hex"), "615b827ef68dd74cf6d4ae443997cc27096e049b3ab011e60413a7126ed754aa",
+  assert.equal(createHash("sha256").update(JSON.stringify(all)).digest("hex"), "81f70e02160de0b45f15361346a52f45ceacb8a4ca60ab33cd9cc5afa9da2fba",
     "an icon's drawing changed: if meant, record the new hash here");
 });
 

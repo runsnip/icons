@@ -1,13 +1,12 @@
 import type { Icon } from "../types";
 import { SOLID_STROKE } from "../system";
 
-/** Markdown: the M and its down arrow in a frame, the arrow the mark. From the files set. */
+/** Markdown: an M and its down arrow, the arrow the mark. From the files set. */
 export const MarkdownIcon: Icon = {
   name: "MarkdownIcon",
   node: [
-    ["rect", { x: 3.5, y: 6, width: 17, height: 12, rx: 2.5 }],
-    ["path", { d: "M6.5 15V9l2.5 3 2.5-3v6" }],
-    ["path", { d: "M16 9v6M14 13l2 2 2-2", ...SOLID_STROKE }],
+    ["path", { d: "M3.5 18V6l4.25 6L12 6v12" }],
+    ["path", { d: "M17 6v11.5M13.75 14.25 17 17.5l3.25-3.25", ...SOLID_STROKE }],
   ],
 };
 

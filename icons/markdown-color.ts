@@ -4,7 +4,7 @@ import type { Icon } from "../types";
 /** Markdown: glyph in its colour, #3D8AD6. */
 export const MarkdownColorIcon: Icon = {
   name: "MarkdownColorIcon",
-  node: [["rect",{"x":3.5,"y":6,"width":17,"height":12,"rx":2.5,"stroke":"#3D8AD6"}],["path",{"d":"M6.5 15V9l2.5 3 2.5-3v6","stroke":"#3D8AD6"}],["path",{"d":"M16 9v6M14 13l2 2 2-2","stroke-width":2.6,"stroke":"#3D8AD6"}]],
+  node: [["path",{"d":"M3.5 18V6l4.25 6L12 6v12","stroke":"#3D8AD6"}],["path",{"d":"M17 6v11.5M13.75 14.25 17 17.5l3.25-3.25","stroke-width":2.6,"stroke":"#3D8AD6"}]],
 };
 
 export default MarkdownColorIcon;
