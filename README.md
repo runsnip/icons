@@ -63,12 +63,12 @@ export default function Icon() {
 
 ## From a CDN, in any page
 
-A UMD build holds every icon, for a page with no build step: `dist/icons.umd.min.js` (353 KB, 92 KB gzipped), what
+A UMD build holds every icon, for a page with no build step: `dist/icons.umd.min.js` (359 KB, 94 KB gzipped), what
 the bare package URL serves, and `icons.umd.js` to read. It stays apart from the ES modules, so a bundler never takes
 it. Any element carrying `data-rs-icon` becomes the icon's `<svg>` once the page has loaded:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@runsnip/icons@0.3"></script>
+<script src="https://cdn.jsdelivr.net/npm/@runsnip/icons@0.4"></script>
 
 <i data-rs-icon="bold"></i>
 <span data-rs-icon="chevron-right" data-rs-size="16" class="muted" aria-label="Next"></span>
@@ -102,7 +102,7 @@ the module's value, and no global is set. Node and bundlers take the ES modules.
 
 What the set holds, without the drawings — each icon's name, set, aliases and meaning, and a kind's colour and the
 names it matches — is `dist/catalog.json`, beside the UMD build, for a catalogue or a picker:
-`https://cdn.jsdelivr.net/npm/@runsnip/icons@0.3/dist/catalog.json`.
+`https://cdn.jsdelivr.net/npm/@runsnip/icons@0.4/dist/catalog.json`.
 
 ## The rules every icon is drawn to
 
@@ -124,7 +124,7 @@ rule, as `GLYPHS` says.
 
 ## Files and folders
 
-Every icon Material Icon Theme gives a file or a folder is redrawn here — 680 kinds: languages, frameworks, tools,
+Every icon Material Icon Theme gives a file or a folder is redrawn here — 679 kinds: languages, frameworks, tools,
 config files, the folders projects keep — one glyph each, drawn to the set's rules, with its own colour and the names
 it matches as the theme matches them (icons.json's `color`, `extensions`, `fileNames`, `folderNames`). Each kind
 comes as icons of its own, made from its glyph and never drawn apart (`scripts/file-forms.mjs`), imported by name:
@@ -162,7 +162,7 @@ import { Icon } from "@runsnip/icons/react";
 Outside React, `fileKindOf(name)` and `folderKindOf(name)` give the kind (the glyph's file name) and
 `resolveIcon(icons, request)` the icon; a page with the CDN script writes `data-rs-file="index.ts"`,
 `data-rs-folder="src"`, with `data-rs-form`, `data-rs-open`, `data-rs-colored`. Drawing by name holds every glyph and
-every name (the UMD build: 353 KB, 92 KB gzipped — where the theme's separate SVG files are 1,250 requests and
+every name (the UMD build: 359 KB, 94 KB gzipped — where the theme's separate SVG files are 1,250 requests and
 5 MB); an app that draws only a few takes their components by import instead.
 
 A framework, language or service is drawn in RunSnip's own strokes; a company's own logo is not (below): a kind that

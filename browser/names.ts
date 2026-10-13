@@ -1067,6 +1067,20 @@ import i1062 from "../icons/redux-action";
 import i1063 from "../icons/redux-reducer";
 import i1064 from "../icons/redux-selector";
 import i1065 from "../icons/redux-store";
+import i1066 from "../icons/rollback";
+import i1067 from "../icons/version";
+import i1068 from "../icons/logs";
+import i1069 from "../icons/backup";
+import i1070 from "../icons/env";
+import i1071 from "../icons/doctor";
+import i1072 from "../icons/cpu";
+import i1073 from "../icons/ram";
+import i1074 from "../icons/jobs";
+import i1075 from "../icons/graph";
+import i1076 from "../icons/proxy";
+import i1077 from "../icons/cache";
+import i1078 from "../icons/bucket";
+import i1079 from "../icons/registry";
 
 /** Every icon by the name a page gives in data-rs-icon: its file name (bold, chevron-right), or an alias's. */
 export const icons: Record<string, Icon> = {
@@ -1269,6 +1283,7 @@ export const icons: Record<string, Icon> = {
   "command-key": i173,
   "shift-key": i174,
   "layers": i175,
+  "stacks": i175,
   "blocks": i176,
   "grip": i177,
   "eye-off": i178,
@@ -1843,6 +1858,7 @@ export const icons: Record<string, Icon> = {
   "lerna": i733,
   "less": i734,
   "cloud-deploy": i735,
+  "deploy": i735,
   "license": i736,
   "lighthouse": i737,
   "lilypond": i738,
@@ -1899,6 +1915,7 @@ export const icons: Record<string, Icon> = {
   "nim": i789,
   "nix": i790,
   "nodejs": i791,
+  "node": i791,
   "nodemon": i792,
   "npm": i793,
   "nuget": i794,
@@ -2173,4 +2190,25 @@ export const icons: Record<string, Icon> = {
   "redux-reducer": i1063,
   "redux-selector": i1064,
   "redux-store": i1065,
+  "rollback": i1066,
+  "version": i1067,
+  "logs": i1068,
+  "backup": i1069,
+  "env": i1070,
+  "variables": i1070,
+  "doctor": i1071,
+  "health-check": i1071,
+  "cpu": i1072,
+  "processor": i1072,
+  "ram": i1073,
+  "memory": i1073,
+  "jobs": i1074,
+  "job": i1074,
+  "graph": i1075,
+  "proxy": i1076,
+  "reverse-proxy": i1076,
+  "cache": i1077,
+  "bucket": i1078,
+  "object-storage": i1078,
+  "registry": i1079,
 };

@@ -2251,7 +2251,9 @@
   "name": "LayersIcon",
   "file": "layers",
   "set": "builder",
-  "aliases": [],
+  "aliases": [
+   "StacksIcon"
+  ],
   "color": "#9C6ADE",
   "fileNames": [
    "contentlayer.config.*",
@@ -2444,7 +2446,7 @@
   "file": "terrarium-mark",
   "set": "brand",
   "aliases": [],
-  "description": "Terrarium: a cloud kept under a bell jar — the knob, the glass, the base — in the text's colour; the logo's small cut, made for icon sizes"
+  "description": "Terrarium: a cloud kept under a bell jar \u2014 the knob, the glass, the base \u2014 in the text's colour; the logo's small cut, made for icon sizes"
  },
  {
   "name": "TerrariumMarkColor",
@@ -2706,7 +2708,7 @@
   "file": "translate",
   "set": "collab",
   "aliases": [],
-  "description": "two languages: A and 文 with an arrow",
+  "description": "two languages: A and \u6587 with an arrow",
   "color": "#5C6BC0",
   "fileNames": [
    "i18n.config.*",
@@ -2778,7 +2780,7 @@
   "file": "layout-grid",
   "set": "collab",
   "aliases": [],
-  "description": "a 2×2 grid of squares",
+  "description": "a 2\u00d72 grid of squares",
   "color": "#42A5F5",
   "folderNames": [
    "layout",
@@ -2810,7 +2812,7 @@
   "file": "table",
   "set": "insert",
   "aliases": [],
-  "description": "a 3×3 grid table",
+  "description": "a 3\u00d73 grid table",
   "color": "#43A047",
   "extensions": [
    "csv",
@@ -2841,14 +2843,14 @@
   "file": "equation",
   "set": "insert",
   "aliases": [],
-  "description": "a fraction / function sign (Σ is the sum icon elsewhere): x² + y"
+  "description": "a fraction / function sign (\u03a3 is the sum icon elsewhere): x\u00b2 + y"
  },
  {
   "name": "SymbolIcon",
   "file": "symbol",
   "set": "insert",
   "aliases": [],
-  "description": "Ω"
+  "description": "\u03a9"
  },
  {
   "name": "EmojiIcon",
@@ -3451,14 +3453,14 @@
   "file": "decimal-increase",
   "set": "sheets",
   "aliases": [],
-  "description": ".0 → .00"
+  "description": ".0 \u2192 .00"
  },
  {
   "name": "DecimalDecreaseIcon",
   "file": "decimal-decrease",
   "set": "sheets",
   "aliases": [],
-  "description": ".00 → .0"
+  "description": ".00 \u2192 .0"
  },
  {
   "name": "NumberFormatIcon",
@@ -3535,14 +3537,14 @@
   "file": "sort-ascending",
   "set": "sheets",
   "aliases": [],
-  "description": "A→Z with a down arrow"
+  "description": "A\u2192Z with a down arrow"
  },
  {
   "name": "SortDescendingIcon",
   "file": "sort-descending",
   "set": "sheets",
   "aliases": [],
-  "description": "Z→A with a down arrow"
+  "description": "Z\u2192A with a down arrow"
  },
  {
   "name": "FilterIcon",
@@ -3630,7 +3632,7 @@
   "file": "sum",
   "set": "sheets",
   "aliases": [],
-  "description": "Σ"
+  "description": "\u03a3"
  },
  {
   "name": "ConditionalFormatIcon",
@@ -4144,7 +4146,7 @@
   "file": "pilcrow",
   "set": "text",
   "aliases": [],
-  "description": "the paragraph mark ¶ (show formatting marks)"
+  "description": "the paragraph mark \u00b6 (show formatting marks)"
  },
  {
   "name": "ListChecksIcon",
@@ -4504,7 +4506,7 @@
   "file": "resume-brand",
   "set": "brand",
   "aliases": [],
-  "description": "RunSnip Resume: a résumé, its photo the mark, in the brand frame"
+  "description": "RunSnip Resume: a r\u00e9sum\u00e9, its photo the mark, in the brand frame"
  },
  {
   "name": "CodeBrandColorIcon",
@@ -9419,7 +9421,9 @@
   "name": "CloudDeployIcon",
   "file": "cloud-deploy",
   "set": "files",
-  "aliases": [],
+  "aliases": [
+   "DeployIcon"
+  ],
   "color": "#4B5FD6",
   "fileNames": [
    "liara.json",
@@ -10193,7 +10197,7 @@
   "color": "#FF4C1F",
   "extensions": [
    "mojo",
-   "🔥"
+   "\ud83d\udd25"
   ],
   "folderNames": [
    "mojo"
@@ -10377,7 +10381,9 @@
   "name": "NodejsIcon",
   "file": "nodejs",
   "set": "files",
-  "aliases": [],
+  "aliases": [
+   "NodeIcon"
+  ],
   "color": "#8CC84B",
   "fileNames": [
    ".nvmrc",
@@ -13870,7 +13876,7 @@
   "color": "#00897B",
   "extensions": [
    "tsil",
-   "ц"
+   "\u0446"
   ],
   "description": "TSIL source"
  },
@@ -15555,5 +15561,117 @@
   "aliases": [],
   "color": "#8BC34A",
   "description": "A Redux store"
+ },
+ {
+  "name": "RollbackIcon",
+  "file": "rollback",
+  "set": "ops",
+  "aliases": [],
+  "description": "rolling back: an arrow turning back to the mark of the version before"
+ },
+ {
+  "name": "VersionIcon",
+  "file": "version",
+  "set": "ops",
+  "aliases": [],
+  "description": "a version, a release's number: a label with a numeral on it"
+ },
+ {
+  "name": "LogsIcon",
+  "file": "logs",
+  "set": "ops",
+  "aliases": [],
+  "description": "logs as they stream: lines of output, the last one still being written"
+ },
+ {
+  "name": "BackupIcon",
+  "file": "backup",
+  "set": "ops",
+  "aliases": [],
+  "description": "a backup, a database's dump: the cylinder, an arrow down into the archive below"
+ },
+ {
+  "name": "EnvIcon",
+  "file": "env",
+  "set": "ops",
+  "aliases": [
+   "VariablesIcon"
+  ],
+  "description": "configuration variables, an .env: braces holding a name = value"
+ },
+ {
+  "name": "DoctorIcon",
+  "file": "doctor",
+  "set": "ops",
+  "aliases": [
+   "HealthCheckIcon"
+  ],
+  "description": "health checks: a heart with a tick in it"
+ },
+ {
+  "name": "CpuIcon",
+  "file": "cpu",
+  "set": "ops",
+  "aliases": [
+   "ProcessorIcon"
+  ],
+  "description": "a processor and its load: a chip with its pins"
+ },
+ {
+  "name": "RamIcon",
+  "file": "ram",
+  "set": "ops",
+  "aliases": [
+   "MemoryIcon"
+  ],
+  "description": "memory in use: a memory module, its chips and contacts"
+ },
+ {
+  "name": "JobsIcon",
+  "file": "jobs",
+  "set": "ops",
+  "aliases": [
+   "JobIcon"
+  ],
+  "description": "a background job: a command in a terminal, set running"
+ },
+ {
+  "name": "GraphIcon",
+  "file": "graph",
+  "set": "ops",
+  "aliases": [],
+  "description": "a graph: nodes and the edges between them"
+ },
+ {
+  "name": "ProxyIcon",
+  "file": "proxy",
+  "set": "ops",
+  "aliases": [
+   "ReverseProxyIcon"
+  ],
+  "description": "a (reverse) proxy, a web server in front: traffic passing both ways through it"
+ },
+ {
+  "name": "CacheIcon",
+  "file": "cache",
+  "set": "ops",
+  "aliases": [],
+  "description": "a cache, a store in memory (Redis): a cylinder with a lightning bolt"
+ },
+ {
+  "name": "BucketIcon",
+  "file": "bucket",
+  "set": "ops",
+  "aliases": [
+   "ObjectStorageIcon"
+  ],
+  "description": "a bucket of object storage (S3): a pail"
+ },
+ {
+  "name": "RegistryIcon",
+  "file": "registry",
+  "set": "ops",
+  "aliases": [],
+  "description": "a registry, where images are pulled from: boxes on a shelf, one pulled down"
  }
 ]
