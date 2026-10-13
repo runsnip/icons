@@ -220,6 +220,19 @@ which a set that recolours and resizes every icon would invite people to break; 
 as one on the logo, which RunSnip cannot give; and a logo changes when its owner says so. An app that shows one — a
 "Sign in with Google" button — uses the owner's own asset, as the owner's guidelines ask.
 
+## What 0.4.0 added
+
+0.4.0 holds two sets of marks drawn for RunSnip's apps, released together:
+
+- **The operations marks** (`set: "ops"`), for `runsnip serve`: rollback, version, logs, backup, env, doctor, cpu, ram,
+  jobs, graph, proxy, cache, bucket, registry; deploy, stacks and node as aliases.
+- **The office marks**, for the Docs and PDF ribbons: endnote, different first page, odd and even pages, line numbers
+  and suppressing them, delete comment, accessibility, delete table, caption, cross-reference, show markup, a table's
+  header row, total row, first and last column and banded rows and columns, repeat header rows, column break, drop
+  cap, orientation, hyphenation, line style and weight, styles and a new style, repeating section, merge field; for
+  PDF a squiggly underline, a combo box, a signature field and the continuous, two-page and cover views; and the
+  equation structures (fraction, script, radical, integral, bracket, accent, limit, operator, matrix).
+
 ## Adding an icon
 
 Write `icons/<name>.ts` (its drawing, with SVG's attribute names), list it in `icons.json`, run `npm run generate`

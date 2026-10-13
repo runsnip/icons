@@ -1081,6 +1081,49 @@ import i1076 from "../icons/proxy";
 import i1077 from "../icons/cache";
 import i1078 from "../icons/bucket";
 import i1079 from "../icons/registry";
+import i1080 from "../icons/endnote";
+import i1081 from "../icons/different-first-page";
+import i1082 from "../icons/odd-even-pages";
+import i1083 from "../icons/line-numbers";
+import i1084 from "../icons/suppress-line-numbers";
+import i1085 from "../icons/comment-delete";
+import i1086 from "../icons/accessibility";
+import i1087 from "../icons/delete-table";
+import i1088 from "../icons/insert-caption";
+import i1089 from "../icons/cross-reference";
+import i1090 from "../icons/show-markup";
+import i1091 from "../icons/annotate-squiggly";
+import i1092 from "../icons/table-header-row";
+import i1093 from "../icons/table-total-row";
+import i1094 from "../icons/table-banded-rows";
+import i1095 from "../icons/table-first-column";
+import i1096 from "../icons/table-last-column";
+import i1097 from "../icons/table-banded-columns";
+import i1098 from "../icons/repeat-header-rows";
+import i1099 from "../icons/column-break";
+import i1100 from "../icons/drop-cap";
+import i1101 from "../icons/orientation";
+import i1102 from "../icons/hyphenation";
+import i1103 from "../icons/line-style";
+import i1104 from "../icons/line-weight";
+import i1105 from "../icons/form-combo-box";
+import i1106 from "../icons/repeating-section";
+import i1107 from "../icons/styles";
+import i1108 from "../icons/new-style";
+import i1109 from "../icons/signature-field";
+import i1110 from "../icons/view-continuous";
+import i1111 from "../icons/view-two-pages";
+import i1112 from "../icons/view-two-pages-cover";
+import i1113 from "../icons/eq-fraction";
+import i1114 from "../icons/eq-script";
+import i1115 from "../icons/eq-radical";
+import i1116 from "../icons/eq-integral";
+import i1117 from "../icons/eq-bracket";
+import i1118 from "../icons/eq-accent";
+import i1119 from "../icons/eq-limit";
+import i1120 from "../icons/eq-operator";
+import i1121 from "../icons/eq-matrix";
+import i1122 from "../icons/merge-field";
 
 /** Every icon by the name a page gives in data-rs-icon: its file name (bold, chevron-right), or an alias's. */
 export const icons: Record<string, Icon> = {
@@ -2211,4 +2254,47 @@ export const icons: Record<string, Icon> = {
   "bucket": i1078,
   "object-storage": i1078,
   "registry": i1079,
+  "endnote": i1080,
+  "different-first-page": i1081,
+  "odd-even-pages": i1082,
+  "line-numbers": i1083,
+  "suppress-line-numbers": i1084,
+  "comment-delete": i1085,
+  "accessibility": i1086,
+  "delete-table": i1087,
+  "insert-caption": i1088,
+  "cross-reference": i1089,
+  "show-markup": i1090,
+  "annotate-squiggly": i1091,
+  "table-header-row": i1092,
+  "table-total-row": i1093,
+  "table-banded-rows": i1094,
+  "table-first-column": i1095,
+  "table-last-column": i1096,
+  "table-banded-columns": i1097,
+  "repeat-header-rows": i1098,
+  "column-break": i1099,
+  "drop-cap": i1100,
+  "orientation": i1101,
+  "hyphenation": i1102,
+  "line-style": i1103,
+  "line-weight": i1104,
+  "form-combo-box": i1105,
+  "repeating-section": i1106,
+  "styles": i1107,
+  "new-style": i1108,
+  "signature-field": i1109,
+  "view-continuous": i1110,
+  "view-two-pages": i1111,
+  "view-two-pages-cover": i1112,
+  "eq-fraction": i1113,
+  "eq-script": i1114,
+  "eq-radical": i1115,
+  "eq-integral": i1116,
+  "eq-bracket": i1117,
+  "eq-accent": i1118,
+  "eq-limit": i1119,
+  "eq-operator": i1120,
+  "eq-matrix": i1121,
+  "merge-field": i1122,
 };

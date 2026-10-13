@@ -2446,7 +2446,7 @@
   "file": "terrarium-mark",
   "set": "brand",
   "aliases": [],
-  "description": "Terrarium: a cloud kept under a bell jar \u2014 the knob, the glass, the base \u2014 in the text's colour; the logo's small cut, made for icon sizes"
+  "description": "Terrarium: a cloud kept under a bell jar — the knob, the glass, the base — in the text's colour; the logo's small cut, made for icon sizes"
  },
  {
   "name": "TerrariumMarkColor",
@@ -2708,7 +2708,7 @@
   "file": "translate",
   "set": "collab",
   "aliases": [],
-  "description": "two languages: A and \u6587 with an arrow",
+  "description": "two languages: A and 文 with an arrow",
   "color": "#5C6BC0",
   "fileNames": [
    "i18n.config.*",
@@ -2780,7 +2780,7 @@
   "file": "layout-grid",
   "set": "collab",
   "aliases": [],
-  "description": "a 2\u00d72 grid of squares",
+  "description": "a 2×2 grid of squares",
   "color": "#42A5F5",
   "folderNames": [
    "layout",
@@ -2812,7 +2812,7 @@
   "file": "table",
   "set": "insert",
   "aliases": [],
-  "description": "a 3\u00d73 grid table",
+  "description": "a 3×3 grid table",
   "color": "#43A047",
   "extensions": [
    "csv",
@@ -2843,14 +2843,14 @@
   "file": "equation",
   "set": "insert",
   "aliases": [],
-  "description": "a fraction / function sign (\u03a3 is the sum icon elsewhere): x\u00b2 + y"
+  "description": "a fraction / function sign (Σ is the sum icon elsewhere): x² + y"
  },
  {
   "name": "SymbolIcon",
   "file": "symbol",
   "set": "insert",
   "aliases": [],
-  "description": "\u03a9"
+  "description": "Ω"
  },
  {
   "name": "EmojiIcon",
@@ -3453,14 +3453,14 @@
   "file": "decimal-increase",
   "set": "sheets",
   "aliases": [],
-  "description": ".0 \u2192 .00"
+  "description": ".0 → .00"
  },
  {
   "name": "DecimalDecreaseIcon",
   "file": "decimal-decrease",
   "set": "sheets",
   "aliases": [],
-  "description": ".00 \u2192 .0"
+  "description": ".00 → .0"
  },
  {
   "name": "NumberFormatIcon",
@@ -3537,14 +3537,14 @@
   "file": "sort-ascending",
   "set": "sheets",
   "aliases": [],
-  "description": "A\u2192Z with a down arrow"
+  "description": "A→Z with a down arrow"
  },
  {
   "name": "SortDescendingIcon",
   "file": "sort-descending",
   "set": "sheets",
   "aliases": [],
-  "description": "Z\u2192A with a down arrow"
+  "description": "Z→A with a down arrow"
  },
  {
   "name": "FilterIcon",
@@ -3632,7 +3632,7 @@
   "file": "sum",
   "set": "sheets",
   "aliases": [],
-  "description": "\u03a3"
+  "description": "Σ"
  },
  {
   "name": "ConditionalFormatIcon",
@@ -4146,7 +4146,7 @@
   "file": "pilcrow",
   "set": "text",
   "aliases": [],
-  "description": "the paragraph mark \u00b6 (show formatting marks)"
+  "description": "the paragraph mark ¶ (show formatting marks)"
  },
  {
   "name": "ListChecksIcon",
@@ -4506,7 +4506,7 @@
   "file": "resume-brand",
   "set": "brand",
   "aliases": [],
-  "description": "RunSnip Resume: a r\u00e9sum\u00e9, its photo the mark, in the brand frame"
+  "description": "RunSnip Resume: a résumé, its photo the mark, in the brand frame"
  },
  {
   "name": "CodeBrandColorIcon",
@@ -10197,7 +10197,7 @@
   "color": "#FF4C1F",
   "extensions": [
    "mojo",
-   "\ud83d\udd25"
+   "🔥"
   ],
   "folderNames": [
    "mojo"
@@ -13876,7 +13876,7 @@
   "color": "#00897B",
   "extensions": [
    "tsil",
-   "\u0446"
+   "ц"
   ],
   "description": "TSIL source"
  },
@@ -15673,5 +15673,306 @@
   "set": "ops",
   "aliases": [],
   "description": "a registry, where images are pulled from: boxes on a shelf, one pulled down"
+ },
+ {
+  "name": "EndnoteIcon",
+  "file": "endnote",
+  "set": "insert",
+  "aliases": [],
+  "description": "text, a short rule at its end, and the note under it with a raised 1"
+ },
+ {
+  "name": "DifferentFirstPageIcon",
+  "file": "different-first-page",
+  "set": "insert",
+  "aliases": [],
+  "description": "a page with its header ruled off and a 1 on it"
+ },
+ {
+  "name": "OddEvenPagesIcon",
+  "file": "odd-even-pages",
+  "set": "insert",
+  "aliases": [],
+  "description": "two facing pages, each numbered at its outer corner"
+ },
+ {
+  "name": "LineNumbersIcon",
+  "file": "line-numbers",
+  "set": "insert",
+  "aliases": [],
+  "description": "lines of text, each numbered in a column at its left"
+ },
+ {
+  "name": "SuppressLineNumbersIcon",
+  "file": "suppress-line-numbers",
+  "set": "insert",
+  "aliases": [],
+  "description": "numbered lines, the middle one emphasised and left unnumbered"
+ },
+ {
+  "name": "CommentDeleteIcon",
+  "file": "comment-delete",
+  "set": "collab",
+  "aliases": [],
+  "description": "a speech bubble with a cross"
+ },
+ {
+  "name": "AccessibilityIcon",
+  "file": "accessibility",
+  "set": "ui",
+  "aliases": [],
+  "description": "a person with open arms inside a circle"
+ },
+ {
+  "name": "DeleteTableIcon",
+  "file": "delete-table",
+  "set": "insert",
+  "aliases": [],
+  "description": "a small table with a cross at its corner"
+ },
+ {
+  "name": "InsertCaptionIcon",
+  "file": "insert-caption",
+  "set": "insert",
+  "aliases": [],
+  "description": "a figure with an emphasised caption line under it"
+ },
+ {
+  "name": "CrossReferenceIcon",
+  "file": "cross-reference",
+  "set": "insert",
+  "aliases": [],
+  "description": "a line of text turning back up into an arrow to a place above"
+ },
+ {
+  "name": "ShowMarkupIcon",
+  "file": "show-markup",
+  "set": "insert",
+  "aliases": [],
+  "description": "a page of text with a balloon in its margin"
+ },
+ {
+  "name": "AnnotateSquigglyIcon",
+  "file": "annotate-squiggly",
+  "set": "pdf",
+  "aliases": [],
+  "description": "text with an emphasised wavy line under it"
+ },
+ {
+  "name": "TableHeaderRowIcon",
+  "file": "table-header-row",
+  "set": "insert",
+  "aliases": [],
+  "description": "a table with its top row filled"
+ },
+ {
+  "name": "TableTotalRowIcon",
+  "file": "table-total-row",
+  "set": "insert",
+  "aliases": [],
+  "description": "a table with its bottom row filled"
+ },
+ {
+  "name": "TableBandedRowsIcon",
+  "file": "table-banded-rows",
+  "set": "insert",
+  "aliases": [],
+  "description": "a table with its middle row filled"
+ },
+ {
+  "name": "TableFirstColumnIcon",
+  "file": "table-first-column",
+  "set": "insert",
+  "aliases": [],
+  "description": "a table with its first column filled"
+ },
+ {
+  "name": "TableLastColumnIcon",
+  "file": "table-last-column",
+  "set": "insert",
+  "aliases": [],
+  "description": "a table with its last column filled"
+ },
+ {
+  "name": "TableBandedColumnsIcon",
+  "file": "table-banded-columns",
+  "set": "insert",
+  "aliases": [],
+  "description": "a table with its middle column filled"
+ },
+ {
+  "name": "RepeatHeaderRowsIcon",
+  "file": "repeat-header-rows",
+  "set": "insert",
+  "aliases": [],
+  "description": "a table in two parts, each topped by the same filled header row"
+ },
+ {
+  "name": "ColumnBreakIcon",
+  "file": "column-break",
+  "set": "insert",
+  "aliases": [],
+  "description": "two columns of text, the left one ending at a dotted break"
+ },
+ {
+  "name": "DropCapIcon",
+  "file": "drop-cap",
+  "set": "text",
+  "aliases": [],
+  "description": "a large letter A three lines deep, lines beside and under it"
+ },
+ {
+  "name": "OrientationIcon",
+  "file": "orientation",
+  "set": "insert",
+  "aliases": [],
+  "description": "a portrait page behind a landscape one"
+ },
+ {
+  "name": "HyphenationIcon",
+  "file": "hyphenation",
+  "set": "text",
+  "aliases": [],
+  "description": "lines of text, one ending with an emphasised hyphen"
+ },
+ {
+  "name": "LineStyleIcon",
+  "file": "line-style",
+  "set": "insert",
+  "aliases": [],
+  "description": "a solid line, an emphasised dashed line and a dotted line"
+ },
+ {
+  "name": "LineWeightIcon",
+  "file": "line-weight",
+  "set": "insert",
+  "aliases": [],
+  "description": "three lines from thin to heavy"
+ },
+ {
+  "name": "FormComboBoxIcon",
+  "file": "form-combo-box",
+  "set": "pdf",
+  "aliases": [],
+  "description": "a text field with a caret and a down chevron"
+ },
+ {
+  "name": "RepeatingSectionIcon",
+  "file": "repeating-section",
+  "set": "insert",
+  "aliases": [],
+  "description": "two alike sections and a plus"
+ },
+ {
+  "name": "StylesIcon",
+  "file": "styles",
+  "set": "text",
+  "aliases": [],
+  "description": "a letter A beside lines of text"
+ },
+ {
+  "name": "NewStyleIcon",
+  "file": "new-style",
+  "set": "text",
+  "aliases": [],
+  "description": "a letter A with a plus"
+ },
+ {
+  "name": "SignatureFieldIcon",
+  "file": "signature-field",
+  "set": "pdf",
+  "aliases": [],
+  "description": "a field box with a signature scrawl"
+ },
+ {
+  "name": "ViewContinuousIcon",
+  "file": "view-continuous",
+  "set": "pdf",
+  "aliases": [],
+  "description": "pages in a column beside a scroll bar's thumb"
+ },
+ {
+  "name": "ViewTwoPagesIcon",
+  "file": "view-two-pages",
+  "set": "pdf",
+  "aliases": [],
+  "description": "two pages side by side"
+ },
+ {
+  "name": "ViewTwoPagesCoverIcon",
+  "file": "view-two-pages-cover",
+  "set": "pdf",
+  "aliases": [],
+  "description": "one page alone above two side by side"
+ },
+ {
+  "name": "EqFractionIcon",
+  "file": "eq-fraction",
+  "set": "math",
+  "aliases": [],
+  "description": "two term boxes with an emphasised fraction bar between"
+ },
+ {
+  "name": "EqScriptIcon",
+  "file": "eq-script",
+  "set": "math",
+  "aliases": [],
+  "description": "a term box with a small filled raised box"
+ },
+ {
+  "name": "EqRadicalIcon",
+  "file": "eq-radical",
+  "set": "math",
+  "aliases": [],
+  "description": "a root sign over a filled term box"
+ },
+ {
+  "name": "EqIntegralIcon",
+  "file": "eq-integral",
+  "set": "math",
+  "aliases": [],
+  "description": "an integral sign beside a filled term box"
+ },
+ {
+  "name": "EqBracketIcon",
+  "file": "eq-bracket",
+  "set": "math",
+  "aliases": [],
+  "description": "a filled term box between parentheses"
+ },
+ {
+  "name": "EqAccentIcon",
+  "file": "eq-accent",
+  "set": "math",
+  "aliases": [],
+  "description": "a term box under an emphasised hat"
+ },
+ {
+  "name": "EqLimitIcon",
+  "file": "eq-limit",
+  "set": "math",
+  "aliases": [],
+  "description": "an arrow approaching an emphasised bar"
+ },
+ {
+  "name": "EqOperatorIcon",
+  "file": "eq-operator",
+  "set": "math",
+  "aliases": [],
+  "description": "a plus over an emphasised minus"
+ },
+ {
+  "name": "EqMatrixIcon",
+  "file": "eq-matrix",
+  "set": "math",
+  "aliases": [],
+  "description": "four filled term boxes between square brackets"
+ },
+ {
+  "name": "MergeFieldIcon",
+  "file": "merge-field",
+  "set": "insert",
+  "aliases": [],
+  "description": "a filled field between angle marks"
  }
 ]
