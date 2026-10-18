@@ -191,6 +191,8 @@ an app to use wherever it stands for itself:
 | Page | `PageBrandIcon` | `#0080A3` | 4.55:1 |
 | Portfolio | `PortfolioBrandIcon` | `#8C39BC` | 6.13:1 |
 | Resume | `ResumeBrandIcon` | `#8F6B09` | 4.91:1 |
+| Twin | `TwinBrandIcon` | `#4A57D4` | 5.83:1 |
+| Lenkit | `LenkitBrandIcon` | `#3E8A1C` | 4.32:1 |
 
 The hues are spread round the wheel so no two apps share one; Finder, the files every app keeps, is the one quiet
 slate. `CodeAppIcon`, `FinderAppIcon` and the others of the app set are a launcher's glyphs, without the frame.

@@ -22,6 +22,8 @@ export const RUNSNIP_APPS = {
   page: { name: "Page", color: "#0080A3", mark: "PageBrandIcon" },
   portfolio: { name: "Portfolio", color: "#8C39BC", mark: "PortfolioBrandIcon" },
   resume: { name: "Resume", color: "#8F6B09", mark: "ResumeBrandIcon" },
+  twin: { name: "Twin", color: "#4A57D4", mark: "TwinBrandIcon" },
+  lenkit: { name: "Lenkit", color: "#3E8A1C", mark: "LenkitBrandIcon" },
 } as const;
 
 export type RunSnipApp = keyof typeof RUNSNIP_APPS;

@@ -4509,6 +4509,20 @@
   "description": "RunSnip Resume: a résumé, its photo the mark, in the brand frame"
  },
  {
+  "name": "TwinBrandIcon",
+  "file": "twin-brand",
+  "set": "brand",
+  "aliases": [],
+  "description": "RunSnip Twin: a character and its twin side by side, the twin the mark, in the brand frame"
+ },
+ {
+  "name": "LenkitBrandIcon",
+  "file": "lenkit-brand",
+  "set": "brand",
+  "aliases": [],
+  "description": "RunSnip Lenkit: a lens over one tool's work, its focus the mark, in the brand frame"
+ },
+ {
   "name": "CodeBrandColorIcon",
   "file": "code-brand-color",
   "set": "brand",
@@ -4619,6 +4633,22 @@
   "aliases": [],
   "colorOf": "ResumeBrandIcon",
   "description": "RunSnip Resume's mark in its own colour"
+ },
+ {
+  "name": "TwinBrandColorIcon",
+  "file": "twin-brand-color",
+  "set": "brand",
+  "aliases": [],
+  "colorOf": "TwinBrandIcon",
+  "description": "RunSnip Twin's mark in its own colour"
+ },
+ {
+  "name": "LenkitBrandColorIcon",
+  "file": "lenkit-brand-color",
+  "set": "brand",
+  "aliases": [],
+  "colorOf": "LenkitBrandIcon",
+  "description": "RunSnip Lenkit's mark in its own colour"
  },
  {
   "name": "ThreeDIcon",
