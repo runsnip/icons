@@ -222,6 +222,17 @@ which a set that recolours and resizes every icon would invite people to break; 
 as one on the logo, which RunSnip cannot give; and a logo changes when its owner says so. An app that shows one — a
 "Sign in with Google" button — uses the owner's own asset, as the owner's guidelines ask.
 
+## Releasing
+
+1. Bump `version` in `package.json` and `package-lock.json`, add a "What <version> added" section below, and run
+   `npm run typecheck && npm test && npm run build && npm run check-tarball`.
+2. Push a tag `v<version>`: `.github/workflows/publish.yml` publishes it through npm's Trusted publishing (provenance
+   signed; no npm token anywhere).
+3. The catalogue site, [icons.runsnip.net](https://icons.runsnip.net), is this repository's `site/index.html`. It loads
+   the package from jsDelivr as `@runsnip/icons@0` (the newest 0.x), so a release reaches it on its own — never pin
+   a version there (a test refuses one). Only a change to the page itself needs a deploy: copy `site/index.html` into
+   the RunSnip project `runsnip-icons` (its `index.html`), which is shared at icons.runsnip.net.
+
 ## What 0.5.0 added
 
 The brand marks of two new apps, each plain (in the text's colour) and in its own colour: `TwinBrandIcon` and

@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RunSnip Icons</title>
+<meta name="description" content="RunSnip's icons: 1,066 icons drawn to one set of rules, and every kind of file and folder as icons of its own. MIT. React, plain DOM, or one script from a CDN.">
+</head>
+<body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Bricolage+Grotesque:opsz,wght@12..96,700&display=swap">
+<style>
+/* Layout: a working catalogue — a sticky tool bar, a dense grid of tiles, and a detail panel for the chosen icon. */
+:root {
+  --bg: #f6f7f9; --surface: #ffffff; --fg: #15181d; --muted: #5d6573; --line: #e2e5ea; --hover: #eef1f5;
+  --accent: #2357d6; --accent-soft: #e5ecfc; --tile-ink: #15181d;
+  --display: "Bricolage Grotesque", "IBM Plex Sans", system-ui, sans-serif;
+  --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --size: 24px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #111317; --surface: #191c21; --fg: #e8eaee; --muted: #9aa2ae; --line: #2a2f37; --hover: #222731;
+  --accent: #7ea2ff; --accent-soft: #1d2a47; --tile-ink: #e8eaee; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #111317; --surface: #191c21; --fg: #e8eaee; --muted: #9aa2ae; --line: #2a2f37; --hover: #222731;
+  --accent: #7ea2ff; --accent-soft: #1d2a47; --tile-ink: #e8eaee; color-scheme: dark }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font: 14px/1.45 var(--body); padding-inline: 16px; padding-block: 0 48px; }
+.wrap { max-width: 1240px; margin: 0 auto; }
+header.top { padding-block: 28px 12px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px; }
+h1 { font: 700 30px/1.1 var(--display); margin: 0; letter-spacing: -.01em; }
+.sub { color: var(--muted); margin: 0; }
+h1 .ver { display: inline-block; margin-left: 10px; padding: 3px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font: 600 12px/1.2 var(--mono); letter-spacing: 0; vertical-align: 6px; text-decoration: none; }
+h1 .ver:hover { text-decoration: underline; }
+h1 .ver:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+h1 .ver:empty { display: none; }
+.sub code { font-family: var(--mono); font-size: 12.5px; }
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 10px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; border-bottom: 1px solid var(--line); }
+.search { flex: 1 1 260px; min-width: 0; height: 36px; padding: 0 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--fg); font: inherit; }
+.search:focus-visible, .chip:focus-visible, .seg button:focus-visible, .tile:focus-visible, .copy:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--surface); }
+.seg button { border: 0; background: none; color: var(--muted); font: 500 12.5px var(--mono); padding: 0 10px; height: 34px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; padding-block: 10px 4px; }
+.chip { border: 1px solid var(--line); background: var(--surface); color: var(--fg); border-radius: 999px; padding: 4px 10px; font: 500 12.5px var(--body); cursor: pointer; display: inline-flex; gap: 6px; align-items: baseline; }
+.chip span { color: var(--muted); font: 11px var(--mono); }
+.chip[aria-pressed="true"] { background: var(--accent-soft); border-color: transparent; color: var(--accent); }
+.chip[aria-pressed="true"] span { color: var(--accent); }
+.count { color: var(--muted); font: 12px var(--mono); padding-block: 8px; }
+.main { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 20px; align-items: start; }
+@media (max-width: 860px) { .main { grid-template-columns: minmax(0, 1fr); } .panel { position: static; order: -1; } }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 6px; }
+.tile { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; min-height: 96px; padding: 12px 6px 8px; border: 1px solid transparent; border-radius: 10px; background: var(--surface); color: var(--tile-ink); cursor: pointer; font: inherit; min-width: 0; }
+.tile:hover { background: var(--hover); }
+.tile[aria-pressed="true"] { border-color: var(--accent); }
+.tile svg { width: var(--size); height: var(--size); flex: none; }
+.tile.wide { grid-column: span 2; }
+.tile.wide svg { width: calc(var(--size) * 5); }
+.tile .nm { font: 11px var(--mono); color: var(--muted); max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.empty { color: var(--muted); padding: 40px 0; text-align: center; }
+.panel { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 72px); background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: grid; gap: 14px; min-width: 0; grid-template-columns: minmax(0, 1fr); }
+.panel h2 { font: 600 16px var(--body); margin: 0; overflow-wrap: anywhere; }
+.panel .desc { color: var(--muted); margin: 0; }
+.sizes { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 18px; color: var(--tile-ink); padding: 14px; border-radius: 10px; background: var(--bg); }
+.sizes figure { margin: 0; display: grid; justify-items: center; gap: 6px; }
+.sizes figcaption { font: 10.5px var(--mono); color: var(--muted); }
+.meta { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 4px 10px; font-size: 12.5px; margin: 0; }
+.meta dt { color: var(--muted); }
+.meta dd { margin: 0; font-family: var(--mono); overflow-wrap: anywhere; }
+.snip { display: grid; gap: 6px; }
+.snip label { font-size: 11.5px; color: var(--muted); letter-spacing: .04em; text-transform: uppercase; }
+.snip .row { display: flex; gap: 6px; min-width: 0; }
+.snip pre { flex: 1; min-width: 0; margin: 0; padding: 8px 10px; border-radius: 8px; background: var(--bg); border: 1px solid var(--line); font: 11.5px/1.5 var(--mono); overflow-x: auto; white-space: pre; }
+.copy { border: 1px solid var(--line); background: var(--surface); color: var(--fg); border-radius: 8px; font: 500 12px var(--body); padding: 0 10px; cursor: pointer; }
+.copy[data-done] { color: var(--accent); }
+.note { color: var(--muted); font-size: 12.5px; }
+.swatch { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.forms { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; padding: 10px; border-radius: 10px; background: var(--bg); color: var(--tile-ink); }
+.forms figure { margin: 0; display: grid; justify-items: center; gap: 4px; }
+.forms figcaption { font: 9px/1.2 var(--mono); color: var(--muted); text-align: center; overflow-wrap: anywhere; min-width: 0; }
+.forms figure { min-width: 0; }
+.tester { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding-block: 6px 2px; color: var(--muted); font-size: 12.5px; }
+.tester input { flex: 0 1 260px; min-width: 0; height: 32px; padding: 0 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--fg); font: 12.5px var(--mono); }
+.tester .out { display: inline-flex; gap: 14px; align-items: center; color: var(--tile-ink); }
+.tester .out span { display: inline-flex; gap: 6px; align-items: center; font: 11.5px var(--mono); color: var(--muted); }
+.tester svg { width: 20px; height: 20px; }
+.tester input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (prefers-reduced-motion: no-preference) { .tile { transition: background-color .12s; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <h1>RunSnip Icons<a class="ver" id="ver" href="https://www.npmjs.com/package/@runsnip/icons" target="_blank" rel="noopener" title="@runsnip/icons on npm"></a></h1>
+    <p class="sub"><code>@runsnip/icons</code> · <span id="total"></span> icons, each a module of its own, drawn to one set of rules — and every kind of file as icons of its own: file, folder, open folder, each mono or in its colour.</p>
+  </header>
+  <div class="bar" role="search">
+    <input id="q" class="search" type="search" placeholder="Search by name, alias or meaning — bold, merge, comment…" aria-label="Search icons">
+    <div class="seg" role="group" aria-label="Size" id="sizes">
+      <button type="button" data-size="15" aria-pressed="false">15</button>
+      <button type="button" data-size="24" aria-pressed="true">24</button>
+      <button type="button" data-size="40" aria-pressed="false">40</button>
+    </div>
+    <div class="seg" role="group" aria-label="Form" id="forms">
+      <button type="button" data-form="glyph" aria-pressed="true">Glyph</button>
+      <button type="button" data-form="file" aria-pressed="false">File</button>
+      <button type="button" data-form="folder" aria-pressed="false">Folder</button>
+      <button type="button" data-form="open" aria-pressed="false">Open</button>
+    </div>
+    <div class="seg" role="group" aria-label="Colour" id="colours">
+      <button type="button" data-colored="0" aria-pressed="true">Mono</button>
+      <button type="button" data-colored="1" aria-pressed="false">Own colour</button>
+    </div>
+    <div class="seg" role="group" aria-label="Ground" id="ground">
+      <button type="button" data-ground="system" aria-pressed="true">Auto</button>
+      <button type="button" data-ground="light" aria-pressed="false">Light</button>
+      <button type="button" data-ground="dark" aria-pressed="false">Dark</button>
+    </div>
+  </div>
+  <div class="tester"><label for="try">Try a name</label><input id="try" type="text" value="src/components/Button.test.tsx" spellcheck="false" autocomplete="off"><div class="out" id="tried" aria-live="polite"></div></div>
+  <div class="chips" id="chips" role="group" aria-label="Sets"></div>
+  <div class="count" id="count" aria-live="polite"></div>
+  <div class="main">
+    <div><div class="grid" id="grid"></div><p class="empty" id="empty" hidden>No icon matches. Try another word, or clear the set filter.</p></div>
+    <aside class="panel" id="panel" aria-label="Chosen icon"></aside>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@runsnip/icons@0/dist/icons.umd.min.js" data-rs-manual></script>
+<script type="module">
+/* The set, from the package itself: its catalogue (names, sets, meanings, kinds) and its UMD build (the drawings). */
+const CDN = "https://cdn.jsdelivr.net/npm/@runsnip/icons@0";
+const RS = window.RunSnipIcons;
+const catalog = await (await fetch(CDN + "/dist/catalog.json")).json();
+const LABELS = {"files":"Files & folders","brand":"Brand","app":"Apps","ui":"Interface","media":"Media","code":"Code","finder":"Finder","keys":"Keys","builder":"Builder","office":"Office","collab":"Collaboration","insert":"Insert & page","pdf":"PDF","sheets":"Sheets","slides":"Slides","text":"Text"};
+const ORDER = ["files","brand","app","ui","media","code","finder","keys","builder","office","collab","insert","pdf","sheets","slides","text"];
+const DATA = { icons: catalog.icons.map((e) => {
+  const i = { n: e.name, f: e.file, s: e.set, a: e.aliases || [], d: e.description || "", o: RS.icons[e.file].node, x: RS.icons[e.file].svg };
+  if (e.color && !e.colorOf) i.c = e.color;
+  const m = {}; if (e.extensions) m.e = e.extensions; if (e.fileNames) m.fn = e.fileNames; if (e.folderNames) m.fo = e.folderNames;
+  if (Object.keys(m).length) i.m = m;
+  return i;
+}) };
+DATA.icons.sort((a, b) => (a.s === "brand" ? 0 : a.s === "app" ? 1 : 2) - (b.s === "brand" ? 0 : b.s === "app" ? 1 : 2));
+const ids = [...new Set([...ORDER, ...DATA.icons.map((i) => i.s)])].filter((id) => id === "files" || DATA.icons.some((i) => i.s === id));
+DATA.sets = ids.map((id) => ({ id, label: LABELS[id] || id, count: id === "files" ? DATA.icons.filter((i) => i.c).length : DATA.icons.filter((i) => i.s === id).length }));
+RS.resolveIcon = (_, request) => RS.resolve(request);
+const $ = (id) => document.getElementById(id);
+const BY = {};
+for (const i of DATA.icons) { i.icon = { name: i.n, node: i.o, svg: i.x }; BY[i.f] = i.icon; for (const a of i.a) BY[a.replace(/Icon$/, "").replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase()] ??= i.icon; }
+const state = { q: "", set: null, size: 24, form: "glyph", colored: false, chosen: DATA.icons.find((i) => i.n === "TypescriptIcon") || DATA.icons.find((i) => i.n === "BoldIcon") || DATA.icons[0] };
+try { const s = JSON.parse(localStorage.getItem("runsnip-icons") || "{}"); if (s.size) state.size = s.size; if (s.set && DATA.sets.some((x) => x.id === s.set)) state.set = s.set; if (s.form) state.form = s.form; if (s.colored) state.colored = true; } catch {}
+const save = () => { try { localStorage.setItem("runsnip-icons", JSON.stringify({ size: state.size, set: state.set, form: state.form, colored: state.colored })); } catch {} };
+$("total").textContent = DATA.icons.length;
+$("ver").textContent = "v" + catalog.version;
+
+const chips = $("chips");
+const chip = (id, label, count) => { const b = document.createElement("button"); b.type = "button"; b.className = "chip"; b.dataset.set = id ?? ""; b.innerHTML = `${label} <span>${count}</span>`; return b; };
+chips.append(chip(null, "All", DATA.icons.length), ...DATA.sets.map((s) => chip(s.id, s.label, s.count)));
+chips.addEventListener("click", (e) => { const b = e.target.closest(".chip"); if (!b) return; state.set = b.dataset.set || null; save(); render(); });
+
+$("sizes").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; state.size = Number(b.dataset.size); save(); paintControls(); panel(); });
+$("forms").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; state.form = b.dataset.form; save(); render(); panel(); });
+$("colours").addEventListener("click", (e) => { const b = e.target.closest("button"); if (!b) return; state.colored = b.dataset.colored === "1"; save(); render(); panel(); tried(); });
+$("ground").addEventListener("click", (e) => {
+  const b = e.target.closest("button"); if (!b) return;
+  const g = b.dataset.ground;
+  if (g === "system") document.documentElement.removeAttribute("data-theme"); else document.documentElement.setAttribute("data-theme", g);
+  for (const x of $("ground").children) x.setAttribute("aria-pressed", String(x === b));
+});
+$("q").addEventListener("input", (e) => { state.q = e.target.value.trim().toLowerCase(); render(); });
+
+const wide = (i) => !!(i.x && i.x.viewBox && i.x.viewBox !== "0 0 24 24");
+const short = (n) => n.replace(/Icon$/, "");
+const SUFFIX = { glyph: ["", ""], file: ["-file", "File"], folder: ["-folder", "Folder"], open: ["-folder-open", "FolderOpen"] };
+const formName = (i, f = state.form, c = state.colored) => !i.c ? i.f : i.f + SUFFIX[f][0] + (c ? "-color" : "");
+const formIcon = (i, f = state.form, c = state.colored) => !i.c || (f === "glyph" && !c && false) ? i.n : i.n.replace(/Icon$/, "") + SUFFIX[f][1] + (c ? "Color" : "") + "Icon";
+const formOf = (f) => f === "open" ? { form: "folder", open: true } : { form: f };
+const drawn = (i, f = state.form, colored = state.colored, size) => {
+  const icon = wide(i) || !i.c ? i.icon : RS.iconForm(i.icon, { ...formOf(f), colored: colored && !!i.c, color: i.c });
+  return RS.toSvg(icon, size ? { size } : {});
+};
+function paintControls() {
+  document.documentElement.style.setProperty("--size", state.size + "px");
+  for (const b of $("sizes").children) b.setAttribute("aria-pressed", String(Number(b.dataset.size) === state.size));
+  for (const b of $("forms").children) b.setAttribute("aria-pressed", String(b.dataset.form === state.form));
+  for (const b of $("colours").children) b.setAttribute("aria-pressed", String((b.dataset.colored === "1") === state.colored));
+  for (const b of chips.children) b.setAttribute("aria-pressed", String((b.dataset.set || null) === state.set));
+}
+const inSet = (i, set) => set === "files" ? !!i.c : i.s === set;
+const matches = (i) => {
+  if (state.set && !inSet(i, state.set)) return false;
+  if (!state.q) return true;
+  const hay = [i.n, i.f, ...i.a, i.d, ...(i.m ? [...(i.m.e || []), ...(i.m.fn || []), ...(i.m.fo || [])] : [])].join(" ").toLowerCase();
+  return state.q.split(/\s+/).every((w) => hay.includes(w));
+};
+const grid = $("grid");
+function render() {
+  paintControls();
+  const shown = DATA.icons.filter(matches);
+  grid.replaceChildren(...shown.map((i) => {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = wide(i) ? "tile wide" : "tile"; b.title = i.d || short(i.n);
+    b.setAttribute("aria-pressed", String(i === state.chosen));
+    b.innerHTML = drawn(i) + `<span class="nm">${short(i.c ? formIcon(i) : i.n)}</span>`;
+    b.addEventListener("click", () => { state.chosen = i; for (const t of grid.children) t.setAttribute("aria-pressed", "false"); b.setAttribute("aria-pressed", "true"); panel(); });
+    return b;
+  }));
+  $("empty").hidden = shown.length > 0;
+  $("count").textContent = `${shown.length} of ${DATA.icons.length}` + (state.set ? ` · ${DATA.sets.find((s) => s.id === state.set).label}` : "");
+}
+const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+function snippet(label, code) {
+  return `<div class="snip"><label>${label}</label><div class="row"><pre>${esc(code)}</pre><button type="button" class="copy">Copy</button></div></div>`;
+}
+const list = (xs, n = 18) => xs.length > n ? xs.slice(0, n).join(", ") + ` … +${xs.length - n}` : xs.join(", ");
+function panel() {
+  const i = state.chosen;
+  const f = formOf(state.form);
+  const N = formIcon(i), FN = formName(i);
+  const sized = (px) => wide(i) ? RS.toSvg(i.icon, { size: px }) : drawn(i, state.form, state.colored, px);
+  const forms = !i.c ? "" : `<div class="forms">${[false, true].flatMap((c) => ["glyph", "file", "folder", "open"].map((x) => `<figure>${drawn(i, x, c, 28)}<figcaption>${short(formIcon(i, x, c))}</figcaption></figure>`)).join("")}</div>`;
+  $("panel").innerHTML = `
+    <h2>${N}</h2>
+    ${i.d ? `<p class="desc">${esc(i.d.charAt(0).toUpperCase() + i.d.slice(1))}</p>` : ""}
+    <div class="sizes">${[40, 24, 15].map((px) => `<figure>${sized(px)}<figcaption>${px}px</figcaption></figure>`).join("")}</div>
+    ${forms}
+    <dl class="meta">
+      <dt>Set</dt><dd>${(DATA.sets.find((s) => s.id === i.s) || {}).label || i.s}</dd>
+      <dt>Name</dt><dd>${FN}</dd>
+      ${i.a.length ? `<dt>Aliases</dt><dd>${i.a.join(", ")}</dd>` : ""}
+      ${i.c ? `<dt>Colour</dt><dd><span class="swatch" style="background:${i.c}"></span>${i.c}</dd>` : ""}
+      ${i.m && i.m.e ? `<dt>Extensions</dt><dd>${esc(list(i.m.e.map((e) => "." + e)))}</dd>` : ""}
+      ${i.m && i.m.fn ? `<dt>Files</dt><dd>${esc(list(i.m.fn))}</dd>` : ""}
+      ${i.m && i.m.fo ? `<dt>Folders</dt><dd>${esc(list(i.m.fo))}</dd>` : ""}
+    </dl>
+    ${i.m ? snippet("React · from a file or folder name", `<Icon file="${(i.m.fn && i.m.fn.find((x) => !x.includes("*"))) || "index." + ((i.m.e || ["txt"])[0])}"${state.colored ? " colored" : ""} />\n<Icon folder="${(i.m.fo || ["src"])[0]}" open${state.colored ? " colored" : ""} />`) : ""}
+    ${snippet("React · Next.js, Server Components too", `import { ${N} } from "@runsnip/icons/react";\n<${N} size={${state.size}} />`)}
+    ${snippet("SVG string · route handler, app/icon, email", `import { ${N}, toSvg } from "@runsnip/icons";\ntoSvg(${N}, { size: ${state.size} });`)}
+    ${snippet("Any page · CDN script", `<script src="https://cdn.jsdelivr.net/npm/@runsnip/icons@0"></\/script>\n<i data-rs-icon="${FN}" data-rs-size="${state.size}"></i>`)}
+    <p class="note">${wide(i) ? "size is its height; the width follows. " : ""}${/BrandColor/.test(i.n) ? "Carries its app's own colour." : i.s === "brand" && /(Color|OnDark)$/.test(i.n) ? "Carries its brand's own colour." : i.c && state.colored ? "Carries its kind's colour, fixed: a colour given changes nothing inside it." : "Takes the colour of the text around it."}</p>`;
+  for (const btn of $("panel").querySelectorAll(".copy")) {
+    btn.addEventListener("click", () => {
+      const text = btn.previousElementSibling.textContent;
+      const done = () => { btn.textContent = "Copied"; btn.dataset.done = ""; setTimeout(() => { btn.textContent = "Copy"; delete btn.dataset.done; }, 1400); };
+      const select = () => { const r = document.createRange(); r.selectNodeContents(btn.previousElementSibling); const s = getSelection(); s.removeAllRanges(); s.addRange(r); };
+      try { navigator.clipboard.writeText(text).then(done, select); } catch { select(); }
+    });
+  }
+}
+function tried() {
+  const name = $("try").value.trim();
+  if (!name) { $("tried").innerHTML = ""; return; }
+  /* A path: the file is its last part, the folder the one before it; a bare name stands for both. */
+  const parts = name.split("/").filter(Boolean);
+  const dir = parts.length > 1 ? parts[parts.length - 2] : name;
+  const kf = RS.fileKindOf(name), kd = RS.folderKindOf(dir);
+  const one = (req, label) => `<span>${RS.toSvg(RS.resolveIcon(BY, { ...req, colored: state.colored }))}${esc(label)}</span>`;
+  $("tried").innerHTML = one({ file: name }, "file → " + (kf || "none")) + one({ file: name, form: "file" }, "as page") + one({ folder: dir }, dir + " → " + (kd || "none")) + one({ folder: dir, open: true }, "open");
+}
+$("try").addEventListener("input", tried);
+render(); panel(); tried();
+</script>
+</body>
+</html>
