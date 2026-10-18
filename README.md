@@ -68,7 +68,7 @@ the bare package URL serves, and `icons.umd.js` to read. It stays apart from the
 it. Any element carrying `data-rs-icon` becomes the icon's `<svg>` once the page has loaded:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@runsnip/icons@0.4"></script>
+<script src="https://cdn.jsdelivr.net/npm/@runsnip/icons@0.5"></script>
 
 <i data-rs-icon="bold"></i>
 <span data-rs-icon="chevron-right" data-rs-size="16" class="muted" aria-label="Next"></span>
@@ -102,7 +102,7 @@ the module's value, and no global is set. Node and bundlers take the ES modules.
 
 What the set holds, without the drawings — each icon's name, set, aliases and meaning, and a kind's colour and the
 names it matches — is `dist/catalog.json`, beside the UMD build, for a catalogue or a picker:
-`https://cdn.jsdelivr.net/npm/@runsnip/icons@0.4/dist/catalog.json`.
+`https://cdn.jsdelivr.net/npm/@runsnip/icons@0.5/dist/catalog.json`.
 
 ## The rules every icon is drawn to
 
@@ -221,6 +221,12 @@ sign-in provider's. A logo is a trademark with its owner's rules (colours, clear
 which a set that recolours and resizes every icon would invite people to break; a licence on this package would read
 as one on the logo, which RunSnip cannot give; and a logo changes when its owner says so. An app that shows one — a
 "Sign in with Google" button — uses the owner's own asset, as the owner's guidelines ask.
+
+## What 0.5.0 added
+
+The brand marks of two new apps, each plain (in the text's colour) and in its own colour: `TwinBrandIcon` and
+`TwinBrandColorIcon`, `LenkitBrandIcon` and `LenkitBrandColorIcon`. Nothing else changed: every other drawing is the
+one 0.4.0 shipped.
 
 ## What 0.4.0 added
 
