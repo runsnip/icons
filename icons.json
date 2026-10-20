@@ -477,7 +477,9 @@
   "name": "KeyRoundIcon",
   "file": "key-round",
   "set": "ui",
-  "aliases": [],
+  "aliases": [
+   "KeyIcon"
+  ],
   "color": "#C9A227",
   "extensions": [
    "key",
@@ -9452,7 +9454,8 @@
   "file": "cloud-deploy",
   "set": "files",
   "aliases": [
-   "DeployIcon"
+   "DeployIcon",
+   "CloudUploadIcon"
   ],
   "color": "#4B5FD6",
   "fileNames": [
@@ -16004,5 +16007,82 @@
   "set": "insert",
   "aliases": [],
   "description": "a filled field between angle marks"
+ },
+ {
+  "name": "QrCodeIcon",
+  "file": "qr-code",
+  "set": "ui",
+  "aliases": [],
+  "description": "a QR code: three finder squares, their centres solid, and the data's modules in the fourth corner"
+ },
+ {
+  "name": "ScanIcon",
+  "file": "scan",
+  "set": "ui",
+  "aliases": [],
+  "description": "scanning: a viewfinder's four corners and the line sweeping across them"
+ },
+ {
+  "name": "FingerprintIcon",
+  "file": "fingerprint",
+  "set": "ui",
+  "aliases": [],
+  "description": "a fingerprint, for biometric sign-in: ridges arched round a heavier core"
+ },
+ {
+  "name": "FaceIdIcon",
+  "file": "face-id",
+  "set": "ui",
+  "aliases": [],
+  "description": "face recognition: a face inside a viewfinder's corners"
+ },
+ {
+  "name": "WifiIcon",
+  "file": "wifi",
+  "set": "ui",
+  "aliases": [],
+  "description": "a wireless or local network: three waves from a solid source"
+ },
+ {
+  "name": "WifiOffIcon",
+  "file": "wifi-off",
+  "set": "ui",
+  "aliases": [],
+  "description": "no wireless network: the waves struck through"
+ },
+ {
+  "name": "CameraIcon",
+  "file": "camera",
+  "set": "ui",
+  "aliases": [],
+  "description": "a camera, or camera access: the body with its raised top and a solid lens"
+ },
+ {
+  "name": "HardDriveIcon",
+  "file": "hard-drive",
+  "set": "ui",
+  "aliases": [],
+  "description": "a drive, local storage: a case with its lower band, a slot and a solid light"
+ },
+ {
+  "name": "ShieldCheckIcon",
+  "file": "shield-check",
+  "set": "ui",
+  "aliases": [],
+  "description": "protected and verified: a shield holding a heavy tick"
+ },
+ {
+  "name": "CloudDownloadIcon",
+  "file": "cloud-download",
+  "set": "ui",
+  "aliases": [],
+  "description": "downloading from the cloud, restoring: an arrow down out of a cloud"
+ },
+ {
+  "name": "CloudOffIcon",
+  "file": "cloud-off",
+  "set": "ui",
+  "aliases": [],
+  "description": "the cloud unreachable, sync off: a cloud struck through"
  }
 ]

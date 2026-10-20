@@ -1128,6 +1128,17 @@ import i1123 from "../icons/eq-limit";
 import i1124 from "../icons/eq-operator";
 import i1125 from "../icons/eq-matrix";
 import i1126 from "../icons/merge-field";
+import i1127 from "../icons/qr-code";
+import i1128 from "../icons/scan";
+import i1129 from "../icons/fingerprint";
+import i1130 from "../icons/face-id";
+import i1131 from "../icons/wifi";
+import i1132 from "../icons/wifi-off";
+import i1133 from "../icons/camera";
+import i1134 from "../icons/hard-drive";
+import i1135 from "../icons/shield-check";
+import i1136 from "../icons/cloud-download";
+import i1137 from "../icons/cloud-off";
 
 /** Every icon by the name a page gives in data-rs-icon: its file name (bold, chevron-right), or an alias's. */
 export const icons: Record<string, Icon> = {
@@ -1197,6 +1208,7 @@ export const icons: Record<string, Icon> = {
   "lock": i50,
   "locked": i50,
   "key-round": i51,
+  "key": i51,
   "shield": i52,
   "shield-alert": i53,
   "shield-plus": i54,
@@ -1910,6 +1922,7 @@ export const icons: Record<string, Icon> = {
   "less": i738,
   "cloud-deploy": i739,
   "deploy": i739,
+  "cloud-upload": i739,
   "license": i740,
   "lighthouse": i741,
   "lilypond": i742,
@@ -2305,4 +2318,15 @@ export const icons: Record<string, Icon> = {
   "eq-operator": i1124,
   "eq-matrix": i1125,
   "merge-field": i1126,
+  "qr-code": i1127,
+  "scan": i1128,
+  "fingerprint": i1129,
+  "face-id": i1130,
+  "wifi": i1131,
+  "wifi-off": i1132,
+  "camera": i1133,
+  "hard-drive": i1134,
+  "shield-check": i1135,
+  "cloud-download": i1136,
+  "cloud-off": i1137,
 };
