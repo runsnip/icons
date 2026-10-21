@@ -20,13 +20,18 @@ import { BoldIcon } from "@runsnip/icons/react";      // no hooks: renders in Se
 import { DynamicIcon } from "@runsnip/icons/react/dynamic";
 <DynamicIcon name="bold" />                             // loaded by name the first time it is shown
 
-import { loadIcon } from "@runsnip/icons";             // in a Server Component: loaded before rendering
+import { loadIcon } from "@runsnip/icons/dynamic";     // in a Server Component: loaded before rendering
 import { Icon } from "@runsnip/icons/react";
 <Icon icon={await loadIcon("bold")} />
 ```
 
-- **One icon, one module:** `@runsnip/icons/icons/bold` is a few hundred bytes; `iconNames` lists every name
-  `loadIcon` and `DynamicIcon` take (kebab-case, the module's file name).
+- **One icon, one module:** `@runsnip/icons/icons/bold` is a few hundred bytes; `iconNames` (from
+  `@runsnip/icons/dynamic`) lists every name `loadIcon` and `DynamicIcon` take (kebab-case, the module's file name).
+- **Tree-shakable:** the package has no side effects (`"sideEffects": false`), so a bundle of `@runsnip/icons` or
+  `@runsnip/icons/react` keeps only the icons it uses, in one output. Loading by name lives apart, in
+  `@runsnip/icons/dynamic`: it can reach every icon, so a bundler splits it into a chunk per icon — import it only
+  where names come from data. Without the root at all: one icon's module and the renderers,
+  `import { BoldIcon } from "@runsnip/icons/icons/bold"; import { toSvg } from "@runsnip/icons/render";`.
 - **The set's stance:** a stroked mark on a 24-unit square, round ends and joins, stroke 2 (`DEFAULTS`). `size`,
   `color` (the stroke's, or the fill's for a filled mark), `strokeWidth` and any attribute can be given.
 - **React** is an optional peer. A component takes an `<svg>`'s props and `size`, `color`, `viewBox`.

@@ -6,7 +6,8 @@ import { createElement as h } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import * as data from "../index";
 import * as components from "../react/index";
-import { DEFAULTS, iconNames, loadIcon, toSvg, type Icon } from "../index";
+import { DEFAULTS, toSvg, type Icon } from "../index";
+import { iconNames, loadIcon } from "../dynamic";
 
 const root = new URL("../", import.meta.url);
 const manifest = JSON.parse(readFileSync(new URL("icons.json", root), "utf8")) as { name: string; file: string; aliases: string[] }[];
@@ -29,6 +30,9 @@ test("every icon in icons.json has its module, every module is listed, and index
     assert.equal(typeof (components as Record<string, unknown>)[i.name], "function", `${i.name} has no component`);
   }
   assert.equal(await loadIcon("no-such-icon"), null);
+  /* The root stays static: the map of every icon's import is ./dynamic's alone, or a bundle of the root splits into a chunk per icon. */
+  assert.ok(!/["']\.\/dynamic["']/.test(readFileSync(new URL("index.ts", root), "utf8")), "index.ts reaches ./dynamic");
+  assert.equal((data as Record<string, unknown>).loadIcon, undefined);
 });
 
 test("a component and toSvg draw the same <svg>, for every icon and option", () => {

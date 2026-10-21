@@ -45,6 +45,16 @@
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
     },
+    "./render": {
+      "@runsnip/source": "./render.ts",
+      "types": "./dist/render.d.ts",
+      "default": "./dist/render.js"
+    },
+    "./dynamic": {
+      "@runsnip/source": "./dynamic.ts",
+      "types": "./dist/dynamic.d.ts",
+      "default": "./dist/dynamic.js"
+    },
     "./react": {
       "@runsnip/source": "./react/index.ts",
       "types": "./dist/react/index.d.ts",

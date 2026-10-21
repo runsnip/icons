@@ -1,5 +1,8 @@
 /* Builds dist/: an ES module per export, code shared between them split into chunks, minified and
-   without source maps; declarations from tsc. @runsnip/* and npm dependencies stay imports. */
+   without source maps; declarations from tsc. @runsnip/* and npm dependencies stay imports.
+   The ES modules are minified in syntax and names but not in whitespace: esbuild's whitespace pass drops the
+   comments, /* @__PURE__ *\/ among them, and without it an app's bundler keeps every React component
+   (createIcon(...) is a call it cannot prove free of effects). The app minifies its own bundle anyway. */
 import { build } from "esbuild";
 import { execFileSync } from "node:child_process";
 import { existsSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from "node:fs";
@@ -18,7 +21,8 @@ await build({
   format: "esm",
   platform: "neutral",
   target: "es2022",
-  minify: true,
+  minifySyntax: true,
+  minifyIdentifiers: true,
   legalComments: "none",
   external: ["@runsnip/*", "node:*", ...Object.keys(pkg.dependencies ?? {}), ...Object.keys(pkg.peerDependencies ?? {}).flatMap((name) => [name, `${name}/*`])],
   jsx: "automatic",
