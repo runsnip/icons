@@ -415,6 +415,8 @@
   "icons/line-spacing": "icons/line-spacing.ts",
   "icons/paragraph-spacing": "icons/paragraph-spacing.ts",
   "icons/pilcrow": "icons/pilcrow.ts",
+  "icons/paragraph-ltr": "icons/paragraph-ltr.ts",
+  "icons/paragraph-rtl": "icons/paragraph-rtl.ts",
   "icons/list-checks": "icons/list-checks.ts",
   "icons/list-nested": "icons/list-nested.ts",
   "icons/heading1": "icons/heading1.ts",

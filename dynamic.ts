@@ -415,6 +415,8 @@ export const iconImports: Record<string, () => Promise<Icon>> = {
   "line-spacing": () => import("./icons/line-spacing").then((m) => m.default),
   "paragraph-spacing": () => import("./icons/paragraph-spacing").then((m) => m.default),
   "pilcrow": () => import("./icons/pilcrow").then((m) => m.default),
+  "paragraph-ltr": () => import("./icons/paragraph-ltr").then((m) => m.default),
+  "paragraph-rtl": () => import("./icons/paragraph-rtl").then((m) => m.default),
   "list-checks": () => import("./icons/list-checks").then((m) => m.default),
   "list-nested": () => import("./icons/list-nested").then((m) => m.default),
   "heading1": () => import("./icons/heading1").then((m) => m.default),

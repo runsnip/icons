@@ -4149,6 +4149,20 @@
   "description": "the paragraph mark ¶ (show formatting marks)"
  },
  {
+  "name": "ParagraphLtrIcon",
+  "file": "paragraph-ltr",
+  "set": "text",
+  "aliases": [],
+  "description": "a paragraph mark over an arrow pointing right (left-to-right text direction)"
+ },
+ {
+  "name": "ParagraphRtlIcon",
+  "file": "paragraph-rtl",
+  "set": "text",
+  "aliases": [],
+  "description": "a reversed paragraph mark over an arrow pointing left (right-to-left text direction)"
+ },
+ {
   "name": "ListChecksIcon",
   "file": "list-checks",
   "set": "text",

@@ -418,6 +418,8 @@ export { IndentDecreaseIcon } from "./icons/indent-decrease";
 export { LineSpacingIcon } from "./icons/line-spacing";
 export { ParagraphSpacingIcon } from "./icons/paragraph-spacing";
 export { PilcrowIcon } from "./icons/pilcrow";
+export { ParagraphLtrIcon } from "./icons/paragraph-ltr";
+export { ParagraphRtlIcon } from "./icons/paragraph-rtl";
 export { ListChecksIcon } from "./icons/list-checks";
 export { ListNestedIcon } from "./icons/list-nested";
 export { Heading1Icon } from "./icons/heading1";

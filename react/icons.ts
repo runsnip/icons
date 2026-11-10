@@ -412,6 +412,8 @@ import IndentDecreaseIconData from "../icons/indent-decrease";
 import LineSpacingIconData from "../icons/line-spacing";
 import ParagraphSpacingIconData from "../icons/paragraph-spacing";
 import PilcrowIconData from "../icons/pilcrow";
+import ParagraphLtrIconData from "../icons/paragraph-ltr";
+import ParagraphRtlIconData from "../icons/paragraph-rtl";
 import ListChecksIconData from "../icons/list-checks";
 import ListNestedIconData from "../icons/list-nested";
 import Heading1IconData from "../icons/heading1";
@@ -6327,6 +6329,8 @@ export const IndentDecreaseIcon: IconComponent = /* @__PURE__ */ createIcon(Inde
 export const LineSpacingIcon: IconComponent = /* @__PURE__ */ createIcon(LineSpacingIconData);
 export const ParagraphSpacingIcon: IconComponent = /* @__PURE__ */ createIcon(ParagraphSpacingIconData);
 export const PilcrowIcon: IconComponent = /* @__PURE__ */ createIcon(PilcrowIconData);
+export const ParagraphLtrIcon: IconComponent = /* @__PURE__ */ createIcon(ParagraphLtrIconData);
+export const ParagraphRtlIcon: IconComponent = /* @__PURE__ */ createIcon(ParagraphRtlIconData);
 export const ListChecksIcon: IconComponent = /* @__PURE__ */ createIcon(ListChecksIconData);
 export const ListNestedIcon: IconComponent = /* @__PURE__ */ createIcon(ListNestedIconData);
 export const Heading1Icon: IconComponent = /* @__PURE__ */ createIcon(Heading1IconData);
