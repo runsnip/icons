@@ -22,7 +22,6 @@ const head = "/* Made by scripts/generate.mjs from icons/*.ts and icons.json. Do
 const index = [head,
   'export type { Icon, IconElement, IconNode, IconOptions } from "./types";',
   'export { DEFAULTS, createElement, svgAttributes, toSvg } from "./render";',
-  'export { iconNames, loadIcon } from "./dynamic";',
   'export { FIELD, GLYPHS, SOLID, SOLID_STROKE } from "./system";',
   'export { RUNSNIP_APPS, ON_BRAND, type RunSnipApp } from "./brand";',
   'export { FILE_COLOR, FOLDER_COLOR, corner, fileKindOf, folderKindOf, iconForm, kindColor, paint, resolveIcon, transformElement, transformPath, type FormOptions, type IconForm, type IconRequest } from "./files";',

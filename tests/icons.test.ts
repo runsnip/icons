@@ -6,7 +6,8 @@ import { createElement as h } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import * as data from "../index";
 import * as components from "../react/index";
-import { DEFAULTS, iconNames, loadIcon, toSvg, type Icon } from "../index";
+import { DEFAULTS, toSvg, type Icon } from "../index";
+import { iconNames, loadIcon } from "../dynamic";
 
 const root = new URL("../", import.meta.url);
 const manifest = JSON.parse(readFileSync(new URL("icons.json", root), "utf8")) as { name: string; file: string; aliases: string[] }[];
@@ -29,6 +30,9 @@ test("every icon in icons.json has its module, every module is listed, and index
     assert.equal(typeof (components as Record<string, unknown>)[i.name], "function", `${i.name} has no component`);
   }
   assert.equal(await loadIcon("no-such-icon"), null);
+  /* The root stays static: the map of every icon's import is ./dynamic's alone, or a bundle of the root splits into a chunk per icon. */
+  assert.ok(!/["']\.\/dynamic["']/.test(readFileSync(new URL("index.ts", root), "utf8")), "index.ts reaches ./dynamic");
+  assert.equal((data as Record<string, unknown>).loadIcon, undefined);
 });
 
 test("a component and toSvg draw the same <svg>, for every icon and option", () => {
@@ -60,7 +64,7 @@ test("the set's stance, and colour on a filled mark", () => {
 test("the drawings are the ones recorded: a change to any icon changes this", async () => {
   const all = [];
   for (const i of manifest) { const icon = (await import(`../icons/${i.file}.ts`)).default as Icon; all.push([icon.name, icon.node, icon.svg ?? null]); }
-  assert.equal(createHash("sha256").update(JSON.stringify(all)).digest("hex"), "0a9be8ca66f100257451595821679a44ad3fb8cd1362154c3cdf639f29f1f889",
+  assert.equal(createHash("sha256").update(JSON.stringify(all)).digest("hex"), "d0cebff090223847e64ab096d56e50ffdcf2151c16a417c2da992e58224d4f1f",
     "an icon's drawing changed: if meant, record the new hash here");
 });
 
