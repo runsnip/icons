@@ -366,6 +366,7 @@
   "icons/slide-background": "icons/slide-background.ts",
   "icons/transition": "icons/transition.ts",
   "icons/animation": "icons/animation.ts",
+  "icons/animation-painter": "icons/animation-painter.ts",
   "icons/present": "icons/present.ts",
   "icons/present-from-start": "icons/present-from-start.ts",
   "icons/presenter-view": "icons/presenter-view.ts",

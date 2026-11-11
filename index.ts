@@ -368,6 +368,7 @@ export { ThemeIcon } from "./icons/theme";
 export { SlideBackgroundIcon } from "./icons/slide-background";
 export { TransitionIcon } from "./icons/transition";
 export { AnimationIcon } from "./icons/animation";
+export { AnimationPainterIcon } from "./icons/animation-painter";
 export { PresentIcon } from "./icons/present";
 export { PresentFromStartIcon } from "./icons/present-from-start";
 export { PresenterViewIcon } from "./icons/presenter-view";

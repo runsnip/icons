@@ -363,785 +363,786 @@ import i358 from "../icons/theme";
 import i359 from "../icons/slide-background";
 import i360 from "../icons/transition";
 import i361 from "../icons/animation";
-import i362 from "../icons/present";
-import i363 from "../icons/present-from-start";
-import i364 from "../icons/presenter-view";
-import i365 from "../icons/slide-sorter";
-import i366 from "../icons/speaker-notes";
-import i367 from "../icons/hide-slide";
-import i368 from "../icons/shape-rectangle";
-import i369 from "../icons/shape-ellipse";
-import i370 from "../icons/shape-triangle";
-import i371 from "../icons/shape-arrow";
-import i372 from "../icons/shape-star";
-import i373 from "../icons/shape-line";
-import i374 from "../icons/connector";
-import i375 from "../icons/bring-forward";
-import i376 from "../icons/send-backward";
-import i377 from "../icons/bring-to-front";
-import i378 from "../icons/send-to-back";
-import i379 from "../icons/group";
-import i380 from "../icons/ungroup";
-import i381 from "../icons/align-objects-left";
-import i382 from "../icons/align-objects-center";
-import i383 from "../icons/align-objects-right";
-import i384 from "../icons/align-objects-top";
-import i385 from "../icons/align-objects-middle";
-import i386 from "../icons/align-objects-bottom";
-import i387 from "../icons/distribute-horizontal";
-import i388 from "../icons/distribute-vertical";
-import i389 from "../icons/flip-horizontal";
-import i390 from "../icons/flip-vertical";
-import i391 from "../icons/crop";
-import i392 from "../icons/rotate-object";
-import i393 from "../icons/laser-pointer";
-import i394 from "../icons/shape-outline";
-import i395 from "../icons/shape-fill";
-import i396 from "../icons/gradient";
-import i397 from "../icons/superscript";
-import i398 from "../icons/subscript";
-import i399 from "../icons/font-color";
-import i400 from "../icons/highlighter";
-import i401 from "../icons/clear-formatting";
-import i402 from "../icons/font-size-increase";
-import i403 from "../icons/font-size-decrease";
-import i404 from "../icons/change-case";
-import i405 from "../icons/letter-spacing";
-import i406 from "../icons/align-justify";
-import i407 from "../icons/indent-increase";
-import i408 from "../icons/indent-decrease";
-import i409 from "../icons/line-spacing";
-import i410 from "../icons/paragraph-spacing";
-import i411 from "../icons/pilcrow";
-import i412 from "../icons/paragraph-ltr";
-import i413 from "../icons/paragraph-rtl";
-import i414 from "../icons/list-checks";
-import i415 from "../icons/list-nested";
-import i416 from "../icons/heading1";
-import i417 from "../icons/heading3";
-import i418 from "../icons/code-block";
-import i419 from "../icons/horizontal-rule";
-import i420 from "../icons/format-painter";
-import i421 from "../icons/heading4";
-import i422 from "../icons/heading5";
-import i423 from "../icons/heading6";
-import i424 from "../icons/lightbulb-outline";
-import i425 from "../icons/square-outline";
-import i426 from "../icons/star-outline";
-import i427 from "../icons/lock-outline";
-import i428 from "../icons/unlock-outline";
-import i429 from "../icons/folder-outline";
-import i430 from "../icons/cloud-outline";
-import i431 from "../icons/pin-outline";
-import i432 from "../icons/folders-outline";
-import i433 from "../icons/trash-outline";
-import i434 from "../icons/pencil-outline";
-import i435 from "../icons/mic-outline";
-import i436 from "../icons/shield-outline";
-import i437 from "../icons/thumbs-up-outline";
-import i438 from "../icons/bug-outline";
-import i439 from "../icons/wrench-outline";
-import i440 from "../icons/plug-outline";
-import i441 from "../icons/book-open-outline";
-import i442 from "../icons/layers-outline";
-import i443 from "../icons/sparkles-outline";
-import i444 from "../icons/play-outline";
-import i445 from "../icons/pause-outline";
-import i446 from "../icons/code-brand";
-import i447 from "../icons/finder-brand";
-import i448 from "../icons/media-brand";
-import i449 from "../icons/story-brand";
-import i450 from "../icons/docx-brand";
-import i451 from "../icons/xlsx-brand";
-import i452 from "../icons/pptx-brand";
-import i453 from "../icons/pdf-brand";
-import i454 from "../icons/forms-brand";
-import i455 from "../icons/composer-brand";
-import i456 from "../icons/vaudio-brand";
-import i457 from "../icons/page-brand";
-import i458 from "../icons/portfolio-brand";
-import i459 from "../icons/resume-brand";
-import i460 from "../icons/twin-brand";
-import i461 from "../icons/lenkit-brand";
-import i462 from "../icons/code-brand-color";
-import i463 from "../icons/finder-brand-color";
-import i464 from "../icons/media-brand-color";
-import i465 from "../icons/story-brand-color";
-import i466 from "../icons/docx-brand-color";
-import i467 from "../icons/xlsx-brand-color";
-import i468 from "../icons/pptx-brand-color";
-import i469 from "../icons/pdf-brand-color";
-import i470 from "../icons/forms-brand-color";
-import i471 from "../icons/composer-brand-color";
-import i472 from "../icons/vaudio-brand-color";
-import i473 from "../icons/page-brand-color";
-import i474 from "../icons/portfolio-brand-color";
-import i475 from "../icons/resume-brand-color";
-import i476 from "../icons/twin-brand-color";
-import i477 from "../icons/lenkit-brand-color";
-import i478 from "../icons/three-d";
-import i479 from "../icons/abap";
-import i480 from "../icons/abc";
-import i481 from "../icons/actionscript";
-import i482 from "../icons/ada";
-import i483 from "../icons/admin";
-import i484 from "../icons/illustrator";
-import i485 from "../icons/photoshop";
-import i486 from "../icons/adonis";
-import i487 from "../icons/advpl";
-import i488 from "../icons/autohotkey";
-import i489 from "../icons/amplify";
-import i490 from "../icons/android";
-import i491 from "../icons/angular";
-import i492 from "../icons/angular-component";
-import i493 from "../icons/angular-directive";
-import i494 from "../icons/angular-guard";
-import i495 from "../icons/angular-interceptor";
-import i496 from "../icons/angular-pipe";
-import i497 from "../icons/angular-resolver";
-import i498 from "../icons/angular-service";
-import i499 from "../icons/ansible";
-import i500 from "../icons/antlr";
-import i501 from "../icons/api";
-import i502 from "../icons/apollo";
-import i503 from "../icons/applescript";
-import i504 from "../icons/apps-script";
-import i505 from "../icons/appveyor";
-import i506 from "../icons/appwrite";
-import i507 from "../icons/architecture";
-import i508 from "../icons/arduino";
-import i509 from "../icons/asciidoc";
-import i510 from "../icons/assembly";
-import i511 from "../icons/astro";
-import i512 from "../icons/atom";
-import i513 from "../icons/aurelia";
-import i514 from "../icons/autorun";
-import i515 from "../icons/autoit";
-import i516 from "../icons/cloud-config";
-import i517 from "../icons/azure";
-import i518 from "../icons/azure-pipelines";
-import i519 from "../icons/babel";
-import i520 from "../icons/ballerina";
-import i521 from "../icons/base";
-import i522 from "../icons/bashly";
-import i523 from "../icons/bazel";
-import i524 from "../icons/beancount";
-import i525 from "../icons/bibliography";
-import i526 from "../icons/bicep";
-import i527 from "../icons/biome";
-import i528 from "../icons/ci";
-import i529 from "../icons/bithound";
-import i530 from "../icons/blender";
-import i531 from "../icons/blink";
-import i532 from "../icons/blitz";
-import i533 from "../icons/bloc";
-import i534 from "../icons/bower";
-import i535 from "../icons/brainfuck";
-import i536 from "../icons/browserslist";
-import i537 from "../icons/bruno";
-import i538 from "../icons/buck";
-import i539 from "../icons/bucklescript";
-import i540 from "../icons/buildkite";
-import i541 from "../icons/bun";
-import i542 from "../icons/c";
-import i543 from "../icons/c3";
-import i544 from "../icons/cabal";
-import i545 from "../icons/caddy";
-import i546 from "../icons/cadence";
-import i547 from "../icons/cairo";
-import i548 from "../icons/cake";
-import i549 from "../icons/capacitor";
-import i550 from "../icons/capnp";
-import i551 from "../icons/cart";
-import i552 from "../icons/cbx";
-import i553 from "../icons/cds";
-import i554 from "../icons/certificate";
-import i555 from "../icons/chess";
-import i556 from "../icons/chromatic";
-import i557 from "../icons/chrome";
-import i558 from "../icons/circleci";
-import i559 from "../icons/clangd";
-import i560 from "../icons/class";
-import i561 from "../icons/claude";
-import i562 from "../icons/clojure";
-import i563 from "../icons/cloud-functions";
-import i564 from "../icons/cloudfoundry";
-import i565 from "../icons/cluster";
-import i566 from "../icons/cmake";
-import i567 from "../icons/coala";
-import i568 from "../icons/cobol";
-import i569 from "../icons/coconut";
-import i570 from "../icons/code-climate";
-import i571 from "../icons/codecov";
-import i572 from "../icons/coderabbit-ai";
-import i573 from "../icons/coffee";
-import i574 from "../icons/coldfusion";
-import i575 from "../icons/coloredpetrinets";
-import i576 from "../icons/commitizen";
-import i577 from "../icons/commitlint";
-import i578 from "../icons/concourse";
-import i579 from "../icons/conduct";
-import i580 from "../icons/constant";
-import i581 from "../icons/container";
-import i582 from "../icons/context";
-import i583 from "../icons/contract";
-import i584 from "../icons/contributing";
-import i585 from "../icons/controller";
-import i586 from "../icons/copilot";
-import i587 from "../icons/core";
-import i588 from "../icons/coverage";
-import i589 from "../icons/cpp";
-import i590 from "../icons/craco";
-import i591 from "../icons/credits";
-import i592 from "../icons/crystal";
-import i593 from "../icons/csharp";
-import i594 from "../icons/css";
-import i595 from "../icons/cucumber";
-import i596 from "../icons/cuda";
-import i597 from "../icons/cue";
-import i598 from "../icons/cursor-editor";
-import i599 from "../icons/custom";
-import i600 from "../icons/cypress";
-import i601 from "../icons/d";
-import i602 from "../icons/dart";
-import i603 from "../icons/database";
-import i604 from "../icons/code-analysis";
-import i605 from "../icons/delta";
-import i606 from "../icons/denizenscript";
-import i607 from "../icons/deno";
-import i608 from "../icons/dependencies-update";
-import i609 from "../icons/development";
-import i610 from "../icons/dhall";
-import i611 from "../icons/diff";
-import i612 from "../icons/dinophp";
-import i613 from "../icons/directive";
-import i614 from "../icons/disc";
-import i615 from "../icons/dist";
-import i616 from "../icons/django";
-import i617 from "../icons/dll";
-import i618 from "../icons/docker";
-import i619 from "../icons/doctex";
-import i620 from "../icons/dotjs";
-import i621 from "../icons/drawio";
-import i622 from "../icons/drizzle";
-import i623 from "../icons/drone";
-import i624 from "../icons/duc";
-import i625 from "../icons/dump";
-import i626 from "../icons/dune";
-import i627 from "../icons/edge";
-import i628 from "../icons/editorconfig";
-import i629 from "../icons/ejs";
-import i630 from "../icons/element";
-import i631 from "../icons/elixir";
-import i632 from "../icons/elm";
-import i633 from "../icons/ember";
-import i634 from "../icons/enum";
-import i635 from "../icons/environment";
-import i636 from "../icons/epub";
-import i637 from "../icons/erlang";
-import i638 from "../icons/esbuild";
-import i639 from "../icons/eslint";
-import i640 from "../icons/event";
-import i641 from "../icons/examples";
-import i642 from "../icons/excalidraw";
-import i643 from "../icons/exe";
-import i644 from "../icons/expo";
-import i645 from "../icons/fastlane";
-import i646 from "../icons/favicon";
-import i647 from "../icons/figma";
-import i648 from "../icons/firebase";
-import i649 from "../icons/flash";
-import i650 from "../icons/flow";
-import i651 from "../icons/flutter";
-import i652 from "../icons/font";
-import i653 from "../icons/forgejo";
-import i654 from "../icons/forth";
-import i655 from "../icons/fortran";
-import i656 from "../icons/foxpro";
-import i657 from "../icons/freemarker";
-import i658 from "../icons/fsharp";
-import i659 from "../icons/fusebox";
-import i660 from "../icons/gamemaker";
-import i661 from "../icons/garden";
-import i662 from "../icons/gatsby";
-import i663 from "../icons/gcp";
-import i664 from "../icons/gemini";
-import i665 from "../icons/gemini-ai";
-import i666 from "../icons/workflow";
-import i667 from "../icons/git";
-import i668 from "../icons/gitea";
-import i669 from "../icons/repo-config";
-import i670 from "../icons/sponsor";
-import i671 from "../icons/cloud-workspace";
-import i672 from "../icons/gleam";
-import i673 from "../icons/gnuplot";
-import i674 from "../icons/go";
-import i675 from "../icons/go-mod";
-import i676 from "../icons/godot";
-import i677 from "../icons/gradle";
-import i678 from "../icons/telemetry";
-import i679 from "../icons/grain";
-import i680 from "../icons/graphql";
-import i681 from "../icons/gridsome";
-import i682 from "../icons/groovy";
-import i683 from "../icons/grunt";
-import i684 from "../icons/gulp";
-import i685 from "../icons/h";
-import i686 from "../icons/hack";
-import i687 from "../icons/hadolint";
-import i688 from "../icons/haml";
-import i689 from "../icons/handlebars";
-import i690 from "../icons/visual-diff";
-import i691 from "../icons/hardhat";
-import i692 from "../icons/haskell";
-import i693 from "../icons/haxe";
-import i694 from "../icons/hcl";
-import i695 from "../icons/helm";
-import i696 from "../icons/procfile";
-import i697 from "../icons/hex";
-import i698 from "../icons/hip";
-import i699 from "../icons/histoire";
-import i700 from "../icons/hjson";
-import i701 from "../icons/hook";
-import i702 from "../icons/horusec";
-import i703 from "../icons/hpp";
-import i704 from "../icons/html";
-import i705 from "../icons/http";
-import i706 from "../icons/huff";
-import i707 from "../icons/hurl";
-import i708 from "../icons/husky";
-import i709 from "../icons/idris";
-import i710 from "../icons/imba";
-import i711 from "../icons/include";
-import i712 from "../icons/intellij";
-import i713 from "../icons/interceptor";
-import i714 from "../icons/interface";
-import i715 from "../icons/ionic";
-import i716 from "../icons/istanbul";
-import i717 from "../icons/jar";
-import i718 from "../icons/java";
-import i719 from "../icons/javascript";
-import i720 from "../icons/jenkins";
-import i721 from "../icons/jest";
-import i722 from "../icons/jinja";
-import i723 from "../icons/json";
-import i724 from "../icons/json-schema";
-import i725 from "../icons/jsr";
-import i726 from "../icons/julia";
-import i727 from "../icons/just";
-import i728 from "../icons/karma";
-import i729 from "../icons/kcl";
-import i730 from "../icons/keystatic";
-import i731 from "../icons/kivy";
-import i732 from "../icons/kl";
-import i733 from "../icons/kotlin";
-import i734 from "../icons/kubernetes";
-import i735 from "../icons/kusto";
-import i736 from "../icons/laravel";
-import i737 from "../icons/latex";
-import i738 from "../icons/lean";
-import i739 from "../icons/lefthook";
-import i740 from "../icons/lerna";
-import i741 from "../icons/less";
-import i742 from "../icons/cloud-deploy";
-import i743 from "../icons/license";
-import i744 from "../icons/lighthouse";
-import i745 from "../icons/lilypond";
-import i746 from "../icons/lint-staged";
-import i747 from "../icons/linux";
-import i748 from "../icons/jupyter";
-import i749 from "../icons/liquid";
-import i750 from "../icons/lisp";
-import i751 from "../icons/livescript";
-import i752 from "../icons/log";
-import i753 from "../icons/lolcode";
-import i754 from "../icons/lottie";
-import i755 from "../icons/lua";
-import i756 from "../icons/luau";
-import i757 from "../icons/lynx";
-import i758 from "../icons/lyric";
-import i759 from "../icons/macaulay2";
-import i760 from "../icons/macos";
-import i761 from "../icons/makefile";
-import i762 from "../icons/mappings";
-import i763 from "../icons/markdown";
-import i764 from "../icons/markdoc";
-import i765 from "../icons/markdownlint";
-import i766 from "../icons/mdx";
-import i767 from "../icons/mdsvex";
-import i768 from "../icons/markojs";
-import i769 from "../icons/mathematica";
-import i770 from "../icons/matlab";
-import i771 from "../icons/maven";
-import i772 from "../icons/mercurial";
-import i773 from "../icons/merlin";
-import i774 from "../icons/mermaid";
-import i775 from "../icons/meson";
-import i776 from "../icons/metro";
-import i777 from "../icons/middleware";
-import i778 from "../icons/migrations";
-import i779 from "../icons/minecraft";
-import i780 from "../icons/mint";
-import i781 from "../icons/mist";
-import i782 from "../icons/mjml";
-import i783 from "../icons/mocha";
-import i784 from "../icons/mock";
-import i785 from "../icons/modernizr";
-import i786 from "../icons/mojo";
-import i787 from "../icons/molecule";
-import i788 from "../icons/moonscript";
-import i789 from "../icons/mxml";
-import i790 from "../icons/nano-staged";
-import i791 from "../icons/ndst";
-import i792 from "../icons/nest";
-import i793 from "../icons/site-deploy";
-import i794 from "../icons/next";
-import i795 from "../icons/nginx";
-import i796 from "../icons/nim";
-import i797 from "../icons/nix";
-import i798 from "../icons/nodejs";
-import i799 from "../icons/nodemon";
-import i800 from "../icons/npm";
-import i801 from "../icons/nuget";
-import i802 from "../icons/nunjucks";
-import i803 from "../icons/nuxt";
-import i804 from "../icons/nx";
-import i805 from "../icons/objective-c";
-import i806 from "../icons/obsidian";
-import i807 from "../icons/ocaml";
-import i808 from "../icons/odin";
-import i809 from "../icons/onnx";
-import i810 from "../icons/opa";
-import i811 from "../icons/opam";
-import i812 from "../icons/openapi";
-import i813 from "../icons/opencode";
-import i814 from "../icons/opentofu";
-import i815 from "../icons/organism";
-import i816 from "../icons/oxc";
-import i817 from "../icons/panda";
-import i818 from "../icons/parcel";
-import i819 from "../icons/pascal";
-import i820 from "../icons/pawn";
-import i821 from "../icons/payload";
-import i822 from "../icons/pdf";
-import i823 from "../icons/pdm";
-import i824 from "../icons/percy";
-import i825 from "../icons/perl";
-import i826 from "../icons/php";
-import i827 from "../icons/php-cs-fixer";
-import i828 from "../icons/phpmailer";
-import i829 from "../icons/phpstan";
-import i830 from "../icons/phpunit";
-import i831 from "../icons/pinejs";
-import i832 from "../icons/pipe";
-import i833 from "../icons/build-pipeline";
-import i834 from "../icons/pkl";
-import i835 from "../icons/plastic";
-import i836 from "../icons/playwright";
-import i837 from "../icons/plop";
-import i838 from "../icons/pm2-ecosystem";
-import i839 from "../icons/pnpm";
-import i840 from "../icons/poetry";
-import i841 from "../icons/policy";
-import i842 from "../icons/postcss";
-import i843 from "../icons/posthtml";
-import i844 from "../icons/api-collection";
-import i845 from "../icons/powerpoint";
-import i846 from "../icons/powershell";
-import i847 from "../icons/pre-commit";
-import i848 from "../icons/prettier";
-import i849 from "../icons/prisma";
-import i850 from "../icons/processing";
-import i851 from "../icons/prolog";
-import i852 from "../icons/prompt";
-import i853 from "../icons/proto";
-import i854 from "../icons/protractor";
-import i855 from "../icons/pug";
-import i856 from "../icons/marionette";
-import i857 from "../icons/puppeteer";
-import i858 from "../icons/purescript";
-import i859 from "../icons/python";
-import i860 from "../icons/pytorch";
-import i861 from "../icons/qsharp";
-import i862 from "../icons/quarto";
-import i863 from "../icons/quasar";
-import i864 from "../icons/quokka";
-import i865 from "../icons/r";
-import i866 from "../icons/racket";
-import i867 from "../icons/raml";
-import i868 from "../icons/razor";
-import i869 from "../icons/rbxmk";
-import i870 from "../icons/rc";
-import i871 from "../icons/react";
-import i872 from "../icons/react-ts";
-import i873 from "../icons/reason";
-import i874 from "../icons/red";
-import i875 from "../icons/redis";
-import i876 from "../icons/regedit";
-import i877 from "../icons/remark";
-import i878 from "../icons/remix";
-import i879 from "../icons/renovate";
-import i880 from "../icons/run-config";
-import i881 from "../icons/repository";
-import i882 from "../icons/rescript";
-import i883 from "../icons/resolver";
-import i884 from "../icons/restql";
-import i885 from "../icons/review";
-import i886 from "../icons/riot";
-import i887 from "../icons/roadmap";
-import i888 from "../icons/game-controller";
-import i889 from "../icons/rocket";
-import i890 from "../icons/rolldown";
-import i891 from "../icons/rollup";
-import i892 from "../icons/rome";
-import i893 from "../icons/routes";
-import i894 from "../icons/rspec";
-import i895 from "../icons/rstack";
-import i896 from "../icons/rubocop";
-import i897 from "../icons/ruff";
-import i898 from "../icons/rust";
-import i899 from "../icons/apex";
-import i900 from "../icons/salt";
-import i901 from "../icons/san";
-import i902 from "../icons/sandbox";
-import i903 from "../icons/statistics";
-import i904 from "../icons/sass";
-import i905 from "../icons/sbt";
-import i906 from "../icons/scala";
-import i907 from "../icons/scheme";
-import i908 from "../icons/scons";
-import i909 from "../icons/scrap";
-import i910 from "../icons/screwdriver";
-import i911 from "../icons/seeders";
-import i912 from "../icons/semantic-release";
-import i913 from "../icons/semgrep";
-import i914 from "../icons/error-tracking";
-import i915 from "../icons/sequelize";
-import i916 from "../icons/serverless";
-import i917 from "../icons/shader";
-import i918 from "../icons/shellcheck";
-import i919 from "../icons/simulations";
-import i920 from "../icons/simulink";
-import i921 from "../icons/siyuan";
-import i922 from "../icons/sketch";
-import i923 from "../icons/skill";
-import i924 from "../icons/slim";
-import i925 from "../icons/slint";
-import i926 from "../icons/slug";
-import i927 from "../icons/smarty";
-import i928 from "../icons/sml";
-import i929 from "../icons/snakemake";
-import i930 from "../icons/snapcraft";
-import i931 from "../icons/snowpack";
-import i932 from "../icons/solidity";
-import i933 from "../icons/sonarcloud";
-import i934 from "../icons/spwn";
-import i935 from "../icons/browser-ide";
-import i936 from "../icons/stan";
-import i937 from "../icons/chaos-experiment";
-import i938 from "../icons/stencil";
-import i939 from "../icons/stitches";
-import i940 from "../icons/store";
-import i941 from "../icons/storybook";
-import i942 from "../icons/stryker";
-import i943 from "../icons/tex";
-import i944 from "../icons/stylable";
-import i945 from "../icons/stylelint";
-import i946 from "../icons/stylus";
-import i947 from "../icons/sublime";
-import i948 from "../icons/hosted-backend";
-import i949 from "../icons/svelte";
-import i950 from "../icons/svg";
-import i951 from "../icons/swagger";
-import i952 from "../icons/sway";
-import i953 from "../icons/swc";
-import i954 from "../icons/swift";
-import i955 from "../icons/syncpack";
-import i956 from "../icons/syntax";
-import i957 from "../icons/systemd";
-import i958 from "../icons/tailwindcss";
-import i959 from "../icons/tape";
-import i960 from "../icons/target";
-import i961 from "../icons/tauri";
-import i962 from "../icons/taze";
-import i963 from "../icons/tcl";
-import i964 from "../icons/teal";
-import i965 from "../icons/television";
-import i966 from "../icons/terraform";
-import i967 from "../icons/test";
-import i968 from "../icons/test-js";
-import i969 from "../icons/test-ts";
-import i970 from "../icons/textlint";
-import i971 from "../icons/tilt";
-import i972 from "../icons/whiteboard";
-import i973 from "../icons/tobi";
-import i974 from "../icons/toml";
-import i975 from "../icons/toon";
-import i976 from "../icons/ci-pipeline";
-import i977 from "../icons/job-trigger";
-import i978 from "../icons/tsconfig";
-import i979 from "../icons/tsdoc";
-import i980 from "../icons/tsdown";
-import i981 from "../icons/tsil";
-import i982 from "../icons/tune";
-import i983 from "../icons/turborepo";
-import i984 from "../icons/twig";
-import i985 from "../icons/twine";
-import i986 from "../icons/typedoc";
-import i987 from "../icons/typescript";
-import i988 from "../icons/typescript-def";
-import i989 from "../icons/typst";
-import i990 from "../icons/uiua";
-import i991 from "../icons/umi";
-import i992 from "../icons/uml";
-import i993 from "../icons/unity";
-import i994 from "../icons/unlicense";
-import i995 from "../icons/unocss";
-import i996 from "../icons/uv";
-import i997 from "../icons/vagrant";
-import i998 from "../icons/vala";
-import i999 from "../icons/vanilla-extract";
-import i1000 from "../icons/varnish";
-import i1001 from "../icons/vedic";
-import i1002 from "../icons/velite";
-import i1003 from "../icons/deployment";
-import i1004 from "../icons/verilog";
-import i1005 from "../icons/verse";
-import i1006 from "../icons/vfl";
-import i1007 from "../icons/vim";
-import i1008 from "../icons/visualstudio";
-import i1009 from "../icons/vite";
-import i1010 from "../icons/vitest";
-import i1011 from "../icons/vlang";
-import i1012 from "../icons/vm";
-import i1013 from "../icons/vscode";
-import i1014 from "../icons/vue";
-import i1015 from "../icons/wallaby";
-import i1016 from "../icons/warp";
-import i1017 from "../icons/watchman";
-import i1018 from "../icons/webassembly";
-import i1019 from "../icons/webpack";
-import i1020 from "../icons/wepy";
-import i1021 from "../icons/werf";
-import i1022 from "../icons/windicss";
-import i1023 from "../icons/windows";
-import i1024 from "../icons/wolframlanguage";
-import i1025 from "../icons/wordpress";
-import i1026 from "../icons/edge-worker";
-import i1027 from "../icons/wxt";
-import i1028 from "../icons/xaml";
-import i1029 from "../icons/xmake";
-import i1030 from "../icons/xml";
-import i1031 from "../icons/yaml";
-import i1032 from "../icons/yang";
-import i1033 from "../icons/yarn";
-import i1034 from "../icons/zed";
-import i1035 from "../icons/zig";
-import i1036 from "../icons/otne";
-import i1037 from "../icons/graphcool";
-import i1038 from "../icons/pipeline";
-import i1039 from "../icons/jsconfig";
-import i1040 from "../icons/taskfile";
-import i1041 from "../icons/verified";
-import i1042 from "../icons/zeabur";
-import i1043 from "../icons/harmonix";
-import i1044 from "../icons/auto";
-import i1045 from "../icons/supabase";
-import i1046 from "../icons/svgr";
-import i1047 from "../icons/tobimake";
-import i1048 from "../icons/ifanr-cloud";
-import i1049 from "../icons/cline";
-import i1050 from "../icons/packship";
-import i1051 from "../icons/github-actions-workflow";
-import i1052 from "../icons/ahk2";
-import i1053 from "../icons/ngrx";
-import i1054 from "../icons/redux";
-import i1055 from "../icons/vuex-store";
-import i1056 from "../icons/qwik";
-import i1057 from "../icons/rojo";
-import i1058 from "../icons/silverstripe";
-import i1059 from "../icons/bashly-hook";
-import i1060 from "../icons/latex-class";
-import i1061 from "../icons/latex-package";
-import i1062 from "../icons/salesforce";
-import i1063 from "../icons/ngrx-actions";
-import i1064 from "../icons/ngrx-effects";
-import i1065 from "../icons/ngrx-entity";
-import i1066 from "../icons/ngrx-reducer";
-import i1067 from "../icons/ngrx-selectors";
-import i1068 from "../icons/ngrx-state";
-import i1069 from "../icons/redux-action";
-import i1070 from "../icons/redux-reducer";
-import i1071 from "../icons/redux-selector";
-import i1072 from "../icons/redux-store";
-import i1073 from "../icons/rollback";
-import i1074 from "../icons/version";
-import i1075 from "../icons/logs";
-import i1076 from "../icons/backup";
-import i1077 from "../icons/env";
-import i1078 from "../icons/doctor";
-import i1079 from "../icons/cpu";
-import i1080 from "../icons/ram";
-import i1081 from "../icons/jobs";
-import i1082 from "../icons/graph";
-import i1083 from "../icons/proxy";
-import i1084 from "../icons/cache";
-import i1085 from "../icons/bucket";
-import i1086 from "../icons/registry";
-import i1087 from "../icons/endnote";
-import i1088 from "../icons/different-first-page";
-import i1089 from "../icons/odd-even-pages";
-import i1090 from "../icons/line-numbers";
-import i1091 from "../icons/suppress-line-numbers";
-import i1092 from "../icons/comment-delete";
-import i1093 from "../icons/accessibility";
-import i1094 from "../icons/delete-table";
-import i1095 from "../icons/insert-caption";
-import i1096 from "../icons/cross-reference";
-import i1097 from "../icons/show-markup";
-import i1098 from "../icons/annotate-squiggly";
-import i1099 from "../icons/table-header-row";
-import i1100 from "../icons/table-total-row";
-import i1101 from "../icons/table-banded-rows";
-import i1102 from "../icons/table-first-column";
-import i1103 from "../icons/table-last-column";
-import i1104 from "../icons/table-banded-columns";
-import i1105 from "../icons/repeat-header-rows";
-import i1106 from "../icons/column-break";
-import i1107 from "../icons/drop-cap";
-import i1108 from "../icons/orientation";
-import i1109 from "../icons/hyphenation";
-import i1110 from "../icons/line-style";
-import i1111 from "../icons/line-weight";
-import i1112 from "../icons/form-combo-box";
-import i1113 from "../icons/repeating-section";
-import i1114 from "../icons/styles";
-import i1115 from "../icons/new-style";
-import i1116 from "../icons/signature-field";
-import i1117 from "../icons/view-continuous";
-import i1118 from "../icons/view-two-pages";
-import i1119 from "../icons/view-two-pages-cover";
-import i1120 from "../icons/eq-fraction";
-import i1121 from "../icons/eq-script";
-import i1122 from "../icons/eq-radical";
-import i1123 from "../icons/eq-integral";
-import i1124 from "../icons/eq-bracket";
-import i1125 from "../icons/eq-accent";
-import i1126 from "../icons/eq-limit";
-import i1127 from "../icons/eq-operator";
-import i1128 from "../icons/eq-matrix";
-import i1129 from "../icons/merge-field";
-import i1130 from "../icons/qr-code";
-import i1131 from "../icons/scan";
-import i1132 from "../icons/fingerprint";
-import i1133 from "../icons/face-id";
-import i1134 from "../icons/wifi";
-import i1135 from "../icons/wifi-off";
-import i1136 from "../icons/camera";
-import i1137 from "../icons/hard-drive";
-import i1138 from "../icons/shield-check";
-import i1139 from "../icons/cloud-download";
-import i1140 from "../icons/cloud-off";
+import i362 from "../icons/animation-painter";
+import i363 from "../icons/present";
+import i364 from "../icons/present-from-start";
+import i365 from "../icons/presenter-view";
+import i366 from "../icons/slide-sorter";
+import i367 from "../icons/speaker-notes";
+import i368 from "../icons/hide-slide";
+import i369 from "../icons/shape-rectangle";
+import i370 from "../icons/shape-ellipse";
+import i371 from "../icons/shape-triangle";
+import i372 from "../icons/shape-arrow";
+import i373 from "../icons/shape-star";
+import i374 from "../icons/shape-line";
+import i375 from "../icons/connector";
+import i376 from "../icons/bring-forward";
+import i377 from "../icons/send-backward";
+import i378 from "../icons/bring-to-front";
+import i379 from "../icons/send-to-back";
+import i380 from "../icons/group";
+import i381 from "../icons/ungroup";
+import i382 from "../icons/align-objects-left";
+import i383 from "../icons/align-objects-center";
+import i384 from "../icons/align-objects-right";
+import i385 from "../icons/align-objects-top";
+import i386 from "../icons/align-objects-middle";
+import i387 from "../icons/align-objects-bottom";
+import i388 from "../icons/distribute-horizontal";
+import i389 from "../icons/distribute-vertical";
+import i390 from "../icons/flip-horizontal";
+import i391 from "../icons/flip-vertical";
+import i392 from "../icons/crop";
+import i393 from "../icons/rotate-object";
+import i394 from "../icons/laser-pointer";
+import i395 from "../icons/shape-outline";
+import i396 from "../icons/shape-fill";
+import i397 from "../icons/gradient";
+import i398 from "../icons/superscript";
+import i399 from "../icons/subscript";
+import i400 from "../icons/font-color";
+import i401 from "../icons/highlighter";
+import i402 from "../icons/clear-formatting";
+import i403 from "../icons/font-size-increase";
+import i404 from "../icons/font-size-decrease";
+import i405 from "../icons/change-case";
+import i406 from "../icons/letter-spacing";
+import i407 from "../icons/align-justify";
+import i408 from "../icons/indent-increase";
+import i409 from "../icons/indent-decrease";
+import i410 from "../icons/line-spacing";
+import i411 from "../icons/paragraph-spacing";
+import i412 from "../icons/pilcrow";
+import i413 from "../icons/paragraph-ltr";
+import i414 from "../icons/paragraph-rtl";
+import i415 from "../icons/list-checks";
+import i416 from "../icons/list-nested";
+import i417 from "../icons/heading1";
+import i418 from "../icons/heading3";
+import i419 from "../icons/code-block";
+import i420 from "../icons/horizontal-rule";
+import i421 from "../icons/format-painter";
+import i422 from "../icons/heading4";
+import i423 from "../icons/heading5";
+import i424 from "../icons/heading6";
+import i425 from "../icons/lightbulb-outline";
+import i426 from "../icons/square-outline";
+import i427 from "../icons/star-outline";
+import i428 from "../icons/lock-outline";
+import i429 from "../icons/unlock-outline";
+import i430 from "../icons/folder-outline";
+import i431 from "../icons/cloud-outline";
+import i432 from "../icons/pin-outline";
+import i433 from "../icons/folders-outline";
+import i434 from "../icons/trash-outline";
+import i435 from "../icons/pencil-outline";
+import i436 from "../icons/mic-outline";
+import i437 from "../icons/shield-outline";
+import i438 from "../icons/thumbs-up-outline";
+import i439 from "../icons/bug-outline";
+import i440 from "../icons/wrench-outline";
+import i441 from "../icons/plug-outline";
+import i442 from "../icons/book-open-outline";
+import i443 from "../icons/layers-outline";
+import i444 from "../icons/sparkles-outline";
+import i445 from "../icons/play-outline";
+import i446 from "../icons/pause-outline";
+import i447 from "../icons/code-brand";
+import i448 from "../icons/finder-brand";
+import i449 from "../icons/media-brand";
+import i450 from "../icons/story-brand";
+import i451 from "../icons/docx-brand";
+import i452 from "../icons/xlsx-brand";
+import i453 from "../icons/pptx-brand";
+import i454 from "../icons/pdf-brand";
+import i455 from "../icons/forms-brand";
+import i456 from "../icons/composer-brand";
+import i457 from "../icons/vaudio-brand";
+import i458 from "../icons/page-brand";
+import i459 from "../icons/portfolio-brand";
+import i460 from "../icons/resume-brand";
+import i461 from "../icons/twin-brand";
+import i462 from "../icons/lenkit-brand";
+import i463 from "../icons/code-brand-color";
+import i464 from "../icons/finder-brand-color";
+import i465 from "../icons/media-brand-color";
+import i466 from "../icons/story-brand-color";
+import i467 from "../icons/docx-brand-color";
+import i468 from "../icons/xlsx-brand-color";
+import i469 from "../icons/pptx-brand-color";
+import i470 from "../icons/pdf-brand-color";
+import i471 from "../icons/forms-brand-color";
+import i472 from "../icons/composer-brand-color";
+import i473 from "../icons/vaudio-brand-color";
+import i474 from "../icons/page-brand-color";
+import i475 from "../icons/portfolio-brand-color";
+import i476 from "../icons/resume-brand-color";
+import i477 from "../icons/twin-brand-color";
+import i478 from "../icons/lenkit-brand-color";
+import i479 from "../icons/three-d";
+import i480 from "../icons/abap";
+import i481 from "../icons/abc";
+import i482 from "../icons/actionscript";
+import i483 from "../icons/ada";
+import i484 from "../icons/admin";
+import i485 from "../icons/illustrator";
+import i486 from "../icons/photoshop";
+import i487 from "../icons/adonis";
+import i488 from "../icons/advpl";
+import i489 from "../icons/autohotkey";
+import i490 from "../icons/amplify";
+import i491 from "../icons/android";
+import i492 from "../icons/angular";
+import i493 from "../icons/angular-component";
+import i494 from "../icons/angular-directive";
+import i495 from "../icons/angular-guard";
+import i496 from "../icons/angular-interceptor";
+import i497 from "../icons/angular-pipe";
+import i498 from "../icons/angular-resolver";
+import i499 from "../icons/angular-service";
+import i500 from "../icons/ansible";
+import i501 from "../icons/antlr";
+import i502 from "../icons/api";
+import i503 from "../icons/apollo";
+import i504 from "../icons/applescript";
+import i505 from "../icons/apps-script";
+import i506 from "../icons/appveyor";
+import i507 from "../icons/appwrite";
+import i508 from "../icons/architecture";
+import i509 from "../icons/arduino";
+import i510 from "../icons/asciidoc";
+import i511 from "../icons/assembly";
+import i512 from "../icons/astro";
+import i513 from "../icons/atom";
+import i514 from "../icons/aurelia";
+import i515 from "../icons/autorun";
+import i516 from "../icons/autoit";
+import i517 from "../icons/cloud-config";
+import i518 from "../icons/azure";
+import i519 from "../icons/azure-pipelines";
+import i520 from "../icons/babel";
+import i521 from "../icons/ballerina";
+import i522 from "../icons/base";
+import i523 from "../icons/bashly";
+import i524 from "../icons/bazel";
+import i525 from "../icons/beancount";
+import i526 from "../icons/bibliography";
+import i527 from "../icons/bicep";
+import i528 from "../icons/biome";
+import i529 from "../icons/ci";
+import i530 from "../icons/bithound";
+import i531 from "../icons/blender";
+import i532 from "../icons/blink";
+import i533 from "../icons/blitz";
+import i534 from "../icons/bloc";
+import i535 from "../icons/bower";
+import i536 from "../icons/brainfuck";
+import i537 from "../icons/browserslist";
+import i538 from "../icons/bruno";
+import i539 from "../icons/buck";
+import i540 from "../icons/bucklescript";
+import i541 from "../icons/buildkite";
+import i542 from "../icons/bun";
+import i543 from "../icons/c";
+import i544 from "../icons/c3";
+import i545 from "../icons/cabal";
+import i546 from "../icons/caddy";
+import i547 from "../icons/cadence";
+import i548 from "../icons/cairo";
+import i549 from "../icons/cake";
+import i550 from "../icons/capacitor";
+import i551 from "../icons/capnp";
+import i552 from "../icons/cart";
+import i553 from "../icons/cbx";
+import i554 from "../icons/cds";
+import i555 from "../icons/certificate";
+import i556 from "../icons/chess";
+import i557 from "../icons/chromatic";
+import i558 from "../icons/chrome";
+import i559 from "../icons/circleci";
+import i560 from "../icons/clangd";
+import i561 from "../icons/class";
+import i562 from "../icons/claude";
+import i563 from "../icons/clojure";
+import i564 from "../icons/cloud-functions";
+import i565 from "../icons/cloudfoundry";
+import i566 from "../icons/cluster";
+import i567 from "../icons/cmake";
+import i568 from "../icons/coala";
+import i569 from "../icons/cobol";
+import i570 from "../icons/coconut";
+import i571 from "../icons/code-climate";
+import i572 from "../icons/codecov";
+import i573 from "../icons/coderabbit-ai";
+import i574 from "../icons/coffee";
+import i575 from "../icons/coldfusion";
+import i576 from "../icons/coloredpetrinets";
+import i577 from "../icons/commitizen";
+import i578 from "../icons/commitlint";
+import i579 from "../icons/concourse";
+import i580 from "../icons/conduct";
+import i581 from "../icons/constant";
+import i582 from "../icons/container";
+import i583 from "../icons/context";
+import i584 from "../icons/contract";
+import i585 from "../icons/contributing";
+import i586 from "../icons/controller";
+import i587 from "../icons/copilot";
+import i588 from "../icons/core";
+import i589 from "../icons/coverage";
+import i590 from "../icons/cpp";
+import i591 from "../icons/craco";
+import i592 from "../icons/credits";
+import i593 from "../icons/crystal";
+import i594 from "../icons/csharp";
+import i595 from "../icons/css";
+import i596 from "../icons/cucumber";
+import i597 from "../icons/cuda";
+import i598 from "../icons/cue";
+import i599 from "../icons/cursor-editor";
+import i600 from "../icons/custom";
+import i601 from "../icons/cypress";
+import i602 from "../icons/d";
+import i603 from "../icons/dart";
+import i604 from "../icons/database";
+import i605 from "../icons/code-analysis";
+import i606 from "../icons/delta";
+import i607 from "../icons/denizenscript";
+import i608 from "../icons/deno";
+import i609 from "../icons/dependencies-update";
+import i610 from "../icons/development";
+import i611 from "../icons/dhall";
+import i612 from "../icons/diff";
+import i613 from "../icons/dinophp";
+import i614 from "../icons/directive";
+import i615 from "../icons/disc";
+import i616 from "../icons/dist";
+import i617 from "../icons/django";
+import i618 from "../icons/dll";
+import i619 from "../icons/docker";
+import i620 from "../icons/doctex";
+import i621 from "../icons/dotjs";
+import i622 from "../icons/drawio";
+import i623 from "../icons/drizzle";
+import i624 from "../icons/drone";
+import i625 from "../icons/duc";
+import i626 from "../icons/dump";
+import i627 from "../icons/dune";
+import i628 from "../icons/edge";
+import i629 from "../icons/editorconfig";
+import i630 from "../icons/ejs";
+import i631 from "../icons/element";
+import i632 from "../icons/elixir";
+import i633 from "../icons/elm";
+import i634 from "../icons/ember";
+import i635 from "../icons/enum";
+import i636 from "../icons/environment";
+import i637 from "../icons/epub";
+import i638 from "../icons/erlang";
+import i639 from "../icons/esbuild";
+import i640 from "../icons/eslint";
+import i641 from "../icons/event";
+import i642 from "../icons/examples";
+import i643 from "../icons/excalidraw";
+import i644 from "../icons/exe";
+import i645 from "../icons/expo";
+import i646 from "../icons/fastlane";
+import i647 from "../icons/favicon";
+import i648 from "../icons/figma";
+import i649 from "../icons/firebase";
+import i650 from "../icons/flash";
+import i651 from "../icons/flow";
+import i652 from "../icons/flutter";
+import i653 from "../icons/font";
+import i654 from "../icons/forgejo";
+import i655 from "../icons/forth";
+import i656 from "../icons/fortran";
+import i657 from "../icons/foxpro";
+import i658 from "../icons/freemarker";
+import i659 from "../icons/fsharp";
+import i660 from "../icons/fusebox";
+import i661 from "../icons/gamemaker";
+import i662 from "../icons/garden";
+import i663 from "../icons/gatsby";
+import i664 from "../icons/gcp";
+import i665 from "../icons/gemini";
+import i666 from "../icons/gemini-ai";
+import i667 from "../icons/workflow";
+import i668 from "../icons/git";
+import i669 from "../icons/gitea";
+import i670 from "../icons/repo-config";
+import i671 from "../icons/sponsor";
+import i672 from "../icons/cloud-workspace";
+import i673 from "../icons/gleam";
+import i674 from "../icons/gnuplot";
+import i675 from "../icons/go";
+import i676 from "../icons/go-mod";
+import i677 from "../icons/godot";
+import i678 from "../icons/gradle";
+import i679 from "../icons/telemetry";
+import i680 from "../icons/grain";
+import i681 from "../icons/graphql";
+import i682 from "../icons/gridsome";
+import i683 from "../icons/groovy";
+import i684 from "../icons/grunt";
+import i685 from "../icons/gulp";
+import i686 from "../icons/h";
+import i687 from "../icons/hack";
+import i688 from "../icons/hadolint";
+import i689 from "../icons/haml";
+import i690 from "../icons/handlebars";
+import i691 from "../icons/visual-diff";
+import i692 from "../icons/hardhat";
+import i693 from "../icons/haskell";
+import i694 from "../icons/haxe";
+import i695 from "../icons/hcl";
+import i696 from "../icons/helm";
+import i697 from "../icons/procfile";
+import i698 from "../icons/hex";
+import i699 from "../icons/hip";
+import i700 from "../icons/histoire";
+import i701 from "../icons/hjson";
+import i702 from "../icons/hook";
+import i703 from "../icons/horusec";
+import i704 from "../icons/hpp";
+import i705 from "../icons/html";
+import i706 from "../icons/http";
+import i707 from "../icons/huff";
+import i708 from "../icons/hurl";
+import i709 from "../icons/husky";
+import i710 from "../icons/idris";
+import i711 from "../icons/imba";
+import i712 from "../icons/include";
+import i713 from "../icons/intellij";
+import i714 from "../icons/interceptor";
+import i715 from "../icons/interface";
+import i716 from "../icons/ionic";
+import i717 from "../icons/istanbul";
+import i718 from "../icons/jar";
+import i719 from "../icons/java";
+import i720 from "../icons/javascript";
+import i721 from "../icons/jenkins";
+import i722 from "../icons/jest";
+import i723 from "../icons/jinja";
+import i724 from "../icons/json";
+import i725 from "../icons/json-schema";
+import i726 from "../icons/jsr";
+import i727 from "../icons/julia";
+import i728 from "../icons/just";
+import i729 from "../icons/karma";
+import i730 from "../icons/kcl";
+import i731 from "../icons/keystatic";
+import i732 from "../icons/kivy";
+import i733 from "../icons/kl";
+import i734 from "../icons/kotlin";
+import i735 from "../icons/kubernetes";
+import i736 from "../icons/kusto";
+import i737 from "../icons/laravel";
+import i738 from "../icons/latex";
+import i739 from "../icons/lean";
+import i740 from "../icons/lefthook";
+import i741 from "../icons/lerna";
+import i742 from "../icons/less";
+import i743 from "../icons/cloud-deploy";
+import i744 from "../icons/license";
+import i745 from "../icons/lighthouse";
+import i746 from "../icons/lilypond";
+import i747 from "../icons/lint-staged";
+import i748 from "../icons/linux";
+import i749 from "../icons/jupyter";
+import i750 from "../icons/liquid";
+import i751 from "../icons/lisp";
+import i752 from "../icons/livescript";
+import i753 from "../icons/log";
+import i754 from "../icons/lolcode";
+import i755 from "../icons/lottie";
+import i756 from "../icons/lua";
+import i757 from "../icons/luau";
+import i758 from "../icons/lynx";
+import i759 from "../icons/lyric";
+import i760 from "../icons/macaulay2";
+import i761 from "../icons/macos";
+import i762 from "../icons/makefile";
+import i763 from "../icons/mappings";
+import i764 from "../icons/markdown";
+import i765 from "../icons/markdoc";
+import i766 from "../icons/markdownlint";
+import i767 from "../icons/mdx";
+import i768 from "../icons/mdsvex";
+import i769 from "../icons/markojs";
+import i770 from "../icons/mathematica";
+import i771 from "../icons/matlab";
+import i772 from "../icons/maven";
+import i773 from "../icons/mercurial";
+import i774 from "../icons/merlin";
+import i775 from "../icons/mermaid";
+import i776 from "../icons/meson";
+import i777 from "../icons/metro";
+import i778 from "../icons/middleware";
+import i779 from "../icons/migrations";
+import i780 from "../icons/minecraft";
+import i781 from "../icons/mint";
+import i782 from "../icons/mist";
+import i783 from "../icons/mjml";
+import i784 from "../icons/mocha";
+import i785 from "../icons/mock";
+import i786 from "../icons/modernizr";
+import i787 from "../icons/mojo";
+import i788 from "../icons/molecule";
+import i789 from "../icons/moonscript";
+import i790 from "../icons/mxml";
+import i791 from "../icons/nano-staged";
+import i792 from "../icons/ndst";
+import i793 from "../icons/nest";
+import i794 from "../icons/site-deploy";
+import i795 from "../icons/next";
+import i796 from "../icons/nginx";
+import i797 from "../icons/nim";
+import i798 from "../icons/nix";
+import i799 from "../icons/nodejs";
+import i800 from "../icons/nodemon";
+import i801 from "../icons/npm";
+import i802 from "../icons/nuget";
+import i803 from "../icons/nunjucks";
+import i804 from "../icons/nuxt";
+import i805 from "../icons/nx";
+import i806 from "../icons/objective-c";
+import i807 from "../icons/obsidian";
+import i808 from "../icons/ocaml";
+import i809 from "../icons/odin";
+import i810 from "../icons/onnx";
+import i811 from "../icons/opa";
+import i812 from "../icons/opam";
+import i813 from "../icons/openapi";
+import i814 from "../icons/opencode";
+import i815 from "../icons/opentofu";
+import i816 from "../icons/organism";
+import i817 from "../icons/oxc";
+import i818 from "../icons/panda";
+import i819 from "../icons/parcel";
+import i820 from "../icons/pascal";
+import i821 from "../icons/pawn";
+import i822 from "../icons/payload";
+import i823 from "../icons/pdf";
+import i824 from "../icons/pdm";
+import i825 from "../icons/percy";
+import i826 from "../icons/perl";
+import i827 from "../icons/php";
+import i828 from "../icons/php-cs-fixer";
+import i829 from "../icons/phpmailer";
+import i830 from "../icons/phpstan";
+import i831 from "../icons/phpunit";
+import i832 from "../icons/pinejs";
+import i833 from "../icons/pipe";
+import i834 from "../icons/build-pipeline";
+import i835 from "../icons/pkl";
+import i836 from "../icons/plastic";
+import i837 from "../icons/playwright";
+import i838 from "../icons/plop";
+import i839 from "../icons/pm2-ecosystem";
+import i840 from "../icons/pnpm";
+import i841 from "../icons/poetry";
+import i842 from "../icons/policy";
+import i843 from "../icons/postcss";
+import i844 from "../icons/posthtml";
+import i845 from "../icons/api-collection";
+import i846 from "../icons/powerpoint";
+import i847 from "../icons/powershell";
+import i848 from "../icons/pre-commit";
+import i849 from "../icons/prettier";
+import i850 from "../icons/prisma";
+import i851 from "../icons/processing";
+import i852 from "../icons/prolog";
+import i853 from "../icons/prompt";
+import i854 from "../icons/proto";
+import i855 from "../icons/protractor";
+import i856 from "../icons/pug";
+import i857 from "../icons/marionette";
+import i858 from "../icons/puppeteer";
+import i859 from "../icons/purescript";
+import i860 from "../icons/python";
+import i861 from "../icons/pytorch";
+import i862 from "../icons/qsharp";
+import i863 from "../icons/quarto";
+import i864 from "../icons/quasar";
+import i865 from "../icons/quokka";
+import i866 from "../icons/r";
+import i867 from "../icons/racket";
+import i868 from "../icons/raml";
+import i869 from "../icons/razor";
+import i870 from "../icons/rbxmk";
+import i871 from "../icons/rc";
+import i872 from "../icons/react";
+import i873 from "../icons/react-ts";
+import i874 from "../icons/reason";
+import i875 from "../icons/red";
+import i876 from "../icons/redis";
+import i877 from "../icons/regedit";
+import i878 from "../icons/remark";
+import i879 from "../icons/remix";
+import i880 from "../icons/renovate";
+import i881 from "../icons/run-config";
+import i882 from "../icons/repository";
+import i883 from "../icons/rescript";
+import i884 from "../icons/resolver";
+import i885 from "../icons/restql";
+import i886 from "../icons/review";
+import i887 from "../icons/riot";
+import i888 from "../icons/roadmap";
+import i889 from "../icons/game-controller";
+import i890 from "../icons/rocket";
+import i891 from "../icons/rolldown";
+import i892 from "../icons/rollup";
+import i893 from "../icons/rome";
+import i894 from "../icons/routes";
+import i895 from "../icons/rspec";
+import i896 from "../icons/rstack";
+import i897 from "../icons/rubocop";
+import i898 from "../icons/ruff";
+import i899 from "../icons/rust";
+import i900 from "../icons/apex";
+import i901 from "../icons/salt";
+import i902 from "../icons/san";
+import i903 from "../icons/sandbox";
+import i904 from "../icons/statistics";
+import i905 from "../icons/sass";
+import i906 from "../icons/sbt";
+import i907 from "../icons/scala";
+import i908 from "../icons/scheme";
+import i909 from "../icons/scons";
+import i910 from "../icons/scrap";
+import i911 from "../icons/screwdriver";
+import i912 from "../icons/seeders";
+import i913 from "../icons/semantic-release";
+import i914 from "../icons/semgrep";
+import i915 from "../icons/error-tracking";
+import i916 from "../icons/sequelize";
+import i917 from "../icons/serverless";
+import i918 from "../icons/shader";
+import i919 from "../icons/shellcheck";
+import i920 from "../icons/simulations";
+import i921 from "../icons/simulink";
+import i922 from "../icons/siyuan";
+import i923 from "../icons/sketch";
+import i924 from "../icons/skill";
+import i925 from "../icons/slim";
+import i926 from "../icons/slint";
+import i927 from "../icons/slug";
+import i928 from "../icons/smarty";
+import i929 from "../icons/sml";
+import i930 from "../icons/snakemake";
+import i931 from "../icons/snapcraft";
+import i932 from "../icons/snowpack";
+import i933 from "../icons/solidity";
+import i934 from "../icons/sonarcloud";
+import i935 from "../icons/spwn";
+import i936 from "../icons/browser-ide";
+import i937 from "../icons/stan";
+import i938 from "../icons/chaos-experiment";
+import i939 from "../icons/stencil";
+import i940 from "../icons/stitches";
+import i941 from "../icons/store";
+import i942 from "../icons/storybook";
+import i943 from "../icons/stryker";
+import i944 from "../icons/tex";
+import i945 from "../icons/stylable";
+import i946 from "../icons/stylelint";
+import i947 from "../icons/stylus";
+import i948 from "../icons/sublime";
+import i949 from "../icons/hosted-backend";
+import i950 from "../icons/svelte";
+import i951 from "../icons/svg";
+import i952 from "../icons/swagger";
+import i953 from "../icons/sway";
+import i954 from "../icons/swc";
+import i955 from "../icons/swift";
+import i956 from "../icons/syncpack";
+import i957 from "../icons/syntax";
+import i958 from "../icons/systemd";
+import i959 from "../icons/tailwindcss";
+import i960 from "../icons/tape";
+import i961 from "../icons/target";
+import i962 from "../icons/tauri";
+import i963 from "../icons/taze";
+import i964 from "../icons/tcl";
+import i965 from "../icons/teal";
+import i966 from "../icons/television";
+import i967 from "../icons/terraform";
+import i968 from "../icons/test";
+import i969 from "../icons/test-js";
+import i970 from "../icons/test-ts";
+import i971 from "../icons/textlint";
+import i972 from "../icons/tilt";
+import i973 from "../icons/whiteboard";
+import i974 from "../icons/tobi";
+import i975 from "../icons/toml";
+import i976 from "../icons/toon";
+import i977 from "../icons/ci-pipeline";
+import i978 from "../icons/job-trigger";
+import i979 from "../icons/tsconfig";
+import i980 from "../icons/tsdoc";
+import i981 from "../icons/tsdown";
+import i982 from "../icons/tsil";
+import i983 from "../icons/tune";
+import i984 from "../icons/turborepo";
+import i985 from "../icons/twig";
+import i986 from "../icons/twine";
+import i987 from "../icons/typedoc";
+import i988 from "../icons/typescript";
+import i989 from "../icons/typescript-def";
+import i990 from "../icons/typst";
+import i991 from "../icons/uiua";
+import i992 from "../icons/umi";
+import i993 from "../icons/uml";
+import i994 from "../icons/unity";
+import i995 from "../icons/unlicense";
+import i996 from "../icons/unocss";
+import i997 from "../icons/uv";
+import i998 from "../icons/vagrant";
+import i999 from "../icons/vala";
+import i1000 from "../icons/vanilla-extract";
+import i1001 from "../icons/varnish";
+import i1002 from "../icons/vedic";
+import i1003 from "../icons/velite";
+import i1004 from "../icons/deployment";
+import i1005 from "../icons/verilog";
+import i1006 from "../icons/verse";
+import i1007 from "../icons/vfl";
+import i1008 from "../icons/vim";
+import i1009 from "../icons/visualstudio";
+import i1010 from "../icons/vite";
+import i1011 from "../icons/vitest";
+import i1012 from "../icons/vlang";
+import i1013 from "../icons/vm";
+import i1014 from "../icons/vscode";
+import i1015 from "../icons/vue";
+import i1016 from "../icons/wallaby";
+import i1017 from "../icons/warp";
+import i1018 from "../icons/watchman";
+import i1019 from "../icons/webassembly";
+import i1020 from "../icons/webpack";
+import i1021 from "../icons/wepy";
+import i1022 from "../icons/werf";
+import i1023 from "../icons/windicss";
+import i1024 from "../icons/windows";
+import i1025 from "../icons/wolframlanguage";
+import i1026 from "../icons/wordpress";
+import i1027 from "../icons/edge-worker";
+import i1028 from "../icons/wxt";
+import i1029 from "../icons/xaml";
+import i1030 from "../icons/xmake";
+import i1031 from "../icons/xml";
+import i1032 from "../icons/yaml";
+import i1033 from "../icons/yang";
+import i1034 from "../icons/yarn";
+import i1035 from "../icons/zed";
+import i1036 from "../icons/zig";
+import i1037 from "../icons/otne";
+import i1038 from "../icons/graphcool";
+import i1039 from "../icons/pipeline";
+import i1040 from "../icons/jsconfig";
+import i1041 from "../icons/taskfile";
+import i1042 from "../icons/verified";
+import i1043 from "../icons/zeabur";
+import i1044 from "../icons/harmonix";
+import i1045 from "../icons/auto";
+import i1046 from "../icons/supabase";
+import i1047 from "../icons/svgr";
+import i1048 from "../icons/tobimake";
+import i1049 from "../icons/ifanr-cloud";
+import i1050 from "../icons/cline";
+import i1051 from "../icons/packship";
+import i1052 from "../icons/github-actions-workflow";
+import i1053 from "../icons/ahk2";
+import i1054 from "../icons/ngrx";
+import i1055 from "../icons/redux";
+import i1056 from "../icons/vuex-store";
+import i1057 from "../icons/qwik";
+import i1058 from "../icons/rojo";
+import i1059 from "../icons/silverstripe";
+import i1060 from "../icons/bashly-hook";
+import i1061 from "../icons/latex-class";
+import i1062 from "../icons/latex-package";
+import i1063 from "../icons/salesforce";
+import i1064 from "../icons/ngrx-actions";
+import i1065 from "../icons/ngrx-effects";
+import i1066 from "../icons/ngrx-entity";
+import i1067 from "../icons/ngrx-reducer";
+import i1068 from "../icons/ngrx-selectors";
+import i1069 from "../icons/ngrx-state";
+import i1070 from "../icons/redux-action";
+import i1071 from "../icons/redux-reducer";
+import i1072 from "../icons/redux-selector";
+import i1073 from "../icons/redux-store";
+import i1074 from "../icons/rollback";
+import i1075 from "../icons/version";
+import i1076 from "../icons/logs";
+import i1077 from "../icons/backup";
+import i1078 from "../icons/env";
+import i1079 from "../icons/doctor";
+import i1080 from "../icons/cpu";
+import i1081 from "../icons/ram";
+import i1082 from "../icons/jobs";
+import i1083 from "../icons/graph";
+import i1084 from "../icons/proxy";
+import i1085 from "../icons/cache";
+import i1086 from "../icons/bucket";
+import i1087 from "../icons/registry";
+import i1088 from "../icons/endnote";
+import i1089 from "../icons/different-first-page";
+import i1090 from "../icons/odd-even-pages";
+import i1091 from "../icons/line-numbers";
+import i1092 from "../icons/suppress-line-numbers";
+import i1093 from "../icons/comment-delete";
+import i1094 from "../icons/accessibility";
+import i1095 from "../icons/delete-table";
+import i1096 from "../icons/insert-caption";
+import i1097 from "../icons/cross-reference";
+import i1098 from "../icons/show-markup";
+import i1099 from "../icons/annotate-squiggly";
+import i1100 from "../icons/table-header-row";
+import i1101 from "../icons/table-total-row";
+import i1102 from "../icons/table-banded-rows";
+import i1103 from "../icons/table-first-column";
+import i1104 from "../icons/table-last-column";
+import i1105 from "../icons/table-banded-columns";
+import i1106 from "../icons/repeat-header-rows";
+import i1107 from "../icons/column-break";
+import i1108 from "../icons/drop-cap";
+import i1109 from "../icons/orientation";
+import i1110 from "../icons/hyphenation";
+import i1111 from "../icons/line-style";
+import i1112 from "../icons/line-weight";
+import i1113 from "../icons/form-combo-box";
+import i1114 from "../icons/repeating-section";
+import i1115 from "../icons/styles";
+import i1116 from "../icons/new-style";
+import i1117 from "../icons/signature-field";
+import i1118 from "../icons/view-continuous";
+import i1119 from "../icons/view-two-pages";
+import i1120 from "../icons/view-two-pages-cover";
+import i1121 from "../icons/eq-fraction";
+import i1122 from "../icons/eq-script";
+import i1123 from "../icons/eq-radical";
+import i1124 from "../icons/eq-integral";
+import i1125 from "../icons/eq-bracket";
+import i1126 from "../icons/eq-accent";
+import i1127 from "../icons/eq-limit";
+import i1128 from "../icons/eq-operator";
+import i1129 from "../icons/eq-matrix";
+import i1130 from "../icons/merge-field";
+import i1131 from "../icons/qr-code";
+import i1132 from "../icons/scan";
+import i1133 from "../icons/fingerprint";
+import i1134 from "../icons/face-id";
+import i1135 from "../icons/wifi";
+import i1136 from "../icons/wifi-off";
+import i1137 from "../icons/camera";
+import i1138 from "../icons/hard-drive";
+import i1139 from "../icons/shield-check";
+import i1140 from "../icons/cloud-download";
+import i1141 from "../icons/cloud-off";
 
 /** Every icon by the name a page gives in data-rs-icon: its file name (bold, chevron-right), or an alias's. */
 export const icons: Record<string, Icon> = {
@@ -1533,806 +1534,807 @@ export const icons: Record<string, Icon> = {
   "slide-background": i359,
   "transition": i360,
   "animation": i361,
-  "present": i362,
-  "present-from-start": i363,
-  "presenter-view": i364,
-  "slide-sorter": i365,
-  "speaker-notes": i366,
-  "hide-slide": i367,
-  "shape-rectangle": i368,
-  "shape-ellipse": i369,
-  "shape-triangle": i370,
-  "shape-arrow": i371,
-  "shape-star": i372,
-  "shape-line": i373,
-  "connector": i374,
-  "bring-forward": i375,
-  "send-backward": i376,
-  "bring-to-front": i377,
-  "send-to-back": i378,
-  "group": i379,
-  "ungroup": i380,
-  "align-objects-left": i381,
-  "align-objects-center": i382,
-  "align-objects-right": i383,
-  "align-objects-top": i384,
-  "align-objects-middle": i385,
-  "align-objects-bottom": i386,
-  "distribute-horizontal": i387,
-  "distribute-vertical": i388,
-  "flip-horizontal": i389,
-  "flip-vertical": i390,
-  "crop": i391,
-  "rotate-object": i392,
-  "laser-pointer": i393,
-  "shape-outline": i394,
-  "shape-fill": i395,
-  "gradient": i396,
-  "superscript": i397,
-  "subscript": i398,
-  "font-color": i399,
-  "highlighter": i400,
-  "clear-formatting": i401,
-  "font-size-increase": i402,
-  "font-size-decrease": i403,
-  "change-case": i404,
-  "letter-spacing": i405,
-  "align-justify": i406,
-  "indent-increase": i407,
-  "indent-decrease": i408,
-  "line-spacing": i409,
-  "paragraph-spacing": i410,
-  "pilcrow": i411,
-  "paragraph-ltr": i412,
-  "paragraph-rtl": i413,
-  "list-checks": i414,
-  "list-nested": i415,
-  "heading1": i416,
-  "heading3": i417,
-  "code-block": i418,
-  "horizontal-rule": i419,
-  "format-painter": i420,
-  "heading4": i421,
-  "heading5": i422,
-  "heading6": i423,
-  "lightbulb-outline": i424,
-  "square-outline": i425,
-  "star-outline": i426,
-  "lock-outline": i427,
-  "unlock-outline": i428,
-  "folder-outline": i429,
-  "cloud-outline": i430,
-  "pin-outline": i431,
-  "folders-outline": i432,
-  "trash-outline": i433,
-  "pencil-outline": i434,
-  "mic-outline": i435,
-  "shield-outline": i436,
-  "thumbs-up-outline": i437,
-  "bug-outline": i438,
-  "wrench-outline": i439,
-  "plug-outline": i440,
-  "book-open-outline": i441,
-  "layers-outline": i442,
-  "sparkles-outline": i443,
-  "play-outline": i444,
-  "pause-outline": i445,
-  "code-brand": i446,
-  "finder-brand": i447,
-  "media-brand": i448,
-  "story-brand": i449,
-  "docx-brand": i450,
-  "xlsx-brand": i451,
-  "pptx-brand": i452,
-  "pdf-brand": i453,
-  "forms-brand": i454,
-  "composer-brand": i455,
-  "vaudio-brand": i456,
-  "page-brand": i457,
-  "portfolio-brand": i458,
-  "resume-brand": i459,
-  "twin-brand": i460,
-  "lenkit-brand": i461,
-  "code-brand-color": i462,
-  "finder-brand-color": i463,
-  "media-brand-color": i464,
-  "story-brand-color": i465,
-  "docx-brand-color": i466,
-  "xlsx-brand-color": i467,
-  "pptx-brand-color": i468,
-  "pdf-brand-color": i469,
-  "forms-brand-color": i470,
-  "composer-brand-color": i471,
-  "vaudio-brand-color": i472,
-  "page-brand-color": i473,
-  "portfolio-brand-color": i474,
-  "resume-brand-color": i475,
-  "twin-brand-color": i476,
-  "lenkit-brand-color": i477,
-  "three-d": i478,
-  "abap": i479,
-  "abc": i480,
-  "actionscript": i481,
-  "adobe-swc": i481,
-  "ada": i482,
-  "admin": i483,
-  "illustrator": i484,
-  "adobe-illustrator": i484,
-  "photoshop": i485,
-  "adobe-photoshop": i485,
-  "adonis": i486,
-  "advpl": i487,
-  "advpl-include": i487,
-  "advpl-ptm": i487,
-  "advpl-tlpp": i487,
-  "autohotkey": i488,
-  "amplify": i489,
-  "android": i490,
-  "angular": i491,
-  "angular-component": i492,
-  "angular-directive": i493,
-  "angular-guard": i494,
-  "angular-interceptor": i495,
-  "angular-pipe": i496,
-  "angular-resolver": i497,
-  "angular-service": i498,
-  "ansible": i499,
-  "antlr": i500,
-  "api": i501,
-  "apiblueprint": i501,
-  "apollo": i502,
-  "applescript": i503,
-  "apps-script": i504,
-  "appveyor": i505,
-  "appwrite": i506,
-  "architecture": i507,
-  "arduino": i508,
-  "asciidoc": i509,
-  "assembly": i510,
-  "astro": i511,
-  "astro-config": i511,
-  "atom": i512,
-  "aurelia": i513,
-  "autorun": i514,
-  "autoit": i515,
-  "cloud-config": i516,
-  "aws": i516,
-  "azure": i517,
-  "azure-pipelines": i518,
-  "babel": i519,
-  "ballerina": i520,
-  "base": i521,
-  "bashly": i522,
-  "bashly-settings": i522,
-  "bashly-strings": i522,
-  "bazel": i523,
-  "beancount": i524,
-  "bibliography": i525,
-  "bbx": i525,
-  "bibtex-style": i525,
-  "bicep": i526,
-  "biome": i527,
-  "ci": i528,
-  "bithound": i529,
-  "blender": i530,
-  "blink": i531,
-  "blitz": i532,
-  "bloc": i533,
-  "bower": i534,
-  "brainfuck": i535,
-  "browserslist": i536,
-  "bruno": i537,
-  "buck": i538,
-  "bucklescript": i539,
-  "buildkite": i540,
-  "bun": i541,
-  "c": i542,
-  "c3": i543,
-  "cabal": i544,
-  "caddy": i545,
-  "cadence": i546,
-  "cairo": i547,
-  "cake": i548,
-  "capacitor": i549,
-  "capnp": i550,
-  "cart": i551,
-  "cbx": i552,
-  "cds": i553,
-  "certificate": i554,
-  "chess": i555,
-  "chromatic": i556,
-  "chrome": i557,
-  "circleci": i558,
-  "clangd": i559,
-  "class": i560,
-  "claude": i561,
-  "clojure": i562,
-  "cloud-functions": i563,
-  "cloudfoundry": i564,
-  "cluster": i565,
-  "cmake": i566,
-  "coala": i567,
-  "cobol": i568,
-  "coconut": i569,
-  "code-climate": i570,
-  "codecov": i571,
-  "coderabbit-ai": i572,
-  "coffee": i573,
-  "coldfusion": i574,
-  "coloredpetrinets": i575,
-  "commitizen": i576,
-  "commitlint": i577,
-  "concourse": i578,
-  "conduct": i579,
-  "constant": i580,
-  "container": i581,
-  "context": i582,
-  "contract": i583,
-  "contributing": i584,
-  "controller": i585,
-  "copilot": i586,
-  "core": i587,
-  "coverage": i588,
-  "cpp": i589,
-  "craco": i590,
-  "credits": i591,
-  "crystal": i592,
-  "csharp": i593,
-  "css": i594,
-  "cucumber": i595,
-  "cuda": i596,
-  "cue": i597,
-  "cursor-editor": i598,
-  "custom": i599,
-  "cypress": i600,
-  "d": i601,
-  "dart": i602,
-  "database": i603,
-  "code-analysis": i604,
-  "delta": i605,
-  "denizenscript": i606,
-  "deno": i607,
-  "dependencies-update": i608,
-  "development": i609,
-  "dhall": i610,
-  "diff": i611,
-  "dinophp": i612,
-  "directive": i613,
-  "disc": i614,
-  "dist": i615,
-  "django": i616,
-  "dll": i617,
-  "docker": i618,
-  "doctex": i619,
-  "dotjs": i620,
-  "drawio": i621,
-  "drizzle": i622,
-  "drone": i623,
-  "duc": i624,
-  "dump": i625,
-  "dune": i626,
-  "edge": i627,
-  "editorconfig": i628,
-  "ejs": i629,
-  "element": i630,
-  "elixir": i631,
-  "elm": i632,
-  "ember": i633,
-  "enum": i634,
-  "environment": i635,
-  "epub": i636,
-  "erlang": i637,
-  "esbuild": i638,
-  "eslint": i639,
-  "event": i640,
-  "examples": i641,
-  "excalidraw": i642,
-  "exe": i643,
-  "expo": i644,
-  "fastlane": i645,
-  "favicon": i646,
-  "figma": i647,
-  "firebase": i648,
-  "flash": i649,
-  "flow": i650,
-  "flutter": i651,
-  "font": i652,
-  "forgejo": i653,
-  "forth": i654,
-  "fortran": i655,
-  "foxpro": i656,
-  "freemarker": i657,
-  "fsharp": i658,
-  "fusebox": i659,
-  "gamemaker": i660,
-  "garden": i661,
-  "gatsby": i662,
-  "gcp": i663,
-  "gemini": i664,
-  "gemini-ai": i665,
-  "workflow": i666,
-  "git": i667,
-  "gitea": i668,
-  "repo-config": i669,
-  "sponsor": i670,
-  "cloud-workspace": i671,
-  "gleam": i672,
-  "gnuplot": i673,
-  "go": i674,
-  "go-mod": i675,
-  "godot": i676,
-  "gradle": i677,
-  "telemetry": i678,
-  "grain": i679,
-  "graphql": i680,
-  "gridsome": i681,
-  "groovy": i682,
-  "grunt": i683,
-  "gulp": i684,
-  "h": i685,
-  "hack": i686,
-  "hadolint": i687,
-  "haml": i688,
-  "handlebars": i689,
-  "visual-diff": i690,
-  "hardhat": i691,
-  "haskell": i692,
-  "haxe": i693,
-  "hcl": i694,
-  "helm": i695,
-  "procfile": i696,
-  "hex": i697,
-  "hip": i698,
-  "histoire": i699,
-  "hjson": i700,
-  "hook": i701,
-  "horusec": i702,
-  "hpp": i703,
-  "html": i704,
-  "http": i705,
-  "huff": i706,
-  "hurl": i707,
-  "husky": i708,
-  "idris": i709,
-  "imba": i710,
-  "include": i711,
-  "intellij": i712,
-  "interceptor": i713,
-  "interface": i714,
-  "ionic": i715,
-  "istanbul": i716,
-  "jar": i717,
-  "java": i718,
-  "javascript": i719,
-  "jenkins": i720,
-  "jest": i721,
-  "jinja": i722,
-  "json": i723,
-  "json-schema": i724,
-  "jsr": i725,
-  "julia": i726,
-  "just": i727,
-  "karma": i728,
-  "kcl": i729,
-  "keystatic": i730,
-  "kivy": i731,
-  "kl": i732,
-  "kotlin": i733,
-  "kubernetes": i734,
-  "kusto": i735,
-  "laravel": i736,
-  "latex": i737,
-  "lean": i738,
-  "lefthook": i739,
-  "lerna": i740,
-  "less": i741,
-  "cloud-deploy": i742,
-  "deploy": i742,
-  "cloud-upload": i742,
-  "license": i743,
-  "lighthouse": i744,
-  "lilypond": i745,
-  "lint-staged": i746,
-  "linux": i747,
-  "jupyter": i748,
-  "liquid": i749,
-  "lisp": i750,
-  "livescript": i751,
-  "log": i752,
-  "lolcode": i753,
-  "lottie": i754,
-  "lua": i755,
-  "luau": i756,
-  "lynx": i757,
-  "lyric": i758,
-  "macaulay2": i759,
-  "macos": i760,
-  "makefile": i761,
-  "mappings": i762,
-  "markdown": i763,
-  "markdoc": i764,
-  "markdownlint": i765,
-  "mdx": i766,
-  "mdsvex": i767,
-  "markojs": i768,
-  "mathematica": i769,
-  "matlab": i770,
-  "maven": i771,
-  "mercurial": i772,
-  "merlin": i773,
-  "mermaid": i774,
-  "meson": i775,
-  "metro": i776,
-  "middleware": i777,
-  "migrations": i778,
-  "minecraft": i779,
-  "mint": i780,
-  "mist": i781,
-  "mjml": i782,
-  "mocha": i783,
-  "mock": i784,
-  "modernizr": i785,
-  "mojo": i786,
-  "molecule": i787,
-  "moonscript": i788,
-  "mxml": i789,
-  "nano-staged": i790,
-  "ndst": i791,
-  "nest": i792,
-  "site-deploy": i793,
-  "next": i794,
-  "nginx": i795,
-  "nim": i796,
-  "nix": i797,
-  "nodejs": i798,
-  "node": i798,
-  "nodemon": i799,
-  "npm": i800,
-  "nuget": i801,
-  "nunjucks": i802,
-  "nuxt": i803,
-  "nx": i804,
-  "objective-c": i805,
-  "obsidian": i806,
-  "ocaml": i807,
-  "odin": i808,
-  "onnx": i809,
-  "opa": i810,
-  "opam": i811,
-  "openapi": i812,
-  "opencode": i813,
-  "opentofu": i814,
-  "organism": i815,
-  "oxc": i816,
-  "panda": i817,
-  "parcel": i818,
-  "pascal": i819,
-  "pawn": i820,
-  "payload": i821,
-  "pdf": i822,
-  "pdm": i823,
-  "percy": i824,
-  "perl": i825,
-  "php": i826,
-  "php-cs-fixer": i827,
-  "phpmailer": i828,
-  "phpstan": i829,
-  "phpunit": i830,
-  "pinejs": i831,
-  "pipe": i832,
-  "build-pipeline": i833,
-  "pkl": i834,
-  "plastic": i835,
-  "playwright": i836,
-  "plop": i837,
-  "pm2-ecosystem": i838,
-  "pnpm": i839,
-  "poetry": i840,
-  "policy": i841,
-  "postcss": i842,
-  "posthtml": i843,
-  "api-collection": i844,
-  "powerpoint": i845,
-  "powershell": i846,
-  "pre-commit": i847,
-  "prettier": i848,
-  "prisma": i849,
-  "processing": i850,
-  "prolog": i851,
-  "prompt": i852,
-  "proto": i853,
-  "protractor": i854,
-  "pug": i855,
-  "marionette": i856,
-  "puppeteer": i857,
-  "purescript": i858,
-  "python": i859,
-  "pytorch": i860,
-  "qsharp": i861,
-  "quarto": i862,
-  "quasar": i863,
-  "quokka": i864,
-  "r": i865,
-  "racket": i866,
-  "raml": i867,
-  "razor": i868,
-  "rbxmk": i869,
-  "rc": i870,
-  "react": i871,
-  "react-ts": i872,
-  "reason": i873,
-  "red": i874,
-  "redis": i875,
-  "regedit": i876,
-  "remark": i877,
-  "remix": i878,
-  "renovate": i879,
-  "run-config": i880,
-  "repository": i881,
-  "rescript": i882,
-  "resolver": i883,
-  "restql": i884,
-  "review": i885,
-  "riot": i886,
-  "roadmap": i887,
-  "game-controller": i888,
-  "rocket": i889,
-  "rolldown": i890,
-  "rollup": i891,
-  "rome": i892,
-  "routes": i893,
-  "rspec": i894,
-  "rstack": i895,
-  "rubocop": i896,
-  "ruff": i897,
-  "rust": i898,
-  "apex": i899,
-  "salt": i900,
-  "san": i901,
-  "sandbox": i902,
-  "statistics": i903,
-  "sass": i904,
-  "sbt": i905,
-  "scala": i906,
-  "scheme": i907,
-  "scons": i908,
-  "scrap": i909,
-  "screwdriver": i910,
-  "seeders": i911,
-  "semantic-release": i912,
-  "semgrep": i913,
-  "error-tracking": i914,
-  "sequelize": i915,
-  "serverless": i916,
-  "shader": i917,
-  "shellcheck": i918,
-  "simulations": i919,
-  "simulink": i920,
-  "siyuan": i921,
-  "sketch": i922,
-  "skill": i923,
-  "slim": i924,
-  "slint": i925,
-  "slug": i926,
-  "smarty": i927,
-  "sml": i928,
-  "snakemake": i929,
-  "snapcraft": i930,
-  "snowpack": i931,
-  "solidity": i932,
-  "sonarcloud": i933,
-  "spwn": i934,
-  "browser-ide": i935,
-  "stan": i936,
-  "chaos-experiment": i937,
-  "stencil": i938,
-  "stitches": i939,
-  "store": i940,
-  "storybook": i941,
-  "stryker": i942,
-  "tex": i943,
-  "stylable": i944,
-  "stylelint": i945,
-  "stylus": i946,
-  "sublime": i947,
-  "hosted-backend": i948,
-  "svelte": i949,
-  "svg": i950,
-  "swagger": i951,
-  "sway": i952,
-  "swc": i953,
-  "swift": i954,
-  "syncpack": i955,
-  "syntax": i956,
-  "systemd": i957,
-  "tailwindcss": i958,
-  "tape": i959,
-  "target": i960,
-  "tauri": i961,
-  "taze": i962,
-  "tcl": i963,
-  "teal": i964,
-  "television": i965,
-  "terraform": i966,
-  "test": i967,
-  "test-js": i968,
-  "test-ts": i969,
-  "textlint": i970,
-  "tilt": i971,
-  "whiteboard": i972,
-  "tobi": i973,
-  "toml": i974,
-  "toon": i975,
-  "ci-pipeline": i976,
-  "job-trigger": i977,
-  "tsconfig": i978,
-  "tsdoc": i979,
-  "tsdown": i980,
-  "tsil": i981,
-  "tune": i982,
-  "turborepo": i983,
-  "twig": i984,
-  "twine": i985,
-  "typedoc": i986,
-  "typescript": i987,
-  "typescript-def": i988,
-  "typst": i989,
-  "uiua": i990,
-  "umi": i991,
-  "uml": i992,
-  "unity": i993,
-  "unlicense": i994,
-  "unocss": i995,
-  "uv": i996,
-  "vagrant": i997,
-  "vala": i998,
-  "vanilla-extract": i999,
-  "varnish": i1000,
-  "vedic": i1001,
-  "velite": i1002,
-  "deployment": i1003,
-  "verilog": i1004,
-  "verse": i1005,
-  "vfl": i1006,
-  "vim": i1007,
-  "visualstudio": i1008,
-  "vite": i1009,
-  "vitest": i1010,
-  "vlang": i1011,
-  "vm": i1012,
-  "vscode": i1013,
-  "vue": i1014,
-  "wallaby": i1015,
-  "warp": i1016,
-  "watchman": i1017,
-  "webassembly": i1018,
-  "webpack": i1019,
-  "wepy": i1020,
-  "werf": i1021,
-  "windicss": i1022,
-  "windows": i1023,
-  "wolframlanguage": i1024,
-  "wordpress": i1025,
-  "edge-worker": i1026,
-  "wxt": i1027,
-  "xaml": i1028,
-  "xmake": i1029,
-  "xml": i1030,
-  "yaml": i1031,
-  "yang": i1032,
-  "yarn": i1033,
-  "zed": i1034,
-  "zig": i1035,
-  "otne": i1036,
-  "graphcool": i1037,
-  "pipeline": i1038,
-  "jsconfig": i1039,
-  "taskfile": i1040,
-  "verified": i1041,
-  "zeabur": i1042,
-  "harmonix": i1043,
-  "auto": i1044,
-  "supabase": i1045,
-  "svgr": i1046,
-  "tobimake": i1047,
-  "ifanr-cloud": i1048,
-  "cline": i1049,
-  "packship": i1050,
-  "github-actions-workflow": i1051,
-  "ahk2": i1052,
-  "ngrx": i1053,
-  "redux": i1054,
-  "vuex-store": i1055,
-  "qwik": i1056,
-  "rojo": i1057,
-  "silverstripe": i1058,
-  "bashly-hook": i1059,
-  "latex-class": i1060,
-  "latex-package": i1061,
-  "salesforce": i1062,
-  "ngrx-actions": i1063,
-  "ngrx-effects": i1064,
-  "ngrx-entity": i1065,
-  "ngrx-reducer": i1066,
-  "ngrx-selectors": i1067,
-  "ngrx-state": i1068,
-  "redux-action": i1069,
-  "redux-reducer": i1070,
-  "redux-selector": i1071,
-  "redux-store": i1072,
-  "rollback": i1073,
-  "version": i1074,
-  "logs": i1075,
-  "backup": i1076,
-  "env": i1077,
-  "variables": i1077,
-  "doctor": i1078,
-  "health-check": i1078,
-  "cpu": i1079,
-  "processor": i1079,
-  "ram": i1080,
-  "memory": i1080,
-  "jobs": i1081,
-  "job": i1081,
-  "graph": i1082,
-  "proxy": i1083,
-  "reverse-proxy": i1083,
-  "cache": i1084,
-  "bucket": i1085,
-  "object-storage": i1085,
-  "registry": i1086,
-  "endnote": i1087,
-  "different-first-page": i1088,
-  "odd-even-pages": i1089,
-  "line-numbers": i1090,
-  "suppress-line-numbers": i1091,
-  "comment-delete": i1092,
-  "accessibility": i1093,
-  "delete-table": i1094,
-  "insert-caption": i1095,
-  "cross-reference": i1096,
-  "show-markup": i1097,
-  "annotate-squiggly": i1098,
-  "table-header-row": i1099,
-  "table-total-row": i1100,
-  "table-banded-rows": i1101,
-  "table-first-column": i1102,
-  "table-last-column": i1103,
-  "table-banded-columns": i1104,
-  "repeat-header-rows": i1105,
-  "column-break": i1106,
-  "drop-cap": i1107,
-  "orientation": i1108,
-  "hyphenation": i1109,
-  "line-style": i1110,
-  "line-weight": i1111,
-  "form-combo-box": i1112,
-  "repeating-section": i1113,
-  "styles": i1114,
-  "new-style": i1115,
-  "signature-field": i1116,
-  "view-continuous": i1117,
-  "view-two-pages": i1118,
-  "view-two-pages-cover": i1119,
-  "eq-fraction": i1120,
-  "eq-script": i1121,
-  "eq-radical": i1122,
-  "eq-integral": i1123,
-  "eq-bracket": i1124,
-  "eq-accent": i1125,
-  "eq-limit": i1126,
-  "eq-operator": i1127,
-  "eq-matrix": i1128,
-  "merge-field": i1129,
-  "qr-code": i1130,
-  "scan": i1131,
-  "fingerprint": i1132,
-  "face-id": i1133,
-  "wifi": i1134,
-  "wifi-off": i1135,
-  "camera": i1136,
-  "hard-drive": i1137,
-  "shield-check": i1138,
-  "cloud-download": i1139,
-  "cloud-off": i1140,
+  "animation-painter": i362,
+  "present": i363,
+  "present-from-start": i364,
+  "presenter-view": i365,
+  "slide-sorter": i366,
+  "speaker-notes": i367,
+  "hide-slide": i368,
+  "shape-rectangle": i369,
+  "shape-ellipse": i370,
+  "shape-triangle": i371,
+  "shape-arrow": i372,
+  "shape-star": i373,
+  "shape-line": i374,
+  "connector": i375,
+  "bring-forward": i376,
+  "send-backward": i377,
+  "bring-to-front": i378,
+  "send-to-back": i379,
+  "group": i380,
+  "ungroup": i381,
+  "align-objects-left": i382,
+  "align-objects-center": i383,
+  "align-objects-right": i384,
+  "align-objects-top": i385,
+  "align-objects-middle": i386,
+  "align-objects-bottom": i387,
+  "distribute-horizontal": i388,
+  "distribute-vertical": i389,
+  "flip-horizontal": i390,
+  "flip-vertical": i391,
+  "crop": i392,
+  "rotate-object": i393,
+  "laser-pointer": i394,
+  "shape-outline": i395,
+  "shape-fill": i396,
+  "gradient": i397,
+  "superscript": i398,
+  "subscript": i399,
+  "font-color": i400,
+  "highlighter": i401,
+  "clear-formatting": i402,
+  "font-size-increase": i403,
+  "font-size-decrease": i404,
+  "change-case": i405,
+  "letter-spacing": i406,
+  "align-justify": i407,
+  "indent-increase": i408,
+  "indent-decrease": i409,
+  "line-spacing": i410,
+  "paragraph-spacing": i411,
+  "pilcrow": i412,
+  "paragraph-ltr": i413,
+  "paragraph-rtl": i414,
+  "list-checks": i415,
+  "list-nested": i416,
+  "heading1": i417,
+  "heading3": i418,
+  "code-block": i419,
+  "horizontal-rule": i420,
+  "format-painter": i421,
+  "heading4": i422,
+  "heading5": i423,
+  "heading6": i424,
+  "lightbulb-outline": i425,
+  "square-outline": i426,
+  "star-outline": i427,
+  "lock-outline": i428,
+  "unlock-outline": i429,
+  "folder-outline": i430,
+  "cloud-outline": i431,
+  "pin-outline": i432,
+  "folders-outline": i433,
+  "trash-outline": i434,
+  "pencil-outline": i435,
+  "mic-outline": i436,
+  "shield-outline": i437,
+  "thumbs-up-outline": i438,
+  "bug-outline": i439,
+  "wrench-outline": i440,
+  "plug-outline": i441,
+  "book-open-outline": i442,
+  "layers-outline": i443,
+  "sparkles-outline": i444,
+  "play-outline": i445,
+  "pause-outline": i446,
+  "code-brand": i447,
+  "finder-brand": i448,
+  "media-brand": i449,
+  "story-brand": i450,
+  "docx-brand": i451,
+  "xlsx-brand": i452,
+  "pptx-brand": i453,
+  "pdf-brand": i454,
+  "forms-brand": i455,
+  "composer-brand": i456,
+  "vaudio-brand": i457,
+  "page-brand": i458,
+  "portfolio-brand": i459,
+  "resume-brand": i460,
+  "twin-brand": i461,
+  "lenkit-brand": i462,
+  "code-brand-color": i463,
+  "finder-brand-color": i464,
+  "media-brand-color": i465,
+  "story-brand-color": i466,
+  "docx-brand-color": i467,
+  "xlsx-brand-color": i468,
+  "pptx-brand-color": i469,
+  "pdf-brand-color": i470,
+  "forms-brand-color": i471,
+  "composer-brand-color": i472,
+  "vaudio-brand-color": i473,
+  "page-brand-color": i474,
+  "portfolio-brand-color": i475,
+  "resume-brand-color": i476,
+  "twin-brand-color": i477,
+  "lenkit-brand-color": i478,
+  "three-d": i479,
+  "abap": i480,
+  "abc": i481,
+  "actionscript": i482,
+  "adobe-swc": i482,
+  "ada": i483,
+  "admin": i484,
+  "illustrator": i485,
+  "adobe-illustrator": i485,
+  "photoshop": i486,
+  "adobe-photoshop": i486,
+  "adonis": i487,
+  "advpl": i488,
+  "advpl-include": i488,
+  "advpl-ptm": i488,
+  "advpl-tlpp": i488,
+  "autohotkey": i489,
+  "amplify": i490,
+  "android": i491,
+  "angular": i492,
+  "angular-component": i493,
+  "angular-directive": i494,
+  "angular-guard": i495,
+  "angular-interceptor": i496,
+  "angular-pipe": i497,
+  "angular-resolver": i498,
+  "angular-service": i499,
+  "ansible": i500,
+  "antlr": i501,
+  "api": i502,
+  "apiblueprint": i502,
+  "apollo": i503,
+  "applescript": i504,
+  "apps-script": i505,
+  "appveyor": i506,
+  "appwrite": i507,
+  "architecture": i508,
+  "arduino": i509,
+  "asciidoc": i510,
+  "assembly": i511,
+  "astro": i512,
+  "astro-config": i512,
+  "atom": i513,
+  "aurelia": i514,
+  "autorun": i515,
+  "autoit": i516,
+  "cloud-config": i517,
+  "aws": i517,
+  "azure": i518,
+  "azure-pipelines": i519,
+  "babel": i520,
+  "ballerina": i521,
+  "base": i522,
+  "bashly": i523,
+  "bashly-settings": i523,
+  "bashly-strings": i523,
+  "bazel": i524,
+  "beancount": i525,
+  "bibliography": i526,
+  "bbx": i526,
+  "bibtex-style": i526,
+  "bicep": i527,
+  "biome": i528,
+  "ci": i529,
+  "bithound": i530,
+  "blender": i531,
+  "blink": i532,
+  "blitz": i533,
+  "bloc": i534,
+  "bower": i535,
+  "brainfuck": i536,
+  "browserslist": i537,
+  "bruno": i538,
+  "buck": i539,
+  "bucklescript": i540,
+  "buildkite": i541,
+  "bun": i542,
+  "c": i543,
+  "c3": i544,
+  "cabal": i545,
+  "caddy": i546,
+  "cadence": i547,
+  "cairo": i548,
+  "cake": i549,
+  "capacitor": i550,
+  "capnp": i551,
+  "cart": i552,
+  "cbx": i553,
+  "cds": i554,
+  "certificate": i555,
+  "chess": i556,
+  "chromatic": i557,
+  "chrome": i558,
+  "circleci": i559,
+  "clangd": i560,
+  "class": i561,
+  "claude": i562,
+  "clojure": i563,
+  "cloud-functions": i564,
+  "cloudfoundry": i565,
+  "cluster": i566,
+  "cmake": i567,
+  "coala": i568,
+  "cobol": i569,
+  "coconut": i570,
+  "code-climate": i571,
+  "codecov": i572,
+  "coderabbit-ai": i573,
+  "coffee": i574,
+  "coldfusion": i575,
+  "coloredpetrinets": i576,
+  "commitizen": i577,
+  "commitlint": i578,
+  "concourse": i579,
+  "conduct": i580,
+  "constant": i581,
+  "container": i582,
+  "context": i583,
+  "contract": i584,
+  "contributing": i585,
+  "controller": i586,
+  "copilot": i587,
+  "core": i588,
+  "coverage": i589,
+  "cpp": i590,
+  "craco": i591,
+  "credits": i592,
+  "crystal": i593,
+  "csharp": i594,
+  "css": i595,
+  "cucumber": i596,
+  "cuda": i597,
+  "cue": i598,
+  "cursor-editor": i599,
+  "custom": i600,
+  "cypress": i601,
+  "d": i602,
+  "dart": i603,
+  "database": i604,
+  "code-analysis": i605,
+  "delta": i606,
+  "denizenscript": i607,
+  "deno": i608,
+  "dependencies-update": i609,
+  "development": i610,
+  "dhall": i611,
+  "diff": i612,
+  "dinophp": i613,
+  "directive": i614,
+  "disc": i615,
+  "dist": i616,
+  "django": i617,
+  "dll": i618,
+  "docker": i619,
+  "doctex": i620,
+  "dotjs": i621,
+  "drawio": i622,
+  "drizzle": i623,
+  "drone": i624,
+  "duc": i625,
+  "dump": i626,
+  "dune": i627,
+  "edge": i628,
+  "editorconfig": i629,
+  "ejs": i630,
+  "element": i631,
+  "elixir": i632,
+  "elm": i633,
+  "ember": i634,
+  "enum": i635,
+  "environment": i636,
+  "epub": i637,
+  "erlang": i638,
+  "esbuild": i639,
+  "eslint": i640,
+  "event": i641,
+  "examples": i642,
+  "excalidraw": i643,
+  "exe": i644,
+  "expo": i645,
+  "fastlane": i646,
+  "favicon": i647,
+  "figma": i648,
+  "firebase": i649,
+  "flash": i650,
+  "flow": i651,
+  "flutter": i652,
+  "font": i653,
+  "forgejo": i654,
+  "forth": i655,
+  "fortran": i656,
+  "foxpro": i657,
+  "freemarker": i658,
+  "fsharp": i659,
+  "fusebox": i660,
+  "gamemaker": i661,
+  "garden": i662,
+  "gatsby": i663,
+  "gcp": i664,
+  "gemini": i665,
+  "gemini-ai": i666,
+  "workflow": i667,
+  "git": i668,
+  "gitea": i669,
+  "repo-config": i670,
+  "sponsor": i671,
+  "cloud-workspace": i672,
+  "gleam": i673,
+  "gnuplot": i674,
+  "go": i675,
+  "go-mod": i676,
+  "godot": i677,
+  "gradle": i678,
+  "telemetry": i679,
+  "grain": i680,
+  "graphql": i681,
+  "gridsome": i682,
+  "groovy": i683,
+  "grunt": i684,
+  "gulp": i685,
+  "h": i686,
+  "hack": i687,
+  "hadolint": i688,
+  "haml": i689,
+  "handlebars": i690,
+  "visual-diff": i691,
+  "hardhat": i692,
+  "haskell": i693,
+  "haxe": i694,
+  "hcl": i695,
+  "helm": i696,
+  "procfile": i697,
+  "hex": i698,
+  "hip": i699,
+  "histoire": i700,
+  "hjson": i701,
+  "hook": i702,
+  "horusec": i703,
+  "hpp": i704,
+  "html": i705,
+  "http": i706,
+  "huff": i707,
+  "hurl": i708,
+  "husky": i709,
+  "idris": i710,
+  "imba": i711,
+  "include": i712,
+  "intellij": i713,
+  "interceptor": i714,
+  "interface": i715,
+  "ionic": i716,
+  "istanbul": i717,
+  "jar": i718,
+  "java": i719,
+  "javascript": i720,
+  "jenkins": i721,
+  "jest": i722,
+  "jinja": i723,
+  "json": i724,
+  "json-schema": i725,
+  "jsr": i726,
+  "julia": i727,
+  "just": i728,
+  "karma": i729,
+  "kcl": i730,
+  "keystatic": i731,
+  "kivy": i732,
+  "kl": i733,
+  "kotlin": i734,
+  "kubernetes": i735,
+  "kusto": i736,
+  "laravel": i737,
+  "latex": i738,
+  "lean": i739,
+  "lefthook": i740,
+  "lerna": i741,
+  "less": i742,
+  "cloud-deploy": i743,
+  "deploy": i743,
+  "cloud-upload": i743,
+  "license": i744,
+  "lighthouse": i745,
+  "lilypond": i746,
+  "lint-staged": i747,
+  "linux": i748,
+  "jupyter": i749,
+  "liquid": i750,
+  "lisp": i751,
+  "livescript": i752,
+  "log": i753,
+  "lolcode": i754,
+  "lottie": i755,
+  "lua": i756,
+  "luau": i757,
+  "lynx": i758,
+  "lyric": i759,
+  "macaulay2": i760,
+  "macos": i761,
+  "makefile": i762,
+  "mappings": i763,
+  "markdown": i764,
+  "markdoc": i765,
+  "markdownlint": i766,
+  "mdx": i767,
+  "mdsvex": i768,
+  "markojs": i769,
+  "mathematica": i770,
+  "matlab": i771,
+  "maven": i772,
+  "mercurial": i773,
+  "merlin": i774,
+  "mermaid": i775,
+  "meson": i776,
+  "metro": i777,
+  "middleware": i778,
+  "migrations": i779,
+  "minecraft": i780,
+  "mint": i781,
+  "mist": i782,
+  "mjml": i783,
+  "mocha": i784,
+  "mock": i785,
+  "modernizr": i786,
+  "mojo": i787,
+  "molecule": i788,
+  "moonscript": i789,
+  "mxml": i790,
+  "nano-staged": i791,
+  "ndst": i792,
+  "nest": i793,
+  "site-deploy": i794,
+  "next": i795,
+  "nginx": i796,
+  "nim": i797,
+  "nix": i798,
+  "nodejs": i799,
+  "node": i799,
+  "nodemon": i800,
+  "npm": i801,
+  "nuget": i802,
+  "nunjucks": i803,
+  "nuxt": i804,
+  "nx": i805,
+  "objective-c": i806,
+  "obsidian": i807,
+  "ocaml": i808,
+  "odin": i809,
+  "onnx": i810,
+  "opa": i811,
+  "opam": i812,
+  "openapi": i813,
+  "opencode": i814,
+  "opentofu": i815,
+  "organism": i816,
+  "oxc": i817,
+  "panda": i818,
+  "parcel": i819,
+  "pascal": i820,
+  "pawn": i821,
+  "payload": i822,
+  "pdf": i823,
+  "pdm": i824,
+  "percy": i825,
+  "perl": i826,
+  "php": i827,
+  "php-cs-fixer": i828,
+  "phpmailer": i829,
+  "phpstan": i830,
+  "phpunit": i831,
+  "pinejs": i832,
+  "pipe": i833,
+  "build-pipeline": i834,
+  "pkl": i835,
+  "plastic": i836,
+  "playwright": i837,
+  "plop": i838,
+  "pm2-ecosystem": i839,
+  "pnpm": i840,
+  "poetry": i841,
+  "policy": i842,
+  "postcss": i843,
+  "posthtml": i844,
+  "api-collection": i845,
+  "powerpoint": i846,
+  "powershell": i847,
+  "pre-commit": i848,
+  "prettier": i849,
+  "prisma": i850,
+  "processing": i851,
+  "prolog": i852,
+  "prompt": i853,
+  "proto": i854,
+  "protractor": i855,
+  "pug": i856,
+  "marionette": i857,
+  "puppeteer": i858,
+  "purescript": i859,
+  "python": i860,
+  "pytorch": i861,
+  "qsharp": i862,
+  "quarto": i863,
+  "quasar": i864,
+  "quokka": i865,
+  "r": i866,
+  "racket": i867,
+  "raml": i868,
+  "razor": i869,
+  "rbxmk": i870,
+  "rc": i871,
+  "react": i872,
+  "react-ts": i873,
+  "reason": i874,
+  "red": i875,
+  "redis": i876,
+  "regedit": i877,
+  "remark": i878,
+  "remix": i879,
+  "renovate": i880,
+  "run-config": i881,
+  "repository": i882,
+  "rescript": i883,
+  "resolver": i884,
+  "restql": i885,
+  "review": i886,
+  "riot": i887,
+  "roadmap": i888,
+  "game-controller": i889,
+  "rocket": i890,
+  "rolldown": i891,
+  "rollup": i892,
+  "rome": i893,
+  "routes": i894,
+  "rspec": i895,
+  "rstack": i896,
+  "rubocop": i897,
+  "ruff": i898,
+  "rust": i899,
+  "apex": i900,
+  "salt": i901,
+  "san": i902,
+  "sandbox": i903,
+  "statistics": i904,
+  "sass": i905,
+  "sbt": i906,
+  "scala": i907,
+  "scheme": i908,
+  "scons": i909,
+  "scrap": i910,
+  "screwdriver": i911,
+  "seeders": i912,
+  "semantic-release": i913,
+  "semgrep": i914,
+  "error-tracking": i915,
+  "sequelize": i916,
+  "serverless": i917,
+  "shader": i918,
+  "shellcheck": i919,
+  "simulations": i920,
+  "simulink": i921,
+  "siyuan": i922,
+  "sketch": i923,
+  "skill": i924,
+  "slim": i925,
+  "slint": i926,
+  "slug": i927,
+  "smarty": i928,
+  "sml": i929,
+  "snakemake": i930,
+  "snapcraft": i931,
+  "snowpack": i932,
+  "solidity": i933,
+  "sonarcloud": i934,
+  "spwn": i935,
+  "browser-ide": i936,
+  "stan": i937,
+  "chaos-experiment": i938,
+  "stencil": i939,
+  "stitches": i940,
+  "store": i941,
+  "storybook": i942,
+  "stryker": i943,
+  "tex": i944,
+  "stylable": i945,
+  "stylelint": i946,
+  "stylus": i947,
+  "sublime": i948,
+  "hosted-backend": i949,
+  "svelte": i950,
+  "svg": i951,
+  "swagger": i952,
+  "sway": i953,
+  "swc": i954,
+  "swift": i955,
+  "syncpack": i956,
+  "syntax": i957,
+  "systemd": i958,
+  "tailwindcss": i959,
+  "tape": i960,
+  "target": i961,
+  "tauri": i962,
+  "taze": i963,
+  "tcl": i964,
+  "teal": i965,
+  "television": i966,
+  "terraform": i967,
+  "test": i968,
+  "test-js": i969,
+  "test-ts": i970,
+  "textlint": i971,
+  "tilt": i972,
+  "whiteboard": i973,
+  "tobi": i974,
+  "toml": i975,
+  "toon": i976,
+  "ci-pipeline": i977,
+  "job-trigger": i978,
+  "tsconfig": i979,
+  "tsdoc": i980,
+  "tsdown": i981,
+  "tsil": i982,
+  "tune": i983,
+  "turborepo": i984,
+  "twig": i985,
+  "twine": i986,
+  "typedoc": i987,
+  "typescript": i988,
+  "typescript-def": i989,
+  "typst": i990,
+  "uiua": i991,
+  "umi": i992,
+  "uml": i993,
+  "unity": i994,
+  "unlicense": i995,
+  "unocss": i996,
+  "uv": i997,
+  "vagrant": i998,
+  "vala": i999,
+  "vanilla-extract": i1000,
+  "varnish": i1001,
+  "vedic": i1002,
+  "velite": i1003,
+  "deployment": i1004,
+  "verilog": i1005,
+  "verse": i1006,
+  "vfl": i1007,
+  "vim": i1008,
+  "visualstudio": i1009,
+  "vite": i1010,
+  "vitest": i1011,
+  "vlang": i1012,
+  "vm": i1013,
+  "vscode": i1014,
+  "vue": i1015,
+  "wallaby": i1016,
+  "warp": i1017,
+  "watchman": i1018,
+  "webassembly": i1019,
+  "webpack": i1020,
+  "wepy": i1021,
+  "werf": i1022,
+  "windicss": i1023,
+  "windows": i1024,
+  "wolframlanguage": i1025,
+  "wordpress": i1026,
+  "edge-worker": i1027,
+  "wxt": i1028,
+  "xaml": i1029,
+  "xmake": i1030,
+  "xml": i1031,
+  "yaml": i1032,
+  "yang": i1033,
+  "yarn": i1034,
+  "zed": i1035,
+  "zig": i1036,
+  "otne": i1037,
+  "graphcool": i1038,
+  "pipeline": i1039,
+  "jsconfig": i1040,
+  "taskfile": i1041,
+  "verified": i1042,
+  "zeabur": i1043,
+  "harmonix": i1044,
+  "auto": i1045,
+  "supabase": i1046,
+  "svgr": i1047,
+  "tobimake": i1048,
+  "ifanr-cloud": i1049,
+  "cline": i1050,
+  "packship": i1051,
+  "github-actions-workflow": i1052,
+  "ahk2": i1053,
+  "ngrx": i1054,
+  "redux": i1055,
+  "vuex-store": i1056,
+  "qwik": i1057,
+  "rojo": i1058,
+  "silverstripe": i1059,
+  "bashly-hook": i1060,
+  "latex-class": i1061,
+  "latex-package": i1062,
+  "salesforce": i1063,
+  "ngrx-actions": i1064,
+  "ngrx-effects": i1065,
+  "ngrx-entity": i1066,
+  "ngrx-reducer": i1067,
+  "ngrx-selectors": i1068,
+  "ngrx-state": i1069,
+  "redux-action": i1070,
+  "redux-reducer": i1071,
+  "redux-selector": i1072,
+  "redux-store": i1073,
+  "rollback": i1074,
+  "version": i1075,
+  "logs": i1076,
+  "backup": i1077,
+  "env": i1078,
+  "variables": i1078,
+  "doctor": i1079,
+  "health-check": i1079,
+  "cpu": i1080,
+  "processor": i1080,
+  "ram": i1081,
+  "memory": i1081,
+  "jobs": i1082,
+  "job": i1082,
+  "graph": i1083,
+  "proxy": i1084,
+  "reverse-proxy": i1084,
+  "cache": i1085,
+  "bucket": i1086,
+  "object-storage": i1086,
+  "registry": i1087,
+  "endnote": i1088,
+  "different-first-page": i1089,
+  "odd-even-pages": i1090,
+  "line-numbers": i1091,
+  "suppress-line-numbers": i1092,
+  "comment-delete": i1093,
+  "accessibility": i1094,
+  "delete-table": i1095,
+  "insert-caption": i1096,
+  "cross-reference": i1097,
+  "show-markup": i1098,
+  "annotate-squiggly": i1099,
+  "table-header-row": i1100,
+  "table-total-row": i1101,
+  "table-banded-rows": i1102,
+  "table-first-column": i1103,
+  "table-last-column": i1104,
+  "table-banded-columns": i1105,
+  "repeat-header-rows": i1106,
+  "column-break": i1107,
+  "drop-cap": i1108,
+  "orientation": i1109,
+  "hyphenation": i1110,
+  "line-style": i1111,
+  "line-weight": i1112,
+  "form-combo-box": i1113,
+  "repeating-section": i1114,
+  "styles": i1115,
+  "new-style": i1116,
+  "signature-field": i1117,
+  "view-continuous": i1118,
+  "view-two-pages": i1119,
+  "view-two-pages-cover": i1120,
+  "eq-fraction": i1121,
+  "eq-script": i1122,
+  "eq-radical": i1123,
+  "eq-integral": i1124,
+  "eq-bracket": i1125,
+  "eq-accent": i1126,
+  "eq-limit": i1127,
+  "eq-operator": i1128,
+  "eq-matrix": i1129,
+  "merge-field": i1130,
+  "qr-code": i1131,
+  "scan": i1132,
+  "fingerprint": i1133,
+  "face-id": i1134,
+  "wifi": i1135,
+  "wifi-off": i1136,
+  "camera": i1137,
+  "hard-drive": i1138,
+  "shield-check": i1139,
+  "cloud-download": i1140,
+  "cloud-off": i1141,
 };

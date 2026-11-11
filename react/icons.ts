@@ -363,6 +363,7 @@ import ThemeIconData from "../icons/theme";
 import SlideBackgroundIconData from "../icons/slide-background";
 import TransitionIconData from "../icons/transition";
 import AnimationIconData from "../icons/animation";
+import AnimationPainterIconData from "../icons/animation-painter";
 import PresentIconData from "../icons/present";
 import PresentFromStartIconData from "../icons/present-from-start";
 import PresenterViewIconData from "../icons/presenter-view";
@@ -6293,6 +6294,7 @@ export const ThemeIcon: IconComponent = /* @__PURE__ */ createIcon(ThemeIconData
 export const SlideBackgroundIcon: IconComponent = /* @__PURE__ */ createIcon(SlideBackgroundIconData);
 export const TransitionIcon: IconComponent = /* @__PURE__ */ createIcon(TransitionIconData);
 export const AnimationIcon: IconComponent = /* @__PURE__ */ createIcon(AnimationIconData);
+export const AnimationPainterIcon: IconComponent = /* @__PURE__ */ createIcon(AnimationPainterIconData);
 export const PresentIcon: IconComponent = /* @__PURE__ */ createIcon(PresentIconData);
 export const PresentFromStartIcon: IconComponent = /* @__PURE__ */ createIcon(PresentFromStartIconData);
 export const PresenterViewIcon: IconComponent = /* @__PURE__ */ createIcon(PresenterViewIconData);

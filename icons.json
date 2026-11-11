@@ -3808,6 +3808,13 @@
   ]
  },
  {
+  "name": "AnimationPainterIcon",
+  "file": "animation-painter",
+  "set": "slides",
+  "aliases": [],
+  "description": "a paint roller with a star burst (copy animation)"
+ },
+ {
   "name": "PresentIcon",
   "file": "present",
   "set": "slides",
@@ -4050,7 +4057,7 @@
   "file": "gradient",
   "set": "slides",
   "aliases": [],
-  "description": "a square holding a ramp from dense to sparse (gradient fill)"
+  "description": "a square whose fill fades on the diagonal, solid corner to dots (gradient fill)"
  },
  {
   "name": "SuperscriptIcon",

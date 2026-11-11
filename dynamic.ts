@@ -366,6 +366,7 @@ export const iconImports: Record<string, () => Promise<Icon>> = {
   "slide-background": () => import("./icons/slide-background").then((m) => m.default),
   "transition": () => import("./icons/transition").then((m) => m.default),
   "animation": () => import("./icons/animation").then((m) => m.default),
+  "animation-painter": () => import("./icons/animation-painter").then((m) => m.default),
   "present": () => import("./icons/present").then((m) => m.default),
   "present-from-start": () => import("./icons/present-from-start").then((m) => m.default),
   "presenter-view": () => import("./icons/presenter-view").then((m) => m.default),
