@@ -397,6 +397,7 @@ import RotateObjectIconData from "../icons/rotate-object";
 import LaserPointerIconData from "../icons/laser-pointer";
 import ShapeOutlineIconData from "../icons/shape-outline";
 import ShapeFillIconData from "../icons/shape-fill";
+import GradientIconData from "../icons/gradient";
 import SuperscriptIconData from "../icons/superscript";
 import SubscriptIconData from "../icons/subscript";
 import FontColorIconData from "../icons/font-color";
@@ -6326,6 +6327,7 @@ export const RotateObjectIcon: IconComponent = /* @__PURE__ */ createIcon(Rotate
 export const LaserPointerIcon: IconComponent = /* @__PURE__ */ createIcon(LaserPointerIconData);
 export const ShapeOutlineIcon: IconComponent = /* @__PURE__ */ createIcon(ShapeOutlineIconData);
 export const ShapeFillIcon: IconComponent = /* @__PURE__ */ createIcon(ShapeFillIconData);
+export const GradientIcon: IconComponent = /* @__PURE__ */ createIcon(GradientIconData);
 export const SuperscriptIcon: IconComponent = /* @__PURE__ */ createIcon(SuperscriptIconData);
 export const SubscriptIcon: IconComponent = /* @__PURE__ */ createIcon(SubscriptIconData);
 export const FontColorIcon: IconComponent = /* @__PURE__ */ createIcon(FontColorIconData);

@@ -400,6 +400,7 @@
   "icons/laser-pointer": "icons/laser-pointer.ts",
   "icons/shape-outline": "icons/shape-outline.ts",
   "icons/shape-fill": "icons/shape-fill.ts",
+  "icons/gradient": "icons/gradient.ts",
   "icons/superscript": "icons/superscript.ts",
   "icons/subscript": "icons/subscript.ts",
   "icons/font-color": "icons/font-color.ts",

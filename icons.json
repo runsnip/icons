@@ -4046,6 +4046,13 @@
   "description": "a shape filled"
  },
  {
+  "name": "GradientIcon",
+  "file": "gradient",
+  "set": "slides",
+  "aliases": [],
+  "description": "a square holding a ramp from dense to sparse (gradient fill)"
+ },
+ {
   "name": "SuperscriptIcon",
   "file": "superscript",
   "set": "text",

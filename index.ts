@@ -402,6 +402,7 @@ export { RotateObjectIcon } from "./icons/rotate-object";
 export { LaserPointerIcon } from "./icons/laser-pointer";
 export { ShapeOutlineIcon } from "./icons/shape-outline";
 export { ShapeFillIcon } from "./icons/shape-fill";
+export { GradientIcon } from "./icons/gradient";
 export { SuperscriptIcon } from "./icons/superscript";
 export { SubscriptIcon } from "./icons/subscript";
 export { FontColorIcon } from "./icons/font-color";

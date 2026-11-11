@@ -400,6 +400,7 @@ export const iconImports: Record<string, () => Promise<Icon>> = {
   "laser-pointer": () => import("./icons/laser-pointer").then((m) => m.default),
   "shape-outline": () => import("./icons/shape-outline").then((m) => m.default),
   "shape-fill": () => import("./icons/shape-fill").then((m) => m.default),
+  "gradient": () => import("./icons/gradient").then((m) => m.default),
   "superscript": () => import("./icons/superscript").then((m) => m.default),
   "subscript": () => import("./icons/subscript").then((m) => m.default),
   "font-color": () => import("./icons/font-color").then((m) => m.default),
