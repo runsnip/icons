@@ -3787,6 +3787,20 @@
   "description": "two slides with an arrow passing between"
  },
  {
+  "name": "ApplyToAllIcon",
+  "file": "apply-to-all",
+  "set": "slides",
+  "aliases": [],
+  "description": "a slide and an arrow landing on a stack of slides (apply to all)"
+ },
+ {
+  "name": "OnMouseClickIcon",
+  "file": "on-mouse-click",
+  "set": "slides",
+  "aliases": [],
+  "description": "a pointer with click rays at its tip (on mouse click)"
+ },
+ {
   "name": "AnimationIcon",
   "file": "animation",
   "set": "slides",

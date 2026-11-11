@@ -365,6 +365,8 @@ export const iconImports: Record<string, () => Promise<Icon>> = {
   "theme": () => import("./icons/theme").then((m) => m.default),
   "slide-background": () => import("./icons/slide-background").then((m) => m.default),
   "transition": () => import("./icons/transition").then((m) => m.default),
+  "apply-to-all": () => import("./icons/apply-to-all").then((m) => m.default),
+  "on-mouse-click": () => import("./icons/on-mouse-click").then((m) => m.default),
   "animation": () => import("./icons/animation").then((m) => m.default),
   "animation-painter": () => import("./icons/animation-painter").then((m) => m.default),
   "present": () => import("./icons/present").then((m) => m.default),

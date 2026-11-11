@@ -362,6 +362,8 @@ import SlideLayoutIconData from "../icons/slide-layout";
 import ThemeIconData from "../icons/theme";
 import SlideBackgroundIconData from "../icons/slide-background";
 import TransitionIconData from "../icons/transition";
+import ApplyToAllIconData from "../icons/apply-to-all";
+import OnMouseClickIconData from "../icons/on-mouse-click";
 import AnimationIconData from "../icons/animation";
 import AnimationPainterIconData from "../icons/animation-painter";
 import PresentIconData from "../icons/present";
@@ -6293,6 +6295,8 @@ export const SlideLayoutIcon: IconComponent = /* @__PURE__ */ createIcon(SlideLa
 export const ThemeIcon: IconComponent = /* @__PURE__ */ createIcon(ThemeIconData);
 export const SlideBackgroundIcon: IconComponent = /* @__PURE__ */ createIcon(SlideBackgroundIconData);
 export const TransitionIcon: IconComponent = /* @__PURE__ */ createIcon(TransitionIconData);
+export const ApplyToAllIcon: IconComponent = /* @__PURE__ */ createIcon(ApplyToAllIconData);
+export const OnMouseClickIcon: IconComponent = /* @__PURE__ */ createIcon(OnMouseClickIconData);
 export const AnimationIcon: IconComponent = /* @__PURE__ */ createIcon(AnimationIconData);
 export const AnimationPainterIcon: IconComponent = /* @__PURE__ */ createIcon(AnimationPainterIconData);
 export const PresentIcon: IconComponent = /* @__PURE__ */ createIcon(PresentIconData);

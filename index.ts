@@ -367,6 +367,8 @@ export { SlideLayoutIcon } from "./icons/slide-layout";
 export { ThemeIcon } from "./icons/theme";
 export { SlideBackgroundIcon } from "./icons/slide-background";
 export { TransitionIcon } from "./icons/transition";
+export { ApplyToAllIcon } from "./icons/apply-to-all";
+export { OnMouseClickIcon } from "./icons/on-mouse-click";
 export { AnimationIcon } from "./icons/animation";
 export { AnimationPainterIcon } from "./icons/animation-painter";
 export { PresentIcon } from "./icons/present";
