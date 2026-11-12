@@ -3603,6 +3603,13 @@
   "description": "a table with a pivot arrow in its corner"
  },
  {
+  "name": "SolverIcon",
+  "file": "solver",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a feasible region with an arrow to its optimum corner (solver)"
+ },
+ {
   "name": "FunctionIcon",
   "file": "function",
   "set": "sheets",
@@ -3726,6 +3733,13 @@
   "set": "sheets",
   "aliases": [],
   "description": "columns with a line over them"
+ },
+ {
+  "name": "ChartDataIcon",
+  "file": "chart-data",
+  "set": "sheets",
+  "aliases": [],
+  "description": "a sheet with a column chart over its grid of cells (edit chart data)"
  },
  {
   "name": "SparklineIcon",
